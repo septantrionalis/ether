@@ -1,0 +1,27 @@
+     stairs up
+to Stoneworks Level 3       
+       [^]               L = Pull Lever to disarm Stone Trap at T
+          \
+           [ ]                             [Lx] Cyclops(3)
+            |                               |
+           [ ]                             [ ]
+              \                           /
+               [ ]                     [ ]
+                  \     Cyclops(2)        \
+                   [ ]-----[x]             [ ]
+                  /         |             /
+               [ ]          |          [ ]
+              /            [ ]          |
+           [ ]              |          [ ]
+          /   \             |         /
+   [ ]-[ ]     [ ]         [ ]     [ ]
+    |           |         /   \   /
+   [ ]         [ ]     [ ]     [ ]
+      \           \   /
+       [T]         [ ]
+          \
+           [ ]
+            |
+           [v]
+         stairs down
+   to Stoneworks Level 5

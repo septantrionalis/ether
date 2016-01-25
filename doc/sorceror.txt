@@ -1,0 +1,366 @@
+Spell Name
+
+Translation
+
+Mana
+
+Price
+
+Level
+
+Erl
+
+Komiza
+
+Dart of Ice
+
+1
+
+10 gold
+
+1st
+
+1st
+
+Toduza
+
+Dart of Flame
+
+2
+
+20 gold
+
+4th
+
+5th
+
+Muda
+
+Minor Summoning
+
+2
+
+25 gold
+
+4th
+
+5th
+
+Yari
+
+Magic Protection
+
+3
+
+28 gold
+
+6th
+
+10th
+
+Komizuma
+
+Shower of Ice
+
+3
+
+30 gold
+
+6th
+
+10th
+
+Rotok
+
+Boost Physique
+
+3
+
+35 gold
+
+6th
+
+10th
+
+Tsutok
+
+Boost Stamina
+
+3
+
+35 gold
+
+6th
+
+10th
+
+Igatok
+
+Boost Agility
+
+3
+
+35 gold
+
+6th
+
+10th
+
+Toduzuma
+
+Shower of Flame
+
+4
+
+50 gold
+
+8th
+
+15th
+
+Rodani
+
+Drain Physique
+
+4
+
+60 gold
+
+8th
+
+15th
+
+Tsudani
+
+Drain Stamina
+
+4
+
+60 gold
+
+8th
+
+15th
+
+Igadani
+
+Drain Agility
+
+4
+
+60 gold
+
+8th
+
+15th
+
+Kamuda
+
+Summoning
+
+4
+
+60 gold
+
+8th
+
+15th
+
+Komidaku
+
+Storm of Ice
+
+5
+
+75 gold
+
+10th
+
+20th
+
+Erl - Every round level. Level at which you get the spell every round.
+Note : Rotok, Tsutok and Igatok all give boosts at twice the strength of Poratok.
+
+Spell Name
+
+Translation
+
+Mana
+
+Price
+
+Level
+
+Erl
+
+Komizadaku
+
+Storm of Ice Darts
+
+5
+
+100 gold
+
+10th
+
+20th
+
+Novadi
+
+Invisibility
+
+5
+
+100 gold
+
+10th
+
+20th
+
+Todukar
+
+Fireball
+
+6
+
+120 gold
+
+12th
+
+25th
+
+Yarimaru
+
+Area Magic Protection
+
+6
+
+125 gold
+
+12th
+
+25th
+
+Gimuda
+
+Greater Summoning
+
+6
+
+150 gold
+
+12th
+
+25th
+
+Todudaku
+
+Fire Storm
+
+6
+
+200 gold
+
+12th
+
+25th
+
+Komasidaku
+
+Elemental Storm
+
+7
+
+250 gold
+
+14th
+
+5th*
+
+Poratok
+
+Boost Body Stats
+
+7
+
+260 gold
+
+14th
+
+5th*
+
+Jinasutok
+
+Boost Mental Stats
+
+7
+
+260 gold
+
+14th
+
+5th*
+
+Poradani
+
+Drain Body Stats
+
+8
+
+280 gold
+
+16th
+
+10th*
+
+Jinasudani
+
+Drain Mental Stats
+
+8
+
+280 gold
+
+16th
+
+10th*
+
+Novadimaru
+
+Area Invisibility
+
+8
+
+300 gold
+
+16th
+
+10th*
+
+Kusamuda
+
+Deific Summoning
+
+8
+
+300 gold
+
+16th
+
+10th*
+
+Dumoti
+
+Maelstorm
+
+9
+
+350 gold
+
+18th
+
+15th*
+
+* Indicates level after promotion.
+Erl - Every round level. Level at which you get the spell every round.
+Note : Komasidaku, Dumoti and Todukar increase in spell power with levels. Dumoti never fails.

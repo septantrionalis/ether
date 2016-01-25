@@ -1,0 +1,72 @@
+motu:a minor healing spell:21 1 4 8 0 5 0 0 0 0 0 0 0 0 0
+komiza:a small shard of ice:1 1 2 12 0 10 0 0 0 0 0 0 0 0 0
+pakaza:a thorn:3 1 4 8 0 10 0 0 0 0 0 0 0 0 0
+fadi:a regenerative spell:22 1 2 10 0 15 0 0 0 0 0 0 0 0 0
+kamotu:a healing spell:21 2 8 24 0 20 0 0 0 0 0 0 0 0 0
+tami:a weak beam of bright energy:2 2 2 16 0 25 0 0 0 0 0 0 0 0 0
+toduza:a small bolt of flame:1 2 4 32 0 20 0 0 0 0 0 0 0 0 0
+muda:a minor summoning spell:31 2 1 1 0 25 4 0 0 0 0 0 0 0 0
+toraza:a stone shard:3 2 4 20 0 15 0 0 0 0 0 0 0 0 0
+kotari:a restorative spell:12 2 2000 4000 0 20 0 0 0 0 0 0 0 0 0
+dobudani:a curative spell:11 3 0 0 0 30 0 0 1 0 0 0 0 0 0
+yari:an enchantment spell:33 3 0 0 0 28 0 4 0 0 0 0 0 0 0
+komizuma:a shower of ice shards:1 3 8 64 0 30 0 0 0 0 0 0 0 0 0
+modoki:a bolt of lightning:3 3 5 40 0 30 0 0 0 0 0 0 0 0 0
+gimotu:a greater healing spell:21 4 30 60 0 35 0 0 0 0 0 0 0 0 0
+katami:a beam of bright energy:2 4 8 48 0 50 0 0 0 0 0 0 0 0 0
+motumaru:a pale bluish mist:21 4 8 16 0 40 1 0 0 0 0 0 0 0 0
+kamuda:a summoning spell:31 4 2 3 0 60 4 0 0 0 0 0 0 0 0
+toduzuma:a shower of flame:1 4 16 96 0 50 0 0 0 0 0 0 0 0 0
+sivama:a powerful gust of wind:3 4 8 32 0 50 0 0 0 0 0 0 0 2 0
+novadidan:a charm spell:41 4 0 0 0 35 0 0 0 0 0 0 0 0 0
+gitami:a beam of brilliant energy:2 5 16 64 0 100 0 0 0 0 0 0 0 0 0
+kusamotu:a very powerful healing spell:21 5 6 12 1 75 0 0 0 0 0 0 0 0 0
+komizadaku:a storm of ice shards:1 5 1 6 1 100 2 0 0 0 0 0 0 0 0
+komidaku:a storm of ice shards:1 5 16 64 0 75 1 0 0 0 0 0 0 0 0
+pakazuma:a shower of wicked thorns:3 5 10 50 0 75 0 0 0 0 0 0 0 0 0
+novadi:an invisibility spell:32 5 0 0 0 100 0 0 0 0 0 0 0 0 0
+todukar:a searing ball of flame:1 6 2 10 1 120 0 0 0 0 0 0 0 0 0
+kusatami:a devastating beam of brilliant energy:2 6 20 80 0 150 0 0 0 0 0 0 0 0 0
+modokidan:several forked bolts of lightning:3 6 12 72 0 125 2 0 0 0 0 0 0 0 0
+gimuda:a greater summoning spell:31 6 4 5 0 150 4 0 0 0 0 0 0 0 0
+sivadaku:a violent windstorm:3 7 32 64 0 150 3 0 0 0 0 0 0 2 0
+kusamuda:a very powerful summoning spell:31 8 6 8 0 300 4 0 0 0 0 0 0 0 0
+todudaku:a devastating firestorm:1 6 32 96 0 200 1 0 0 0 0 0 0 0 0
+komasidaku:a storm of fire bolts and ice shards:1 7 1 8 1 250 1 0 0 0 0 0 0 0 0
+igatok:an enhancement spell:33 3 5 20 0 35 0 0 0 0 0 0 5 0 0
+dobudanimaru:a thick greyish mist:21 4 0 0 0 60 1 0 1 0 0 0 0 0 0
+rotok:an enhancement spell:33 3 5 20 0 35 0 0 0 0 0 0 3 0 0
+tsutok:an enhancement spell:33 3 5 20 0 35 0 0 0 0 0 0 4 0 0
+igadani:a draining spell:33 4 2 10 0 60 0 0 0 0 0 5 0 0 0
+kotarimaru:a thin brownish mist:12 5 2000 4000 0 60 1 0 0 0 0 0 0 0 0
+rodani:a draining spell:33 4 2 10 0 60 0 0 0 0 0 3 0 0 0
+tsudani:a draining spell:33 4 2 10 0 60 0 0 0 0 0 4 0 0 0
+torazuma:a shower of stone shards:3 5 16 64 0 100 0 0 0 0 0 0 0 0 0
+takumi:a curative spell:11 3 0 0 0 125 0 0 0 0 0 0 9 0 0
+kamotumaru:a bluish mist:21 5 16 32 0 80 1 0 0 0 0 0 0 0 0
+yarimaru:a bright yellow mist:33 5 0 0 0 125 1 2 0 0 0 0 0 0 0
+poradani:a draining spell:33 7 1 5 0 280 0 0 0 0 0 7 0 0 0
+jinasutok:an enhancement spell:33 7 2 10 0 260 0 0 0 0 0 0 8 0 0
+poratok:an enhancement spell:33 7 2 10 0 260 0 0 0 0 0 0 7 0 0
+gimotumaru:a dark bluish mist:21 7 32 64 0 180 1 0 0 0 0 0 0 0 0
+modokidaku:a lightning storm:3 8 1 8 1 180 3 0 0 0 0 0 0 0 0
+toradaku:a hail of huge stone shards:3 9 4 10 1 180 3 0 0 0 0 0 0 0 0
+novadimaru:a thick black mist:32 8 0 0 0 300 1 0 0 0 0 0 0 0 0
+jinasudani:a draining spell:33 7 1 5 0 280 0 0 0 0 0 8 0 0 0
+teka:a weak beam of dark energy:4 1 2 16 0 10 0 0 0 0 0 0 0 0 0
+kusamotumaru:a very dark bluish mist:21 9 4 8 1 270 1 0 0 0 0 0 0 0 0
+ganazi:a curative spell:11 8 0 0 0 220 0 0 0 0 0 0 10 0 0
+dumoti:a maelstrom of searing flame clouds and huge ice shards:1 9 4 12 1 350 3 0 0 0 0 0 0 0 0
+kateka:a beam of dark energy:4 3 8 64 0 20 0 0 0 0 0 0 0 0 0
+yilazi:a bolt of red energy:4 3 2 6 1 18 0 0 0 0 0 0 0 0 1
+kamaza:a bolt of blue energy:4 2 1 2 1 15 0 0 0 0 1 0 0 0 0
+dobuza:a bolt of green energy:4 2 1 2 0 12 0 0 0 2 0 0 0 0 0
+kamazadaku:a storm of blue energy bolts:4 5 1 1 1 120 1 0 0 0 1 0 0 0 0
+timimaru:a foul cloud of choking vapor:4 6 4 16 0 130 2 0 0 0 0 0 0 1 0
+kusateka:a devastating beam of dark energy:4 6 32 256 0 150 0 0 0 0 0 0 0 0 0
+dakidaku:a torrential downpour of acid:4 7 4 8 1 225 3 0 0 0 0 0 0 0 0
+dakima:a stream of acid:4 4 16 96 0 30 0 0 0 0 0 0 0 0 0
+tamikar:a blast of dark energy:4 4 4 12 1 50 0 0 0 0 0 0 0 0 0
+giteka:a crackling beam of dark energy:4 5 16 128 0 75 0 0 0 0 0 0 0 0 0
+dobumaru:a dark greenish mist:4 5 1 2 0 90 3 0 0 4 0 0 0 0 0
+dobudakidaku:a torrential downpour of dark green acid:4 8 4 8 1 325 3 0 0 6 0 0 0 0 0

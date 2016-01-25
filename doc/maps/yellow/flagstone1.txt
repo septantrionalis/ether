@@ -1,0 +1,43 @@
+Lowercase letter                           [ ]- - -[ ]
+teleports to                              /  up to    \
+capital letter                     [ ]-[ ]   Cellars   [ ]-[ ]
+                                  /            [^]            \
+                               [ ]              #  Yellow Rune [ ]
+               teleport       /                [ ]  Required      \
+  Scroll #3 to Flagstones  [ ]                 [ ]                 [ ]
+   Hydra(2)    Level 2      |                  [ ]                  |
+    [Ox]         [e]       [ ]                 [ ]                 [ ]
+      |           |         |                  [ ]                  |
+     [ ]     [ ]-[x]       [x] Ice Giant       [ ]       Ice Giant [x]
+        \   /   Warlock(3)  |                  [ ]                  |
+         [ ]               [ ]                 [B]                 [ ]
+          |                 |                  [ ]                  |
+         [ ]               [ ]                 [ ]                 [ ]
+          |                   \                [ ]                /
+         [ ]                   [ ]             [ ]             [ ]
+          |                       \            [ ]            /
+     [ ]-[ ]-[ ]                   [ ]-[ ]     [ ]     [ ]-[ ]
+    /           \                         \    [ ]    /
+ [ ]             [T] Slash Trap            [ ]-[x]-[ ]     
+  |               |                             | Affreet
+ [ ]             [T] Poison Slash Trap         [ ]
+    \           /                             /   \
+     [ ]     [ ]                [C]        [c]    [a]         [A] 
+        \   /                    |                             |
+         [ ]                    [ ]                           [ ]
+          |                      |                             |
+         [ ]            [ ]-[ ]-[ ]                           [ ]-[ ]-[ ]
+          |                      |                Scroll #1    |        
+         [^]                    [ ]   Stygian     Stygian     [ ]       
+          ^                      |    Dragon(2)   Dragon(2)    |          
+          |                     [x]-[ ]-[ ]-[x]   [x]-[ ]-[ ]-[x]
+          |              Warlock(3)          |     |          Warlock(3)
+          |                                 [d]   [b]        
+          v                         
+         [v]-[ ]                     [ ]-[ ]-[ ]-[ ]-[D]-----[ ]-[ ]-[ ]
+                \                   /                          Stygian  \
+                 [ ]             [x] Ice Giantess(2) [b]       Dragon(3) [x]
+                    \             |  Scroll #2      /   \               /
+                     [ ]-[ ]     [ ]         [ ]-[ ]     [ ]         [ ]
+                            \   /   \       /               \       /
+                             [ ]     [ ]-[ ]                 [ ]-[ ]

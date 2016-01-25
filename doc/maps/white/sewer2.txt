@@ -1,0 +1,35 @@
+                                                     [ ]
+                                                      |
+                                   Ogre Mage [ ]     [ ]     o = Onyx key          O = Onyx key door
+                                    Ogre(2) /   \   /
+                                        [px]     [ ]         p = Platinum key      P = Platinum key door
+                                         |
+        [ ]                             [ ]                  j = Jade key          J = Jade key door
+       /   \                           /
+    [ ]     [ ]     [ ]             [ ]
+   /           \   /               /
+[ ]             [ ]             [ ]
+   \               \  Ogre(2)  /
+    [ ]             [ ]-[x]-[ ]
+                         |
+                        [ ]             [ ]     [ ]
+                           \           /   \   /   \
+                            [ ]     [ ]     [ ]     [ ]
+                               \   /                 |
+                                [ ]                 [ ]          [ ]
+                                 |  to Sewer Level 1   \        /   \
+                            [ ]J[^]P[ ]                 [ ]-[jx]     [ ]
+                           /     O     \                   Skeleton     \
+                        [ ]     [v]     [ ]                 Lord &       [ ]
+                       / to Sewer Level 3  \              Warriors(4)   /   \
+                    [ ]                     [ ]                      [ ]     [ ]
+                     |                       | 
+                    [x]            Troll(2) [x]-[ ]     [ ]-[ox] Troll(4)
+             Ghoul (2) \                   /       \   /
+                        [ ]             [ ]         [ ]
+                           \               \
+                            [ ]             [ ]
+                           /                   \
+                        [ ]                     [ ]
+                         |
+                        [x] Ghoul(2) & Gargoyle

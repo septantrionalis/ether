@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All tests suite" junit="false">
+  <test name="Regression1">
+    <classes>
+      <class name="org.tdod.ether.functional.FunctionalTestCase"/>
+      <class name="org.tdod.ether.tools.ValidateAreaFiles"/>
+      <class name="org.tdod.ether.taimpl.mobs.DefaultGeneralAttack"/>
+      <class name="org.tdod.ether.taimpl.mobs.DefaultMobTest"/>
+      <class name="org.tdod.ether.taimpl.mobs.DefaultMobDatabaseTest"/>
+      <class name="org.tdod.ether.taimpl.items.armor.DefaultArmorDatabaseTest"/>
+      <class name="org.tdod.ether.taimpl.items.weapons.DefaultWeaponDatabaseTest"/>
+      <class name="org.tdod.ether.taimpl.cosmos.DefaultRoomDatabaseTest"/>
+      <class name="org.tdod.ether.taimpl.commands.DoAddTest"/>
+      <class name="org.tdod.ether.taimpl.commands.DoAppointTest"/>
+      <class name="org.tdod.ether.taimpl.commands.DoAttackTest"/>
+      <class name="org.tdod.ether.taimpl.commands.DoBalanceTest"/>
+      <class name="org.tdod.ether.taimpl.commands.DoBuyTest"/>
+      <class name="org.tdod.ether.taimpl.commands.DoCastTest"/>
+      <class name="org.tdod.ether.taimpl.commands.DoConferTest"/>
+      <class name="org.tdod.ether.taimpl.commands.DoDTest"/>
+      <class name="org.tdod.ether.taimpl.commands.DoDefaultTest"/>
+      <class name="org.tdod.ether.taimpl.commands.DoDepositTest"/>
+    </classes>
+  </test>
+</suite>

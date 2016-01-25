@@ -1,0 +1,27 @@
+0:dagger:a dagger:15 10 0 1 3 1 0 0 0 1 0 0 0 0 0 0 255:
+1:quarterstaff:a quarterstaff:10 40 0 1 4 1 0 0 0 0 0 0 0 0 1 1 255:
+2:shortsword:a shortsword:30 20 0 1 6 3 0 0 0 0 0 0 0 0 1 1 89:
+3:mace:a mace:35 50 0 1 7 2 0 0 0 0 0 0 0 0 1 1 53:
+4:warhammer:a warhammer:40 70 0 2 8 2 0 0 0 0 0 0 0 0 1 1 53:
+5:longsword:a longsword:50 30 0 2 10 3 0 0 0 0 0 0 0 0 3 1 89:
+6:battleax:a battleax:60 50 0 2 12 4 0 0 0 0 0 0 0 0 3 1 17:
+7:morningstar:a morningstar:70 80 0 2 14 2 0 0 0 0 0 0 0 0 2 1 53:
+8:broadsword:a broadsword:80 40 0 2 16 3 0 0 0 0 0 0 0 0 3 1 89:
+9:flail:a flail:90 90 0 3 18 2 0 0 0 0 0 0 0 0 4 1 53:
+10:halberd:a halberd:120 120 0 6 24 4 0 0 0 0 0 0 0 0 6 1 17:
+11:greatsword:a greatsword:150 70 0 7 28 4 0 0 0 0 0 0 0 0 6 1 17:
+51:rimeax:a rimeax:900 50 0 6 36 6 0 0 12 0 0 0 0 0 12 2 17:a blast of frost
+52:pyrehammer:a pyrehammer:750 70 0 5 30 5 0 0 12 0 0 0 0 0 10 2 53:a blast of flame
+53:levinblade:a levinblade:1000 30 0 8 40 7 0 0 12 0 0 0 0 0 15 2 17:a bolt of lightning
+62:short bow:a short bow:30 30 3 1 6 8 60 0 0 0 0 0 0 0 1 1 64:
+63:long bow:a long bow:50 40 5 2 10 8 60 0 0 0 0 0 0 0 2 1 64:
+64:crossbow:a crossbow:100 60 4 4 20 8 60 0 0 0 0 0 0 0 4 1 64:
+68:great bow:a great bow:150 50 5 6 30 9 60 0 0 0 0 0 0 0 6 2 64:
+76:mithril sword:a mithril sword:0 30 0 8 40 5 0 0 0 0 0 0 0 0 1000 0 53:
+78:darksword:a darksword:0 30 0 4 22 3 0 0 0 0 0 0 0 0 1000 0 89:
+91:sling:a sling:10 15 3 1 4 8 89 0 0 0 0 0 0 0 0 1 64:
+94:blowgun:a blowgun:25 10 3 1 2 8 92 0 0 0 0 0 0 0 2 3 64:
+96:elven bow:an elven bow:1250 40 5 10 40 10 60 0 12 0 0 0 0 0 15 3 64:a bolt of energy
+101:stick:a stick:0 10 0 1 2 1 0 0 0 0 0 0 0 0 0 0 255:
+102:wooden mallet:a wooden mallet:0 20 0 1 3 1 0 0 0 0 0 0 0 0 0 0 255:
+104:dwarven battleax:a dwarven battleax:0 100 0 10 50 4 0 0 0 0 0 0 0 0 15 0 17:

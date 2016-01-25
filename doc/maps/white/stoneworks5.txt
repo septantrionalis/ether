@@ -1,0 +1,26 @@
+                        stairs down
+                  to Stoneworks Level 6
+                            [v]
+                             |
+                            [ ]
+                             |
+                            [ ]
+                               \
+                                [T]         L = Pull Lever to disarm Stone Trap at T
+Stone Giant(2)                     \
+[x]-[ ]                 [ ]         [ ]
+       \               /   \       /
+        [ ]-[ ]     [ ]     [ ]-[ ]
+               \   /   \   /       \
+                [ ]     [ ]         [ ]
+               /                     |
+        [ ]-[ ]                     [ ]
+       /                           /
+    [ ]                         [ ]
+   /                           /
+[^]                         [ ]
+stairs up                      \
+to Stoneworks Level 4           [ ]
+                                 |
+                                [Lx] Stone Giant(3)
+

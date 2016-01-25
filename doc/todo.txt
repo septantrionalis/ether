@@ -1,0 +1,100 @@
+Ron Kinney has just fallen into the room through a trap door in the ceiling!
+
+
+gold has weight (1 lb per gold)
+-------
+ne
+&WThe locked stone door prevents your exit in that direction.
+&WYou failed an attempt to overcome this obstacle by using your rogue
+abilities.
+
+Ron Kinney's group has just gone to the southeast.
+&YRon Kinney returned with a perplexed look on his face.
+-------
+&WYour rogue abilities allowed you to pick the lock on the oak door.
+ ->does not unlock for other players.
+ ->Lets the group through
+------
+// TODO verify message colors for items that drop from mobs.
+   DefaultGameMechanics - - 176
+
+Generate the following on startup:
+  gender
+  password
+
+have mobs drop the right treasure
+reroll limited to level 1
+
+COMBAT
+combat
+throw <item> <who>
+fire <item> <who>
+cast <spell>
+cast <spell> <who>
+
+GROUPS
+group
+follow
+halt
+leave
+disband
+share <amt>
+confer <msg>
+join <who>
+add <who>
+remove <who>
+appoint<who>
+
+ITEMS
+give <who> <item>
+give <who> # gold
+use <item>
+use <item> <who>
+light torch
+
+MOVEMENT
+drag <who> <dir>
+
+ORDERS
+order <what> follow <who>
+order <what> track <who>
+order <what> stop
+
+SPELLS
+cast <spell>
+cast <spell> <who>
+
+DOCKS
+b passage
+
+GUILD
+b training
+b promotion
+
+TAVERN
+b drink
+b meal
+play slots
+play bones
+
+VAULT
+balance
+de <amt>
+wi <amt>
+
+ARCHERS
+sight <dir>
+
+HUNTERS
+<hunt>
+mesmerize <who>
+track <who>
+tame <who>
+
+ROGUES
+rob <who> of gold
+rob <who> of <item>
+
+MISC
+suicide
+act: <message>

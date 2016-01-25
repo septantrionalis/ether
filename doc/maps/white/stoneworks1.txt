@@ -1,0 +1,35 @@
+to Desert
+ |
+[@]-----[ ]                                           @ = "say komi" to enter the Stoneworks
+ |         \
+ |          [ ]
+[ ]            \           Ogres 
+ |              [ ]         [x]-[ ]
+ |                 \               \
+[ ]                 [ ]             [ ]
+   \               /                   \
+    [ ]         [ ]                     [ ]
+   /           /                       /   \
+[ ]         [ ]         [L]         [ ]     [A]       L = Pull Lever to disarm stone trap at T
+ |             \       /   \         |
+ |              [ ]-[ ]     [ ]     [ ]               A = Push Stone to open door at B
+ |Ogres        /               \     |
+[x]---[ ]---[ ]                 [ ]-[ ]
+ |             \               /
+ |              [ ]-[ ]     [ ]
+ |             /       \   /
+[ ]         [ ]         [T]
+   \       /             |
+    [ ]-[ ]             [ ]                 [E]
+                       /                   /
+                    [ ]             [ ]-[ ]
+                   /               /
+                [ ]             [ ]               stairs down
+                 |               |           to Stoneworks level 2
+                [B]-[ ]-[ ]-[ ]-[ ]     [D]-[ ]-[ ]-[v]
+                                 |                         D = Push Stone to go to E
+                                [ ]
+                                   \
+                                    [ ]-[ ]
+                                           \
+                                            [C]            C = Push Stone to go to D

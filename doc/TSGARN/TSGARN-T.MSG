@@ -1,0 +1,1131 @@
+LANGUAGE {English/ANSI}
+LEVEL6 {}
+T1TOT {33}
+T1NO1    {0 3}
+T1NO2    {1 6}
+T1NO3    {2 7}
+T1NO4    {6 9}
+T1NO5    {7 8}
+T1NO6    {8 4}
+T1NO7    {9 5}
+T1NO8    {10 5}
+T1NO9    {12 11}
+T1NO10   {12 11}
+T1NO11   {12 12}
+T1NO12   {12 12}
+T1NO13   {12 12}
+T1NO14   {3 22}
+T1NO15   {4 30}
+T1NO16   {5 16}
+T1NO17   {6 24}
+T1NO18   {8 32}
+T1NO19   {9 20}
+T1NO20   {11 20}
+T1NO21   {7 40}
+T1NO22   {13 41}
+T1NO23   {9 42}
+T1NO24   {6 43}
+T1NO25   {0 44}
+T1NO26   {2 45}
+T1NO27   {4 46}
+T1NO28   {3 62}
+T1NO29   {3 63}
+T1NO30   {3 67}
+T1NO31   {15 70}
+T1NO32   {14 70}
+T1NO33   {6 74}
+T2TOT {16}
+SMTY1    {0}
+SNAM1    {shop keeper}
+SPLU1    {shop keepers}
+SDES1    {The shop keeper is an old gnome wearing a dark green tunic and trousers,
+and a grimy leather apron. He has a white beard and bushy white eyebrows
+from beneath which a pair of deep set brown eyes peer out at you.
+}
+SMTY2    {0}
+SNAM2    {shop keeper}
+SPLU2    {shop keepers}
+SDES2    {The shop keeper is an brawny human smithy wearing heavy leather overalls.
+His head is bald, and he has a coarse black beard and moustache. He seems
+to be of a jovial sort because of his broad smile, and bright eyes.
+}
+SMTY3    {0}
+SNAM3    {shop keeper}
+SPLU3    {shop keepers}
+SDES3    {The shop keeper is a tough looking dwarf wearing a fine suit of chainmail.
+He has a thick head of unruly brown hair and an unkempt beard. He seems to
+be very direct and has a brusque manner about him.
+}
+SMTY4    {0}
+SNAM4    {shop keeper}
+SPLU4    {shop keepers}
+SDES4    {The shop keeper is an lithe elf wearing a bright green tunic and trousers,
+He has whispy blonde hair and no facial hair. He smiles broadly at you as
+you look him over.
+}
+SMTY5    {0}
+SNAM5    {shop keeper}
+SPLU5    {shop keepers}
+SDES5    {The shop keeper is an enormous half-ogre smith wearing heavy leather
+apron. He has coarse black hair, and a black beard and moustache. His
+facial features betray great strength and self assurance.
+}
+SMTY6    {0}
+SNAM6    {shop keeper}
+SPLU6    {shop keepers}
+SDES6    {The shop keeper is a small, but powerfully built man. He has light brown
+hair and a thich moustache. He has the manerisms of one who would be calm
+and relaxed in just about any situation.
+}
+SMTY7    {0}
+SNAM7    {crimson mage}
+SPLU7    {crimson mages}
+SDES7    {The mage wears red robes and radiates an aura of power and confidence. He
+has flowing white hair and a long white beard, though his face does not
+appear to show the age he would have to be to have such. Tatooed upon his
+right forearm is a crimson sigil which looks like a crecent moon.
+}
+SMTY8    {0}
+SNAM8    {master sorceror}
+SPLU8    {master sorcerors}
+SDES8    {The master sorceror wears shimering silver robes and bracers adorned with
+magical sigils and runes of power. His eyes betray his great wisdom. He
+has the mannerisms of one who is kind and gentle.
+}
+SMTY9    {0}
+SNAM9    {blue robed priest}
+SPLU9    {blue robed priests}
+SDES9    {The priest wears blue robes. He has an air of peace and tranquility about
+him. Around his neck he wears a heavy silver chain which supports a large
+silver ankh.
+}
+SMTY10   {0}
+SNAM10   {barkeep}
+SPLU10   {barkeeps}
+SDES10   {The barkeep is a giant of a man. He stands nearly seven feet tall and looks
+as though he might have a bit of ogre blood in him. He wears a pair of iron
+armbands and a leather tunic. The tavern's patrons seem to reguard him with
+respect if not fear.
+}
+SMTY11   {0}
+SNAM11   {barmaid}
+SPLU11   {barmaids}
+SDES11   {The barmaid is a lovely wench wearing a low cut lacey white blouse, beige
+bodice, and cream colored skirts. She has long blonde hair and deep blue
+eyes. You notice quite a few of the tavern's male patrons eyeing her with
+mouths agape.
+}
+SMTY12   {0}
+SNAM12   {barmaid}
+SPLU12   {barmaids}
+SDES12   {The barmaid is a lovely wench wearing a low cut lacey blue blouse, green
+bodice, and yellow skirts. She has long black hair and bright green eyes.
+You notice quite a few of the inn's male patrons eyeing her with mouths
+agape.
+}
+SMTY13   {0}
+SNAM13   {ship's captain}
+SPLU13   {ship's captains}
+SDES13   {The ship's captain is a grizzly old sailor with many a scar, several tatoos
+and an unkempt manner about him. His worn clothes appear to have seen just
+about every port there could possibly be, and he smells of stale sweat and
+cheap rum.
+}
+SMTY14   {0}
+SNAM14   {grey robed priest}
+SPLU14   {grey robed priests}
+SDES14   {The dwarven priest wears grey robes. He has an air of peace and assurance
+about him. Around his neck he wears a heavy chain which supports a large
+iron talisman.
+}
+SMTY15   {0}
+SNAM15   {barmaid}
+SPLU15   {barmaids}
+SDES15   {The barmaid is an elven wench wearing a low cut lacey green blouse, brown
+bodice, and yellow skirts. She has curly red hair and clear grey eyes.
+You notice quite a few of the inn's male patrons eyeing her.
+}
+SMTY16   {0}
+SNAM16   {barkeep}
+SPLU16   {barkeeps}
+SDES16   {The barkeep is a lively old elf. He stands nearly six feet tall and looks
+as though he's seen his fair share of adventure in his younger days. He
+wears a leather tunic and buskins. The tavern's patrons seem to reguard
+him with a great deal of respect.
+}
+T3TOT {75}
+T3NO1    {8 5 2 0 10 0 4 3 0 0}
+T3NO2    {0 0 0 0 0 0 1 0 0 0}
+T3NO3    {0 0 0 1 0 0 0 0 0 0}
+T3NO4    {0 0 1 0 0 0 0 0 0 0}
+T3NO5    {0 0 0 0 0 1 0 0 33 0}
+T3NO6    {0 0 0 0 0 0 10 0 0 0}
+T3NO7    {0 0 10 0 0 0 0 0 0 0}
+T3NO8    {11 0 0 0 1 0 0 0 0 34}
+T3NO9    {10 0 0 0 0 0 0 0 0 0}
+T3NO10   {1 0 6 0 9 0 7 0 0 0}
+T3NO11   {0 0 0 0 8 0 0 0 0 0}
+T3NO12   {0 0 0 0 0 0 0 13 0 0}
+T3NO13   {0 0 0 12 0 0 0 14 0 0}
+T3NO14   {17 0 0 13 0 15 0 0 0 0}
+T3NO15   {0 14 0 0 0 16 0 0 0 0}
+T3NO16   {0 15 0 0 0 0 0 0 0 0}
+T3NO17   {18 0 0 0 14 0 0 0 0 0}
+T3NO18   {23 0 25 0 17 19 21 0 0 0}
+T3NO19   {0 18 0 0 0 20 0 0 0 0}
+T3NO20   {0 19 0 0 0 0 0 0 0 0}
+T3NO21   {0 0 18 0 0 0 22 0 0 0}
+T3NO22   {0 0 21 0 0 0 0 0 0 0}
+T3NO23   {24 0 0 0 18 0 0 0 0 0}
+T3NO24   {0 0 0 0 23 0 0 0 0 0}
+T3NO25   {0 0 26 0 0 0 18 0 0 0}
+T3NO26   {27 0 29 0 31 0 25 0 0 0}
+T3NO27   {28 0 0 0 26 0 0 0 0 0}
+T3NO28   {0 0 0 0 27 0 0 0 0 0}
+T3NO29   {0 0 30 0 0 0 26 0 0 0}
+T3NO30   {0 0 0 0 0 0 29 0 0 0}
+T3NO31   {26 0 0 0 32 0 0 0 0 0}
+T3NO32   {31 0 0 0 0 0 0 0 0 0}
+T3NO33   {0 0 0 0 0 0 0 0 0 5}
+T3NO34   {0 0 0 0 0 0 0 0 8 0}
+T3NO35   {0 36 0 37 0 39 0 38 0 0}
+T3NO36   {40 0 41 0 0 35 0 0 0 0}
+T3NO37   {0 0 0 43 0 0 0 35 0 0}
+T3NO38   {0 47 0 35 0 0 0 42 0 0}
+T3NO39   {0 35 0 46 0 45 0 44 0 0}
+T3NO40   {0 0 0 0 36 0 0 0 0 0}
+T3NO41   {0 0 0 0 0 0 36 0 0 0}
+T3NO42   {0 0 0 38 0 0 0 0 0 0}
+T3NO43   {0 0 0 0 0 0 0 37 0 0}
+T3NO44   {0 0 0 39 0 0 0 0 0 0}
+T3NO45   {0 39 0 0 0 0 0 0 0 0}
+T3NO46   {0 0 0 0 0 0 0 39 0 0}
+T3NO47   {0 0 0 0 0 38 0 0 0 0}
+T3NO48   {49 0 0 0 0 0 0 0 0 0}
+T3NO49   {50 0 0 0 48 0 0 0 0 0}
+T3NO50   {0 0 0 0 49 0 51 0 0 0}
+T3NO51   {52 0 50 0 0 0 0 0 0 0}
+T3NO52   {53 0 0 0 51 0 0 0 0 0}
+T3NO53   {54 0 0 0 52 0 0 0 0 0}
+T3NO54   {57 0 0 0 53 0 55 0 0 0}
+T3NO55   {56 0 54 0 0 0 71 0 0 0}
+T3NO56   {64 0 57 0 55 0 0 0 0 0}
+T3NO57   {0 0 58 0 54 0 56 0 0 0}
+T3NO58   {0 0 59 0 0 0 57 0 0 0}
+T3NO59   {75 0 60 0 0 0 58 0 0 0}
+T3NO60   {0 0 0 0 61 0 59 0 0 0}
+T3NO61   {60 0 62 0 0 0 0 0 0 0}
+T3NO62   {0 0 0 0 0 0 61 0 0 0}
+T3NO63   {0 0 0 0 75 0 0 0 0 0}
+T3NO64   {65 0 0 0 56 0 0 0 0 0}
+T3NO65   {68 0 0 0 64 0 66 0 0 0}
+T3NO66   {0 0 65 0 0 0 67 0 0 0}
+T3NO67   {0 0 66 0 0 0 0 0 0 0}
+T3NO68   {0 0 69 0 65 0 0 0 0 0}
+T3NO69   {70 0 0 0 0 0 68 0 0 0}
+T3NO70   {0 0 0 0 69 0 0 0 0 0}
+T3NO71   {0 0 55 0 0 0 72 0 0 0}
+T3NO72   {0 0 71 0 73 0 0 0 0 0}
+T3NO73   {72 0 0 0 74 0 0 0 0 0}
+T3NO74   {73 0 0 0 0 0 0 0 0 0}
+T3NO75   {63 0 0 0 59 0 0 0 0 0}
+T4TOT {75}
+T4SH1    {You're in the north plaza.
+}
+T4LO1    {You are standing at the north end of a large open plaza surrounded
+by shade trees as well as assorted flowering shrubs and hedges whose
+scent wafts through the warm, dry air. To the west stands an ornate
+temple adorned with ornate stone and brass architecture. A quaint little
+shop lies to the northwest, and a dimly lit, smokey little tavern to the
+northeast. To the east lay the huge wrought iron gates of the arena. To
+north is the town guild hall. The other half of the plaza lies to the
+south.
+}
+T4SH2    {You're in the arena.
+}
+T4LO2    {You now stand inside the gates of the village's most noteworthy and
+notorious point of interest, the arena. The charred and stained stone
+walls and scattered bits of bone, armor, and weaponry lying among the
+debris on the packed earthen floor. A huge brass gong hangs at the center
+of the arena suspended on a framework made of the bones of some of the
+less fortunate of the arena's combatants. To the south is a wide stone
+staircase leading down to the dungeon gate. The exit through the arena
+gates is to the west.
+}
+T4SH3    {You're in the equipment shop.
+}
+T4LO3    {You are now inside the equipment shop, where one may purchase supplies
+and provisions essential to survival in the dungeons or the wilderness.
+The shop keeper sits on a tall stool behind a counter along the north
+wall, eyeing you warily. The exit is to the southeast.
+}
+T4SH4    {You're in the temple.
+}
+T4LO4    {You are now in the main entry hall of a great temple. Huge black
+marble columns veined with platinum stretch to the ceiling some 100'
+overhead. The paterns in the tile floor are so ornate and complex as to
+be nearly impossible to follow or comprehend. Many black silk tapestries
+depicting various scenes of a religious or magical nature block your view
+into the many other areas of the temple. Blue robed priests and acolytes
+move here and there going about their daily duties. The exit is to the
+east.
+}
+T4SH5    {You're in the tavern.
+}
+T4LO5    {You are in the village tavern. The smoke from the many oil lamps
+decrease visibility to your imediate surroundings, and the wavering
+light they cast about the room leaves many shadows and unlit corners.
+There are several tables about the room, where the tavern's patrons
+eat, drink, and generally enjoy themselves. The bar stands along the
+north wall and a door to the kitchen lies to the northeast. A large,
+full length mirror adorns the west wall. The only visible exits lie
+up a steep wooden ladder near the rear of the room, and out into the
+north plaza to the southwest.
+}
+T4SH6    {You're in the weapon shop.
+}
+T4LO6    {You are now inside the weapon shop, where you may purchase various
+weapons to use for sparring in the arena or for personal defense from
+the denizens of the dungeons. The shop keeper sits on a high stool
+behind a tall counter along the south wall. The exit is to the west.
+}
+T4SH7    {You're in the armor shop.
+}
+T4LO7    {You are now inside the armor shop, where you may aquire different
+sorts of armor and protective gear to guard yourself against the blows
+of your opponents in the arena, or from the various non-human foes to be
+found in the dungeons beneath the town. The shop keeper sits on a high
+behind a worn counter along the south wall, eyeing you warily. The exit
+is to the east.
+}
+T4SH8    {You're in the guild hall.
+}
+T4LO8    {You have entered the town guild hall, where one may seek the training
+neccessary to refine your combat and spell skills. This building is
+also a center of learning where the ancient art of sorcery is taught
+to those with the intelligence and skill to wield it effectively. Sages,
+wizards, and masters-at-arms rush about on errands or to and from
+training sessions. Ornately carved marble archways exit to the north and
+south, and a wide stone staircase leads downward.
+}
+T4SH9    {You're in the magic shop.
+}
+T4LO9    {You're standing in a warm, dimly lit shop where various magical items
+are bought and sold by a shrewd mage in crimson robes with an air of
+power and complete confidence about him. He doesn't look like someone
+whose spells you'd like to be on the wrong end of. The sweet scent of
+incense drifts in from a workroom in the rear of the shop. The exit is
+to the north.
+}
+T4SH10   {You're in the south plaza.
+}
+T4LO10   {You are standing at the south end of a large open plaza surrounded
+by shade trees as well as assorted flowering shrubs and hedges who's
+scent wafts through the warm, dry air. To the west stands the town's
+armor shop. The weapon shop lies to the east. There is a magic shop
+to the south. To the north lies the other half of the plaza and to
+the southwest lies the town's outer gate.
+}
+T4SH11   {You're on the docks.
+}
+T4LO11   {You are standing on the docks. The water from the lake laps quietly against
+the docks making the peaceful scene on the lake all that more serene. An
+ornately carved marble archway exits through the town wall to the south into
+the guild hall.
+}
+T4SH12   {You're on the docks.
+}
+T4LO12   {You are standing on the docks. The water from the lake laps quietly against
+the docks making the peaceful scene on the lake all that more serene. A path
+leads towards a large open plaza to the northwest.
+}
+T4SH13   {You're on a path.
+}
+T4LO13   {You are standing on a path that leads into an open plaza to the northwest,
+and to the docks on the great lake to the southeast. Large old trees line
+the path and lend shade and birdsong to this quaint little town.
+}
+T4SH14   {You're in the south plaza.
+}
+T4LO14   {You are standing in a large open plaza at the south end of town surrounded
+by shade trees. A path to the north leads to a plaza in the northern end of
+town. To the southwest, a well trodden path leads to what appears to be a
+weapon shop. A third path to the southeast leads to the docks.
+}
+T4SH15   {You're on a path.
+}
+T4LO15   {You are standing on a path that leads into a weapon shop to the southwest,
+and to the town's southern plaza to the northeast. Large old trees line the
+path and lend shade and birdsong to this quaint little town.
+}
+T4SH16   {You're in the weapon shop.
+}
+T4LO16   {You are now inside the weapon shop, where you may purchase various
+weapons to use for sparring in the arena or for personal defense from the
+denizens of the dungeons. The shop keeper sits on a high stool behind a
+tall counter along the west wall. The exit is to the northeast.
+}
+T4SH17   {You're on a path.
+}
+T4LO17   {You are standing on a path that leads into open plazas to the north and
+south. Large old trees line the path and lend shade and birdsong to this
+quaint little town.
+}
+T4SH18   {You're in the north plaza.
+}
+T4LO18   {You are standing in a large open plaza at the north end of town surrounded
+by shade trees. A path to the east leads to a plaza in the eastern end of
+town. To the west, a well trodden path leads to town's equipment shop. A
+third path to the south leads to a plaza in the southern end of town, and
+a fourth path leads to an inn to the southwest.
+}
+T4SH19   {You're on a path.
+}
+T4LO19   {You are standing on a path that leads into the town's inn to the southwest,
+and to the town's northern plaza to the northeast. Large old trees line the
+path and lend shade and birdsong to this quaint little town. There is a
+large rusty grate here which leads down into the town sewers.
+}
+T4SH20   {You're in the inn.
+}
+T4LO20   {You are in the town's inn. The smoke from the many oil lamps decrease
+visibility to your imediate surroundings, and the wavering light they
+cast about the room leaves many shadows and unlit corners. There are
+several tables about the room, where the inn's patrons eat, drink, and
+generally enjoy themselves. The bar stands along the north wall and a
+door to the kitchen lies to the southwest, and a staircase leads up to
+the inn's rooms. The only visibile exit lies to the northeast.
+}
+T4SH21   {You're on a path.
+}
+T4LO21   {You are standing on a path that leads into an equipment shop to the west,
+and to the town's northern plaza to the east. Large old trees line the path
+and lend shade and birdsong to this quaint little town.
+}
+T4SH22   {You're in the equipment shop.
+}
+T4LO22   {You are now inside the equipment shop, where one may purchase supplies
+and provisions essential to survival in the dungeons or the wilderness.
+The shop keeper sits on a tall stool behind a counter along the west
+wall, eyeing you warily. The exit is to the east.
+}
+T4SH23   {You're on a path.
+}
+T4LO23   {You are standing on a path that leads into a magic shop to the north and,
+to the town's northern plaza to the south. Large old trees line the path
+and lend shade and birdsong to this quaint little town.
+}
+T4SH24   {You're in the magic shop.
+}
+T4LO24   {You're standing in a warm, dimly lit shop where various magical items
+are bought and sold by a shrewd mage in crimson robes with an air of
+power and complete confidence about him. He doesn't look like someone
+whose spells you'd like to be on the wrong end of. The sweet scent of
+incense drifts in from a workroom in the rear of the shop. The exit is
+to the south.
+}
+T4SH25   {You're on a path.
+}
+T4LO25   {You are standing on a path that leads into open plazas to the east and
+west. Large old trees line the path and lend shade and birdsong to this
+quaint little town.
+}
+T4SH26   {You're in the east plaza.
+}
+T4LO26   {You are standing in a large open plaza at the east end of town surrounded
+by shade trees. A well trodden path to the east leads to an armor shop. To
+the west, another well used path leads to an open plaza in the northern end
+of town. A third path to the south leads to towns temple, and a fourth path
+leads to the town's arena.
+}
+T4SH27   {You're on a path.
+}
+T4LO27   {You are standing on a path that leads into an open plaza to the south,
+and to the town's arena to the north. Large old trees line the path and
+lend shade and birdsong to this quaint little town.
+}
+T4SH28   {You're in the arena.
+}
+T4LO28   {You now stand inside the gates of the town's arena. The charred and
+stained stone walls and scattered bits of bone, armor, and weaponry
+lying among the debris on the packed earthen floor. A huge bronze
+gong hangs at the center of the arena suspended on a framework made
+of the bones of some of the less fortunate of the arena's combatants.
+The exit through the arena gates is to the south.
+}
+T4SH29   {You're on a path.
+}
+T4LO29   {You are standing on a path that leads into an open plaza to the west,
+and to the armor shop to the east. Large old trees line the path and
+lend shade and birdsong to this quaint little town.
+}
+T4SH30   {You're in the armor shop.
+}
+T4LO30   {You are now inside the armor shop, where you may aquire different sorts
+of armor and protective gear to guard yourself against the blows of your
+opponents in the arena, or from the various non-human foes to be found
+in the dungeons near the town. The shop keeper sits on a high stool
+behind a worn counter along the east wall, eyeing you warily. The exit
+is to the west.
+}
+T4SH31   {You're on a path.
+}
+T4LO31   {You are standing on a path that leads into an open plaza to the north,
+and to the town's temple to the south. Large old trees line the path and
+lend shade and birdsong to this quaint little town.
+}
+T4SH32   {You're in the temple.
+}
+T4LO32   {You are now in the main entry hall of a great temple. Huge black
+marble columns veined with platinum stretch to the ceiling some 100'
+overhead. The paterns in the tile floor are so ornate and complex as to
+be nearly impossible to follow or comprehend. Many black silk tapestries
+depicting various scenes of a religious or magical nature block your view
+into the many other areas of the temple. Blue robed priests and acolytes
+move here and there going about their duties. The exit is to the north.
+}
+T4SH33   {You're in a private room.
+}
+T4LO33   {You are in a private room above the tavern. The room is well furnished,
+though not richly. A window in the northern wall affords a breathtaking
+view of the great lake to the north of town. A steep wooden staircase
+leads down through a trap door in the floor to the tavern common room.
+}
+T4SH34   {You're in the town vaults.
+}
+T4LO34   {You are standing at the entrance to the town vaults. The room is bare, and
+fashioned from solid natural stone. On the south wall there is a huge iron
+door, and an open window covered with iron bars. A richly dressed man in
+the window looks at you expectantly. A wide stone staircase leads upward.
+}
+T4SH35   {You're in the town square.
+}
+T4LO35   {You are standing in the midst of a large open square in a subterranean
+cavern. The vaulted ceiling rises high above your head into near dark.
+The light from oil lamps spaced evenly about the square affords adequate
+light. Plain stone benches of good workmanship line the outer edges of
+the square. To the four primary compass points stand smooth stone walls
+carved with detailed scenes depicting various aspects of dwarven life.
+To the northeast, southeast, southwest, and northeast lie open plazas
+surrounding ornate stone fountains.
+}
+T4SH36   {You're in an underground plaza.
+}
+T4LO36   {You are standing in a large open plaza at the northeast corner of an
+enormous subterranean cavern. An ornate stone fountain of fine
+craftsmanship stands in the center of the plaza. The gurgling fountain
+fills you with a sense of peace and tranquility, and the cool air is
+very still here. The plaza opens out into the town square to the
+southwest. To the north and east lie large stone archways decorated
+with intricate stonework.
+}
+T4SH37   {You're in an underground plaza.
+}
+T4LO37   {You are standing in a large open plaza at the southeast corner of an
+enormous subterranean cavern. An ornate stone fountain of fine
+craftsmanship stands in the center of the plaza. The gurgling fountain
+fills you with a sense of peace and tranquility, and the cool air is
+very still here. The plaza opens out into the town square to the
+northwest. To the southeast lies a large stone archway decorated
+with intricate stonework.
+}
+T4SH38   {You're in an underground plaza.
+}
+T4LO38   {You are standing in a large open plaza at the northwest corner of an
+enormous subterranean cavern. An ornate stone fountain of fine
+craftsmanship stands in the center of the plaza. The gurgling fountain
+fills you with a sense of peace and tranquility, and the cool air is
+very still here. The plaza opens out into the town square to the
+southeast. To the northeast, and northwest lie large stone archways
+decorated with intricate stonework.
+}
+T4SH39   {You're in an underground plaza.
+}
+T4LO39   {You are standing in a large open plaza at the southwest corner of an
+enormous subterranean cavern. An ornate stone fountain of fine
+craftsmanship stands in the center of the plaza. The gurgling fountain
+fills you with a sense of peace and tranquility, and the cool air is
+very still here. The plaza opens out into the town square to the
+northeast. To the northwest, southeast, and southwest lie large stone
+archways decorated with intricate stonework.
+}
+T4SH40   {You're in the guild hall.
+}
+T4LO40   {You have entered the town guild hall, where one may seek the training
+neccessary to refine your combat and spell skills. This building is
+also a center of learning where the ancient art of sorcery is taught
+to those with the intelligence and skill to wield it effectively. Sages,
+wizards, and masters-at-arms rush about on errands or to and from
+training sessions. An ornately carved stone archway exits to the south.
+}
+T4SH41   {You're in the temple.
+}
+T4LO41   {You are now in the main entry hall of a great temple. Huge reddish
+stone columns stretch to the ceiling some 50' overhead. The stone floor
+is made up of intricately engraved flagstones. Heavy cloth tapestries
+depicting various scenes of dwarven religious cerimonies block your view
+into the other areas of the temple. Grey robed priests and acolytes
+move here and there going about their daily duties. An ornate archway
+exits to the west.
+}
+T4SH42   {You're in the tavern.
+}
+T4LO42   {You are in the tavern. The smoke from the many oil lamps decreases
+visibility to your imediate surroundings, and the wavering light they
+cast about the room leaves many shadows and unlit corners. There are
+several tables about the room, where the tavern's rowdy patrons,
+primarily dwarves, gnomes, and an occasional goblin make themselves at
+home. The bar stands along the north wall and a door to the kitchen
+lies to the west. The only visibile exit lies to the southeast.
+}
+T4SH43   {You're in the magic shop.
+}
+T4LO43   {You're standing in a warm, dimly lit shop where various magical items
+are bought and sold by a shrewd mage in crimson robes with an air of
+power and complete confidence about him. He doesn't look like someone
+whose spells you'd like to be on the wrong end of. The sweet scent of
+incense drifts in from a workroom in the rear of the shop. A stone
+archway lies to the to the northwest.
+}
+T4SH44   {You're in the equipment shop.
+}
+T4LO44   {You are now inside the equipment shop, where one may purchase supplies
+and provisions essential to survival in the dungeons or the wilderness.
+The shop keeper sits on a tall stool behind a counter along the west
+wall, eyeing you warily. A stone archway lies to the to the southeast.
+}
+T4SH45   {You're in the armor shop.
+}
+T4LO45   {You are now inside the armor shop, where you may aquire different
+sorts of armor and protective gear to guard yourself against the blows
+of your opponents. The shop keeper sits on a high behind a worn counter
+along the west wall, eyeing you warily. A stone archway lies to the to
+the northeast.
+}
+T4SH46   {You're in the weapon shop.
+}
+T4LO46   {You are now inside the weapon shop, where you may purchase various
+weapons to use for sparring in the arena or for personal defense from
+the denizens of the dungeons. The shop keeper sits on a high stool
+behind a tall counter along the south wall. A stone archway lies to
+the to the northwest.
+}
+T4SH47   {You're in the arena.
+}
+T4LO47   {You are standing in an enormous natural cavern of dark reddish stone.
+The charred and stained walls and stonework floor tell of battles
+ancient and recent that have been fought in this place of death. The
+floor and walls of this cavern give off noticable heat. A huge iron
+gong hangs at the center of the arena suspended on a framework made
+of the bones of demons and dragons. The exit through a huge stone
+archway is to the southwest.
+}
+T4SH48   {You're on a catwalk.
+}
+T4LO48   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk is anchored against the trunk of a
+huge tree to the south, and continues north. There is a round hole
+in the platform near the tree trunk which leads down to some large
+branches which appear climbable.
+}
+T4SH49   {You're on a catwalk.
+}
+T4LO49   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north and south.
+}
+T4SH50   {You're on a catwalk.
+}
+T4LO50   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues south and west.
+}
+T4SH51   {You're on a catwalk.
+}
+T4LO51   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues to the north and east.
+}
+T4SH52   {You're on a catwalk.
+}
+T4LO52   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north and south.
+}
+T4SH53   {You're on a catwalk.
+}
+T4LO53   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. A large wooden platform lies to the north. The
+catwalk continues south.
+}
+T4SH54   {You're in the southeast plaza.
+}
+T4LO54   {You are standing in the southeastern section of a large open square
+platform made of wood. The platform is ringed by intricately carved
+wooden railing. The trunk of a huge tree lies in the center of the
+platform, and appears to be the central support for the surrounding
+structure. The rest of the platform lies to the north and west, and
+a wooden catwalk leads off into the trees to the south.
+}
+T4SH55   {You're in the southwest plaza.
+}
+T4LO55   {You are standing in the southwestern section of a large open square
+platform made of wood. The platform is ringed by intricately carved
+wooden railing. The trunk of a huge tree lies in the center of the
+platform, and appears to be the central support for the surrounding
+structure. The rest of the platform lies to the north and east, and
+a wooden catwalk leads off into the trees to the west.
+}
+T4SH56   {You're in the northwest plaza.
+}
+T4LO56   {You are standing in the northwestern section of a large open square
+platform made of wood. The platform is ringed by intricately carved
+wooden railing. The trunk of a huge tree lies in the center of the
+platform, and appears to be the central support for the surrounding
+structure. The rest of the platform lies to the south and east, and
+a wooden catwalk leads off into the trees to the north.
+}
+T4SH57   {You're in the northeast plaza.
+}
+T4LO57   {You are standing in the northeastern section of a large open square
+platform made of wood. The platform is ringed by intricately carved
+wooden railing. The trunk of a huge tree lies in the center of the
+platform, and appears to be the central support for the surrounding
+structure. The rest of the platform lies to the south and west, and
+a wooden catwalk leads off into the trees to the east.
+}
+T4SH58   {You're on a catwalk.
+}
+T4LO58   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. A large wooden platform lies to the west. The
+catwalk continues east.
+}
+T4SH59   {You're on a catwalk.
+}
+T4LO59   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north, east, and west.
+}
+T4SH60   {You're on a catwalk.
+}
+T4LO60   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues south and west.
+}
+T4SH61   {You're on a catwalk.
+}
+T4LO61   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north. To the east lies
+an ornately carved wooden archway.
+}
+T4SH62   {You're in the weapon shop.
+}
+T4LO62   {You are now inside the weapon shop, where you may purchase various
+weapons to use for personal defense from the denizens of the dungeons.
+The shop keeper sits on a high stool behind a tall counter along the
+east wall. The exit is to the west.
+}
+T4SH63   {You're in the armor shop.
+}
+T4LO63   {You are now inside the armor shop, where you may aquire different sorts
+of armor and protective gear to guard yourself against the blows of your
+opponents in the arenas, or from the various non-human foes to be found
+in the dungeons. The shop keeper sits on a high stool behind a worn
+counter along the north wall, eyeing you warily. The exit is to the south.
+}
+T4SH64   {You're on a catwalk.
+}
+T4LO64   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. A large wooden platform lies to the south. The
+catwalk continues north.
+}
+T4SH65   {You're on a catwalk.
+}
+T4LO65   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north, south, and west.
+}
+T4SH66   {You're on a catwalk.
+}
+T4LO66   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues east. To the west lies
+an ornately carved wooden archway.
+}
+T4SH67   {You're in the equipment shop.
+}
+T4LO67   {You are now inside the equipment shop, where one may purchase supplies
+and provisions essential to survival in the dungeons or the wilderness.
+The shop keeper sits on a tall stool behind a counter along the west
+wall, eyeing you warily. The exit is to the east.
+}
+T4SH68   {You're on a catwalk.
+}
+T4LO68   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues east and south.
+}
+T4SH69   {You're on a catwalk.
+}
+T4LO69   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues west. To the north lies
+an ornately carved wooden archway.
+}
+T4SH70   {You're in the tavern.
+}
+T4LO70   {You are in the tavern. The smoke from the many oil lamps decreases
+visibility to your imediate surroundings, and the wavering light they
+cast about the room leaves many shadows and unlit corners. There are
+several tables about the room, where the tavern's patrons,
+primarily elves, and an occasional human make themselves at
+home. The bar stands along the north wall and a door to the kitchen
+lies to the east. The only visibile exit lies to the south.
+}
+T4SH71   {You're on a catwalk.
+}
+T4LO71   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. A large wooden platform lies to the east. The
+catwalk continues west.
+}
+T4SH72   {You're on a catwalk.
+}
+T4LO72   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues east and south.
+}
+T4SH73   {You're on a catwalk.
+}
+T4LO73   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north. To the south lies
+an ornately carved wooden archway.
+}
+T4SH74   {You're in the magic shop.
+}
+T4LO74   {You're standing in a warm, dimly lit shop where various magical items
+are bought and sold by a shrewd mage in crimson robes with an air of
+power and complete confidence about him. He doesn't look like someone
+whose spells you'd like to be on the wrong end of. The sweet scent of
+incense drifts in from a workroom in the rear of the shop. The exit is
+to the north.
+}
+T4SH75   {You're on a catwalk.
+}
+T4LO75   {You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues south. To the north lies
+an ornately carved wooden archway.
+}
+T5TOT {55}
+ACTION1    {avoid}
+ATARG1    {2}
+ASYOU1    {Get away!}
+ATHEM1    {%s is carefully avoiding %s!}
+ALONE1    {}
+ACTION2    {bearhug}
+ATARG2    {2}
+ASYOU2    {Squish!}
+ATHEM2    {%s just gave %s a bearhug!}
+ALONE2    {}
+ACTION3    {bleed}
+ATARG3    {3}
+ASYOU3    {Who's gonna clean up this mess?!}
+ATHEM3    {%s is bleeding all over %s!}
+ALONE3    {%s is bleeding all over the floor!}
+ACTION4    {bless}
+ATARG4    {2}
+ASYOU4    {How divine!}
+ATHEM4    {%s just blessed %s.}
+ALONE4    {}
+ACTION5    {blush}
+ATARG5    {1}
+ASYOU5    {Embarrased?}
+ATHEM5    {}
+ALONE5    {%s is blushing.}
+ACTION6    {bow}
+ATARG6    {3}
+ASYOU6    {You bow so well!}
+ATHEM6    {%s is humbly bowing to %s.}
+ALONE6    {%s is bowing proudly.}
+ACTION7    {burp}
+ATARG7    {1}
+ASYOU7    {Urp!}
+ATHEM7    {}
+ALONE7    {%s just belched!}
+ACTION8    {cackle}
+ATARG8    {1}
+ASYOU8    {CaCkLe!}
+ATHEM8    {}
+ALONE8    {%s is cackling like a demon!}
+ACTION9    {chant}
+ATARG9    {1}
+ASYOU9    {Ooooo, that's eerie!}
+ATHEM9    {}
+ALONE9    {%s is chanting monotonously!}
+ACTION10   {cheer}
+ATARG10   {1}
+ASYOU10   {Yeeaaah!}
+ATHEM10   {}
+ALONE10   {%s is cheering enthusiastically!}
+ACTION11   {choke}
+ATARG11   {3}
+ASYOU11   {Ooooo, look at those eyes bulge!}
+ATHEM11   {%s is attempting to choke the life out of %s!}
+ALONE11   {%s appears to be choking on something!}
+ACTION12   {chuckle}
+ATARG12   {1}
+ASYOU12   {Hehheh.}
+ATHEM12   {}
+ALONE12   {%s is chuckling evilly!}
+ACTION13   {clap}
+ATARG13   {3}
+ASYOU13   {Clap clap!}
+ATHEM13   {%s is clapping in admiration for %s!}
+ALONE13   {%s is clapping wildly!}
+ACTION14   {cringe}
+ATARG14   {1}
+ASYOU14   {Coward!}
+ATHEM14   {}
+ALONE14   {%s is cringing in fear!}
+ACTION15   {cry}
+ATARG15   {1}
+ASYOU15   {Waaaaaaaaaa!}
+ATHEM15   {}
+ALONE15   {%s is crying woefully!}
+ACTION16   {curtsey}
+ATARG16   {3}
+ASYOU16   {You're very ladylike!}
+ATHEM16   {%s is curtseying to %s.}
+ALONE16   {%s is curtseying gracefully.}
+ACTION17   {dance}
+ATARG17   {3}
+ASYOU17   {You dance so well!}
+ATHEM17   {%s is dancing around with %s.}
+ALONE17   {%s is dancing a jig.}
+ACTION18   {frown}
+ATARG18   {1}
+ASYOU18   {What a nasty look!}
+ATHEM18   {}
+ALONE18   {%s is frowning darkly!}
+ACTION19   {gasp}
+ATARG19   {1}
+ASYOU19   {Gasp!}
+ATHEM19   {}
+ALONE19   {%s is gasping in amazment!}
+ACTION20   {giggle}
+ATARG20   {1}
+ASYOU20   {Heehee.}
+ATHEM20   {}
+ALONE20   {%s is giggling uncontrollably!}
+ACTION21   {glare}
+ATARG21   {3}
+ASYOU21   {Sour puss!}
+ATHEM21   {%s is glaring at %s.}
+ALONE21   {%s is glaring around angrily.}
+ACTION22   {gouge}
+ATARG22   {2}
+ASYOU22   {Boink!}
+ATHEM22   {%s just poked %s in the eye!}
+ALONE22   {}
+ACTION23   {grin}
+ATARG23   {3}
+ASYOU23   {Feeling sly?}
+ATHEM23   {%s is grinning at %s rather slyly.}
+ALONE23   {%s is grinning slyly.}
+ACTION24   {groan}
+ATARG24   {1}
+ASYOU24   {Oh no!}
+ATHEM24   {}
+ALONE24   {%s is groaning miserably.}
+ACTION25   {growl}
+ATARG25   {3}
+ASYOU25   {Grrrrrrrrrr!}
+ATHEM25   {%s is growling ominously at %s!}
+ALONE25   {%s is growling ominously!}
+ACTION26   {handshake}
+ATARG26   {2}
+ASYOU26   {Shake, shake!}
+ATHEM26   {%s just shook hands with %s!}
+ALONE26   {}
+ACTION27   {hug}
+ATARG27   {2}
+ASYOU27   {Not so tight!}
+ATHEM27   {%s just hugged %s!}
+ALONE27   {}
+ACTION28   {hum}
+ATARG28   {1}
+ASYOU28   {Hmmmmmmmmmm...}
+ATHEM28   {}
+ALONE28   {%s is humming an ancient tune.}
+ACTION29   {kick}
+ATARG29   {2}
+ASYOU29   {Thud!}
+ATHEM29   {%s just kicked %s!}
+ALONE29   {}
+ACTION30   {kiss}
+ATARG30   {2}
+ASYOU30   {How sweet!}
+ATHEM30   {%s just kissed %s!}
+ALONE30   {}
+ACTION31   {laugh}
+ATARG31   {3}
+ASYOU31   {Hahaha!}
+ATHEM31   {%s is laughing with %s!}
+ALONE31   {%s is laughing heartily!}
+ACTION32   {nod}
+ATARG32   {3}
+ASYOU32   {Nod.}
+ATHEM32   {%s nodded to %s in agreement!}
+ALONE32   {%s nodded curtly!}
+ACTION33   {nudge}
+ATARG33   {2}
+ASYOU33   {Nudge, nudge.}
+ATHEM33   {%s just nudged %s.}
+ALONE33   {}
+ACTION34   {ouch}
+ATARG34   {1}
+ASYOU34   {Yeeeoooowww...}
+ATHEM34   {}
+ALONE34   {%s is howling in pain!}
+ACTION35   {pinch}
+ATARG35   {2}
+ASYOU35   {Tweak!}
+ATHEM35   {%s just pinched %s!}
+ALONE35   {}
+ACTION36   {poke}
+ATARG36   {2}
+ASYOU36   {Poke!}
+ATHEM36   {%s just poked %s in the stomach!}
+ALONE36   {}
+ACTION37   {pout}
+ATARG37   {1}
+ASYOU37   {Your face could stay like that, you know.}
+ATHEM37   {}
+ALONE37   {%s is pouting.}
+ACTION38   {punch}
+ATARG38   {2}
+ASYOU38   {Pow!}
+ATHEM38   {%s just punched %s!}
+ALONE38   {}
+ACTION39   {ridicule}
+ATARG39   {2}
+ASYOU39   {Hahaha!}
+ATHEM39   {%s is laughing at %s!}
+ALONE39   {}
+ACTION40   {shrug}
+ATARG40   {3}
+ASYOU40   {Shrug.}
+ATHEM40   {%s shrugged at %s indifferently.}
+ALONE40   {%s shrugged.}
+ACTION41   {sigh}
+ATARG41   {1}
+ASYOU41   {Sigh...}
+ATHEM41   {}
+ALONE41   {%s is sighing wistfully.}
+ACTION42   {slap}
+ATARG42   {2}
+ASYOU42   {Whap!}
+ATHEM42   {%s just slapped %s!}
+ALONE42   {}
+ACTION43   {smack}
+ATARG43   {2}
+ASYOU43   {Whack!}
+ATHEM43   {%s just smacked %s!}
+ALONE43   {}
+ACTION44   {smile}
+ATARG44   {3}
+ASYOU44   {Trying to crack your face?!}
+ATHEM44   {%s just smiled pleasantly at %s.}
+ALONE44   {%s is smiling broadly.}
+ACTION45   {smirk}
+ATARG45   {1}
+ASYOU45   {What a face!}
+ATHEM45   {}
+ALONE45   {%s is smirking wryly.}
+ACTION46   {sneeze}
+ATARG46   {1}
+ASYOU46   {Aaachooo!}
+ATHEM46   {}
+ALONE46   {%s just sneezed!}
+ACTION47   {snicker}
+ATARG47   {1}
+ASYOU47   {Heh heh heh.}
+ATHEM47   {}
+ALONE47   {%s is snickering maniacally!}
+ACTION48   {sob}
+ATARG48   {1}
+ASYOU48   {Sniff sniff!}
+ATHEM48   {}
+ALONE48   {%s is sobbing pitifully!}
+ACTION49   {squeeze}
+ATARG49   {2}
+ASYOU49   {Crunch!}
+ATHEM49   {%s just squeezed %s!}
+ALONE49   {}
+ACTION50   {tickle}
+ATARG50   {2}
+ASYOU50   {Gonna getcha!}
+ATHEM50   {%s is tickling %s!}
+ALONE50   {}
+ACTION51   {wave}
+ATARG51   {3}
+ASYOU51   {Aloha!}
+ATHEM51   {%s is waving to %s.}
+ALONE51   {%s is waving farewell.}
+ACTION52   {whimper}
+ATARG52   {1}
+ASYOU52   {Awwww... Shaddup!}
+ATHEM52   {}
+ALONE52   {%s is whimpering annoyingly!}
+ACTION53   {whistle}
+ATARG53   {3}
+ASYOU53   {I can name that tune in 3 notes!}
+ATHEM53   {%s is whistling at %s.}
+ALONE53   {%s is whistling innocently.}
+ACTION54   {wink}
+ATARG54   {2}
+ASYOU54   {Wink!}
+ATHEM54   {%s is winking at %s.}
+ALONE54   {}
+ACTION55   {yawn}
+ATARG55   {1}
+ASYOU55   {Are you THAT tired?!}
+ATHEM55   {}
+ALONE55   {%s is yawning.}
+T6TOT {29}
+T6NO1    {0 3 1}
+T6NO2    {0 22 2}
+T6NO3    {0 44 2}
+T6NO4    {0 67 3}
+T6NO5    {1 6 1}
+T6NO6    {1 16 2}
+T6NO7    {1 46 2}
+T6NO8    {1 62 3}
+T6NO9    {2 7 1}
+T6NO10   {2 30 2}
+T6NO11   {2 45 2}
+T6NO12   {2 63 3}
+T6NO13   {3 9 1}
+T6NO14   {3 24 2}
+T6NO15   {3 43 2}
+T6NO16   {3 74 3}
+T6NO17   {4 5 2}
+T6NO18   {4 20 1}
+T6NO19   {4 42 1}
+T6NO20   {4 70 1}
+T6NO21   {5 4 1}
+T6NO22   {5 32 1}
+T6NO23   {5 41 1}
+T6NO24   {6 8 1}
+T6NO25   {6 40 1}
+T6NO26   {7 34 1}
+T6NO27   {8 2 1}
+T6NO28   {8 28 2}
+T6NO29   {8 47 3}

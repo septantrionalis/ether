@@ -1,0 +1,415 @@
+Spell Name
+
+Translation
+
+Mana
+
+Price
+
+Level
+
+Erl
+
+Motu
+
+Minor Heal
+
+1
+
+5 gold
+
+1st
+
+1st
+
+Kamotu
+
+Heal
+
+2
+
+20 gold
+
+2nd
+
+5th
+
+Tami
+
+Minor Hurt
+
+2
+
+25 gold
+
+2nd
+
+5th
+
+Dobudani
+
+Cure Poison
+
+3
+
+30 gold
+
+6th
+
+10th
+
+Gimotu
+
+Greater Heal
+
+4
+
+35 gold
+
+8th
+
+15th
+
+Motumaru
+
+Minor Area Heal
+
+4
+
+40 gold
+
+8th
+
+15th
+
+Katami
+
+Hurt
+
+4
+
+50 gold
+
+8th
+
+15th
+
+Dobudanimaru
+
+Cure Poison Area
+
+5
+
+60 gold
+
+10th
+
+20th
+
+Kusamotu
+
+Deific Heal
+
+5
+
+75 gold
+
+10th
+
+20th
+
+Kamotumaru
+
+Area Heal
+
+5
+
+80 gold
+
+10th
+
+20th
+
+Gitami
+
+Greater Hurt
+
+5
+
+100 gold
+
+10th
+
+20th
+
+Takumi
+
+Remove Paralysis
+
+6
+
+120 gold
+
+12th
+
+25th
+
+Kusatami
+
+Deific Hurt
+
+6
+
+150 gold
+
+12th
+
+25th
+
+Gimotumaru
+
+Greater Area Heal
+
+7
+
+180 gold
+
+14th
+
+5th*
+
+Ganazi
+
+Restore Stats
+
+8
+
+220 gold
+
+16th
+
+10th*
+
+Kusamotumaru
+
+Deific Area Heal
+
+9
+
+270 gold
+
+18th
+
+15th*
+
+
+ 
+Acolyte Spell Chart
+
+Spell Name
+
+Translation
+
+Mana
+
+Price
+
+Level
+
+Erl
+
+Motu
+
+Minor Heal
+
+1
+
+5 gold
+
+1st
+
+1st
+
+Kamotu
+
+Heal
+
+2
+
+20 gold
+
+2nd
+
+5th
+
+Tami
+
+Minor Hurt
+
+2
+
+25 gold
+
+2nd
+
+5th
+
+Dobudani
+
+Cure Poison
+
+3
+
+30 gold
+
+6th
+
+10th
+
+Gimotu
+
+Greater Heal
+
+4
+
+35 gold
+
+8th
+
+15th
+
+Motumaru
+
+Minor Area Heal
+
+4
+
+40 gold
+
+8th
+
+15th
+
+Katami
+
+Hurt
+
+4
+
+50 gold
+
+8th
+
+15th
+
+Dobudanimaru
+
+Cure Poison Area
+
+5
+
+60 gold
+
+10th
+
+20th
+
+Kusamotu
+
+Deific Heal
+
+5
+
+75 gold
+
+10th
+
+20th
+
+Kamotumaru
+
+Area Heal
+
+5
+
+80 gold
+
+10th
+
+20th
+
+Gitami
+
+Greater Hurt
+
+5
+
+100 gold
+
+10th
+
+20th
+
+Takumi
+
+Remove Paralysis
+
+6
+
+120 gold
+
+12th
+
+25th
+
+Kusatami
+
+Deific Hurt
+
+6
+
+150 gold
+
+12th
+
+25th
+
+Gimotumaru
+
+Greater Area Heal
+
+7
+
+180 gold
+
+14th
+
+5th*
+
+Ganazi
+
+Restore Stats
+
+8
+
+220 gold
+
+16th
+
+10th*
+
+Kusamotumaru
+
+Deific Area Heal
+
+9
+
+270 gold
+
+18th
+
+15th*
+
+* Indicates level after promotion.
+Erl - Every round level. Level at which you get the spell every round.
+Note : Kusamotu and Kusamotumaru increase in spell power with levels. Both never fail.

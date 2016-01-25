@@ -1,0 +1,24 @@
+level 1:36 total, 15 unsuccessful (41.6%), 20 successful (55.5%), 1 magic defense(2.7%).   36 total
+level 2:52 total, 25 unsuccessful (49.0%), 24 successful,(47.0%), 2 magic defense(3.9%).   51 total
+
+
+baseHit=10
+levelDiff=charlevel-moblevel
+spellDifficulty=charlevel-spelllevel 
+toHit = baseHit - levelDifference - spelldifference
+
+if (d20 > toHit) hit
+   if mob, 
+   defense = 1 - (levelDiff) min 1
+   if (d20 < defense) spell negated
+   
+   roll(1 to 100) 
+else spell unsuccessful.
+
+
+
+player=5, mob=4   --    diff is 1
+player=5, spell=2 --    diff is 2
+
+
+player=3, mob=5   -     diff is -2

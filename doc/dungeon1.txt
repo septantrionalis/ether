@@ -1,0 +1,15 @@
+se
+&WYour copper key unlocks the oak door and allows you to pass through.
+-copper key disappears.
+
+&RA spiked trap catches your foot and pain shoots up your leg!
+
+&YThe ogre falls to the ground lifeless!
+&CYou found 10 gold crowns while searching the area.
+&CWhile searching the area, you notice a brass key, which you add to your possessions.
+
+&YThe female cyclops falls to the ground lifeless!
+&CYou found 6 gold crowns while searching the female cyclops's corpse.
+&CYou find an iron key, which you add to your possessions.
+--------
+&WYour iron key unlocks the stone door and allows you to pass through.

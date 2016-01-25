@@ -1,0 +1,35 @@
+                               stairs down
+                          to Stoneworks Level 3
+                                    [v]
+                                     |
+                                    [c] Ogre(3)
+                                     |
+                                    [@]       @ = "say arok" to get further into the Stoneworks
+                                   /
+                            [ ]-[ ]
+                           /
+            [ ]-[ ]     [T]                   L = Pull Lever to disarm stone trap at T
+           /       \   /
+        [ ]         [ ]
+         |             \
+         |              [ ]           stairs up 
+         |               |      to Stoneworks Level 1
+        [x]             [ ]         [ ]-[^]
+       / Ogre(3)           \       /
+    [ ]                     [ ]-[ ]
+   /                       /
+[ ]                 [ ]-[ ]
+ |                   |
+[ ]     [ ]-[ ]     [ ]     [ ]-[ ]
+   \   /       \     |     /       \
+    [ ]         [ ]-[x]-[ ]         [ ]
+               Ogre mage(2)        /
+                                [ ]
+                               /
+                            [ ]
+                               \
+                    [ ]         [ ]
+                   /   \       /
+                [ ]     [ ]-[ ]
+                 |
+                [Lx] Ogre mage(3)

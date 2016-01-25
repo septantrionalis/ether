@@ -1,0 +1,45 @@
+                                                [w]-[ ]-[ ]-[w]
+                                               /               \
+                                            [ ]                 [ ]
+                                           /                       \
+                                        [ ]     [w]-[ ]-[ ]-[w]     [ ]
+                                       /       /               \       \
+Lowercase letter                    [w]     [^]    Flame        [ ]-[ ]-[w] Flame
+teleports to                           \     |     Trap                     Trap
+capital letter                          [ ]--+------[T]-[ ]-[ ]-[x]-[ ]-[ ]-[T]-[ ] 
+                                             |              Flame Giant            \
+w = Warlock(3)                               |  [w]-[ ]-[ ]  Scroll #8      [ ]     [w]
+                                             |     \       \               /       /
+                                             |      [ ]     [w]-[ ]-[ ]-[x]     [ ]
+                                             |         \          Apollyon     /
+                                            [v]         [ ]       Dragon(2) [ ]
+                                             |             \      Scroll #7/
+                                            [ ]             [w]-[ ]-[ ]-[w]
+                                             |
+  Apollyon  [x]                         [ ]-[w]-[ ]                         [x] Apollyon
+  Dragon     |                         /     |     \                         |  Dragon
+  Scroll #6 [ ]                     [ ]     [ ]     [ ]                     [ ]             
+           /                       /         |         \                       \             
+        [ ]                     [ ]         [ ]         [k]                     [ ]           
+       /                                     |                                     \
+    [ ]                 [ ]     [ ]-[ ]-[ ]-[J]-[ ]-[ ]-[ ]     [ ]                 [ ]   
+   /                   /   \   /                           \   /   \                   \ 
+[ ]                 [ ]     [ ]             [j]             [ ]     [ ]                 [ ]
+   \               /         |               |               |         \               /  
+    [ ]     [ ]-[ ]         [ ]             [x] Ogre        [ ]         [ ]-[ ]     [ ]     
+       \   /                 |               |  Mage(3)      |                 \   /      
+        [ ]                 [x]             [ ]             [x] Affreet(2)      [ ]      
+                         Affreet(2)          |
+                                        [ ]-[K]-[ ]
+                                       /     |     \                             
+                                    [ ]      |      [ ]                          
+                                   /         |         \
+                [ ]             [ ]  Scroll [x] Stygian [ ]
+               /   \               \     #5  |  Dragon /
+            [ ]     [ ]             [ ]      |  (3) [ ]
+             |         \               \     |     /
+           [Iw]         [ ]             [ ]-[l]-[ ]             [ ]
+                           \           /           \           /   \
+                            [ ]     [ ]  teleport   [ ]     [ ]     [ ]-[ ]-[w]
+                               \   /   to Flagstones   \   /                Warlock(3)
+                                [ ]       Level 2       [ ]

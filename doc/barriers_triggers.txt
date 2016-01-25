@@ -1,0 +1,206 @@
+_______TRIGGER NOTES____________
+             0 1 2  3    4   5 6 7
+TRIG43   {1192 4 2  12 1192 841 0 1}     Stoneworks 1: say komi to open doors (841 is new description)
+TRIG44   {1213 4 1  9  1218 811 0 1}     Stoneworks 1: Lever to disable trap at 1218
+TRIG48   {1243 4 4  12 1222 907 0 1}     Stoneworks 1: Push stone to open south passage at 1222 (907 is new description)
+TRIG46   {1231 4 3  15 1232 1 0 1}       Stoneworks 1: Push stone to teleport from room 1231 to 1232
+TRIG47   {1232 4 3  15 1236 1 0 1}       Stoneworks 1: Push stone to teleport from room 1232 to 1236
+TRIG49   {1266 4 1  9  1281 795 0 1}     Stoneworks 2: Lever to disable trap at 1281
+TRIG51   {1284 4 5  12 1284 861 0 1}     Stoneworks 2: say arok to open doors (861 is new description)
+TRIG53   {1316 4 1  9  1297 829 0 1}     Stoneworks 3: Lever to disable trap at 1297
+TRIG55   {1344 4 1  9  1327 827 0 1}     Stoneworks 4: Lever to disable trap at 1327
+TRIG57   {1364 4 1  9  1366 803 0 1}     Stoneworks 5: Lever to disable trap at 1366
+TRIG61   {1403 4 1  14 1452 801 0 1}     Stoneworks 6: Lever to open west passage at 1452 (801 is new description)
+TRIG62   {1440 4 1  14 1456 801 0 1}     Stoneworks 6: Lever to open west passage at 1456 (801 is new description)
+
+TRIG66   {1483 4 1  14 1515 1517 0 1}    Labyrinth 1 : Lever to open north passage at 1515 (1517 is new description)
+TRIG67   {1534 4 1  14 1473 1519 0 1}    Labyrinth 1 : Lever to open south passage at 1473 (1519 is new description)
+TRIG68   {1731 4 1  14 1711 1525 0 1}    Labyrinth 2 : Lever to open north passage at 1711 (1525 is new description)
+TRIG69   {1808 4 3  17 1564 1663 0 1}    Labyrinth 2 : Stone to disable permanent darkness.  Range = 1564 to 1663
+TRIG71   {1576 4 8  11 1576 1537 0 1}    Labyrinth 4 : say cinders to enable say ether
+TRIG72   {1576 4 9  16 2101 1 0 0}       Labyrinth 4 : say ether to teleport to room 2101 and gain blue rune
+TRIG70   {1912 4 3  17 1764 1863 0 1}    Labyrinth 5 : Stone to disable permanent darkness.  Range = 1764 to 1863
+
+TRIG81   {2178 4 10 18 2178 1579 0 1}    Hewn Gran   : Move Tapestry.  Alt Desc = 1579
+TRIG82   {2178 4 1  12 2204 1545 0 0}    Hewn Gran   : Pull Lever enabled only if preaction is done.  Door = 2204
+TRIG83   {2199 4 10 18 2199 1579 0 1}    Hewn Gran   : Move Tapestry.
+TRIG84   {2199 4 1  12 2208 1545 0 0}    Hewn Gran   : Pull Lever enabled only if preaction is done.
+TRIG85   {2182 4 10 18 2182 1577 0 1}    Hewn Gran   : Move Tapestry.
+TRIG86   {2182 4 1  12 2214 1559 0 0}    Hewn Gran   : Pull Lever enabled only if preaction is done.
+TRIG87   {2201 4 10 18 2201 1581 0 1}    Hewn Gran   : Move Tapestry.
+TRIG88   {2201 4 1  12 2219 1555 0 0}    Hewn Gran   : Pull Lever enabled only if preaction is done.
+TRIG89   {2187 4 10 18 2187 1579 0 1}    Hewn Gran   : Move Tapestry.
+TRIG90   {2187 4 1  12 2225 1543 0 0}    Hewn Gran   : Pull Lever enabled only if preaction is done.
+TRIG91   {2193 4 10 18 2193 1579 0 1}    Hewn Gran   : Move Tapestry.
+TRIG92   {2193 4 1  12 2191 1571 0 0}    Hewn Gran   : Pull Lever enabled only if preaction is done.
+TRIG93   {2192 4 10 18 2192 1577 0 1}    Hewn Gran   : Move Tapestry.
+TRIG94   {2192 4 1  12 2271 1507 0 0}    Hewn Gran   : Pull Lever enabled only if preaction is done.
+
+TRIG127  {3098 4 11 14 3098 1727 0 1}    Deep Forest : Open passages in room 3098, alt desc=1727
+
+TRIG166  {3123 4 1 11 3126 1731 0 1}     Stone Pass  : Pull lever to toggle teleporter at 3126
+TRIG157  {3126 3 3121 4 0 0 0 1}         Stone Pass  : Teleporter 1 - enabled
+TRIG118  {3126 3 3131 4 0 0 0 0}         Stone Pass  : 
+TRIG167  {3131 4 1 11 3136 1727 0 1}     Stone Pass  : Pull lever to toggle teleporter at 3136
+TRIG158  {3136 3 3121 4 0 0 0 1}         Stone Pass  : Teleporter 1 - enabled
+TRIG119  {3136 3 3139 4 0 0 0 0}         Stone Pass  : 
+TRIG168  {3139 4 1 11 3142 1731 0 1}     Stone Pass  : Pull lever to toggle teleporter at 3142 
+TRIG159  {3142 3 3121 4 0 0 0 1}         Stone Pass  : Teleporter 1 - enabled
+TRIG156  {3142 3 3147 4 0 0 0 0}         Stone Pass  : 
+TRIG169  {3147 4 1 11 3152 1727 0 1}     Stone Pass  : Pull lever to toggle teleporter at 3152
+TRIG160  {3152 3 3121 4 0 0 0 0}         Stone Pass  : 
+TRIG120  {3152 3 3155 4 0 0 0 1}         Stone Pass  : Teleporter 1 - enabled
+TRIG170  {3155 4 1 11 3160 1727 0 1}     Stone Pass  : Pull lever to toggle teleporter at 3160
+TRIG161  {3160 3 3121 4 0 0 0 0}         Stone Pass  : 
+TRIG121  {3160 3 3163 4 0 0 0 1}         Stone Pass  : Teleporter 1 - enabled
+TRIG171  {3163 4 1 11 3168 1727 0 1}     Stone Pass  : Pull lever to toggle teleporter at 3168 
+TRIG162  {3168 3 3121 4 0 0 0 0}         Stone Pass  : 
+TRIG122  {3168 3 3171 4 0 0 0 1}         Stone Pass  : Teleporter 1 - enabled
+TRIG172  {3171 4 1 11 3174 1731 0 1}     Stone Pass  : Pull lever to toggle teleporter at 3174
+TRIG163  {3174 3 3121 4 0 0 0 1}         Stone Pass  : Teleporter 1 - enabled
+TRIG123  {3174 3 3179 4 0 0 0 0}         Stone Pass  : 
+TRIG173  {3179 4 1 11 3182 1731 0 1}     Stone Pass  : Pull lever to toggle teleporter at 3182 
+TRIG164  {3182 3 3121 4 0 0 0 0}         Stone Pass  : 
+TRIG124  {3182 3 3187 4 0 0 0 1}         Stone Pass  : Teleporter 1 - enabled
+TRIG174  {3187 4 1 11 3190 1731 0 1}     Stone Pass  : Pull lever to toggle teleporter at 3190 
+TRIG165  {3190 3 3121 4 0 0 0 1}         Stone Pass  : Teleporter 1 - enabled
+TRIG125  {3190 3 3195 4 0 0 0 0}         Stone Pass  : 
+
+v0=room number
+v1=trigger type :
+   0 Nothing
+   1 Treasure
+   2 Trap
+   3 Teleport
+   4 Puzzle
+v2=message type as defined in the command trigger file.   
+if v1 == Treasure
+  v2=treasure number
+else if v1 == Trap
+  v2=trap number
+  v3=poison damage
+else if v1 == Teleport
+  v7=enabled(1), disabled otherwise.
+else if v1 == Puzzle
+  v4=room to apply the trigger
+  v5=alt room description
+  v2=puzzle type:
+    1=pull lever
+      v3=(9=disable trap, 11=toggle teleporters, 12=hidden lever to open door, 14=open all passages)
+    2=say komi
+    3=push stone
+      v3=(15 is teleport)
+      v3=(17 is lift darkness)
+    4=push stone
+      v3=(12 is open passages)
+    5=say arok
+    8=say cinders
+    9=say ether
+    10=move tapestry
+    11=say dwarflord
+
+Trigger
+  int         _roomNumber;                // v0
+  TriggerType _triggerType;               // v1
+  int         _treasureNumber;            // v2
+  int         _trapNumber;                // v2
+  int         _poisonDamage;              // v3
+  int         _targetRoom;                // v4
+  int         _newRoomDescriptionNumber;  // v5
+  PuzzleType  _puzzleType;                // v2
+  int         _puzzleFunction;            // v3
+  
+TriggerType:
+  NOTHING(0)
+  TREASURE(1)
+  TRAP(2)
+  TELEPORT(3)
+  PUZZLE(4)
+
+PuzzleType:
+  NONE(0)
+  PULL_LEVER(1)
+  SAY_KOMI(2)
+  PUSH_STONE(4)
+  SAY_AROK(5)
+
+________DOOR NOTES_____________
+  0   1    2  3 4 5 6
+[-1 -99  -98  8 0 0 1]Room -99  = E  (if player has rune)                     &WA mystical force prevents your exit in that direction.
+[-2 507  508  8 2 0 1]Room 507  = S  (Need yellow rune or above)              &WA mystical force prevents your exit in that direction.
+[-2 1457 -65  8 3 0 1]Room 1457 = W  (Need green rune or above)  To 3rd Town  &WA mystical force prevents your exit in that direction.
+[-2 1529 1528 8 3 0 1]Room 1529 = W  (Need green rune or above)  Labyrinth    &WA mystical force prevents your exit in that direction.
+[-2 3977 3978 8 5 0 1]Room 3977 =
+[-3 -95  -67  1 -67 2 1]Room -95= ?  (Up to private room)
+[-4 2131 2132 8 0 0 1]Room 2131 = NE Promoted Char only                       &WA mystical force prevents your exit in that direction.
+
+[-8 1192 1211 2 0 0 1]Room 1192 = E  (stonework 1, say komi)                  &WThe locked iron door prevents your exit in that direction.
+[-8 1192 1193 2 0 0 1]Room 1192 = S  (stonework 1, say komi)                  &WThe locked iron door prevents your exit in that direction.
+[-8 1222 1223 0 0 0 1]Room 1222 = S  (stonework 1, lever at 1243)             &MSorry, there's no exit in that direction.
+[-8 1284 1285 0 0 0 1]Room 1284 = N  (stonework 1, say arok)                  &MSorry, there's no exit in that direction.
+[-8 1452 1453 7 0 0 1]Room 1452 = W  (stonework 6, lever @ 1403 opens)        &WThe wide chasm prevents your exit in that direction.
+[-8 1456 1457 7 0 0 1]Room 1456 = W  (stonework 6, lever @ 1440 opens)        &WThe wide chasm prevents your exit in that direction.
+
+[-8 1505 1515 4 0 0 1]Room 1505 = S  (labyrinth)                              &WThe locked stone door prevents your exit in that direction.
+[-8 1473 1483 4 0 0 1]Room 1473 = S  (labyrinth)                              &WThe locked stone door prevents your exit in that direction.
+[-8 1701 1711 4 0 0 1]Room 1701 = S
+[-8 2204 2205 4 0 0 1]Room 2204 = SE
+[-8 2208 2209 4 0 0 1]Room 2208 = SE
+[-8 2214 2215 4 0 0 1]Room 2214 = S
+[-8 2219 2220 4 0 0 1]Room 2219 = SW
+[-8 2225 2226 4 0 0 1]Room 2225 = SW
+[-8 2271 2272 4 0 0 1]Room 2271 = SW
+[-8 2191 2192 4 0 0 1]Room 2191 = SE
+[-8 3098 3099 4 0 0 1]Room 3098 = N
+[-8 3725 3726 4 0 0 1]Room 3725 = N
+[-8 3815 3821 4 0 0 1]Room 3815 = W
+[-8 3829 3830 4 0 0 1]Room 3829 = S
+[-8 3881 3897 4 0 0 1]Room 3881 = E
+[-8 3897 3900 4 0 0 1]Room 3897 = E
+[-8 3898 3901 4 0 0 1]Room 3898 = E
+[-8 3890 3898 4 0 0 1]Room 3890 = E
+[-8 3863 3905 4 0 0 1]Room 3863 = W
+[-8 3905 3908 4 0 0 1]Room 3905 = W
+[-8 3906 3909 4 0 0 1]Room 3906 = W
+[-8 3854 3906 4 0 0 1]Room 3854 = W
+____________________________________
+v0(door_type) can be :
+   0 ITEM_KEY
+  -1 HAS_RUNE
+  -2 MINIMUM_RUNE
+  -3 PRIVATE_ROOM
+  -4 PROMOTE_DOOR
+  -8 PUZZLE
+v1=from_room#
+v2=to_room#
+
+if v0 == ITEM_KEY
+  v3=message#
+  v4=consumes(0=no,1=yes,3=huh),
+  v5=?
+  v6=?
+else if v0 == HAS_RUNE
+  v3=?
+  v4=rune number that allows access.
+  v5=?
+  v6=?
+else if v0 == MINIMUM_RUNE
+  v3=?
+  v4=minimum rune needed to enter.
+  v5=?
+  v6=?
+else if v0 == PRIVATE_ROOM
+  v3=?
+  v4=?
+  v5=max number of players in room
+  v6=?
+else if v0 == PUZZLE
+  v3=message?
+  v4=?
+  v5=?
+  v6=?
+
+
+Barriers Change:
+Change v0 to enum of type :
+Create a new field, int itemKey which only applies when enum is of type ITEM_KEY.

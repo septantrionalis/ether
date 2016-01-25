@@ -1,0 +1,34 @@
+                    [x]  Griffon                [x] Ogre mage
+                       \                         |
+                        [ ]                     [ ]
+                         |                         \
+                        [ ]                         [ ]
+                         |                             \
+                        [ ]                             [ ]
+                       /                                 |
+                [ ]-[ ]                     [ ]         [ ]
+               /                             |         /   \
+            [ ]                             [ ]     [ ]     [ ]
+               \                               \   /
+                [ ]                             [ ]
+                 |                             /   \
+                [ ]                         [ ]     [ ]
+                   \                                 |
+                    [ ]                             [ ]
+2 Lesser             |                             /
+Demonesses          [ ]    to Town 1            [ ]
+& Warlock              \   /                   /
+    [ ]-[ ]-[ ]-[^] <-> [v]             [ ]-[ ]
+   /     |             /   \           /       \
+[x]     [ ]         [ ]     [ ]-[ ]-[ ]         [ ]     [ ]-[ ]             [ ]
+         |           |                             \   /       \           /   \
+        [ ]         [ ]                             [ ]         [ ]     [ ]     [x] Mountain ape
+         |         /                               /               \   /
+(south returns  [ ]                             [ ]                 [ ]
+ to same room)     \                                               /
+                    [ ]                                     [ ]-[ ]
+                   /
+   -[ ]-[ ]     [ ]
+to Forest  \   /
+            [ ]                              v Down to runied area
+                                             ^ Up, outside town gates

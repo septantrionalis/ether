@@ -1,0 +1,199 @@
+
+* title
+
+syntax: edit pl# title #(0-8)
+
+* complexion
+
+syntax: edit pl# complexion #(0-10)
+
+* eyecolor
+
+syntax: edit pl# eyecolor #(0-9)
+
+* haircolor
+
+syntax: edit pl# haircolor #(0-11)
+
+* hairstyle
+
+syntax: edit pl# hairstyle #(0-8)
+
+* hairlength
+
+syntax: edit pl# hairlength #(0-5)
+
+* race
+
+syntax: edit pl# race #(0-5)
+
+0 = Elven, 1 = Dwarven, 2 = Gnomish, 3 = Human, 4 = Goblin,
+
+5 = Half-Ogre
+
+* class
+
+syntax: edit pl# class #(0-7)
+
+0 = Warrior/Knight, 1 = Sorceror/Arch Magus, 2 = Acolyte/High Priest,
+
+3 = Rogue/Blackguard, 4 = Hunter/Beast Master, 5 = Druid/Arch Druid,
+
+6 = Archer/Master Archer, 7 = Necrolyte/Necromancer
+
+* level
+
+syntax: edit pl# level #(1-32767)
+
+Add 25 levels if promoted (i.e. level 115 = level 90 promoted)
+
+* experience
+
+syntax: edit pl# experience #(0 to -1)
+
+* rune
+
+syntax: edit pl# rune #(0-8)
+
+0 = None, 1 = White, 2 = Yellow, 3 = Green, 4 = Blue, 5 = Violet
+
+6 = Red, 7 = Orange, 8 = Gold
+
+* gold
+
+syntax: edit pl# gold #(0-65000)
+
+* account
+
+syntax: edit pl# account #(0-Unknown)
+
+Note: Limit for 'Unknown' is same limit for exp before it goes
+
+to a negative number, I believe max is around 2,145,000,000 gold.
+
+* charges
+
+syntax: edit pl# charges Unknown
+
+* intellect
+
+syntax: edit pl# intellect #(1-32767)
+
+* knowledge
+
+syntax: edit pl# knowledge #(1-32767)
+
+* physique
+
+syntax: edit pl# physique #(1-32767)
+
+* stamina
+
+syntax: edit pl# stamina #(1-32767)
+
+* agility
+
+syntax edit pl# agility #(1-32767)
+
+* charisma
+
+syntax: edit pl# charisma #(1-32767)
+
+* hits
+
+syntax: edit pl# hits #(0-32767)
+
+Hits = Vitality
+
+* mana
+
+syntax: edit pl# mana #(0-32767)
+
+* armor
+
+syntax: edit pl# armor #(Unknown)
+
+* weapon
+
+syntax: edit pl# weapon #(Unknown)
+
+* ac
+
+syntax: edit pl# ac #(0-32767)
+
+* attacks
+
+syntax: edit pl# attacks #(Unknown)
+
+* attdly
+
+syntax: edit pl# attdly
+
+* spldly
+
+syntax: edit pl# spldly
+
+* invcnt
+
+syntax: edit pl# invcnt
+
+* parcnt
+
+syntax: edit pl# parcnt
+
+* poison
+
+syntax: edit pl# poison
+
+* food
+
+syntax: edit pl# food
+
+* water
+
+syntax: edit pl# water
+
+* promot
+
+syntax: edit pl# promot
+
+* newchr
+
+syntax: edit pl# newchr
+
+
+--------------------------------------------------------------------------------
+
+Non-Edit, but sysop commands:
+
+Squart - Not sure as to what this does.
+
+wipe # - Wipes the room of all monsters
+
+show # - Shows what is in room #, monsters, people, and items
+
+reinit - Reinitializes Tele-Arena
+
+relair - Relairs the lairs :) Such as dungeon etc.
+
+locate pl# - Locate player.
+
+room - Shows all statistics of the room you're in.
+
+conjure # - Conjure item #
+
+teleport pl# room# #(0-2)
+
+vanish - POuf!
+
+Horde # room# - fills room to max amt of mob#
+
+prey - Target players attdly&spldly are set to resting
+
+summon # room# - Summon mob# to room#
+
+level - Not sure as to what this does either
+
+ 
+
+  

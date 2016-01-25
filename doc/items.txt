@@ -1,0 +1,167 @@
+1)price
+2)level
+
+b
+Sorry, that is not an appropriate command.
+b asd
+&CSorry, but no such item or service is offered here.
+b torch
+&WOk, you bought a torch for 1 crowns.
+b axe
+&CYou are too inexperienced to use that item.
+b ra
+&WYou can't afford a ration of food.
+b r
+&CSorry, you'll have to specify the desired item a little more precisely.
+sell staff
+&CSorry, but the shop keeper isn't interested in that item.
+&WYou can't equip that!
+&CSorry, but you don't seem to have one.
+//s=org.tdod.telearena.taimpl.commands.DoSell
+
+
+You are carrying 8 gold crowns, and a staff.
+
+
+12 items max in inventory
+&WYour torch just burned out.
+Item eats itself
+You are carrying 9 gold crowns, a torch, a torch, a torch, a torch, a torch, a
+torch, a torch, a torch, a torch, a torch, and a torch.
+
+
+0=Cost
+1=Weight
+2=something ranged
+3=Min Value Range
+4=Max Value Range
+5=Item Type
+6=???
+7=charges
+8=Effect
+      (0 nothing, 1 food, 2 water, 3 health, 4 removes poison, 5 mana boost, 6 physique boost, 7 agiliy boost,
+      8 invis, 9 recall, 10 mana stone, 12 wand, 13 runestaff, 14 rod of power, 15 flame crystal, 16 torch, 
+      17 eternal light, 
+      18 soulstone, 
+      19 ammo, 20 a stone)
+9=Range
+10=??
+11=Quest Var
+14=level
+15=Town
+                                          0    1   2 3  4    5  6   7  8  9 10 11   12 13 14   15 
+
+pink teddy a pink teddy                   0    0   0 0  0    14 15  0  0  0 0  0    0  0  1000 0  
+blue robes blue robes                     0    0   0 0  0    14 18  0  0  0 0  0    0  0  1000 0  
+                  
+torch a torch                             1    10  0 0  450  21 0   0  16 0 0  0    0  0  0    1  
+waterskin a waterskin                     1    10  0 0  1800 21 0   3  2  0 0  0    0  0  0    1  
+ration of food a ration of food           2    5   0 0  3600 21 0   0  1  0 0  0    0  0  0    1  
+case a case of darts                      12   15  0 56 0    21 0   10 19 0 0  0    0  0  0    1  
+stone a stone                             0    1   0 0  4    21 0   0  20 0 0  0    0  0  0    1  
+small barrel a small barrel               10   100 0 0  1800 21 0   15 2  0 0  0    0  0  0    1  
+preserved rations some preserved rations  10   20  0 0  2400 21 0   5  1  0 0  0    0  0  0    1  
+quiver a quiver                           10   30  0 60 0    21 0   20 19 0 0  0    0  0  0    1  
+pouch a pouch of stones                   2    5   0 89 0    21 0   20 19 0 0  0    0  0  0    1  
+
+dart a dart                               1    5   2 1  4    22 0   0  0  3 0  0    0  0  1    1  
+knife a knife                             5    7   2 1  6    22 0   0  0  2 0  0    0  0  3    1:
+spear a spear                             10   40  2 2  8    22 0   0  0  2 0  0    0  0  2    1:
+axe an axe                                15   30  2 3  12   22 0   0  0  1 0  0    0  0  5    1:
+axe an axe                                15   30  2 3  12   22 0   0  0  1 0  0    0  0  5    1  
+
+horn of frost a horn of frost             50   50  0 4  24   31 0   15 12 1 0  0    0  0  3    1  a blast of frost
+wand of lightning a wand of lightning     100  10  0 8  48   31 0   20 12 1 0  0    0  0  5    1  a bolt of lightning 
+rod of flame a rod of flame               200  20  0 12 72   31 0   25 12 1 0  0    0  0  8    1  a blast of flame 
+glowstone a glowstone                     50   5   0 0  0    31 0   0  17 0 0  0    0  0  0    1  l a light source
+heartstone a heartstone                   100  5   0 0  0    31 0   0  9  0 0 -96   0  0  5    1  ; returns you to the temple
+manastone a manastone                     10   5   0 0  0    31 0   0  10 0 0  0    0  0  0    1  ; increases your mana
+black rose a black rose                   0    5   0 1  2    31 0   1  12 0 0  0    0  1  1000 0 
+
+rue potion a rue potion                   5    10  0 4  16   32 0   0  3  0 0  0    0  0  0    1  
+amaranth potion an amaranth potion        10   10  0 16 64   32 0   0  3  0 0  0    0  0  0    1  
+anemone potion an anemone potion          25   10  0 32 128  32 0   0  3  0 0  0    0  0  0    1  
+verbena potion a verbena potion           10   10  0 0  0    32 0   0  4  0 0  0    0  0  0    1  
+yarrow potion a yarrow potion             10   10  0 0  0    32 0   0  5  0 0  0    0  0  0    1  
+rowan potion a rowan potion               10   10  0 20 600  32 0   0  6  0 0  0    0  0  0    1  ; 600 is timed effect
+hyssop potion a hyssop potion             10   10  0 20 600  32 0   0  7  0 0  0    0  0  0    1  ; 600 is timed effect
+
+vervain potion a vervain potion           100  10  0 0  600  33 0   0  8  0 0  0    0  0  0    2  ; invisibility
+runestaff a runestaff                     0    20  0 0  0    33 0   8  13 0 0  429  3  0  0    0  
+soulstone a soulstone                     1000 5   0 0  0    33 0   0  18 0 0  0    0  0  0    2  
+zarynthium potion a zarynthium potion     50   10  0 64 256  33 0   0  3  0 0  0    0  0  0    2  
+rod of power a rod of power               0    20  0 0  0    33 0   0  14 0 3  2809 5  0  0    0  
+flame crystal a flame crystal             0    10  0 2  4    33 123 0  15 1 3  0    0  0  30   0 a flame storm
+wynharp a wynharp                         0    20  0 32 128  33 0   0  11 0 0  0    0  0  1000 0  
+
+rope a coil of rope                       3    25  0 0  0    21 0   0  0  0 0  0    0  0  0    1
+iron key an iron key                      0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+copper key a copper key                   0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+brass key a brass key                     0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+bronze key a bronze key                   0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+silver key a silver key                   0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+electrum key an electrum key              0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+gold key a gold key                       0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+platinum key a platinum key               0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+pearl key a pearl key                     0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+onyx key an onyx key                      0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+jade key a jade key                       0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+ruby key a ruby key                       0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+a dark mist opal key an opal key          0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+tigereye key a tigereye key               0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+quartz key a quartz key                   0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+topaz key a topaz key                     0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0
+stone key an ornate stone key             0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0    
+dragon ring a dragon ring                 0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+gome ring a gome ring                     0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+strato ring a strato ring                 0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+pink rose a pink rose                     0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0   
+white rose a white rose                   0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+red rose a red rose                       0    2   0 0  0    41 0   0  0  0 0  0    0  0  0    0  
+
+
+TODO
+great bow a great bow                     150  50  5 6  30   9  60  0  0  0 0  0    0  0  6    2  
+ice crystal an ice crystal                0    10  0 1  3    33 122 0  15 1 2  0    0  0  25   0 a frost storm 
+elven bow an elven bow                    1250 40  5 10 40   10 60  0  12 0 0  0    0  0  15   3 a bolt of energy 
+pouch a pouch of stones                   2    5   0 89 0    21 0   20 19 0 0  0    0  0  0    1  
+sling a sling                             10   15  3 1  4    8  89  0  0  0 0  0    0  0  0    1  
+blowdart a blowdart                       0    1   0 0  2    21 0   0  20 0 0  0    0  1  0    3  
+tube a tube of blowdarts                  5    5   0 92 0    21 0   10 19 0 0  0    0  0  0    3  
+blowgun a blowgun                         25   10  3 1  2    8  92  0  0  0 0  0    0  0  2    3  
+
+You're in the equipment shop.
++======================+=======+
+| Item                 | Price |
++----------------------+-------+
+| torch                |     1 |
+| waterskin            |     1 |
+| dart                 |     1 |
+| ration of food       |     2 |
+| pouch                |     2 |
+| rope                 |     3 |
+| knife                |     5 |
+| spear                |    10 |
+| quiver               |    10 |
+| case                 |    12 |
+| axe                  |    15 |
++======================+=======+
+
+You're in the magic shop.
++======================+=======+
+| Item                 | Price |
++----------------------+-------+
+| rue potion           |     5 |
+| amaranth potion      |    10 |
+| verbena potion       |    10 |
+| yarrow potion        |    10 |
+| rowan potion         |    10 |
+| hyssop potion        |    10 |
+| manastone            |    10 |
+| anemone potion       |    25 |
+| glowstone            |    50 |
+| horn of frost        |    50 |
+| heartstone           |   100 |
+| wand of lightning    |   100 |
+| rod of flame         |   200 |
++======================+=======+

@@ -1,0 +1,33 @@
+  [v] down to Dungeon Level 2
+                                                                 # (Bronze
+                                                   Cyclops(2) [x]    Door)
+                                                 (Bronze Key)  |
+                                                              [ ]
+                                                             /
+                               up to  [ ]-[ ]             [ ]
+                              Town 1 #(Iron) \             |
+                      [ ]-[ ]-[ ]-[^] (Door)  [ ]-[ ]     [ ]
+                     /             |                 \   /
+                  [ ]             [ ]                 [ ]
+                   |                 \
+                  [ ]                 [ ]-[ ]
+       Minotaur    |                         \ 
+     (Copper Key) [x]                         [v]-[^]  
+                     # (Copper Door)
+        [ ]           [ ]
+       /                 \
+    [ ]                   [T] Spike Trap                      [ ]
+     | \__  Bug              \                               /   \
+     |    \                   [ ]                 [ ]     [ ]     [ ]
+     |     v                   | Brass Door      /   \   /         |
+    [ ]---[ ]            Ogre [x]#[ ]         [ ]     [ ]         [ ]
+   /         \    (Brass Key)/ |     \       /         |
+[ ]           [ ]         [ ] [ ]     [ ]-[ ]         [ ]        
+                 \       /       \           \           \
+                  [ ]-[ ]         [ ]         [ ]         [x] Cyclops
+                       |           |                         (Iron Key)
+                      [ ]         [ ]
+                     /           /   \
+                  [ ]         [ ]     [ ]
+                                         \
+                                          [ ]

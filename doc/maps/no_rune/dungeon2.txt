@@ -1,0 +1,41 @@
+                                         [ ]
+                                        /   \
+                                     [ ]     [ ]
+                                    /         |
+                                 [ ]         [ ]         up to
+                                            /       Dungeon Level 1 
+                                         [ ]             [^x] Troll
+                                        /                 |
+                                     [ ]                 [ ]
+                                      |                 /
+                                     [ ]             [ ]
+                       Pit Trap         \           /
+                     [ ]-[T]-[ ]         [ ]     [ ]
+                      |         \           \   /
+             Chimera [x]         [ ]         [x] Ogre
+                      |             \       /
+                     [ ]             [ ]-[ ]
+                    /
+                 [ ]
+                    \
+                     [ ]
+                        \
+                         [ ]                         [ ]-[ ]
+                          |                         /       \
+                         [ ]                     [ ]         [x] Wild Boar
+                        /   \                   /
+     Cyclops [x]-[ ]-[ ]     [ ]-[ ]     [ ]-[ ]
+   (Silver Key) \                   \   /       \
+                 [ ]                 [ ]         [ ]
+                    \                           /
+                     [ ]                     [ ]
+                    /                       /
+                 [ ]                     [ ]
+                /                         |
+             [ ]                         [T] Poison Trap
+            /                             |
+         [ ]         [ ]                 [ ]
+        /           /                     # Silver Door
+     [ ]         [ ]               Stone [x] 
+        \       /                 Giantess  \       down to
+         [ ]-[ ]                     (2)     [v] Dungeon Level 3

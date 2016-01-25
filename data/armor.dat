@@ -1,0 +1,16 @@
+12:cloak:a cloak:10 20 0 0 0 11 0 0 0 0 0 0 0 0 0 0 255
+13:robes:robes:20 30 0 0 0 11 1 0 0 0 0 0 0 0 1 1 255
+14:cuirass:a leather cuirass:40 50 0 0 0 12 2 0 0 0 0 0 0 0 2 1 125
+15:breastplate:a steel breastplate:200 200 0 0 0 13 4 0 0 0 0 0 0 0 2 1 125
+16:ringmail:ringmail armor:250 300 0 0 0 13 5 0 0 0 0 0 0 0 3 1 125
+17:chainmail:chainmail armor:300 400 0 0 0 13 6 0 0 0 0 0 0 0 3 1 125
+18:scalemail:scalemail armor:400 450 0 0 0 14 8 0 0 0 0 0 0 0 4 1 5
+19:bandmail:banded mail armor:500 500 0 0 0 14 10 0 0 0 0 0 0 0 6 1 5
+20:platemail:platemail armor:600 600 0 0 0 14 12 0 0 0 0 0 0 0 8 1 5
+54:demonhide:demonhide armor:1500 250 0 0 0 15 15 0 0 0 0 0 0 0 10 2 1
+55:dragonscale:dragonscale armor:1800 500 0 0 0 16 18 0 0 0 0 0 0 0 12 2 1
+74:pink teddy:a pink teddy:0 0 0 0 0 14 15 0 0 0 0 0 0 0 1000 0 5
+75:blue robes:blue robes:0 0 0 0 0 14 18 0 0 0 0 0 0 0 1000 0 5
+80:violet robes:violet robes:0 30 0 0 0 11 1 0 0 0 0 0 0 0 1000 0 255
+100:green tunic:a green tunic:0 10 0 0 0 11 1 0 0 0 0 0 0 0 0 0 255
+103:dwarven scalemail:dwarven scalemail armor:0 550 0 0 0 13 20 0 0 0 0 0 0 0 15 0 125

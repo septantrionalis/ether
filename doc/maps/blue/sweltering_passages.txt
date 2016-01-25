@@ -1,0 +1,61 @@
+                                       [x] Flame Giantess (3)
+                                      /
+                                   [ ]                          Apollyon   [v] down to Hewn Granite Corridor
+                                    |     Flame Giant Warlord  Dragon (2)   |
+                           [ ]     [ ]-[x]   & Opal Key            [x]     [ ]
+                          /   \   /       (needed in corridor)        \   /        Flame Giantess (2)
+               [ ]     [ ]     [x]                                     [ ]             [x]
+              /   \   /    Flame  \                                   /               /
+           [x]     [ ]   Giant (2) [ ]-[x]                         [ ]             [ ]
+        Apollyon    |                Apollyon                Apollyon \           /
+       Dragon (2)  [ ]              Dragon (3)              Dragon (2) [x]     [x] Flame Giant (2)
+                      \                                               /   \   /   \
+                       [ ]-[ ]-[ ]-[ ]-[ ]                         [ ]     [ ]     [ ]
+                      /                   \                       /
+               [ ]-[ ]                     [ ]-[ ]-[ ]-[ ]-[ ]-[ ]
+              /                                                   \
+           [ ]                                                     [ ]
+            |                                                         \
+           [ ]                                                         [ ]
+          /                                                               \
+   [ ]-[ ]                                                                 [ ]     [ ]
+        |                                                                     \   /   \
+       [ ]                                                                     [ ]     [ ]-[ ]
+      /                                                                         |             \
+   [ ]                                                                         [ ]             [ ]
+      \                                                                         |               |
+       [ ]                                                                     [ ]             [ ]
+        |                                                                       |               |
+       [ ]                                                                     [ ]     [ ]     [ ]
+down to   \                                                                     |       |       |
+ Fire      [v] up to Ledge                                                     [ ]     [ ]     [ ]     [ ]
+Catacombs   |                                                                 /         |         \   /
+[v]        [ ]                                                             [ ]         [ ]         [x] Apollyon
+ |          |                                                               |         /             |   Dragon (2)
+[ ]        [ ]                                                             [ ]     [ ]             [ ]
+ |          |                                                               |       |             /
+[ ]        [ ]                                                             [ ]     [ ]         [x]
+ |          |                                                               |       |       Apollyon
+[ ]        [ ]                                                             [ ]     [ ]     Dragon (3)
+ |          |                                                               |       |
+[ ]        [ ]                                                             [ ]     [ ]
+ |          |                                                             /         |
+[ ]        [ ]                                                         [ ]         [ ]
+ |          |                                                         /           /
+[ ]        [ ]                                                     [ ]         [ ]
+ |          |                                                     /           /
+[ ]        [ ]                                                 [ ]         [ ]
+ |          |                                                   |         /   \
+[ ]        [ ]                                                 [ ]     [ ]     [ ]         [ ]
+ |          |                                                   |       |         \       /
+[ ]        [ ]                                                 [ ]     [ ]         [ ]-[x]
+ |            \                                               /         |        Apollyon \
+[ ]            [ ]                                         [ ]         [ ]      Dragon (2) [ ]
+   \              \                                       /           /                     |
+    [ ]            [ ]                                 [ ]         [ ]                     [ ]
+       \              \                               /           /                           \
+        [ ]            [ ]-[ ]-[ ]                 [ ]         [ ]                    Apollyon [x]
+       /   \          /                               \       /                      Dragon (3)
+    [ ]     [ ]----[ ]                                 [ ]-[ ]
+       \   /                                          /
+        [ ]                [ ]-[ ]-[ ]-[ ]-[ ]-[ ]-[ ]

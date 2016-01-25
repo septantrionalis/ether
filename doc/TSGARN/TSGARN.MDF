@@ -1,0 +1,27 @@
+; TSGARN.MDF
+
+Module Name: Arena5.6d-Gold
+
+Developer: T.S.G.
+
+Requires:
+Replaces:
+
+Install:
+
+Online user manual:
+
+DLLs: TSGARN
+MSGs: TSGARN-C
+
+Btrieve page size: 512
+Btrieve files:     1
+
+Cleanup:
+
+Event-1:
+Event-2:
+Event-3:
+Event-4:
+
+Add-On Utility:

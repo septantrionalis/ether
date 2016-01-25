@@ -1,0 +1,63 @@
+                              [Mx] Flame Giant Warlord
+                             /
+                 Flame    [ ]                         [x] Apollyon                       Flame
+               Giant (2) /   #                       /   Dragon (3)      Up to          Giant (2)
+                  [x]-[ ]     [Mx]                [ ]                  Sweltering         [Mx]
+                 /           Flame                 |                    Passages         /
+              [ ]           Giant (3)             [ ]                     [^]         [ ]
+               |                                 /                           \         |
+              [ ]-[ ]-[ ]-[ ]-[ ]-[ ]-[ ]-[ ]-[ ]                             [ ]     [ ]     M = Move tapestry; Pull lever
+             #                                   \                               \   /
+      [ ]-[ ]                                     [ ]-[ ]-[ ]-[ ]-[ ]-[ ]         [ ]
+     /                                                                   \           #
+  [ ]             [ ]-[ ]-[ ]-[ ]-[ ]-[ ]-[ ]                             [ ]         [ ]                   Apollyon
+   |             /                           \                               \           \                 Dragon (2)
+  [ ]     [ ]-[ ]                             [ ]                             [ ]         [ ]                 [Mx]
+     \   /                                       \                               \           \               /
+      [ ]                                         [ ]                             [ ]         [ ]     [ ]-[ ]
+     # Topaz Door                                    \                               \           \   /
+  [ ]                                                 [ ]                             [ ]         [ ]
+   |                                                     \                               \           #
+  [ ]                                                     [ ]                             [ ]         [ ]
+ /                                                 Opal Door #                               \         |
+to                                                            [x] Apollyon Dragon (3)         [ ]     [ ]
+Valley                                                         |    & Tigereye Key             |       |
+                                                              [ ]                             [ ]     [ ]
+                                                 Tigereye Door #                               |       |
+                                                              [x] Flame Giant (3)             [ ]     [ ]
+                                                               |   & Quartz Key                |       |
+                                                              [ ]                             [ ]     [ ]
+                                                   Quartz Door #                               |       |
+                                                              [x] Flame Giant Warlord (2)     [ ]     [ ]-[ ]
+                                                                    & Topaz Key                |       #     \
+                                                                                              [ ]     [ ]     [ ]-[ ]
+                                                                                               |       |             \
+                                                                                              [ ]     [ ]             [Mx]
+                                                                                               |       |             Flame
+                                                                                              [ ]     [ ]           Giant (2)
+                                                                                               |       |
+                                                                                              [ ]     [ ]
+                                                                                             /         |
+                                                                                          [ ]         [ ]
+                                                                                           |         #   \
+                                                                                          [ ]     [ ]     [ ]
+                                                                                           |       |       |
+                                                                                          [ ]     [ ]     [Mx]
+                                                                                           |       |    Apollyon
+                                                                                          [ ]     [ ]  Dragon (2)
+                                                                                           |       |
+                                                                                          [ ]     [ ]
+                                                                                         /         |
+                                                                                      [ ]         [ ]            Flame
+                                                                                     /           #   \         Giant (2)
+                                                                                  [ ]         [ ]     [ ]         [Mx]
+                                                                                 /           /         |         /
+                                                                              [ ]         [ ]         [ ]     [ ]
+                                                                               |         /               \   /
+                                                                              [ ]     [ ]                 [ ]
+                                                                               |       |
+                                                                              [ ]     [ ]
+                                                                             /         |
+                                                                          [ ]         [ ]
+                                                                             \       /
+                                                                              [ ]-[ ]

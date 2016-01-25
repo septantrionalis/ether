@@ -1,0 +1,12 @@
+1=org.tdod.ether.taimpl.spells.SpellSorcerorAttack
+2=org.tdod.ether.taimpl.spells.SpellAcolyteAttack
+3=org.tdod.ether.taimpl.spells.SpellDruidAttack
+4=org.tdod.ether.taimpl.spells.SpellNecrolyteAttack
+11=org.tdod.ether.taimpl.spells.SpellCureCondition
+12=org.tdod.ether.taimpl.spells.SpellSustenance
+21=org.tdod.ether.taimpl.spells.SpellHeal
+22=org.tdod.ether.taimpl.spells.SpellRegeneration
+31=org.tdod.ether.taimpl.spells.SpellSummon
+32=org.tdod.ether.taimpl.spells.SpellInvisibility
+33=org.tdod.ether.taimpl.spells.SpellStatModifier
+41=org.tdod.ether.taimpl.spells.SpellCharm

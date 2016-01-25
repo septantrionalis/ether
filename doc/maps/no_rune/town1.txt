@@ -1,0 +1,40 @@
+-----------------------------------
+|          [M]       [X]          |
+|           |         |        Town 2
+|           |         |           |
+|          [ ]       [ ]          |
+|           |         |           |
+|           |         |           |
+|[E]--[ ]--[ ]--[ ]--[ ]--[ ]--[A]|          A = Armor Shop
+|         / |         |           |
+|        /  |         |           |          D = Docks
+|     [v]  [ ]       [ ]          |
+|    / |    |         |           |          E = Equipment Shop
+|   /down to|         |           |
+|[I] Sewers[ ]       [T]          |          G = Guild
+|         /   \                   |
+|        /     \                  |          I = Inn
+|     [ ]       [ ]               |
+|    /             \              |          M = Magic Shop
+|   /               \             |
+|[W]                 [D]          |          T = Temple
+----------------------|------------
+b passage (100 silvers) White Rune needed    V = Vault
+      ----------------|----------------
+      |         [V^] [D]  [v]         |      W = Weapons Shop
+   Town 1          \  |    |          |
+      |             \ |    |          |      X = Arena
+      |         [E]  [Gv] [I^]        |
+      |            \  |  /            |      H = Hall of Fame
+      |             \ | /             |
+      |         [T]--[ ]-[Xv]        |      % = Cannot pass if you have any rune
+      |               |    | down     |
+      |               |   to Dungeon  |      v = down
+      |         [H]--[ ]              |
+      |               |               |      ^ = up
+      |               |               |
+      |         [A]--[ ]--[W]         |
+      |             / | \             |
+      |            /  |  \            |
+      |to Mountains  [M]  [X]         |
+      ---------------------------------

@@ -1,0 +1,2031 @@
+/*(C) Copyright Sean Ferrell (1990-96) all rights reserved.*/
+
+   /*********************************************************************/
+ /*************************************************************************/
+/*****      T E L E - A R E N A                        7 / 30 / 90     *****/
+/****              v5.6                                5 / 12 / 96      ****/
+/***             Messages                                                ***/
+/***                                                                     ***/
+/***                                                                     ***/
+/***                                  by                                 ***/
+/***                                                                     ***/
+/****                       S E A N   F E R R E L L                     ****/
+/*****                                                                 *****/
+ /*************************************************************************/
+   /*********************************************************************/
+
+LANGUAGE {English/ANSI}
+
+LEVEL6 {}
+
+ARNINT0 {
+                      T E L E - A R E N A   v5.6d
+       (C) Copyright Sean Ferrell (1990-96) all rights reserved.
+                       -------------------------
+} T Tele-arena
+
+ARNINT4 {
+
+  The following is a list of people who contributed to the production of
+Tele-Arena version 5.6d:
+
+  Sean Ferrell:       Author/Programmer
+
+  Jim Sweeny,
+  Elizabeth Casino:   Design Assitants/Playtesters
+
+
+  For helpful information about the game and some possible commands for the
+different areas in the arena type 'HELP' or '?' from anywhere in the game.
+
+} T Tele-arena
+
+HITRET {<< hit return >>} T Tele-arena
+
+RESMNU {
+
+1) Resurect Old Character for %s Credits.
+2) Create New Character
+3) Exit
+
+Select an option: } T Tele-arena
+
+NEDCRD {[1;37mYou don't have enough credits...
+[1;37m} T
+
+RACE {
+
+1) Elven     4) Human
+2) Dwarven   5) Goblin
+3) Gnomish   6) Half-Ogre
+
+Select a race: } T Tele-arena
+
+COMPLX {
+
+1) Porcelain 6) Tan
+2) Pale      7) Golden
+3) Creamy    8) Bronzed
+4) Fair      9) Ruddy
+5) Rosey    10) Ebony
+
+Select a complexion: } T Tele-arena
+
+EYECOL {
+
+1) Yellow    6) Brown
+2) Green     7) Hazel
+3) Blue      8) Gray
+4) Violet    9) Black
+5) Red
+
+Select an eye color: } T Tele-arena
+
+HARCOL {
+
+ 1) White     6) Red
+ 2) Silver    7) Brown
+ 3) Gray      8) Black
+ 4) Blonde    9) Blue
+ 5) Copper   10) Green
+11) Purple
+
+Select a hair color: } T Tele-arena
+
+HARSTL {
+
+1) Straight  6) Mowhawked
+2) Wavy      7) Ponytailed
+3) Curly     8) Pigtailed
+4) Kinky
+5) Wild
+
+Select a hair style: } T Tele-arena
+
+HARLNG {
+
+1) Short
+2) Shoulder Length
+3) Waist Length
+4) Knee Length
+5) Ankle Length
+
+Select a hair length: } T Tele-arena
+CLASS {
+
+1) Warrior   5) Hunter
+2) Sorceror  6) Druid
+3) Acolyte   7) Archer
+4) Rogue     8) Necrolyte
+
+Select a class: } T Tele-arena
+
+INVALID {
+Invalid choice, enter a number from 1 to %d: } T Tele-arena
+
+STATS {
+Race:         %s
+Class:        %s
+Level:        %d
+Experience:   %s
+Rune:         %s
+
+Intellect:    %d
+Knowledge:    %d
+Physique:     %d
+Stamina:      %d
+Agility:      %d
+Charisma:     %d
+
+Mana:         %d / %d
+Vitality:     %d / %d
+Status:       %s
+Armor Rating: %d
+
+Weapon:       %s
+Armor:        %s
+Encumberance: %d / %d
+} T Tele-arena
+
+STATS2 {Mana:         %d / %d
+Vitality:     %d / %d
+Status:       %s
+} T Tele-arena
+
+STATS3 {Level:        %d
+Experience:   %s
+Rune:         %s
+} T Tele-arena
+
+ANONE {None.
+} T Tele-arena
+
+ASTARS {} T Tele-arena
+
+LODCHR {Loading character...
+} T Tele-arena
+
+THRHEIS {%s is to the %s!
+} T Tele-arena
+
+THRITIS {The %s is to the %s!
+} T Tele-arena
+
+DESC1 {%s has %s complexion, %s eyes, and %s, %s, %s hair. } T Tele-arena
+
+INSP1 {%s is a } T Tele-arena
+
+INSP2 {. } T Tele-arena
+
+INSP3 {%s is wearing %s, is armed with %s } T Tele-arena
+
+RETURN {
+} T Tele-arena
+
+CMSG1 {stunningly attractive } T Tele-arena
+
+CMSG2 {somewhat attractive } T Tele-arena
+
+CMSG3 {rather plain looking } T Tele-arena
+
+CMSG4 {somewhat repulsive } T Tele-arena
+
+PMSG1 {and powerfully built %s %s %s} T Tele-arena
+
+PMSG2 {and moderately built %s %s %s} T Tele-arena
+
+PMSG3 {and slightly built %s %s %s} T Tele-arena
+
+KMSG1 { with a worldly air about %s. } T Tele-arena
+
+KMSG2 { with an inexperienced look about %s. } T Tele-arena
+
+AMSG1 {You notice that %s movements are very quick and agile. } T Tele-arena
+
+AMSG2 {You notice that %s movements are rather slow and clumsy. } T Tele-arena
+
+IMSG1 {%s has a bright look in %s eyes. } T Tele-arena
+
+IMSG2 {%s has a dull look in %s eyes. } T Tele-arena
+
+HMSG1 {and %s is sorely wounded.} T Tele-arena
+
+HMSG2 {and %s seems to be moderately wounded.} T Tele-arena
+
+HMSG3 {and %s appears to be wounded.} T Tele-arena
+
+HMSG4 {and looks as if %s is lightly wounded.} T Tele-arena
+
+HMSG5 {and %s seems to be in good physical condition.} T Tele-arena
+
+BMSG1 { You also notice a distinctive %s rune inscribed on %s forehead.} T Tele-arena
+
+MMSG1 { The %s is sorely wounded.} T Tele-arena
+
+MMSG2 { The %s seems to be moderately wounded.} T Tele-arena
+
+MMSG3 { The %s appears to be wounded.} T Tele-arena
+
+MMSG4 { It looks as if the %s is lightly wounded.} T Tele-arena
+
+MMSG5 { The %s seems to be in good physical health.} T Tele-arena
+
+CHN {%s} T Tele-arena
+
+SLPYOU {The barmaid reacts rapidly by slapping you across the face!
+} T Tele-arena
+
+SLPOTH {%s pinches the barmaid's rear, and gets slapped across the face!
+} T Tele-arena
+
+WNKYOU {The barmaid quickly winks at you, and then goes about her duties!
+} T Tele-arena
+
+WNKOTH {%s kisses the barmaid on the cheek.
+The barmaid quickly winks at %s.
+} T Tele-arena
+
+LEFTDF {[1;33m%s just fell to the ground lifeless!
+[1;37m} T Tele-arena
+
+YOUWON {[1;33mCongratulations, you've defeated %s!
+[1;37m} T Tele-arena
+
+YOUMDF {[1;33mCongratulations, you've defeated the %s!
+[1;37m} T Tele-arena
+
+GTCGLD {[1;36mYou found %u gold crowns while searching %s's corpse.
+[1;37m} T Tele-arena
+
+GOTTRS {[1;36mYou found %d gold crowns while searching the %s's corpse.
+[1;37m} T Tele-arena
+
+GTLTRS {[1;36mYou found %d gold crowns while searching the area.
+[1;37m} T Tele-arena
+
+GOTITM {[1;36mWhile searching the area, you notice %s, which you add to your
+possessions.
+[1;37m} T Tele-arena
+
+GOTITM2 {[1;36mYou find %s, which you add to your possessions.
+[1;37m} T Tele-arena
+
+NGTITM {[0;35mWhile searching the area, you notice %s, but you can't carry it.
+[1;37m} T Tele-arena
+
+NGTITM2 {[0;35mYou find %s, but you can't carry it.
+[1;37m} T Tele-arena
+
+MONDEF {[1;33mThe %s falls to the ground lifeless!
+[1;37m} T Tele-arena
+
+MONLEV {[1;33mThe %s vanishes with a thunderclap!
+[1;37m} T Tele-arena
+
+HOTENV {[0;31mYou're overheated!
+[1;37m} T Tele-arena
+
+POISON {[0;32mYou're poisoned!
+[1;37m} T Tele-arena
+
+PARLYZ {[0;32mYou're paralyzed!
+[1;37m} T Tele-arena
+
+DRAIN {[0;32mYou've been drained!
+[1;37m} T Tele-arena
+
+YOUHNG {[0;31mYou're hungry.
+[1;37m} T Tele-arena
+
+YOUTHR {[0;31mYou're thirsty.
+[1;37m} T Tele-arena
+
+OTHPSN {%s looks a little under the weather.
+} T Tele-arena
+
+OTHHNG {You hear %s's stomach growling.
+} T Tele-arena
+
+OTHTHR {%s is looking rather parched.
+} T Tele-arena
+
+OTHDED {[1;33m%s loses conciousness and falls to the floor.
+[0m[1;37m} T Tele-arena
+
+YOUDED {[1;5;31mThe poison in your veins renders you unconscious.
+You awaken after an unknown amount of time...
+[0m[1;37m} T Tele-arena
+
+YOUDED1 {[1;5;31mThe damage was more than you could withstand.
+You awaken after an unknown amount of time...
+[0m[1;37m} T Tele-arena
+
+YOUDED2 {[1;5;31mYou've passed out from lack of food.
+You awaken after an unknown amount of time...
+[0m[1;37m} T Tele-arena
+
+YOUDED3 {[1;5;31mYou've passed out from lack of water.
+You awaken after an unknown amount of time...
+[0m[1;37m} T Tele-arena
+
+YOUDED4 {[1;5;31mAs the final blow strikes your body you fall unconscious.
+You awaken after an unknown amount of time...
+[0m[1;37m} T Tele-arena
+
+YOUDED5 {[1;5;31mYou've passed out from heat exhaustion.
+You awaken after an unknown amount of time...
+[0m[1;37m} T Tele-arena
+
+YOUSUI {[1;5;31mAfter intense mental preparation, you take your own life!
+You awaken after an unknown amount of time...
+[0m[1;37m} T Tele-arena
+
+GRPHDR {Your group currently consists of:
+} T Tele-arena
+
+ASKGRP {Ok, you've asked to join %s's group.
+} T Tele-arena
+
+ASKGRP2 {%s is asking to join your group.
+} T Tele-arena
+
+OTHAGR1 {%s is asking to join %s's group.
+} T Tele-arena
+
+OTHAGR2 {%s is asking %s to join %s group.
+} T Tele-arena
+
+JOIGRP {%s is now a member of your group.
+} T Tele-arena
+
+ACCGRP {You are now a member of %s's group.
+} T Tele-arena
+
+OTHACG {%s has been accepted into %s's group.
+} T Tele-arena
+
+REMGRP {%s is no longer a member of your group.
+} T Tele-arena
+
+REJGRP {You are no longer a member of %s's group.
+} T Tele-arena
+
+OTHRMG {%s has just been kicked out of %s's group.
+} T Tele-arena
+
+LEVGRP {Ok, you are no longer a member of %s's group.
+} T Tele-arena
+
+LEVGRP2 {%s just left your group.
+} T Tele-arena
+
+OTHLVG {%s has just left %s's group.
+} T Tele-arena
+
+LEVGRP3 {Ok, you are no longer waiting to join %s's group.
+} T Tele-arena
+
+OTHSWG {%s has just stopped waiting to join %s's group.
+} T Tele-arena
+
+YOULDR {[0;35mYou are the leader of this group.
+[1;37m} T Tele-arena
+
+NOGRLD {[0;35mSorry, you are not the leader of a group.
+[1;37m} T Tele-arena
+
+NOGRLD2 {[0;35mSorry, %s is not the leader of a group.
+[1;37m} T Tele-arena
+
+NOTGRP {[0;35mSorry, you are not a member of any group.
+[1;37m} T Tele-arena
+
+NASGRP {[0;35mSorry, %s has not asked to join your group.
+[1;37m} T Tele-arena
+
+NASGRP2 {[0;35m%s would like you to join %s group.
+[1;37m} T Tele-arena
+
+WRNGRP {[0;35mSorry, %s is not a member of your group.
+[1;37m} T Tele-arena
+
+ALRGRP {[0;35m%s is already a member of your group.
+[1;37m} T Tele-arena
+
+NOJSLF {[0;35mSorry, you are already a member of your group.
+[1;37m} T Tele-arena
+
+NAGSLF {[0;35mSorry, You may not add yourself to your group.
+[1;37m} T Tele-arena
+
+NRGSLF {[0;35mSorry, you may not remove yourself from your group.
+[1;37m} T Tele-arena
+
+NOAPSL {[0;35mSorry, you are already the leader of your group.
+[1;37m} T Tele-arena
+
+APTLDR {[0;35mOk, you've appointed %s as the new leader of your group!
+[1;37m} T Tele-arena
+
+APTYOU {%s has just appointed you as the new leader of the group.
+} T Tele-arena
+
+APTGRP {%s has just appointed %s as the new leader of your group.
+} T Tele-arena
+
+OTHAPT {%s has just appointed %s as the new group leader.
+} T Tele-arena
+
+DISGRP {Ok, you've disbanded your group!
+} T Tele-arena
+
+GRPDIS {%s has just disbanded the group!
+} T Tele-arena
+
+GRPARV {%d group members have arrived.
+} T Tele-arena
+
+JSTSHG {%s just shared %s gold with the group, your share was %u gold.
+} T Tele-arena
+
+JSTSHN {%s just shared gold with the group, but you couldn't carry your share.
+} T Tele-arena
+
+YOUSHG {You shared %s gold with the group, each share was %u gold.
+} T Tele-arena
+
+OTHSHR {%s just shared gold with %s group.
+} T Tele-arena
+
+GRPFOL {You are following your group.
+} T Tele-arena
+
+GRPHLT {You are not following your group.
+} T Tele-arena
+
+YOUFOL {You follow your group leader...
+} T Tele-arena
+
+TOOSLW {You couldn't keep up with your group leader.
+} T Tele-arena
+
+AUTAON {Automatic combat is now on.
+} T Tele-arena
+
+AUTAOF {Automatic combat is now off.
+} T Tele-arena
+
+GNDLEV {After a rigorous mental and physical training session, you managed to blend
+your personal experience and the new knowledge imparted to you by the guild
+masters into a greater level of personal power!
+} T Tele-arena
+
+GNDPRM {After a rigorous mental and physical training session, you managed to blend
+your personal experience and the new knowledge imparted to you by the guild
+masters into a greater level of personal power beyond anything you have
+previously known. The guild bestows upon you the title of %s!
+} T Tele-arena
+
+GOTTRN {%s is lead into another room by one of the guild's high ranking
+members, and returns with a look of greater confidence.
+} T Tele-arena
+
+GOTPRM {%s is lead into another room by one of the guild's high ranking
+members, and returns with a look of greater confidence and power.
+} T Tele-arena
+
+HITYOU {[1;31m%s attacked you with %s for %d damage!
+[1;37m} T Tele-arena
+
+NOTMLE {[0;35mThat is not a melee weapon!
+[1;37m} T Tele-arena
+
+CFRYET {[0;35mSorry, you are not yet experienced enough to use missle weapons.
+[1;37m} T Tele-arena
+
+CFRTHT {[0;35mSorry, that is not a missle weapon!
+[1;37m} T Tele-arena
+
+NOTPRJ {[0;35mSorry, you haven't got %s!
+[1;37m} T Tele-arena
+
+NORMAR {[0;35mSorry, you have no space in your inventory!
+[1;37m} T Tele-arena
+
+CTHYET {[0;35mSorry, you are not yet experienced enough to use thrown weapons.
+[1;37m} T Tele-arena
+
+CTHTHT {[0;35mSorry, that is not a throwing weapon!
+[1;37m} T Tele-arena
+
+THRYOU1 {[1;31m%s threw %s at you, which hit for %d damage!
+[1;37m} T Tele-arena
+
+FIRYOU1 {[1;31m%s fired %s at you, which hit for %d damage!
+[1;37m} T Tele-arena
+
+THRYOU2 {[1;31mYou've been hit by %s from the %s for %d damage!
+[1;37m} T Tele-arena
+
+HITOTH {[1;35m%s just attacked %s with %s!
+[1;37m} T Tele-arena
+
+HTMOTH {[1;35m%s just attacked the %s with %s!
+[1;37m} T Tele-arena
+
+THROTH1 {[1;35m%s just threw %s at %s, and hit!
+[1;37m} T Tele-arena
+
+FIROTH1 {[1;35m%s just fired %s at %s, and hit!
+[1;37m} T Tele-arena
+
+THROTH12 {[1;35m%s just threw %s to the %s!
+[1;37m} T Tele-arena
+
+FIROTH12 {[1;35m%s just fired %s to the %s!
+[1;37m} T Tele-arena
+
+THROTH2 {[1;35m%s was just hit by %s from the %s!
+[1;37m} T Tele-arena
+
+THRMOT2 {[1;35mThe %s was just hit by %s from the %s!
+[1;37m} T Tele-arena
+
+THTMOT {[1;35m%s just threw %s at the %s, and hit!
+[1;37m} T Tele-arena
+
+FHTMOT {[1;35m%s just fired %s at the %s, and hit!
+[1;37m} T Tele-arena
+
+ATTHIT {[1;35mYour attack hit %s for %d damage!
+[1;37m} T Tele-arena
+
+ATTHIT2 {[1;35mYour skillful attack hit %s for %d damage!
+[1;37m} T Tele-arena
+
+ATTHTM {[1;35mYour attack hit the %s for %d damage!
+[1;37m} T Tele-arena
+
+ATTHTM2 {[1;35mYour skillful attack hit the %s for %d damage!
+[1;37m} T Tele-arena
+
+ATTGLN {[1;35mYour attack glanced off %s's armor!
+[1;37m} T Tele-arena
+
+ATTGNM {[1;35mYour attack glanced off the %s's armor!
+[1;37m} T Tele-arena
+
+GLNYOU {[1;35m%s's %s glanced off your armor!
+[1;37m} T Tele-arena
+
+TGNYOU1 {[1;35mYour armor deflected %s thrown by %s!
+[1;37m} T Tele-arena
+
+FGNYOU1 {[1;35mYour armor deflected %s fired by %s!
+[1;37m} T Tele-arena
+
+TGNYOU2 {[1;35mYour armor deflected %s from the %s!
+[1;37m} T Tele-arena
+
+GLNOTH {[1;35m%s's %s just glanced off of %s's armor!
+[1;37m} T Tele-arena
+
+TGNOTH1 {[1;35m%s's armor just deflected %s thrown by %s!
+[1;37m} T Tele-arena
+
+FGNOTH1 {[1;35m%s's armor just deflected %s fired by %s!
+[1;37m} T Tele-arena
+
+TGNOTH2 {[1;35m%s's armor just deflected %s from the %s!
+[1;37m} T Tele-arena
+
+TGNMOT2 {[1;35mThe %s's armor just deflected %s from the %s!
+[1;37m} T Tele-arena
+
+GNMOTH {[1;35m%s's %s just glanced off the %s's armor!
+[1;37m} T Tele-arena
+
+TGNMOT {[1;35mThe %s's armor just deflected %s thrown by %s!
+[1;37m} T Tele-arena
+
+FGNMOT {[1;35mThe %s's armor just deflected %s fired by %s!
+[1;37m} T Tele-arena
+
+ATTDOG {[1;35m%s dodged your attack!
+[1;37m} T Tele-arena
+
+MATDOG {[1;35mThe %s dodged your attack!
+[1;37m} T Tele-arena
+
+DOGYOU {[1;35mYou skillfully dodge %s's attack!
+[1;37m} T Tele-arena
+
+DOGOTH {[1;35m%s barely dodged %s's %s!
+[1;37m} T Tele-arena
+
+TDGYOU1 {[1;35mYou skillfully dodge %s thrown by %s!
+[1;37m} T Tele-arena
+
+FDGYOU1 {[1;35mYou skillfully dodge %s fired by %s!
+[1;37m} T Tele-arena
+
+TDGYOU2 {[1;35mYou skillfully dodge %s from the %s!
+[1;37m} T Tele-arena
+
+TDGOTH1 {[1;35m%s barely dodged %s thrown by %s!
+[1;37m} T Tele-arena
+
+FDGOTH1 {[1;35m%s barely dodged %s fired by %s!
+[1;37m} T Tele-arena
+
+TDGOTH2 {[1;35m%s barely dodged %s from the %s!
+[1;37m} T Tele-arena
+
+TDGMOT2 {[1;35mThe %s barely dodged %s from the %s!
+[1;37m} T Tele-arena
+
+DGMOTH {[1;35mThe %s barely dodged %s's %s!
+[1;37m} T Tele-arena
+
+TDGMOT {[1;35mThe %s barely dodged %s thrown by %s!
+[1;37m} T Tele-arena
+
+FDGMOT {[1;35mThe %s barely dodged %s fired by %s!
+[1;37m} T Tele-arena
+
+ATTFUM {[1;35mYour attack missed!
+[1;37m} T Tele-arena
+
+FUMYOU {[1;35m%s's poorly executed attack misses you!
+[1;37m} T Tele-arena
+
+FUMOTH {[1;35m%s's poorly executed attack misses %s!
+[1;37m} T Tele-arena
+
+TFMYOU1 {[1;35m%s threw %s at you, which missed!
+[1;37m} T Tele-arena
+
+FFMYOU1 {[1;35m%s fired %s at you, which missed!
+[1;37m} T Tele-arena
+
+TFMYOU2 {[1;35mYou were just nearly missed by %s from the %s!
+[1;37m} T Tele-arena
+
+TFMOTH1 {[1;35m%s threw %s at %s, and missed!
+[1;37m} T Tele-arena
+
+FFMOTH1 {[1;35m%s fired %s at %s, and missed!
+[1;37m} T Tele-arena
+
+TFMOTH2 {[1;35m%s was just nearly missed by %s from the %s!
+[1;37m} T Tele-arena
+
+TFMMOT2 {[1;35mThe %s was just nearly missed by %s from the %s!
+[1;37m} T Tele-arena
+
+FMMOTH {[1;35m%s's poorly executed attack misses the %s!
+[1;37m} T Tele-arena
+
+TFMMOT {[1;35m%s threw %s at the %s, and missed!
+[1;37m} T Tele-arena
+
+FFMMOT {[1;35m%s fired %s at the %s, and missed!
+[1;37m} T Tele-arena
+
+LEVCBT {[0;35mYou cannot leave in the heat of battle!
+[1;37m} T Tele-arena
+
+ATTEXH {[0;35mYou are still physically exhausted from your previous activities!
+[1;37m} T Tele-arena
+
+RNGGNG {[1;33m%s just rang the great gong!
+[1;37m} T Tele-arena
+
+GNGRNG {[1;33mThe great gong just rang!
+[1;37m} T Tele-arena
+
+MONENT {[1;32m%s %s enters the arena through the dungeon gate!
+[1;37m} T Tele-arena
+
+MONSUM {[1;32m%s %s appears in a puff of reddish smoke!
+[1;37m} T Tele-arena
+
+MONSM2 {[1;32m%s %s appears with a clap of thunder!
+[1;37m} T Tele-arena
+
+YOUDRG {[1;35mYou dragged %s %s!
+[1;37m} T Tele-arena
+
+DRGYOU {[1;35m%s dragged you %s!
+[1;37m} T Tele-arena
+
+OTHDRO {[1;35m%s dragged out %s!
+[1;37m} T Tele-arena
+
+OTHDRI {[1;35m%s dragged in %s!
+[1;37m} T Tele-arena
+
+OTHDGO {[1;35m%s was dragged out!
+[1;37m} T Tele-arena
+
+OTHDGI {[1;35m%s was dragged in!
+[1;37m} T Tele-arena
+
+MATYOU {[1;31mThe %s attacked you with %s for %d damage!
+[1;37m} T Tele-arena
+
+MATOTH {[1;35mThe %s attacked %s with %s!
+[1;37m} T Tele-arena
+
+SPCYOU {[1;31mThe %s %s you for %d damage!
+[1;37m} T Tele-arena
+
+SPCOTH {[1;35mThe %s %s %s!
+[1;37m} T Tele-arena
+
+ABLYOU {[1;31mThe %s %s you!
+[1;37m} T Tele-arena
+
+ABLDYU {[1;31mThe %s %s you for %d damage!
+[1;37m} T Tele-arena
+
+ABLOTH {[1;35mThe %s %s %s!
+[1;37m} T Tele-arena
+
+ABLALL {[1;35mThe %s %s!
+[1;37m} T Tele-arena
+
+ABLDAL {[1;31mThe %s %s for %d damage!
+[1;37m} T Tele-arena
+
+MGNYOU {[1;35mThe %s attacked you, but %s glanced off your armor!
+[1;37m} T Tele-arena
+
+MGNOTH {[1;35mThe %s attacked %s, but %s glanced off %s's armor!
+[1;37m} T Tele-arena
+
+MFMYOU {[1;35mThe %s's poorly executed attack misses you!
+[1;37m} T Tele-arena
+
+MFMOTH {[1;35mThe %s's poorly executed attack misses %s!
+[1;37m} T Tele-arena
+
+SOMTNG {[1;36mThere is} T Tele-arena
+
+ONFLOR { lying on the floor.
+[1;37m} T Tele-arena
+
+NOTING {[1;36mThere is nothing on the floor.
+[1;37m} T Tele-arena
+
+MDGYOU {[1;35mYou barely dodge the %s's attack!
+[1;37m} T Tele-arena
+
+MDGOTH {[1;35m%s barely dodged the %s's attack!
+[1;37m} T Tele-arena
+
+MONGRN {[1;32m} T
+
+MONRED {[1;31m} T
+
+SOMMN1 {There is } T Tele-arena
+
+SOMMN2 {There are } T Tele-arena
+
+SOMMN3 {%s %s here.
+[1;37m} T Tele-arena
+
+SOMMN4 {and %s %s here.
+[1;37m} T Tele-arena
+
+SOMMN5 {%s %s, } T Tele-arena
+
+ACTLST {                           Action List
+------------------------------------------------------------------
+} T Tele-arena
+
+INVDSP {You are carrying %u gold crowns} T Tele-arena
+
+INV31 {.
+} T Tele-arena
+
+INVFUL {[0;35mYou can't carry anything else.
+[1;37m} T Tele-arena
+
+BOKFUL {[0;35mYour spellbook can't hold any more spells.
+[1;37m} T Tele-arena
+
+CNTAFD {[0;35mYou can't afford %s.
+[1;37m} T Tele-arena
+
+BNKBAL {[1;37mYou currently have %s gold in your account.
+[1;37m} T Tele-arena
+
+BNKDEP {[1;37mYou deposited %s gold in your account.
+[1;37m} T Tele-arena
+
+BNKWIT {[1;37mYou withdrew %s gold from your account.
+[1;37m} T Tele-arena
+
+BNKNHA {[0;35mSorry, you do not have that much gold on hand.
+[1;37m} T Tele-arena
+
+BNKNAC {[0;35mSorry, you do not have that much gold in your account.
+[1;37m} T Tele-arena
+
+BNKNCA {[0;35mSorry, you cannot carry that much more gold.
+[1;37m} T Tele-arena
+
+BNKANH {[0;35mSorry, your account cannot hold that much more gold.
+[1;37m} T Tele-arena
+
+BNKTMC {[0;35mSorry, you may only deposit or withdraw 30,000 gold per transaction.
+[1;37m} T Tele-arena
+
+FOLISH {[0;35mThat would be rather foolish.
+[1;37m} T Tele-arena
+
+BEMSPC {[0;35mMore than one item here matches that description, please be more specific.
+[1;37m} T Tele-arena
+
+CNTAFS {[0;35mYou can't afford that spell.
+[1;37m} T Tele-arena
+
+TOOBIG {[0;35mSorry, that spell is too powerful for you to control.
+[1;37m} T Tele-arena
+
+TOOHVY {[0;35mSorry, you can't carry that much more weight!
+[1;37m} T Tele-arena
+
+NOSOBJ {[0;35mSorry, this shop does not seem to have one.
+[1;37m} T Tele-arena
+
+NOSSPL {[0;35mSorry, the guild doesn't offer that spell for sale.
+[1;37m} T Tele-arena
+
+ALRHVS {[0;35mYou already have that spell.
+[1;37m} T Tele-arena
+
+WARNSP {[0;35mSorry, %s may not buy or cast spells.
+[1;37m} T Tele-arena
+
+WARNBK {[0;35mSorry, %s do not have spellbooks.
+[1;37m} T Tele-arena
+
+OUTRLM {[0;35mSorry, %s may not cast that spell.
+[1;37m} T Tele-arena
+
+NTTITM {[0;35mSorry, %s may not use that item.
+[1;37m} T Tele-arena
+
+NTTWEP {[0;35mSorry, %s may not wield that weapon.
+[1;37m} T Tele-arena
+
+NTTARM {[0;35mSorry, %s may not wear that armor.
+[1;37m} T Tele-arena
+
+NOSHER {[0;35mSorry, but the shop keeper isn't interested in that item.
+[1;37m} T Tele-arena
+
+NSOHER {[0;35mSorry, but no such item or service is offered here.
+[1;37m} T Tele-arena
+
+NSIHER {[0;35mSorry, but no such item is here.
+[1;37m} T Tele-arena
+
+NOSTRN {[0;35mSorry, but the guild does not offer that service.
+[1;37m} T Tele-arena
+
+NOTRDY {[0;35mYou are not ready for any further training, you must first prove
+your skills in combat and gain more experience.
+[1;37m} T Tele-arena
+
+NOTRPR {[0;35mYou are not ready for a promotion, you must first achieve greater
+power, and gain wider knowledge of your abilities.
+[1;37m} T Tele-arena
+
+NOSSRV {[0;35mSorry, the temple does not perform that service.
+[1;37m} T Tele-arena
+
+NOCURE {[0;35mYou do not need curing, there is no poison in your system.
+[1;37m} T Tele-arena
+
+NOHEAL {[0;35mYou do not need healing, you are not wounded.
+[1;37m} T Tele-arena
+
+NOREMO {[0;35mYou do not need that service, you are not paralyzed.
+[1;37m} T Tele-arena
+
+NOREST {[0;35mYou do not need restoring, your body and mind are whole.
+[1;37m} T Tele-arena
+
+NEDRST {[0;35mYour mind and body must be whole and untainted before you may train.
+[1;37m} T Tele-arena
+
+NOSITM {[0;35mSorry, that item is not available here.
+[1;37m} T Tele-arena
+
+DNTHAV {[0;35mSorry, but you don't seem to have one.
+[1;37m} T Tele-arena
+
+NOTEQU {[0;35mSorry, but you don't seem to have one equipped.
+[1;37m} T Tele-arena
+
+NOEQTH {[0;35mYou can't equip that!
+[1;37m} T Tele-arena
+
+DNTHVG {[0;35mSorry, but you don't have that much gold.
+[1;37m} T Tele-arena
+
+NOMCMD {[0;35mSorry, but you don't seem to have one to command.
+[1;37m} T Tele-arena
+
+CNTGGP {[0;35mSorry, %s can't carry that much more gold.
+[1;37m} T Tele-arena
+
+TMCHGP {[0;35mSorry, but you can only give away 30000 gold at a time.
+[1;37m} T Tele-arena
+
+YOUEQU {Ok, you equipped your %s.
+} T Tele-arena
+
+OTHEQU {%s just equipped %s.
+} T Tele-arena
+
+YOUUEQ {Ok, you unequipped your %s.
+} T Tele-arena
+
+OTHUEQ {%s just unequipped %s.
+} T Tele-arena
+
+DRPITM {Ok, you dropped your %s.
+} T Tele-arena
+
+DRPITM2 {Ok, you dropped} T Tele-arena
+
+NDPITM {[0;35mSorry, but there is no more room here to drop items.
+[1;37m} T Tele-arena
+
+NOTUSE {[0;35mSorry, that object cannot be used in that manner.
+[1;37m} T Tele-arena
+
+NOTEAT {[0;35mYou can't eat that!
+[1;37m} T Tele-arena
+
+YOUATE {[1;36mYou feel much better after eating a meal.
+[1;37m} T Tele-arena
+
+OTHATE {%s just ate a ration of food.
+} T Tele-arena
+
+NODRNK {[0;35mYou can't drink that!
+[1;37m} T Tele-arena
+
+YOUDRK {[1;36mThe water quenches your thirst.
+[1;37m} T Tele-arena
+
+YOUDPT {You feel somehow different after drinking the potion.
+} T Tele-arena
+
+OTHDRK {%s just took a drink of something.
+} T Tele-arena
+
+YOUHEL {A healing mist surrounds you as you activate the %s!
+} T Tele-arena
+
+OTHHEL {%s is suddenly surrounded by a silvery mist!
+} T Tele-arena
+
+YOURUB {Your %s glows with a reddish light as you rub it.
+You momentarily black out...
+} T Tele-arena
+
+YOURUB2 {Your %s hums softly, and glows with a bluish light as you rub it.
+The glow from your %s moves up your arm to permeate your entire
+body.
+The glow and your %s slowly fade away...
+} T Tele-arena
+
+OTHRUB {%s is rubbing a %s.
+} T Tele-arena
+
+OTHRUB2 {%s is rubbing a %s.
+%s is suddenly surrounded by an aura of bluish light which slowly fades
+away...
+} T Tele-arena
+
+YOURN1 {Your %s has space for %d more runes to be inscribed upon it.
+} T Tele-arena
+
+OTHRN1 {%s is examining %s.
+} T Tele-arena
+
+YOURN2 {You raise your %s to the heavens and it is consumed in a firey
+aura of energy which makes your fingertips tingle!
+} T Tele-arena
+
+OTHRN2 {%s raised %s to the heavens, which was consumed in a firey
+aura of energy followed by a clap of thunder which momentarily deafens you!
+} T Tele-arena
+
+ALRLIT {You already have a light source.
+} T Tele-arena
+
+NOTLIT {[0;35mYou can't light that!
+[1;37m} T Tele-arena
+
+YOULIT {Your %s now provides you with light.
+} T Tele-arena
+
+OTHLIT {%s just lit a %s.
+} T Tele-arena
+
+BRNOUT {Your %s just burned out.
+} T Tele-arena
+
+OTHOUT {%s's %s just burned out.
+} T Tele-arena
+
+TOODRK {It's too dark to see.
+} T Tele-arena
+
+CNTSEE {You can't see %s.
+} T Tele-arena
+
+EMPTYC {The %s is empty!
+} T Tele-arena
+
+ALRHWP {[0;35mYou're already wielding weapon.
+[1;37m} T Tele-arena
+
+ALRHAR {[0;35mYou're already wearing armor.
+[1;37m} T Tele-arena
+
+NOROBH {[0;35mWith the town guards watching, you think better of it.
+[1;37m} T Tele-arena
+
+CNTROB {[0;35mSorry, %s aren't very good at robbing people.
+[1;37m} T Tele-arena
+
+CRBYET {[0;35mSorry, you are not yet experienced enough to rob others.
+[1;37m} T Tele-arena
+
+GOTCOT {You got caught trying to rob %s!
+} T Tele-arena
+
+OTHCOT {%s got caught trying to rob %s!
+} T Tele-arena
+
+CAUGHTS {You caught %s in the act of robbing you!
+} T Tele-arena
+
+CAUGHTT {You caught %s in the act of trying to rob you!
+} T Tele-arena
+
+NOGOLD {[0;35mSorry, %s has no gold to steal.
+[1;37m} T Tele-arena
+
+GOTGLD {You stole %u gold crowns from %s!
+} T Tele-arena
+
+NOITEM {[0;35mSorry, %s doesn't appear to have that item.
+[1;37m} T Tele-arena
+
+GOTOBJ {You stole %s from %s!
+} T Tele-arena
+
+YOUGOT {Ok, you bought %s for %d crowns.
+} T Tele-arena
+
+YOUTAK {Ok, you got %s.
+} T Tele-arena
+
+YOUTAK2 {Ok, you got} T Tele-arena
+
+YOUGTC {[1;36mThe priests remove the poison from your system for %d crowns.
+[1;37m} T Tele-arena
+
+YOUGTH {[1;36mThe priests heal all your wounds for %d crowns.
+[1;37m} T Tele-arena
+
+YOUGTP {[1;36mThe priests purge the paralysis from your body for %d crowns.
+[1;37m} T Tele-arena
+
+YOUGTR {[1;36mThe priests restore your body and mind to it's former state for %d crowns.
+[1;37m} T Tele-arena
+
+YOUGTD {[1;36mThe barmaid brings you a drink for %d crowns.
+[1;37m} T Tele-arena
+
+YOUGTM {[1;36mThe barmaid brings you a meal for %d crowns.
+[1;37m} T Tele-arena
+
+OTHGTC {The temple priests take %s into another chamber briefly, after which
+they return. You notice that %s looks much healthier than before...
+} T Tele-arena
+
+OTHGTH {The temple priests take %s into another chamber briefly, after which
+they return. You notice that all of %s's wounds have been healed...
+} T Tele-arena
+
+OTHGTP {The temple priests take %s into another chamber briefly, after which
+they return. You notice that %s looks much more mobile than before...
+} T Tele-arena
+
+OTHGTR {The temple priests take %s into another chamber briefly, after which
+they return. You notice that %s looks somehow different than before...
+} T Tele-arena
+
+OTHGTD {The barmaid brings a drink over to %s in exchange for a few coins.
+} T Tele-arena
+
+OTHGTM {The barmaid brings a hot meal over to %s in exchange for a handful
+of coins.
+} T Tele-arena
+
+SLDITM {Ok, you sold %s for %u gold crowns.
+} T Tele-arena
+
+NOTWEP {[0;35mWithout that %s, you'd be defenseless!
+[1;37m} T Tele-arena
+
+NOTARM {[0;35mWithout that %s, you'd be awfully vulnerable!
+[1;37m} T Tele-arena
+
+WNGSPL {[0;35mSorry, that spell doesn't affect monsters.
+[1;37m} T Tele-arena
+
+NOCHCH {[0;35mCharm spells only affect monsters.
+[1;37m} T Tele-arena
+
+NRNHER {[0;35mYour %s doesn't seem to function here.
+[1;37m} T Tele-arena
+
+NOTHER {[0;35mSorry, combat spells are not permitted here.
+[1;37m} T Tele-arena
+
+NODHER {[0;35mSorry, littering is not permitted here.
+[1;37m} T Tele-arena
+
+NSSHER {[0;35mSorry, summoning spells are not permitted here.
+[1;37m} T Tele-arena
+
+NCSHER {[0;35mSorry, charm spells are not permitted here.
+[1;37m} T Tele-arena
+
+NOFTHR {[0;35mSorry, hostility is not permitted here.
+[1;37m} T Tele-arena
+
+NOTHHR {[0;35mSorry, thrown weapons are not permitted here.
+[1;37m} T Tele-arena
+
+NOFRHR {[0;35mSorry, missle weapons are not permitted here.
+[1;37m} T Tele-arena
+
+LOWSPL {[0;35mYour mana is too low to cast that spell.
+[1;37m} T Tele-arena
+
+SDNTRG {[0;35mThat spell does not need to be cast at a specific person or creature.
+[1;37m} T Tele-arena
+
+SNDTRG {[0;35mThat spell needs to be cast at a specific person or creature.
+[1;37m} T Tele-arena
+
+SPLFLD {You confuse the key syllables and the spell fails!
+} T Tele-arena
+
+SFDYOU {%s unsuccessfully attempts to cast a spell!
+} T Tele-arena
+
+SFDOTH {%s unsuccessfully attempts to cast a spell!
+} T Tele-arena
+
+SPLYOU {[1;31m%s discharged %s at you for %d damage!
+[1;37m} T Tele-arena
+
+SPLYOU2 {[1;31m%s discharged %s at you!
+[1;37m} T Tele-arena
+
+SPLOTH {[1;34m%s just discharged %s at %s!
+[1;37m} T Tele-arena
+
+SPMOTH {[1;34m%s just discharged %s at the %s!
+[1;37m} T Tele-arena
+
+HLMOTH {[1;34m%s just intoned %s for the %s!
+[1;37m} T Tele-arena
+
+SPLMOT {[1;31m%s just discharged %s at hostile people in the area!
+[1;37m} T Tele-arena
+
+SPLMMO {[1;34m%s just discharged %s at hostile monsters in the area!
+[1;37m} T Tele-arena
+
+SPLMAL {[1;31m%s just discharged %s at all hostiles in the area!
+[1;37m} T Tele-arena
+
+NEFYOU {[1;34m%s discharged %s at you, which failed to affect you!
+[1;37m} T Tele-arena
+
+NEFOTH {[1;34m%s just discharged %s at %s, which failed to affect %s!
+[1;37m} T Tele-arena
+
+SNMOTH {[1;34m%s just discharged %s at the %s, which failed to affect the %s!
+[1;37m} T Tele-arena
+
+SPLMHO {[1;36m%s just discharged %s at friendly people in the area!
+[1;37m} T Tele-arena
+
+HELYOU {[1;36m%s just intoned %s for you which healed %d damage!
+[1;37m} T Tele-arena
+
+HELOTH {[1;34m%s just intoned %s for %s!
+[1;37m} T Tele-arena
+
+CURYOU {[1;36m%s just performed %s on you!
+[1;37m} T Tele-arena
+
+CUROTH {[1;34m%s just performed %s on %s!
+[1;37m} T Tele-arena
+
+PROYOU {[1;36m%s just cast %s on you!
+[1;37m} T Tele-arena
+
+PROOTH {[1;34m%s just cast %s on %s!
+[1;37m} T Tele-arena
+
+INVOTH {[1;34m%s just cast %s on %s!
+[1;37m} T Tele-arena
+
+SUMOTH {[1;34m%s just intoned %s!
+[1;37m} T Tele-arena
+
+CHMOTH {[1;34m%s just performed %s on the %s!
+[1;37m} T Tele-arena
+
+SPLDAM {[1;35mYou discharged the spell at %s for %d damage!
+[1;37m} T Tele-arena
+
+SPLDAM2 {[1;35mYou discharged the spell at %s!
+[1;37m} T Tele-arena
+
+SPMDAM {[1;35mYou discharged the spell at the %s for %d damage!
+[1;37m} T Tele-arena
+
+SPLMDM {[1;35mYou discharged the spell at hostile people in the area for %d damage!
+[1;37m} T Tele-arena
+
+SPLMMN {[1;35mYou discharged the spell at hostile monsters in the area for %d damage!
+[1;37m} T Tele-arena
+
+SPLMAD {[1;35mYou discharged the spell at all hostiles in the area for %d damage!
+[1;37m} T Tele-arena
+
+SPLMHL {[1;34mYou discharged the spell at friendly people in the area, healing %d damage!
+[1;37m} T Tele-arena
+
+SPLMCR {[1;34mYou discharged the spell at friendly people in the area!
+[1;37m} T Tele-arena
+
+SPLHEL {[1;34mYou intoned the spell for %s which healed %d damage!
+[1;37m} T Tele-arena
+
+SPLRGN {[1;34mYou intoned the spell for %s!
+[1;37m} T Tele-arena
+
+SPLCUR {[1;34mYou performed a curative spell on %s!
+[1;37m} T Tele-arena
+
+SPLRES {[1;34mYou performed a restorative spell on %s!
+[1;37m} T Tele-arena
+
+SPLINV {[1;35mYou cast an invisibility spell on %s!
+[1;37m} T Tele-arena
+
+SPLPRO {[1;34mYou cast %s on %s!
+[1;37m} T Tele-arena
+
+SPLSUM {[1;34mYou intoned a summoning spell!
+[1;37m} T Tele-arena
+
+SPLHLM {[1;34mYou intoned the spell for the %s which healed %d damage!
+[1;37m} T Tele-arena
+
+SPLCHM {[1;34mYou performed a charm spell on the %s!
+[1;37m} T Tele-arena
+
+SFAILD {[1;31mThe spell failed!
+[1;37m} T Tele-arena
+
+SSUCCF {[1;36mThe spell was successful!
+[1;37m} T Tele-arena
+
+SPLNEF {[1;34mYour spell was negated by %s's magickal defenses!
+[1;37m} T Tele-arena
+
+SPMNEF {[1;34mYour spell was negated by the %s's magickal defenses!
+[1;37m} T Tele-arena
+
+PRO1 {[1;34mYou suddenly feel very vulnerable!
+[1;37m} T Tele-arena
+
+STA1 {[1;34mAn odd tingling sensation washes over you briefly!
+[1;37m} T Tele-arena
+
+PAR1 {[1;34mYour paralysis wears off!
+[1;37m} T Tele-arena
+
+NOSPEL {[0;35mSorry, you know no such spell.
+[1;37m} T Tele-arena
+
+SPLEXH {[0;35mYou are still too mentally exhausted from your last incantation!
+[1;37m} T Tele-arena
+
+INDTRG {[0;35mThat item needs to be aimed at a specific person or creature.
+[1;37m} T Tele-arena
+
+USEFAL {[1;35mYour %s failed to discharge!
+[1;37m} T Tele-arena
+
+USEDM1 {[1;35mYou discharged your %s at %s for %d damage!
+[1;37m} T Tele-arena
+
+USEYU1 {[1;31m%s discharged %s at you for %d damage!
+[1;37m} T Tele-arena
+
+USEOT1 {[1;34m%s just discharged %s at %s!
+[1;37m} T Tele-arena
+
+USMDM1 {[1;35mYou discharged your %s at the %s for %d damage!
+[1;37m} T Tele-arena
+
+USMOT1 {[1;34m%s just discharged %s at the %s!
+[1;37m} T Tele-arena
+
+USEDM2 {[1;35mYou discharged %s from your %s at %s for %d damage!
+[1;37m} T Tele-arena
+
+USEYU2 {[1;31m%s discharged %s from %s at you for %d damage!
+[1;37m} T Tele-arena
+
+USEOT2 {[1;34m%s just discharged %s from %s at %s!
+[1;37m} T Tele-arena
+
+USMDM2 {[1;35mYou discharged %s from your %s at the %s for %d damage!
+[1;37m} T Tele-arena
+
+USMOT2 {[1;34m%s just discharged %s from %s at the %s!
+[1;37m} T Tele-arena
+
+ARNNHR {[0;35mSorry, you don't see "%s" nearby.
+[1;37m} T Tele-arena
+
+ARNNCE {[0;35mSorry, "%s" isn't in range.
+[1;37m} T Tele-arena
+
+ARNAWH {[0;35mThat action needs to be performed on a specific person.
+[1;37m} T Tele-arena
+
+ARNAMB {[0;35mSorry, there is more than one denizen present who's name begins with those
+characters, so you must specify the recipient of your "%s" command
+more precisely.
+[1;37m} T Tele-arena
+
+BMRSPC {[0;35mSorry, you'll have to specify the desired item a little more precisely.
+[1;37m} T Tele-arena
+
+GAMFRM {From %s: %s
+} T Tele-arena
+
+WHSTOU {[1;33mFrom %s (whispered): %s
+} T Tele-arena whispered message
+
+GTALKU {[1;33mFrom %s (to group): %s
+} T Tele-arena whispered message
+
+ACTMSG1 {%s %s
+} T Tele-arena whispered message
+
+ACTMSG2 {-- act: message sent --
+} T Tele-arena whispered message
+
+MSGMSG1 {%s
+} T Tele-arena whispered message
+
+MSGMSG2 {-- msg: message sent --
+} T Tele-arena whispered message
+
+XARENT {%s has just entered Tele-Arena.
+} T Tele-arena
+
+LEVGAM {%s has just exited Tele-Arena.
+} T Tele-arena
+
+ALRXAR {You're already in Tele-Arena!
+} T Tele-arena
+
+MSGSNT {-- Message sent --
+} T Tele-arena
+
+WHSSNT {[1;33m-- Message sent only to %s --
+} T Whisper sent to user message
+
+GRPSNT {[1;33m-- Message sent only to group --
+} T Group message sent
+
+BYSELF {[1;35mThere is nobody here.
+[1;37m} T Tele-arena
+
+ONEOTH {[1;35m%s is here.
+[1;37m} T Tele-arena one other character here with you
+
+TWOOTH {[1;35m%s and %s are here.
+[1;37m} T Tele-arena two other character here with you
+
+OTHGUY {[1;35m%s, [1;37m} T Tele-Arena
+
+SEVOTH {[1;35mand %s are here.
+[1;37m} T Tele-arena several other characters here with you
+
+BYSELF2 {[1;35mSorry, that is not an appropriate command.
+[1;37m} T Tele-arena
+
+CDTNOW {[1;35mSorry, you can't do that now.
+[1;37m} T Tele-arena
+
+NOSUPP {[1;35mYou lack the support neccessary to use this item.
+[1;37m} T Tele-arena
+
+EXT0 {} T
+
+ENT0 {} T
+
+EXT1 {[1;33m%s has just gone to the north.
+[1;37m} T Tele-arena
+
+ENT1 {[1;33m%s has just arrived from the south.
+[1;37m} T Tele-arena
+
+EXT2 {[1;33m%s has just gone to the northeast.
+[1;37m} T Tele-arena
+
+ENT2 {[1;33m%s has just arrived from the southwest.
+[1;37m} T Tele-arena
+
+EXT3 {[1;33m%s has just gone to the east.
+[1;37m} T Tele-arena
+
+ENT3 {[1;33m%s has just arrived from the west.
+[1;37m} T Tele-arena
+
+EXT4 {[1;33m%s has just gone to the southeast.
+[1;37m} T Tele-arena
+
+ENT4 {[1;33m%s has just arrived from the northwest.
+[1;37m} T Tele-arena
+
+EXT5 {[1;33m%s has just gone to the south.
+[1;37m} T Tele-arena
+
+ENT5 {[1;33m%s has just arrived from the north.
+[1;37m} T Tele-arena
+
+EXT6 {[1;33m%s has just gone to the southwest.
+[1;37m} T Tele-arena
+
+ENT6 {[1;33m%s has just arrived from the northeast.
+[1;37m} T Tele-arena
+
+EXT7 {[1;33m%s has just gone to the west.
+[1;37m} T Tele-arena
+
+ENT7 {[1;33m%s has just arrived from the east.
+[1;37m} T Tele-arena
+
+EXT8 {[1;33m%s has just gone to the northwest.
+[1;37m} T Tele-arena
+
+ENT8 {[1;33m%s has just arrived from the southeast.
+[1;37m} T Tele-arena
+
+EXT9 {[1;33m%s has just gone upward.
+[1;37m} T Tele-arena
+
+ENT9 {[1;33m%s has just arrived from below.
+[1;37m} T Tele-arena
+
+EXT10 {[1;33m%s has just gone downward.
+[1;37m} T Tele-arena
+
+ENT10 {[1;33m%s has just arrived from above.
+[1;37m} T Tele-arena
+
+ENT11 {[1;36m%s has just appeared in a blinding flash of light!
+[1;37m} T Tele-arena
+
+ENT12 {[1;36m%s has just appeared in a puff of thick black smoke!
+[1;37m} T Tele-arena
+
+ENT13 {[1;33m%s has just tumbled into the room from %s%s!
+[1;37m} T Tele-arena
+
+EXT11 {[1;36m%s has just vanished in a blinding flash of light!
+[1;37m} T Tele-arena
+
+EXT12 {[1;36m%s has just vanished in a puff of thick black smoke!
+[1;37m} T Tele-arena
+
+EXT13 {[1;33m%s has just tumbled %s, out of the room!
+[1;37m} T Tele-arena
+
+OOP1 {[1;34mA sudden flash of light momentarily blinds you!
+[1;37m} T Tele-arena
+
+OOP2 {[1;34mYou tumble %s, out of the room!
+[1;37m} T Tele-arena
+
+TOOFST {[0;35mYou must rest a moment before proceeding!
+[1;37m} T Tele-arena
+
+YOUTRP {[0;35mIn your haste, you trip and fall!
+[1;37m} T Tele-arena
+
+OTHTRP {[1;33m%s tripped and fell to the floor!
+[1;37m} T Tele-arena
+
+CNTMOV {[0;35mSorry, you'll have to rest a while before you can move.
+[1;37m} T Tele-arena
+
+CAMBAK {[1;33m%s returned with a perplexed look on %s face.
+[1;37m} T Tele-arena
+
+NOEXIT {[1;35mSorry, there's no exit in that direction.
+[1;37m} T Tele-arena
+
+RGFALD {You failed an attempt to overcome this obstacle by using your rogue
+abilities.
+} T Tele-arena
+
+AVDTRP {Your rogue abilities allowed you to detect and avoid a trap!
+} T Tele-arena
+
+GRPAVD {%s's rogue abilities allowed your group to detect and avoid a trap!
+} T Tele-arena
+
+TRS001 {[1;36mA voice in your mind speaks like thunder: "You have passed the trial of
+might. Go forth and continue your quest for personal glory and wisdom!"
+[1;37m} T Tele-Arena
+
+TRS002 {[1;36mA voice in your mind speaks like thunder: "You have passed the trial of
+wisdom. Go forth and continue your quest for personal glory and knowledge!"
+[1;37m} T Tele-Arena
+
+TRS003 {[1;36mA voice in your mind speaks like thunder: "You have reached a new level
+of stupidity. Go forth and continue your quest for personal glory and
+scented toilet tissue!"
+[1;37m} T Tele-Arena
+
+TRS004 {[1;36mA voice in your mind speaks like thunder: "You have passed the trial of
+intelligence. Go forth and continue your quest for personal glory and
+influence!"
+[1;37m} T Tele-Arena
+
+TRS011 {[1;36mYou feel an odd tingling sensation on your brow for a moment!
+[1;37m} T Tele-Arena
+
+TRS012 {[1;36mYou find a scroll describing a rune which you inscribe on your runestaff!
+[1;37m} T Tele-Arena
+
+TAKINV {%s is taking inventory of %s possessions and counting %s gold.
+} T Tele-arena
+
+SPELLS {Your spellbook contains the following spells:
+
+} T Tele-arena
+
+LOOKSP {%s is leafing through %s spellbook.
+} T Tele-arena
+
+PRGSPL {You purged %s from your spellbook.
+} T Tele-arena
+
+PRGOTH {%s just purged a spell from %s spellbook.
+} T Tele-arena
+
+DRPOTH {%s just dropped %s.
+} T Tele-arena
+
+DRPOTH2 {%s just dropped some items.
+} T Tele-arena
+
+BUYOTH {%s just bought %s from the shopkeeper.
+} T Tele-arena
+
+GETOTH {%s just picked up %s.
+} T Tele-arena
+
+GETOTH2 {%s just picked up some items.
+} T Tele-arena
+
+BYSOTH {%s just bought a scroll from the guild's master sorceror, then quickly
+copied it into a spellbook.
+} T Tele-arena
+
+SLDOTH {%s just sold %s to the shopkeeper.
+} T Tele-arena
+
+INSPCT {%s is looking you over.
+} T Tele-arena
+
+INSOTH1 {%s is looking %s over.
+} T Tele-arena
+
+INSOTH2 {%s is looking to the %s.
+} T Tele-arena
+
+INMOTH {%s is looking the %s over.
+} T Tele-arena
+
+LOKOTH {%s is taking a look around.
+} T Tele-arena
+
+SGNOTH {%s is looking at the list of items this shop sells.
+} T Tele-arena
+
+SSNOTH {%s is looking at the list of sorceror spells the guild sells.
+} T Tele-arena
+
+SANOTH {%s is looking at the list of acolyte spells the guild sells.
+} T Tele-arena
+
+SDNOTH {%s is looking at the list of druid spells the guild sells.
+} T Tele-arena
+
+SNNOTH {%s is looking at the list of necrolyte spells the guild sells.
+} T Tele-arena
+
+NOLSLF {[0;35mSorry, you can't look at yourself.
+[1;37m} T Tele-arena
+
+NODSLF {[0;35mSorry, you can't drag yourself.
+[1;37m} T Tele-arena
+
+NORSLF {[0;35mSorry, you can't rob yourself.
+[1;37m} T Tele-arena
+
+NTRSLF {[0;35mSorry, you can't track yourself.
+[1;37m} T Tele-arena
+
+NCTSLF {[0;35mSorry, you can't command your followers to track you.
+[1;37m} T Tele-arena
+
+NCFSLF {[0;35mSorry, you can't command your followers to follow you.
+[1;37m} T Tele-arena
+
+NOCSLF {[0;35mSorry, you can't cast combat spells on yourself.
+[1;37m} T Tele-arena
+
+NOASLF {[0;35mSorry, you can't attack yourself.
+[1;37m} T Tele-arena
+
+NOUSLF {[0;35mSorry, you can't use harmful items on yourself.
+[1;37m} T Tele-arena
+
+NOGSLF {[0;35mSorry, you can't give things to yourself.
+[1;37m} T Tele-arena
+
+TRKING {%s is very thoroughly examining the area.
+} T Tele-arena
+
+CTRING {The %s is very thoroughly examining the area.
+} T Tele-arena
+
+CMDSTP {The %s stops tracking %s.
+} T Tele-arena
+
+CMDTRK {The %s has picked up %s's trail!
+} T Tele-arena
+
+CMDFOL {The %s stops following you and begins following %s.
+} T Tele-arena
+
+CMFOLL {The %s stops following %s and begins following %s.
+} T Tele-arena
+
+CMFYOU {The %s stops following %s and begins following you.
+} T Tele-arena
+
+CNTTRK {[0;35mSorry, %s aren't very good at tracking.
+[1;37m} T Tele-arena
+
+NOTRKH {[0;35mThis area is too well traveled to pick up a trail.
+[1;37m} T Tele-arena
+
+NOTRAL {[0;35mYou can't find any sign of %s.
+[1;37m} T Tele-arena
+
+NCTRAL {[0;35mThe %s can't find any sign of %s.
+[1;37m} T Tele-arena
+
+NCFOLL {[0;35mThe %s looks around in confusion.
+[1;37m} T Tele-arena
+
+NODRAG {[0;35mYou can't find any sign of %s.
+[1;37m} T Tele-arena
+
+CNTDRG {[0;35m%s isn't incapacitated!
+[1;37m} T Tele-arena
+
+HEWENT {[1;33m%s's trail leads %s.
+[1;37m} T Tele-arena
+
+HNTING {%s is searching for something to eat.
+} T Tele-arena
+
+CNTHNT {[0;35mSorry, %s aren't very good at hunting.
+[1;37m} T Tele-arena
+
+NOHNTH {[0;35mThe only animals around here are rats.
+[1;37m} T Tele-arena
+
+DNTFND {[0;35mYou can't seem to find any food.
+[1;37m} T Tele-arena
+
+FNDRAT {[1;33mYour hunt is fruitful and you gain a ration of food.
+[1;37m} T Tele-arena
+
+OTHCMD {%s just gave an order to the %s.
+} T Tele-arena
+
+TAMING {%s is attempting to tame the %s.
+} T Tele-arena
+
+CNTTAM {[0;35mSorry, %s aren't very good at taming monsters.
+[1;37m} T Tele-arena
+
+NOTAMH {[0;35mThere aren't any monsters here suitable for taming.
+[1;37m} T Tele-arena
+
+DNTTAM {[0;35mYour attempt to tame the %s has failed.
+[1;37m} T Tele-arena
+
+TAMMON {[1;33mYou have successfully tamed the %s!
+[1;37m} T Tele-arena
+
+ALRTAM {[1;35mYou have already tamed the %s.
+[1;37m} T Tele-arena
+
+MSMING {%s is attempting to mesmerize the %s.
+} T Tele-arena
+
+CNTMSM {[0;35mSorry, %s aren't very good at mesmerizing monsters.
+[1;37m} T Tele-arena
+
+NOMSMH {[0;35mThere aren't any monsters here suitable for mesmerizing.
+[1;37m} T Tele-arena
+
+DNTMSM {[0;35mYour attempt to mesmerize the %s has failed.
+[1;37m} T Tele-arena
+
+MSMMON {[1;33mYou have successfully mesmerized the %s!
+[1;37m} T Tele-arena
+
+CNTSIT {[0;35mSorry, %s aren't very good at sighting targets.
+[1;37m} T Tele-arena
+
+NOSITH {[0;35mIt is too crowded here to sight targets.
+[1;37m} T Tele-arena
+
+YOUGAV {You gave your %s to %s.
+} T Tele-arena
+
+YOUGVG {You gave %s gold coins to %s.
+} T Tele-arena
+
+TOOINX {[0;35mYou are too inexperienced to use that item.
+[1;37m} T Tele-arena
+
+CNTGVI {[0;35mAt your level you may need that item.
+[1;37m} T Tele-arena
+
+CNTGVG {[0;35mAt your level your gold would be better spent elsewhere.
+[1;37m} T Tele-arena
+
+YOUDON {The priests gladly accept your donation.
+} T Tele-arena
+
+YOUGET {%s just gave you %s.
+} T Tele-arena
+
+YOUGTG {%s just gave you %s gold coins.
+} T Tele-arena
+
+JSTGAV {%s just handed an item to %s.
+} T Tele-arena
+
+JSTGVG {%s just handed some gold coins to %s.
+} T Tele-arena
+
+JSTDON {%s just donated some gold coins to the temple priests.
+} T Tele-arena
+
+PLSGDS {The Gods seem pleased by your donation...
+} T Tele-arena
+
+DPLGDS {Do you wish to anger the gods?
+} T Tele-arena
+
+ANGGDS {Your dishonest activities have angered the gods, your stats are diminished!
+} T Tele-arena
+
+CNTGIV {[0;35mSorry %s can't carry anything else.
+[1;37m} T Tele-arena
+
+TRDGIV {[0;35m%s tried to give you a %s, but you can't carry anything else.
+[1;37m} T Tele-arena
+
+DNTGIV {%s just handed something to %s, who gave it right back.
+} T Tele-arena
+
+CNTHDL {[0;35m%s can't carry the additional weight.
+[1;37m} T Tele-arena
+
+UCNHDL {[0;35m%s tried to give you a %s, but you can't carry the additional weight.
+[1;37m} T Tele-arena
+
+SLTLOW {[0;35mSorry, you need at least %s gold crowns to play the slot machine!
+[1;37m} T Tele-arena
+
+OTHSLT {%s steps up to the slot machine, deposits some coins, and pulls the lever!
+} T Tele-arena
+
+SLTPUL {You deposit %s gold crowns in the slot machine...
+
+You pull the handle...
+
+==================================
+|----------|----------|----------|
+| %-8s | %-8s | %-8s |
+|----------|----------|----------|
+==================================
+} T Tele-arena
+
+SLTOUT {Sorry, you may only play the games of chance 25 times per level!
+} T Tele-arena
+
+DICLOW {[0;35mSorry, you need at least %s gold crowns to roll the bones!
+[1;37m} T Tele-arena
+
+OTHDIC {%s steps up to the table, lays down some coins, and rolls the bones!
+} T Tele-arena
+
+ROLDIC {You lay down %s gold crowns on the table...
+
+You roll the bones...
+} T Tele-arena
+
+GAMLOS {        *** You lose ***
+} T Tele-arena
+
+GAMWIN {    *** You win %s crowns ***
+} T Tele-arena
+
+JACKPOT {
+         *** JACKPOT ***
+} T Tele-arena
+
+DICE00 {
++-----+ +-----+
+|     | |     |
+|  o  | |  o  |
+|     | |     |
++-----+ +-----+
+} T Tele-Arena
+
+DICE01 {
++-----+ +-----+
+|     | |o    |
+|  o  | |     |
+|     | |    o|
++-----+ +-----+
+} T Tele-Arena
+
+DICE02 {
++-----+ +-----+
+|o    | |o    |
+|     | |     |
+|    o| |    o|
++-----+ +-----+
+} T Tele-Arena
+
+DICE03 {
++-----+ +-----+
+|o    | |o    |
+|  o  | |     |
+|    o| |    o|
++-----+ +-----+
+} T Tele-Arena
+
+DICE04 {
++-----+ +-----+
+|o    | |o    |
+|  o  | |  o  |
+|    o| |    o|
++-----+ +-----+
+} T Tele-Arena
+
+DICE05 {
++-----+ +-----+
+|o   o| |o    |
+|     | |  o  |
+|o   o| |    o|
++-----+ +-----+
+} T Tele-Arena
+
+DICE06 {
++-----+ +-----+
+|o   o| |o   o|
+|     | |     |
+|o   o| |o   o|
++-----+ +-----+
+} T Tele-Arena
+
+DICE07 {
++-----+ +-----+
+|o   o| |o   o|
+|  o  | |     |
+|o   o| |o   o|
++-----+ +-----+
+} T Tele-Arena
+
+DICE08 {
++-----+ +-----+
+|o   o| |o   o|
+|  o  | |  o  |
+|o   o| |o   o|
++-----+ +-----+
+} T Tele-Arena
+
+DICE09 {
++-----+ +-----+
+|o   o| |o   o|
+|o   o| |  o  |
+|o   o| |o   o|
++-----+ +-----+
+} T Tele-Arena
+
+DICE10 {
++-----+ +-----+
+|o   o| |o   o|
+|o   o| |o   o|
+|o   o| |o   o|
++-----+ +-----+
+} T Tele-Arena
+
+DICOUT {Sorry, you may only play the games of chance 25 times per level!
+} T Tele-arena
+
+YOUVOY {You buy passage across the great lake and board a ship...
+} T Tele-arena
+
+OTHVOY {%s hands a small purse of coins to a ship's captain and boards a ship...
+} T Tele-arena
+
+OTHARR {%s has just arrived on a ship from across the great lake.
+} T Tele-arena
+
+CNTVOY {Sorry, you cannot afford passage across the great lake!
+} T Tele-arena
+
+NORUNE {Sorry, by decree of the guild masters, no one shall venture across the great
+lake who does not bear a rune upon their brow.
+} T Tele-arena
+
+RATRAT {While aboard the ship your food was eaten by rats!
+} T Tele-arena
+
+SHPSTL {While aboard the ship you seem to have been robbed!
+} T Tele-arena
+
+WHOHDR {[0m[1;32mPNUM  NAME                            CLASS
+[1;37m--------------------------------------------------
+} T Tele-arena
+
+WHOGAM {[0;1;33m%03d   %-31.31s %s
+} T Tele-arena
+
+BRRED {[1;31m} T
+YELLO {[1;33m} T
+DBLUE {[1;34m} T
+LBLUE {[1;36m} T
+WHITE {[1;37m} T
+
+ARNEDT {Character edited!
+} T Tele-arena
+
+YURLOC {You are in room #%d!
+} T Tele-arena
+
+THRLOC {%s is in room #%d!
+} T Tele-arena
+

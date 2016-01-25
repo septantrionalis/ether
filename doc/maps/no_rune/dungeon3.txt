@@ -1,0 +1,36 @@
+                        [x]-[ ]-[ ]-[ ]                                 [*] White Rune
+                      Skeleton         \                                 |
+                      Lords(2)          [ ]                             [T] Stone Trap (up to 180 damage)
+                                           \              Electrum Door  #
+                                            [ ]                     [ ]-[x]
+                                               \                   / Stygian Dragon
+                                                [ ]             [ ]  (Electrum Key)
+                                                 |             /
+                                                [ ]         [ ]          
+                                                 |         /
+        [ ]-[ ]             [ ]                 [ ]-[ ]-[ ]
+             |               |                   |
+            [ ]         [ ]-[ ]-[ ]-[ ]         [ ]
+           /   \       /             |           |
+        [ ]     [ ]-[ ]             [ ]         [ ]
+       /                             |           |
+[ ]-[ ]                     [ ]-[ ]-[x]-[ ]-[ ]-[ ]                 [ ]-[x] Cave
+     |                     /      Gargoyle                         /        Lion(2)
+    [ ]                 [ ]                                     [ ]
+       \               /                                       /
+        [ ]         [ ]                                     [ ]
+                   /                                         |
+                [ ]                     [ ]-[ ]-[ ]         [ ]
+                   \                   /           \         |
+                    [ ]             [ ]             [ ]-[ ]-[ ]-[ ]
+                     |             /                         |     \
+           Troll(2) [x]-[ ]-[ ]-[ ]                         [ ]     [ ]
+                                   \                       /           \
+                                    [ ]                 [ ]             [ ]
+                                       \               /   \               \
+                                        [ ]         [ ]     [ ]             [x] Stone
+                                         |                                    Giantess(2)
+                                        [ ]
+                                         |     up to
+                                        [^] Dungeon Level 2
+

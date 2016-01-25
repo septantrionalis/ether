@@ -1,0 +1,37 @@
+    stairs down
+to Stoneworks Level 4
+       [v]
+        |
+       [ ]               L = Pull Lever to disarm Stone Trap at T
+          \
+           [T]
+              \
+               [ ]                     stairs up
+                |                   to Stoneworks Level 2
+                |                      [ ]-[^]
+                |                     /
+                |                  [ ]
+                |                   |
+               [ ]        [ ]--[ ]-[ ]
+                |        /      ^
+      Troll(2) [x]-[ ]  |  _____/  Bug
+                |     \ v /
+               [ ]     [ ]
+                  \
+                   [ ]
+                  /
+               [ ]
+              /
+           [ ]                     [x] Troll(2)
+              \                     |
+               [ ]     [ ]         [ ]
+                  \   /   \       /   \
+                   [ ]     [ ]-[ ]     [ ]
+                                  \   /
+                                   [ ]
+                                  /
+                           [ ]-[ ]
+                            |
+                           [ ]
+                            |
+                           [Lx] Female Troll(3)

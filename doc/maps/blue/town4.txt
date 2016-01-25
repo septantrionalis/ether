@@ -1,0 +1,21 @@
+            [I]                      A = Armor Shop
+             |
+        [ ]-[ ]                      E = Equipment Shop
+         |
+[E]-[ ]-[ ]             [A]          I = Inn
+         |               |
+        [ ]             [ ]          M = Magic Shop
+         |               |
+        [ ]-[ ]-[ ]-[ ]-[ ]-[ ]      W = Weapons Shop
+         |       |           |
+[ ]-[ ]-[ ]-[ ]-[ ]     [4]-[ ]-[W]  4 = 4th Arena
+ |               |
+[ ]-[T]         [ ]                  T = Temple 
+ |               |
+[M]             [ ]
+                 |
+                [ ]-[ ]
+                     |
+                    [ ]
+                     |
+                    [v] down to Deep Forest

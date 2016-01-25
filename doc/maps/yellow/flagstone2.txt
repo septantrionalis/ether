@@ -1,0 +1,48 @@
+         [n]                         [h]                                   [Hx] Affreet(2)
+          |                           |                                     |
+         [x] Greater Demon          [Mx] Ice Giant(2)                      [ ]
+          |                             \                                   |
+         [ ]                             [ ]                           [ ]-[ ]-[ ]      
+          |                               |                           /     |     \
+         [ ]                             [ ]                       [ ]     [ ]     [ ]
+            \                           /                           |       |       |
+             [ ]                     [ ]                     Stone [T]     [ ]     [T] Poison
+                \                   /                        Trap   |       |       |  Slash
+                 [ ]             [ ]                               [m]------+------[ ] Trap
+                    \           /                                           |
+                     [ ]-[T]-[ ]                                           [ ]
+                    /   Stone                                               |
+                 [ ]    Trap                                               [ ]
+                    \                                                     /   \
+                     [ ]                                               [ ]     [ ]
+                        \                                             /           \
+                Affreet [Gx]                [g]                    [ ]             [ ]
+                                             |                        \           /
+           [Ex] Gargoyle(3)                [Nx] Warlock(3)             [ ]     [ ]
+             |                               |                            \   /
+        [ ]-[ ]-[ ]                         [ ]                            [ ]
+       /           \                           \                            |
+    [ ]             [ ]                         [ ]                       [xv] Apollyon
+   /                   \                       /   \                        v  Dragon
+[T]      Flame Traps    [T]                 [ ]     [ ]                     |
+   \                   /                   /           \                ----+------  Bug
+    [ ]             [ ]                 [ ]             [ ]             |   |     |
+       \           /                   /                   \            v   ^     |
+        [ ]     [ ]                 [ ]                     [ ]        [ ]-[^]->  --[ ]
+           \   /   \                   \                   /          /     |          \
+            [ ]     [ ]-[ ]-[ ]         [ ]             [ ]        [ ]     [ ]          [ ]
+                               \           \           /          /         |              \
+                                [ ]         [ ]     [ ]        [ ]         [ ]              [ ]
+                                   \       /           \        |           |                |
+                     Stone Giant(3) [x] [ ]             [ ]    [ ]         [ ]              [ ]
+                                   /     |               |        \         |              /
+                                [f]     [Fx]            [x]        [ ]     [ ]          [ ]
+                                     Stygian          Stygian         \   /   \   _____/
+                                    Dragon(2)        Dragon (2)        [ ]     [ ]
+                                                     Scroll #4        /           \
+                                                         |         [ ]             [ ]
+                                                        [o]       /                   \
+                                                     teleport  [ ]      teleport       [ ]
+                                                   to Flagstones  \  to Flagstones    /
+                                                      Level 1      [i]  Level 3    [L]
+

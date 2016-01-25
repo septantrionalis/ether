@@ -1,0 +1,30 @@
+                        stairs up 
+                        to Desert
+                           [@^]#[P]-[h]                   P = poison trap
+                     Treasure Pearl  |
+                       chest  Door  [ ]                   h = Hydra
+                                       \                     & Pearl Key
+                                        [ ]
+                 Skeleton Lord(4)          \
+                [ ]-[x]-[ ]                 [ ]
+               /     |     \               /   \
+    [ ]     [ ]     [ ]     [ ]     [ ] [ ]     [ ]
+   /   \   /         |         \   /       \   /
+[ ]     [ ] [ ]-[ ]-[ ]         [ ]         [ ]
+           /                   /             |
+        [ ]                 [ ]         [ ]-[x]-[ ]
+         |                 /           Ogre Mage(3)\
+        [x]-[ ]         [ ]                         [ ]
+    Skeleton   \           \                         |
+   Lord(2) &    [ ]         [ ]                     [ ]
+   Warrior(2)    |         /                       /
+                [ ]     [ ]                     [ ]
+               /                               /
+            [x]Skeleton Warrior(3)          [ ]
+           /                                   \
+        [ ]             [ ]-[T]-[ ]             [ ]       T = pit trap
+         |             /           \             |
+        [ ]         [ ]             [ ]         [ ]
+           \       /                   \       /
+            [ ]-[^x]Skeleton Lord(3)    [x]-[ ]
+        stairs up to Sewers Level 2 Ogre Mage(2)

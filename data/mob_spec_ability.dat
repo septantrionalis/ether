@@ -1,0 +1,6 @@
+1=org.tdod.ether.taimpl.mobs.specialability.SummonAid
+2=org.tdod.ether.taimpl.mobs.specialability.Steal
+3=org.tdod.ether.taimpl.mobs.specialability.Heal
+5=org.tdod.ether.taimpl.mobs.specialability.AttackTumble
+6=org.tdod.ether.taimpl.mobs.specialability.AttackAllTumble
+7=org.tdod.ether.taimpl.mobs.specialability.Spells

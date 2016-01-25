@@ -1,0 +1,41 @@
+     [^]-[ ]-[ ]-[ ]-[ ]-[ ]-[ ]                  L1 = Pull Lever to open West Chasm (WC)
+   stairs up                  |
+ to Stoneworks Level 5       [x]-[ ]-[ ]-[ ]      L2 = Pull Lever to open East Chasm (EC)
+                         Stone Giant(2)   |
+                                         [ ]      T = traps that can't be turned off
+                                          |
+                                         [ ]      * = Yellow Rune
+                                          |
+ [T]-[ ]-[ ]-[ ]-[ ]                     [ ]
+  |               |                       |
+ [L1]             |              [ ]-[ ]-[ ]
+  |              [ ]    Stone     |
+ [ ]              |     Giant(2) [x]-[ ]-[ ]-[T]
+  |              [ ]              |           |
+ [ ]              |              [ ]         [ ]
+  |     Stone     |               |           |
+ [ ]    Giant(3) [x]-[ ]-[ ]-[ ]-[ ]         [ ]-[ ]--[ ]--[ ]
+  |               |                           |             |
+ [ ]              |                          [ ]           [ ]
+  |              [ ]                          |             |
+ [ ]              |                    [ ]---[x]           [ ]
+  |               |                     |   Stone           |
+ [ ]-[ ]-[ ]-[ ]-[ ]                   [ ] Giant(3)        [ ]
+              |                         |                   |
+             [ ]                       [ ]                 [ ]
+              |                         |                   |
+             [ ]-[ ]-[ ]-[ ]-[x]-[ ]---[ ]                 [ ]
+                            Stone       |                   |
+                           Giant(2)     |                  [ ]
+                                       [ ]                  |
+                                        |                  [ ]
+                                       [ ]                  |
+                                        |                  [L2]
+                                        |                   |
+                                   [ ]-[ ]-[ ]-[ ]-[ ]-[ ]-[T]
+     "Say Port1"                    |
+     to teleport                   [ ]
+  to  to Town 1                     |
+Town 3<#[*%]-[WC]-[ ]-[x]-[ ]-[EC]-[ ]
+(Green Rune         Stone
+Required)          Giant(2)

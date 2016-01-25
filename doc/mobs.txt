@@ -1,0 +1,9727 @@
+TODO :
+ Attack other mobs
+ Special attacks/abilities
+   Heal
+   Spells
+   Steal
+   SummonAid
+
+0=type
+   0=Small One-Handed
+   1=Medium One-Handed
+   2=Large One-Handed
+   3=Large Two-Handed
+1=?
+2=min damage
+3=max damage
+
+knife       0 0 1 3 
+club        0 0 2 7 
+dagger      0 0 1 6 
+scimitar    1 0 1 8 
+spear       1 0 1 8 
+shortsword  1 0 2 10 
+morningstar 2 0 2 12 
+axe         2 1 3 1 
+flail       2 0 3 12 
+broadsword  2 0 2 12 
+battleax    3 0 3 18 
+glaive      3 0 4 20 
+greatsword  3 0 5 25
+
+imp               Weapon: Small One-Handed      a dagger
+female kobold     Weapon: Small One-Handed
+kobold            Weapon: Small One-Handed
+female orc        Weapon: Small One-Handed
+orc               Weapon: Small One-Handed      a club      
+skeleton warrior  Weapon: Small One-Handed
+zombie            Weapon: Small One-Handed
+lizard woman      Weapon: Medium One-Handed     a scimitar
+lizard man        Weapon: Medium One-Handed
+female gnoll      Weapon: Small One-Handed
+gnoll             Weapon: Small One-Handed
+female hobgoblin  Weapon: Small One-Handed
+hobgoblin         Weapon: Small One-Handed
+female brigand    Weapon: Small One-Handed
+brigand           Weapon: Small One-Handed
+female barbarian  Weapon: Large One-Handed
+barbarian         Weapon: Large One-Handed
+female centaur    Weapon: Large One-Handed
+centaur           Weapon: Large One-Handed
+female satyr      Weapon: Large One-Handed
+satyr             Weapon: Large One-Handed
+female minotaur   Weapon: Large One-Handed
+minotaur          Weapon: Large One-Handed      a greatsword
+ogress            Weapon: Large Two-Handed
+ogre              Weapon: Large Two-Handed
+skeleton lords    Weapon: Large Two-Handed
+ogress mage       Weapon: Large One-Handed
+ogre mage         Weapon: Large One-Handed
+minotaur chieftainWeapon: Large Two-Handed
+orc warrior       Weapon: Medium One-Handed
+orc subchief      Weapon: Medium One-Handed
+orc chieftain     Weapon: Medium One-Handed
+orc shaman        Weapon: Medium One-Handed
+orc warlord       Weapon: Medium One-Handed
+gnoll warrior     Weapon: Medium One-Handed
+gnoll subchief    Weapon: Medium One-Handed
+gnoll chieftain   Weapon: Medium One-Handed
+gnoll warlord     Weapon: Medium One-Handed
+gnoll shaman      Weapon: Medium One-Hand
+lizard warrior    Weapon: Medium One-Handed
+lizard subchief   Weapon: Medium One-Handed
+lizard chieftain  Weapon: Medium One-Handed
+lizard warlord    Weapon: Medium One-Handed
+lizard shaman     Weapon: Small One-Handed
+
+
+
+0=can track?
+1=Combat Skill
+2=Terrain (0=Dungeon1 1=Dungeon2 2=Dungeon3 3=Mountains 4=Forest 5=Swamp 6=Desert 7=jungle 8=Fire1 9=Fire2 10=Special)
+3=gold
+4=treasure 
+5=armor
+6=Special Attack Percentage
+7=hit dice
+8=regeneration
+9=Min Damage (Weapon)
+10=Max Damage (Weapon)   if 9 == 0, then 10 is weapon type
+11=Min Damage (Special)
+12=Max Damage (Special)
+13=attack effect (0=none 1=poison 4=mana drain 5=vitality drain 6=paralysis
+14=min attack effect
+15=max attack effect
+16=special ability (1=summon aid 2=steal 3=heal 5=attack and tumble 6=attack all and tumble 7=spells)
+17=number of attacks
+18=level
+19=morale
+20=spell skill
+21=spell type (1=sorceror 4=necrolyte 3=druid)
+22=min spell  (1=toduza 2=komizuma 3=komizuma 4=toduzuma 6/7=todukar 8=todudaku 9=komasidaku 10=dumoti)
+23=max spell
+24=gender (0=neuter, 1=male, 2=female)
+25=subtype (0=none 1=avenger)
+
+                    0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25
+strangle vine       0   90  4   0   0   0   0   1   0   1   4   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+white orchid        0   90  4   0   0   0   0   1   0   1   4   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+pink orchid         0   90  4   0   0   0   0   1   0   2   5   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+red orchid          0   90  7   0   0   0   0   1   0   2   6   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+yellow orchid       0   90  7   0   0   0   0   2   0   2   5   0   0   1   1   3   0   1   1   0   0   0   0   0   0   0   
+black orchid        0   90  7   0   0   0   0   2   0   2   6   0   0   1   2   5   0   2   1   0   0   0   0   0   0   0   
+constrictor ivy     0   80  4   0   0   0   25  1   0   1   6   2   12  0   0   0   0   1   1   0   0   0   0   0   0   0   
+carrion creeper     0   85  7   0   0   0   25  2   0   1   6   2   12  1   1   2   0   1   1   0   0   0   0   0   0   0   
+reaper shrub        0   90  4   0   0   0   33  4   0   2   8   4   16  0   0   0   0   1   1   0   0   0   0   0   0   0   
+huge rat            0   80  0   0   0   0   0   1   0   1   6   0   0   0   0   0   0   1   1   50  0   0   0   0   0   0   
+imp                 1   85  0   1   3   0   0   1   0   0   0   0   0   0   0   0   0   2   1   75  0   0   0   0   0   0   
+female kobold       0   65  0   1   1   1   0   1   0   0   0   0   0   0   0   0   0   1   1   50  0   0   0   0   2   0   
+kobold              0   75  0   1   2   1   0   1   0   0   0   0   0   0   0   0   0   1   1   40  0   0   0   0   1   0   
+female orc          0   65  0   1   1   1   0   1   0   0   0   0   0   0   0   0   0   1   1   45  0   0   0   0   2   0   
+orc                 1   75  0   1   3   2   0   1   0   0   0   0   0   0   0   0   0   1   1   35  0   0   0   0   1   0   
+skeleton warrior    0   80  0   0   0   2   0   1   0   0   1   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+giant scorpion      0   70  6   0   0   1   55  1   0   2   6   3   9   1   1   2   0   2   1   20  0   0   0   0   0   0   
+zombie              0   80  5   0   0   1   0   1   0   0   0   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+huge toad           0   60  5   0   0   0   0   1   0   2   8   0   0   1   1   1   0   1   1   35  0   0   0   0   0   0   
+giant slug          0   65  5   0   0   0   25  1   0   2   6   4   16  1   1   1   0   1   1   5   0   0   0   0   0   0   
+giant bat           0   85  0   0   0   1   0   1   0   2   8   0   0   0   0   0   0   1   1   25  0   0   0   0   0   0   
+lesser demoness     0   80  10  1   3   1   30  1   0   2   8   0   0   0   0   0   7   1   1   25  80  4   0   4   2   0   
+lesser demon        0   85  10  3   4   2   30  1   0   2   8   0   0   0   0   0   7   1   1   20  75  4   1   5   1   0   
+shade               0   90  10  0   0   6   0   1   0   3   6   0   0   0   0   0   0   2   1   0   0   0   0   0   0   0   
+giant spider        0   70  1   0   0   1   0   2   0   2   12  0   0   1   1   3   0   1   2   20  0   0   0   0   0   0   
+ram                 0   90  3   0   0   1   0   2   0   2   10  0   0   0   0   0   0   1   2   35  0   0   0   0   0   0   
+fire beetle         0   75  8   0   0   3   0   1   0   2   12  0   0   0   0   0   0   2   2   30  0   0   0   0   0   0   
+alligator           1   80  5   0   0   2   35  2   0   2   12  2   8   0   0   0   0   1   2   15  0   0   0   0   0   0   
+giant asp           0   80  6   0   0   3   15  2   0   2   8   2   16  1   2   6   0   1   2   15  0   0   0   0   0   0   
+anaconda            1   70  7   0   0   2   25  2   0   2   8   2   16  0   0   0   0   1   2   20  0   0   0   0   0   0   
+lizard woman        0   80  0   3   6   1   0   2   0   0   1   0   0   0   0   0   0   2   2   20  0   0   0   0   2   0   
+lizard man          0   85  0   4   8   2   0   2   0   0   1   0   0   0   0   0   0   2   2   15  0   0   0   0   1   0   
+black bear          0   80  4   0   0   2   0   2   0   2   8   0   0   0   0   0   0   2   2   25  0   0   0   0   0   0   
+red bear            0   80  4   0   0   3   0   3   0   2   10  0   0   0   0   0   0   2   2   15  0   0   0   0   0   0   
+female gnoll        0   75  4   3   4   3   0   2   0   0   0   0   0   0   0   0   0   2   2   25  0   0   0   0   2   0   
+gnoll               0   85  4   4   6   4   0   2   0   0   0   0   0   0   0   0   0   2   2   20  0   0   0   0   1   0   
+female hobgoblin    0   75  0   3   6   2   0   2   0   0   2   0   0   0   0   0   0   1   2   25  0   0   0   0   2   0   
+hobgoblin           0   80  0   4   8   3   0   2   0   0   2   0   0   0   0   0   0   1   2   20  0   0   0   0   1   0   
+female brigand      0   80  4   2   4   3   20  2   0   0   1   0   0   0   0   0   2   2   2   80  0   0   0   0   2   0   
+robbed brigand      0   85  4   3   5   4   20  2   0   0   1   0   0   0   0   0   2   2   2   70  0   0   0   0   1   0   
+robbed leopard      0   95  7   0   0   2   35  2   0   3   9   4   12  0   0   0   0   2   2   20  0   0   0   0   0   0   
+wolf                0   90  4   0   0   2   0   2   0   4   16  0   0   0   0   0   0   2   2   40  0   0   0   0   0   0   
+wild boar           0   85  4   0   0   3   0   2   0   4   12  0   0   0   0   0   0   1   2   30  0   0   0   0   0   0   
+cave bear           0   90  0   0   0   3   0   2   0   2   12  0   0   0   0   0   0   2   2   10  0   0   0   0   0   0   
+female barbarian    0   85  3   2   4   2   0   3   0   0   2   0   0   0   0   0   0   1   2   15  0   0   0   0   2   0   
+barbarian           0   90  3   3   5   3   0   3   0   0   2   0   0   0   0   0   0   1   2   10  0   0   0   0   1   0   
+female centaur      0   80  4   2   5   3   20  2   0   0   2   2   12  0   0   0   0   2   2   15  0   0   0   0   2   0   
+centaur             0   90  4   3   6   4   25  2   0   0   2   4   16  0   0   0   0   2   2   10  0   0   0   0   1   0   
+mountain ape        0   80  3   0   0   3   0   3   0   2   10  0   0   0   0   0   0   2   3   20  0   0   0   0   0   0   
+female satyr        0   77  4   2   4   2   10  2   0   0   2   0   0   0   0   0   1   1   2   35  0   0   0   0   2   0   
+satyr               0   87  4   3   5   2   10  2   0   0   2   0   0   0   0   0   1   1   2   30  0   0   0   0   1   0   
+female minotaur     0   75  1   2   5   2   10  2   0   0   3   2   20  0   0   0   0   1   2   15  0   0   0   0   2   0   
+minotaur            0   80  1   4   6   2   15  2   0   0   3   4   24  0   0   0   0   1   3   10  0   0   0   0   1   0   
+carrion crane       0   90  6   0   0   2   0   3   0   3   18  0   0   0   0   0   0   1   3   30  0   0   0   0   0   0   
+ogress              1   80  1   3   5   2   0   3   0   0   3   0   0   0   0   0   0   1   3   20  0   0   0   0   2   0   
+ogre                1   85  1   4   6   3   0   3   0   0   3   0   0   0   0   0   0   1   3   15  0   0   0   0   1   0   
+swordswoman         0   90  4   2   6   4   0   3   0   2   16  0   0   0   0   0   0   2   3   40  0   0   0   0   2   0   
+swordsman           0   95  4   3   8   5   0   3   0   4   18  0   0   0   0   0   0   2   3   35  0   0   0   0   1   0   
+female cyclops      0   65  1   4   8   3   25  3   0   2   20  0   0   0   0   0   5   1   3   20  0   0   0   0   2   0   
+cyclops             0   70  1   5   10  4   35  3   0   4   24  0   0   0   0   0   5   1   4   15  0   0   0   0   1   0   
+wraith              0   90  10  0   0   1   0   4   0   3   18  0   0   6   2   4   0   2   4   0   0   0   0   0   0   0   
+larochess           0   65  7   4   15  3   25  3   0   4   24  6   36  1   1   3   0   2   4   30  0   0   0   0   2   0   
+larochet            0   75  7   5   20  4   20  3   0   5   30  8   48  1   2   4   0   2   4   25  0   0   0   0   1   0   
+cave lion           0   90  1   0   0   4   0   4   0   4   20  0   0   0   0   0   0   2   4   10  0   0   0   0   0   0   
+female troll        0   75  2   0   3   2   0   3   1   3   12  0   0   0   0   0   0   2   4   25  0   0   0   0   2   0   
+troll               0   80  2   0   4   2   0   4   1   4   16  0   0   0   0   0   0   2   4   20  0   0   0   0   1   0   
+skeleton lord       0   80  2   0   0   3   0   4   0   0   3   0   0   0   0   0   0   1   4   0   0   0   0   0   0   0   
+griffon             0   85  3   0   5   4   25  4   0   4   12  6   24  0   0   0   0   2   4   10  0   0   0   0   0   0   
+ghoul               0   87  5   0   6   4   20  4   0   2   12  0   0   4   2   4   0   2   4   5   0   0   0   0   0   0   
+gargoyle            0   90  5   0   6   5   0   5   0   4   16  0   0   0   0   0   0   2   4   15  0   0   0   0   0   0   
+magmaman            0   90  8   0   0   5   0   5   0   6   50  0   0   0   0   0   0   2   4   0   0   0   0   0   0   0   
+ogress mage         1   80  2   5   8   3   30  4   0   0   2   0   0   0   0   0   7   1   4   25  65  1   0   3   2   0   
+ogre mage           1   85  2   6   10  4   30  5   0   0   3   0   0   0   0   0   7   1   4   20  60  1   1   4   1   0   
+sand worm           0   85  6   0   0   5   0   4   0   4   24  0   0   0   0   0   0   1   4   0   0   0   0   0   0   0   
+chimera             0   85  2   0   10  4   35  4   0   2   12  12  48  0   0   0   0   2   4   15  0   0   0   0   0   0   
+warlock             0   85  2   6   12  4   40  5   0   4   12  0   0   0   0   0   7   1   5   15  80  1   2   7   1   0   
+minotaur chieftain  0   90  2   6   25  4   15  5   0   0   3   8   48  0   0   0   0   1   5   20  0   0   0   0   1   0   
+stone giantess      0   70  2   4   10  5   10  5   0   5   30  5   50  0   0   0   0   1   5   25  0   0   0   0   2   0   
+stone giant         0   75  2   5   15  6   15  6   0   6   36  10  60  0   0   0   0   1   5   20  0   0   0   0   1   0   
+elysian dragon      1   90  10  0   25  5   25  7   0   5   30  10  50  0   0   0   0   2   5   15  95  1   2   7   0   0   
+hydra               0   85  7   0   22  4   15  6   1   4   24  8   80  0   0   0   0   3   6   10  0   0   0   0   0   0   
+female affreet      0   85  8   6   10  4   15  7   0   4   24  10  80  0   0   0   0   1   6   20  0   0   0   0   2   0   
+affreet             1   90  8   8   15  5   15  8   0   5   30  20  100 0   0   0   0   1   6   15  0   0   0   0   1   0   
+magma worm          0   85  8   0   0   5   0   7   1   6   36  0   0   0   0   0   0   2   6   0   0   0   0   0   0   0   
+stygian dragon      0   95  8   0   40  5   45  9   0   8   48  12  72  0   0   0   6   2   6   10  95  1   2   8   0   0   
+ice giantess        1   80  10  6   15  4   25  9   0   5   50  10  60  0   0   0   0   1   6   20  0   0   0   0   2   0   
+ice giant           1   85  10  8   22  5   25  10  0   10  60  20  80  0   0   0   0   1   7   15  0   0   0   0   1   0   
+octopod             0   90  7   0   0   6   15  9   0   4   20  12  60  0   0   0   0   3   7   0   0   0   0   0   0   0   
+skeleton giant      0   85  10  0   0   4   0   10  0   10  80  0   0   0   0   0   0   1   7   0   0   0   0   0   0   0   
+greater demoness    0   85  10  6   25  5   25  10  1   5   30  0   0   0   0   0   7   2   7   15  85  4   3   7   2   0   
+greater demon       0   90  10  10  40  6   25  12  1   6   36  0   0   0   0   0   7   2   8   10  80  4   3   7   1   0   
+sorceress           0   85  10  10  32  3   40  10  1   5   20  0   0   0   0   0   7   2   8   20  85  1   3   8   2   0   
+sorceror            0   90  10  15  58  4   30  12  1   6   30  0   0   0   0   0   7   2   9   15  90  1   3   9   1   0   
+apollyon dragon     1   97  9   0   100 8   25  15  0   10  50  50  200 0   0   0   6   2   10  10  95  1   2   9   0   0   
+flame giantess      0   90  9   6   22  9   15  18  0   10  60  80  360 0   0   0   0   1   11  15  0   0   0   0   2   0   
+flame giant         0   95  9   10  32  12  15  20  0   20  80  100 400 0   0   0   0   1   12  10  0   0   0   0   1   0   
+flame giant warlord 0   95  10  15  63  14  25  25  0   32  96  120 240 5   10  60  3   2   15  20  0   0   0   0   1   0   
+balneal dragon      0   97  10  0   0   16  35  30  0   30  120 60  240 0   0   0   0   2   15  10  95  1   2   9   0   0   
+arch demoness       1   90  10  10  40  15  35  35  1   20  100 0   0   0   0   0   7   2   17  15  90  4   3   8   2   0   
+arch demon          1   95  10  15  90  16  35  40  1   40  160 0   0   0   0   0   7   2   18  10  85  4   3   8   1   0   
+demon king          0   99  10  25  200 20  65  60  1   60  240 0   0   0   0   0   7   2   20  20  90  4   3   14  1   0   
+great dragon        0   99  10  0   200 30  65  120 1   120 360 320 960 0   0   0   7   0   30  35  95  1   6   10  0   0   
+white rabbit        0   90  4   0   0   0   33  1   0   1   2   0   0   0   0   0   1   2   1   60  0   0   -1  0   0   0   
+black rabbit        0   90  4   0   0   0   33  1   0   1   2   0   0   0   0   0   1   2   1   60  0   0   -1  0   0   0   
+pink bunny          0   90  4   0   0   0   33  2   0   1   2   20  60  0   0   0   6   2   3   95  0   0   0   0   0   0   
+lizard              0   90  5   0   0   0   0   1   0   1   1   0   0   0   0   0   0   0   1   100 0   0   0   0   0   0   
+monkey              0   90  7   0   0   0   0   1   0   2   4   0   0   0   0   0   0   0   1   100 0   0   0   0   0   0   
+owl                 0   90  4   0   0   0   0   1   0   1   3   0   0   0   0   0   0   0   1   100 0   0   0   0   0   0   
+squirrel            0   90  4   0   0   0   0   1   0   1   3   0   0   0   0   0   0   0   1   100 0   0   0   0   0   0   
+frog                0   90  5   0   0   0   0   1   0   1   1   0   0   0   0   0   0   0   1   100 0   0   0   0   0   0   
+lizard              0   90  6   0   0   0   0   1   0   1   3   0   0   1   1   3   0   1   1   100 0   0   -1  0   0   0   
+fox                 0   90  4   0   0   0   0   1   0   2   4   0   0   0   0   0   0   1   1   100 0   0   0   0   0   0   
+hyena               0   90  6   0   0   2   0   2   0   4   24  0   0   0   0   0   0   1   2   40  0   0   0   0   0   0   
+tiger               0   95  7   0   0   2   35  5   0   8   24  12  36  0   0   0   0   2   4   30  0   0   0   0   0   0   
+mountain lion       0   95  3   0   0   2   35  3   0   2   8   6   18  0   0   0   0   2   4   20  0   0   0   0   0   0   
+female nomad        0   90  6   2   4   2   0   3   0   5   15  0   0   0   0   0   0   1   3   25  0   0   0   0   2   0   
+nomad               0   95  6   3   5   3   0   3   0   6   18  0   0   0   0   0   0   1   3   20  0   0   0   0   1   0   
+female bandit       0   90  10  6   25  6   12  2   0   4   24  8   48  0   0   0   2   2   6   50  0   0   0   0   2   0   
+bandit              0   95  10  10  40  8   15  2   0   6   36  12  72  0   0   0   2   2   7   40  0   0   0   0   1   0   
+forest giantess     0   80  4   4   10  5   35  7   0   5   20  0   0   0   0   0   7   2   6   35  85  3   2   7   2   0   
+forest giant        0   85  4   5   15  6   45  8   0   6   24  0   0   0   0   0   7   2   6   30  90  3   2   10  1   0   
+jackal              0   90  6   0   0   2   0   2   0   3   18  0   0   0   0   0   0   1   2   40  0   0   0   0   0   0   
+ice elemental       1   99  10  0   0   0   35  100 5   150 300 300 600 0   0   0   6   2   30  0   0   1   0   1   0   0   
+flame elemental     0   99  10  0   0   0   35  150 5   200 400 400 800 0   0   0   6   2   40  0   0   0   0   0   0   0   
+stone elemental     0   99  10  0   0   50  35  200 5   250 500 500 10000   0   0   6   2   50  0   0   0   0   0   0   0   
+mystic knight       0   99  10  0   0   50  0   250 5   100 600 0   0   0   0   0   0   6   60  0   0   0   0   0   1   1   
+orc warrior         1   80  10  3   5   6   0   2   0   0   1   0   0   0   0   0   0   2   2   25  0   0   0   0   1   0   
+orc subchief        1   85  10  4   8   6   0   3   0   0   2   0   0   0   0   0   0   2   3   30  0   0   0   0   1   0   
+orc chieftain       1   90  10  5   10  6   0   4   0   0   2   0   0   0   0   0   0   2   4   35  0   0   0   0   1   0   
+orc shaman          1   80  10  3   7   1   30  2   0   0   0   0   0   0   0   0   7   1   3   25  85  4   1   4   2   0   
+orc warlord         1   95  10  10  20  6   0   5   0   0   3   0   0   0   0   0   0   2   6   35  0   0   0   0   1   0   
+gnoll warrior       0   85  10  4   8   6   0   3   0   0   2   0   0   0   0   0   0   2   3   10  0   0   0   0   1   0   
+gnoll subchief      0   90  10  5   10  8   0   4   0   0   3   0   0   0   0   0   0   2   4   15  0   0   0   0   1   0   
+gnoll chieftain     0   90  10  6   12  8   0   5   0   0   3   0   0   0   0   0   0   2   5   20  0   0   0   0   1   0   
+gnoll warlord       0   95  10  12  24  10  0   7   0   0   3   0   0   0   0   0   0   2   7   20  0   0   0   0   1   0   
+gnoll shaman        0   85  10  4   8   1   30  3   0   0   0   0   0   0   0   0   7   1   4   25  80  3   1   4   2   0   
+lizard warrior      0   90  10  5   10  3   0   3   0   0   3   0   0   0   0   0   0   2   3   10  0   0   0   0   1   0   
+lizard subchief     0   90  10  6   12  3   0   4   0   0   2   0   0   0   0   0   0   2   4   15  0   0   0   0   1   0   
+lizard chieftain    0   90  10  7   14  5   0   5   0   0   2   0   0   0   0   0   0   2   5   20  0   0   0   0   1   0   
+lizard warlord      0   95  10  14  28  8   0   7   0   0   3   0   0   0   0   0   0   2   7   20  0   0   0   0   1   0   
+lizard shaman       0   80  10  4   8   1   30  2   0   0   0   0   0   0   0   0   7   2   3   25  75  1   1   3   2   0   
+stone warrior       0   90  10  0   0   20  35  60  0   100 200 200 400 6   2   4   4   2   25  0   0   0   -1  0   0   0   
+stone scorpion      0   85  10  0   0   25  65  75  0   125 250 250 500 1   25  50  3   2   25  0   0   1   0   1   0   0   
+stone wizard        0   80  10  0   0   15  65  50  0   50  100 250 500 4   25  50  7   2   25  0   90  1   6   10  0   0   
+dwarven guard       0   90  10  5   5   0   0   50  0   19  34  0   0   0   0   0   0   5   25  20  0   0   -1  0   1   0   
+elite dwarven guard 1   95  10  25  25  8   0   60  0   27  42  0   0   0   0   0   0   5   30  10  0   0   -1  0   1   0   
+dwarven captain     0   97  10  50  50  12  0   80  0   38  53  0   0   0   0   0   0   5   40  5   0   0   -1  0   1   0   
+dwarven sorceror    0   80  10  10  10  2   60  40  0   11  16  0   0   4   1   6   7   5   25  30  90  1   6   8   1   0   
+dwarven warhound    0   90  10  0   0   6   0   20  0   10  30  0   0   0   0   0   0   1   20  0   0   0   -1  0   0   0   
+dwarven leutenant   0   95  10  100 100 15  0   90  0   41  66  0   0   0   0   0   0   5   45  10  0   0   -1  0   1   0   
+dwarven warlord     0   97  10  150 150 20  0   100 0   43  83  0   0   0   0   0   0   5   50  5   0   0   -1  0   1   0   
+smith               0   90  10  10  10  2   0   40  0   20  50  0   0   0   0   0   0   0   20  20  0   0   -1  0   1   0   
+master smith        0   95  10  25  25  4   0   80  0   40  100 0   0   0   0   0   0   0   40  10  0   0   -1  0   1   0   
+dwarven archmage    0   90  10  100 100 1   60  60  0   21  26  0   0   4   2   12  7   5   50  10  95  1   6   10  1   0   
+
+                    0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19  20  21  22  23  24
+strangle vine       90  4   0   0   0   0   1   0   1   4   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+white orchid        90  4   0   0   0   0   1   0   1   4   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+pink orchid         90  4   0   0   0   0   1   0   2   5   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+red orchid          90  7   0   0   0   0   1   0   2   6   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+yellow orchid       90  7   0   0   0   0   2   0   2   5   0   0   1   1   3   0   1   1   0   0   0   0   0   0   0   
+black orchid        90  7   0   0   0   0   2   0   2   6   0   0   1   2   5   0   2   1   0   0   0   0   0   0   0   
+constrictor ivy     80  4   0   0   0   25  1   0   1   6   2   12  0   0   0   0   1   1   0   0   0   0   0   0   0   
+carrion creeper     85  7   0   0   0   25  2   0   1   6   2   12  1   1   2   0   1   1   0   0   0   0   0   0   0   
+reaper shrub        90  4   0   0   0   33  4   0   2   8   4   16  0   0   0   0   1   1   0   0   0   0   0   0   0   
+huge rat            80  0   0   0   0   0   1   0   1   6   0   0   0   0   0   0   1   1   50  0   0   0   0   0   0   
+imp                 85  0   1   3   0   0   1   0   0   0   0   0   0   0   0   0   2   1   75  0   0   0   0   0   0   
+female kobold       65  0   1   1   1   0   1   0   0   0   0   0   0   0   0   0   1   1   50  0   0   0   0   2   0   
+kobold              75  0   1   2   1   0   1   0   0   0   0   0   0   0   0   0   1   1   40  0   0   0   0   1   0   
+female orc          65  0   1   1   1   0   1   0   0   0   0   0   0   0   0   0   1   1   45  0   0   0   0   2   0   
+orc                 75  0   1   3   2   0   1   0   0   0   0   0   0   0   0   0   1   1   35  0   0   0   0   1   0   
+skeleton warrior    80  0   0   0   2   0   1   0   0   1   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+giant scorpion      70  6   0   0   1   55  1   0   2   6   3   9   1   1   2   0   2   1   20  0   0   0   0   0   0   
+zombie              80  5   0   0   1   0   1   0   0   0   0   0   0   0   0   0   1   1   0   0   0   0   0   0   0   
+huge toad           60  5   0   0   0   0   1   0   2   8   0   0   1   1   1   0   1   1   35  0   0   0   0   0   0   
+giant slug          65  5   0   0   0   25  1   0   2   6   4   16  1   1   1   0   1   1   5   0   0   0   0   0   0   
+giant bat           85  0   0   0   1   0   1   0   2   8   0   0   0   0   0   0   1   1   25  0   0   0   0   0   0   
+lesser demoness     80  10  1   3   1   30  1   0   2   8   0   0   0   0   0   7   1   1   25  80  4   0   4   2   0   
+lesser demon        85  10  3   4   2   30  1   0   2   8   0   0   0   0   0   7   1   1   20  75  4   1   5   1   0   
+shade               90  10  0   0   6   0   1   0   3   6   0   0   0   0   0   0   2   1   0   0   0   0   0   0   0   
+giant spider        70  1   0   0   1   0   2   0   2   12  0   0   1   1   3   0   1   2   20  0   0   0   0   0   0   
+ram                 90  3   0   0   1   0   2   0   2   10  0   0   0   0   0   0   1   2   35  0   0   0   0   0   0   
+fire beetle         75  8   0   0   3   0   1   0   2   12  0   0   0   0   0   0   2   2   30  0   0   0   0   0   0   
+alligator           80  5   0   0   2   35  2   0   2   12  2   8   0   0   0   0   1   2   15  0   0   0   0   0   0   
+giant asp           80  6   0   0   3   15  2   0   2   8   2   16  1   2   6   0   1   2   15  0   0   0   0   0   0   
+anaconda            70  7   0   0   2   25  2   0   2   8   2   16  0   0   0   0   1   2   20  0   0   0   0   0   0   
+lizard woman        80  0   3   6   1   0   2   0   0   1   0   0   0   0   0   0   2   2   20  0   0   0   0   2   0   
+lizard man          85  0   4   8   2   0   2   0   0   1   0   0   0   0   0   0   2   2   15  0   0   0   0   1   0   
+black bear          80  4   0   0   2   0   2   0   2   8   0   0   0   0   0   0   2   2   25  0   0   0   0   0   0   
+red bear            80  4   0   0   3   0   3   0   2   10  0   0   0   0   0   0   2   2   15  0   0   0   0   0   0   
+female gnoll        75  4   3   4   3   0   2   0   0   0   0   0   0   0   0   0   2   2   25  0   0   0   0   2   0   
+gnoll               85  4   4   6   4   0   2   0   0   0   0   0   0   0   0   0   2   2   20  0   0   0   0   1   0   
+female hobgoblin    75  0   3   6   2   0   2   0   0   2   0   0   0   0   0   0   1   2   25  0   0   0   0   2   0   
+hobgoblin           80  0   4   8   3   0   2   0   0   2   0   0   0   0   0   0   1   2   20  0   0   0   0   1   0   
+female brigand      80  4   2   4   3   20  2   0   0   1   0   0   0   0   0   2   2   2   80  0   0   0   0   2   0   
+robbed brigand      85  4   3   5   4   20  2   0   0   1   0   0   0   0   0   2   2   2   70  0   0   0   0   1   0   
+robbed leopard      95  7   0   0   2   35  2   0   3   9   4   12  0   0   0   0   2   2   20  0   0   0   0   0   0   
+wolf                90  4   0   0   2   0   2   0   4   16  0   0   0   0   0   0   2   2   40  0   0   0   0   0   0   
+wild boar           85  4   0   0   3   0   2   0   4   12  0   0   0   0   0   0   1   2   30  0   0   0   0   0   0   
+cave bear           90  0   0   0   3   0   2   0   2   12  0   0   0   0   0   0   2   2   10  0   0   0   0   0   0   
+female barbarian    85  3   2   4   2   0   3   0   0   2   0   0   0   0   0   0   1   2   15  0   0   0   0   2   0   
+barbarian           90  3   3   5   3   0   3   0   0   2   0   0   0   0   0   0   1   2   10  0   0   0   0   1   0   
+female centaur      80  4   2   5   3   20  2   0   0   2   2   12  0   0   0   0   2   2   15  0   0   0   0   2   0   
+centaur             90  4   3   6   4   25  2   0   0   2   4   16  0   0   0   0   2   2   10  0   0   0   0   1   0   
+mountain ape        80  3   0   0   3   0   3   0   2   10  0   0   0   0   0   0   2   3   20  0   0   0   0   0   0   
+female satyr        77  4   2   4   2   10  2   0   0   2   0   0   0   0   0   1   1   2   35  0   0   0   0   2   0   
+satyr               87  4   3   5   2   10  2   0   0   2   0   0   0   0   0   1   1   2   30  0   0   0   0   1   0   
+female minotaur     75  1   2   5   2   10  2   0   0   3   2   20  0   0   0   0   1   2   15  0   0   0   0   2   0   
+minotaur            80  1   4   6   2   15  2   0   0   3   4   24  0   0   0   0   1   3   10  0   0   0   0   1   0   
+carrion crane       90  6   0   0   2   0   3   0   3   18  0   0   0   0   0   0   1   3   30  0   0   0   0   0   0   
+ogress              80  1   3   5   2   0   3   0   0   3   0   0   0   0   0   0   1   3   20  0   0   0   0   2   0   
+ogre                85  1   4   6   3   0   3   0   0   3   0   0   0   0   0   0   1   3   15  0   0   0   0   1   0   
+swordswoman         90  4   2   6   4   0   3   0   2   16  0   0   0   0   0   0   2   3   40  0   0   0   0   2   0   
+swordsman           95  4   3   8   5   0   3   0   4   18  0   0   0   0   0   0   2   3   35  0   0   0   0   1   0   
+female cyclops      65  1   4   8   3   25  3   0   2   20  0   0   0   0   0   5   1   3   20  0   0   0   0   2   0   
+cyclops             70  1   5   10  4   35  3   0   4   24  0   0   0   0   0   5   1   4   15  0   0   0   0   1   0   
+wraith              90  10  0   0   1   0   4   0   3   18  0   0   6   2   4   0   2   4   0   0   0   0   0   0   0   
+larochess           65  7   4   15  3   25  3   0   4   24  6   36  1   1   3   0   2   4   30  0   0   0   0   2   0   
+larochet            75  7   5   20  4   20  3   0   5   30  8   48  1   2   4   0   2   4   25  0   0   0   0   1   0   
+cave lion           90  1   0   0   4   0   4   0   4   20  0   0   0   0   0   0   2   4   10  0   0   0   0   0   0   
+female troll        75  2   0   3   2   0   3   1   3   12  0   0   0   0   0   0   2   4   25  0   0   0   0   2   0   
+troll               80  2   0   4   2   0   4   1   4   16  0   0   0   0   0   0   2   4   20  0   0   0   0   1   0   
+skeleton lord       80  2   0   0   3   0   4   0   0   3   0   0   0   0   0   0   1   4   0   0   0   0   0   0   0   
+griffon             85  3   0   5   4   25  4   0   4   12  6   24  0   0   0   0   2   4   10  0   0   0   0   0   0   
+ghoul               87  5   0   6   4   20  4   0   2   12  0   0   4   2   4   0   2   4   5   0   0   0   0   0   0   
+gargoyle            90  5   0   6   5   0   5   0   4   16  0   0   0   0   0   0   2   4   15  0   0   0   0   0   0   
+magmaman            90  8   0   0   5   0   5   0   6   50  0   0   0   0   0   0   2   4   0   0   0   0   0   0   0   
+ogress mage         80  2   5   8   3   30  4   0   0   2   0   0   0   0   0   7   1   4   25  65  1   0   3   2   0   
+ogre mage           85  2   6   10  4   30  5   0   0   3   0   0   0   0   0   7   1   4   20  60  1   1   4   1   0   
+sand worm           85  6   0   0   5   0   4   0   4   24  0   0   0   0   0   0   1   4   0   0   0   0   0   0   0   
+chimera             85  2   0   10  4   35  4   0   2   12  12  48  0   0   0   0   2   4   15  0   0   0   0   0   0   
+warlock             85  2   6   12  4   40  5   0   4   12  0   0   0   0   0   7   1   5   15  80  1   2   7   1   0   
+minotaur chieftain  90  2   6   25  4   15  5   0   0   3   8   48  0   0   0   0   1   5   20  0   0   0   0   1   0   
+stone giantess      70  2   4   10  5   10  5   0   5   30  5   50  0   0   0   0   1   5   25  0   0   0   0   2   0   
+stone giant         75  2   5   15  6   15  6   0   6   36  10  60  0   0   0   0   1   5   20  0   0   0   0   1   0   
+elysian dragon      90  10  0   25  5   25  7   0   5   30  10  50  0   0   0   0   2   5   15  95  1   2   7   0   0   
+hydra               85  7   0   22  4   15  6   1   4   24  8   80  0   0   0   0   3   6   10  0   0   0   0   0   0   
+female affreet      85  8   6   10  4   15  7   0   4   24  10  80  0   0   0   0   1   6   20  0   0   0   0   2   0   
+affreet             90  8   8   15  5   15  8   0   5   30  20  100 0   0   0   0   1   6   15  0   0   0   0   1   0   
+magma worm          85  8   0   0   5   0   7   1   6   36  0   0   0   0   0   0   2   6   0   0   0   0   0   0   0   
+stygian dragon      95  8   0   40  5   45  9   0   8   48  12  72  0   0   0   6   2   6   10  95  1   2   8   0   0   
+ice giantess        80  10  6   15  4   25  9   0   5   50  10  60  0   0   0   0   1   6   20  0   0   0   0   2   0   
+ice giant           85  10  8   22  5   25  10  0   10  60  20  80  0   0   0   0   1   7   15  0   0   0   0   1   0   
+octopod             90  7   0   0   6   15  9   0   4   20  12  60  0   0   0   0   3   7   0   0   0   0   0   0   0   
+skeleton giant      85  10  0   0   4   0   10  0   10  80  0   0   0   0   0   0   1   7   0   0   0   0   0   0   0   
+greater demoness    85  10  6   25  5   25  10  1   5   30  0   0   0   0   0   7   2   7   15  85  4   3   7   2   0   
+greater demon       90  10  10  40  6   25  12  1   6   36  0   0   0   0   0   7   2   8   10  80  4   3   7   1   0   
+sorceress           85  10  10  32  3   40  10  1   5   20  0   0   0   0   0   7   2   8   20  85  1   3   8   2   0   
+sorceror            90  10  15  58  4   30  12  1   6   30  0   0   0   0   0   7   2   9   15  90  1   3   9   1   0   
+apollyon dragon     97  9   0   100 8   25  15  0   10  50  50  200 0   0   0   6   2   10  10  95  1   2   9   0   0   
+flame giantess      90  9   6   22  9   15  18  0   10  60  80  360 0   0   0   0   1   11  15  0   0   0   0   2   0   
+flame giant         95  9   10  32  12  15  20  0   20  80  100 400 0   0   0   0   1   12  10  0   0   0   0   1   0   
+flame giant warlord 95  10  15  63  14  25  25  0   32  96  120 240 5   10  60  3   2   15  20  0   0   0   0   1   0   
+balneal dragon      97  10  0   0   16  35  30  0   30  120 60  240 0   0   0   0   2   15  10  95  1   2   9   0   0   
+arch demoness       90  10  10  40  15  35  35  1   20  100 0   0   0   0   0   7   2   17  15  90  4   3   8   2   0   
+arch demon          95  10  15  90  16  35  40  1   40  160 0   0   0   0   0   7   2   18  10  85  4   3   8   1   0   
+demon king          99  10  25  200 20  65  60  1   60  240 0   0   0   0   0   7   2   20  20  90  4   3   14  1   0   
+great dragon        99  10  0   200 30  65  120 1   120 360 320 960 0   0   0   7   0   30  35  95  1   6   10  0   0   
+white rabbit        90  4   0   0   0   33  1   0   1   2   0   0   0   0   0   1   2   1   60  0   0   -1  0   0   0   
+black rabbit        90  4   0   0   0   33  1   0   1   2   0   0   0   0   0   1   2   1   60  0   0   -1  0   0   0   
+pink bunny          90  4   0   0   0   33  2   0   1   2   20  60  0   0   0   6   2   3   95  0   0   0   0   0   0   
+lizard              90  5   0   0   0   0   1   0   1   1   0   0   0   0   0   0   0   1   100 0   0   0   0   0   0   
+monkey              90  7   0   0   0   0   1   0   2   4   0   0   0   0   0   0   0   1   100 0   0   0   0   0   0   
+owl                 90  4   0   0   0   0   1   0   1   3   0   0   0   0   0   0   0   1   100 0   0   0   0   0   0   
+squirrel            90  4   0   0   0   0   1   0   1   3   0   0   0   0   0   0   0   1   100 0   0   0   0   0   0   
+frog                90  5   0   0   0   0   1   0   1   1   0   0   0   0   0   0   0   1   100 0   0   0   0   0   0   
+lizard              90  6   0   0   0   0   1   0   1   3   0   0   1   1   3   0   1   1   100 0   0   -1  0   0   0   
+fox                 90  4   0   0   0   0   1   0   2   4   0   0   0   0   0   0   1   1   100 0   0   0   0   0   0   
+hyena               90  6   0   0   2   0   2   0   4   24  0   0   0   0   0   0   1   2   40  0   0   0   0   0   0   
+tiger               95  7   0   0   2   35  5   0   8   24  12  36  0   0   0   0   2   4   30  0   0   0   0   0   0   
+mountain lion       95  3   0   0   2   35  3   0   2   8   6   18  0   0   0   0   2   4   20  0   0   0   0   0   0   
+female nomad        90  6   2   4   2   0   3   0   5   15  0   0   0   0   0   0   1   3   25  0   0   0   0   2   0   
+nomad               95  6   3   5   3   0   3   0   6   18  0   0   0   0   0   0   1   3   20  0   0   0   0   1   0   
+female bandit       90  10  6   25  6   12  2   0   4   24  8   48  0   0   0   2   2   6   50  0   0   0   0   2   0   
+bandit              95  10  10  40  8   15  2   0   6   36  12  72  0   0   0   2   2   7   40  0   0   0   0   1   0   
+forest giantess     80  4   4   10  5   35  7   0   5   20  0   0   0   0   0   7   2   6   35  85  3   2   7   2   0   
+forest giant        85  4   5   15  6   45  8   0   6   24  0   0   0   0   0   7   2   6   30  90  3   2   10  1   0   
+jackal              90  6   0   0   2   0   2   0   3   18  0   0   0   0   0   0   1   2   40  0   0   0   0   0   0   
+ice elemental       99  10  0   0   0   35  100 5   150 300 300 600 0   0   0   6   2   30  0   0   1   0   1   0   0   
+flame elemental     99  10  0   0   0   35  150 5   200 400 400 800 0   0   0   6   2   40  0   0   0   0   0   0   0   
+stone elemental     99  10  0   0   50  35  200 5   250 500 500 10000   0   0   6   2   50  0   0   0   0   0   0   0   
+mystic knight       99  10  0   0   50  0   250 5   100 600 0   0   0   0   0   0   6   60  0   0   0   0   0   1   1   
+orc warrior         80  10  3   5   6   0   2   0   0   1   0   0   0   0   0   0   2   2   25  0   0   0   0   1   0   
+orc subchief        85  10  4   8   6   0   3   0   0   2   0   0   0   0   0   0   2   3   30  0   0   0   0   1   0   
+orc chieftain       90  10  5   10  6   0   4   0   0   2   0   0   0   0   0   0   2   4   35  0   0   0   0   1   0   
+orc shaman          80  10  3   7   1   30  2   0   0   0   0   0   0   0   0   7   1   3   25  85  4   1   4   2   0   
+orc warlord         95  10  10  20  6   0   5   0   0   3   0   0   0   0   0   0   2   6   35  0   0   0   0   1   0   
+gnoll warrior       85  10  4   8   6   0   3   0   0   2   0   0   0   0   0   0   2   3   10  0   0   0   0   1   0   
+gnoll subchief      90  10  5   10  8   0   4   0   0   3   0   0   0   0   0   0   2   4   15  0   0   0   0   1   0   
+gnoll chieftain     90  10  6   12  8   0   5   0   0   3   0   0   0   0   0   0   2   5   20  0   0   0   0   1   0   
+gnoll warlord       95  10  12  24  10  0   7   0   0   3   0   0   0   0   0   0   2   7   20  0   0   0   0   1   0   
+gnoll shaman        85  10  4   8   1   30  3   0   0   0   0   0   0   0   0   7   1   4   25  80  3   1   4   2   0   
+lizard warrior      90  10  5   10  3   0   3   0   0   3   0   0   0   0   0   0   2   3   10  0   0   0   0   1   0   
+lizard subchief     90  10  6   12  3   0   4   0   0   2   0   0   0   0   0   0   2   4   15  0   0   0   0   1   0   
+lizard chieftain    90  10  7   14  5   0   5   0   0   2   0   0   0   0   0   0   2   5   20  0   0   0   0   1   0   
+lizard warlord      95  10  14  28  8   0   7   0   0   3   0   0   0   0   0   0   2   7   20  0   0   0   0   1   0   
+lizard shaman       80  10  4   8   1   30  2   0   0   0   0   0   0   0   0   7   2   3   25  75  1   1   3   2   0   
+stone warrior       90  10  0   0   20  35  60  0   100 200 200 400 6   2   4   4   2   25  0   0   0   -1  0   0   0   
+stone scorpion      85  10  0   0   25  65  75  0   125 250 250 500 1   25  50  3   2   25  0   0   1   0   1   0   0   
+stone wizard        80  10  0   0   15  65  50  0   50  100 250 500 4   25  50  7   2   25  0   90  1   6   10  0   0   
+dwarven guard       90  10  5   5   0   0   50  0   19  34  0   0   0   0   0   0   5   25  20  0   0   -1  0   1   0   
+elite dwarven guard 95  10  25  25  8   0   60  0   27  42  0   0   0   0   0   0   5   30  10  0   0   -1  0   1   0   
+dwarven captain     97  10  50  50  12  0   80  0   38  53  0   0   0   0   0   0   5   40  5   0   0   -1  0   1   0   
+dwarven sorceror    80  10  10  10  2   60  40  0   11  16  0   0   4   1   6   7   5   25  30  90  1   6   8   1   0   
+dwarven warhound    90  10  0   0   6   0   20  0   10  30  0   0   0   0   0   0   1   20  0   0   0   -1  0   0   0   
+dwarven leutenant   95  10  100 100 15  0   90  0   41  66  0   0   0   0   0   0   5   45  10  0   0   -1  0   1   0   
+dwarven warlord     97  10  150 150 20  0   100 0   43  83  0   0   0   0   0   0   5   50  5   0   0   -1  0   1   0   
+smith               90  10  10  10  2   0   40  0   20  50  0   0   0   0   0   0   0   20  20  0   0   -1  0   1   0   
+master smith        95  10  25  25  4   0   80  0   40  100 0   0   0   0   0   0   0   40  10  0   0   -1  0   1   0   
+dwarven archmage    90  10  100 100 1   60  60  0   21  26  0   0   4   2   12  7   5   50  10  95  1   6   10  1   0   
+
+   Web hosting Custom Email   SiteBuilder 
+
+ 
+
+ 
+There are 141 monsters in Tele-Arena 5.6c:
+
+Name: strangle vine
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: strangle vines
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The strange vine is a large bulbous plant with several writhing vines sprouting from it. It moves slowly about on gnarled roots.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: choking vines
+
+Min Dmg: 1
+
+Max Dmg: 4
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: white orchid
+
+Prefix: a
+
+Subtype: <none>
+
+Plural: white orchids
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The white orchid stands about two feet tall, moving around on its thin tendrils.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: tendrils
+
+Min Dmg: 1
+
+Max Dmg: 4
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: pink orchid
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: pink orchids
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The pink orchid stands about three feet tall, moving around on its thin tendrils.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: tendrils
+
+Min Dmg: 2
+
+Max Dmg: 5
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: red orchid
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: red orchids
+
+Gender: Neuter
+
+Terrain: Jungle
+
+Desc: The red orchid stands over three feet tall, moving around on its thin tendrils.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: tendrils
+
+Min Dmg: 2
+
+Max Dmg: 6
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: yellow orchid
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: yellow orchids
+
+Gender: Neuter
+
+Terrain: Jungle
+
+Desc: The yellow orchid stands about four feet tall, moving around on its thin tendrils.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: tendrils
+
+Min Dmg: 2
+
+Max Dmg: 5
+
+Attack Effect: Poison
+
+Min Eff: 1
+
+Max Eff: 3
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: black orchid
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: black orchids
+
+Gender: Neuter
+
+Terrain: Jungle
+
+Desc: The black orchid stands over four feet tall, moving around on its sticky tendrils.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: tendrils
+
+Min Dmg: 2
+
+Max Dmg: 5
+
+Attack Effect: Poison
+
+Min Eff: 2
+
+Max Eff: 5
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: constrictor ivy
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: contrictor ivies
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The contrictor ivy is a long snake-like vine, slithering about in search of food.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: lashing ivy
+
+Min Dmg: 1
+
+Max Dmg: 6
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 2
+
+Max Spc Dmg: 12
+
+Spc Att Desc: coiled around
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: carrion creeper
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: carrion creepers
+
+Gender: Neuter
+
+Terrain: Jungle
+
+Desc: The carrior creeper is a knotted mass or thorny vines which writhes about chaotically. You detect the fetid odor of rotting flesh, and notice several small animal carcasses tangled within this vile aberration.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure:
+
+Armor: 0
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: thorny vines
+
+Min Dmg: 1
+
+Max Dmg: 6
+
+Attack Effect: Poison
+
+Min Eff: 1
+
+Max Eff: 2
+
+Spec Att %: 25
+
+Min Spc Dmg: 2
+
+Max Spc Dmg: 12
+
+Spc Att Desc: mauled
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: reaper shrub
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: reaper shrubs
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The reaper shrub is a squat thorny plant, moving slowly about on thick gnarled roots. Its spiney brances rustle ominously at your presense.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: a thorny branch
+
+Min Dmg: 2
+
+Max Dmg: 8
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 33
+
+Min Spc Dmg: 4
+
+Max Spc Dmg: 16
+
+Spc Att Desc: raked several thorny brances across
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: huge rat
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: hute rats
+
+Gender: Neuter
+
+Terrain: Dungeon I
+
+Desc: The huge rat resembles rats you've seen before, except that it is about two feet tall at the shoulder, and seems much more aggressive.
+
+Level: 1
+
+Morale: 50
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: gnashing teeth
+
+Min Dmg: 1
+
+Max Dmg: 6
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: imp
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: imps
+
+Gender: Neuter
+
+Terrain: Dungeon I
+
+Desc: The imp is a tiny humanoid with pointed ears and bright red skin. It stands just over two feet in height and is armed with %s %s.
+
+Level: 1
+
+Morale: 75
+
+Gold: 1
+
+Treasure: 3
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female kobold
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female kobolds
+
+Gender: Female
+
+Terrain: Dungeon I
+
+Desc: The kolbold is a small humanoid with doglike facial features and is covered with coarse body hair. She stands just over three feet in height, is wearing a filthy tunic, and is armed with %s %s.
+
+Level: 1
+
+Morale: 50
+
+Gold: 1
+
+Treasure: 1
+
+Armor: 1
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 65
+
+Attacks: 1
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: kobold
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: kobold
+
+Gender: Male
+
+Terrain: Dungeon I
+
+Desc: The kobold is a small humanoid with doglike facial features and is covered with coarse body hair. He stands just under four feet in height, is wearing a filthy tunic, and is armed with %s %s.
+
+Level: 1
+
+Morale: 40
+
+Gold: 1
+
+Treasure: 2
+
+Armor: 1
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 75
+
+Attacks: 1
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female orc
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female orcs
+
+Gender: Female
+
+Terrain: Dungeon I
+
+Desc: The orc is a smallish humanoid with piglike facial features and is covered sparsely by a coarse body hair. She stands just over four feet in height, is wearing a leather tunic, and is armed with %s %s.
+
+Level: 1
+
+Morale: 45
+
+Gold: 1
+
+Treasure: 1
+
+Armor: 1
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 65
+
+Attacks: 1
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: orc
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: orcs
+
+Gender: Male
+
+Terrain: Dungeon I
+
+Desc: The orc is a smallish humanoid with piglike facial features and is covered sparsely by coarse body hair. He stands just under five feet in height, is wearing a leather cuirass, and is armed with %s %s.
+
+Level: 1
+
+Morale: 35
+
+Gold: 1
+
+Treasure: 3
+
+Armor: 2
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 75
+
+Attacks: 1
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: skeleton warrior
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: skeleton warriors
+
+Gender: Neuter
+
+Terrain: Dungeon I
+
+Desc: The skeleton warrior is wearing tattered armor and mouldering bits of old clothing, and is armed with %s %s.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: giant scorpion
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: giant scorpions
+
+Gender: Neuter
+
+Terrain: Desert
+
+Desc: The giant scorpion resembles a common scorpion, except that it is over eight feet in length.
+
+Level: 1
+
+Morale: 20
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 1
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 70
+
+Attacks: 2
+
+Weapon: tail
+
+Min Dmg: 2
+
+Max Dmg: 6
+
+Attack Effect: Poison
+
+Min Eff: 1
+
+Max Eff: 2
+
+Spec Att %: 55
+
+Min Spc Dmg: 3
+
+Max Spc Dmg: 9
+
+Spc Att Desc: snapped its pincers at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: zombie
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: zombies
+
+Gender: Neuter
+
+Terrain: Swamp
+
+Desc: The zombie has a blank expression on its face. It is wearing old soiled clothing, and is armed with %s %s.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 1
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: huge toad
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: huge toads
+
+Gender: Neuter
+
+Terrain: Swamp
+
+Desc: The huge toad resembles a common toad, except that it is just over three feet tall, and seems very agressive.
+
+Level: 1
+
+Morale: 35
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 60
+
+Attacks: 1
+
+Weapon: gaping mouth
+
+Min Dmg: 2
+
+Max Dmg: 8
+
+Attack Effect: Poison
+
+Min Eff: 1
+
+Max Eff: 1
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: giant slug
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: giant slugs
+
+Gender: Neuter
+
+Terrain: Swamp
+
+Desc: The giant slug is over seven feet long and drools acidic spittle from its maw.
+
+Level: 1
+
+Morale: 5
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 65
+
+Attacks: 1
+
+Weapon: toothy maw
+
+Min Dmg: 2
+
+Max Dmg: 6
+
+Attack Effect: Poison
+
+Min Eff: 1
+
+Max Eff: 1
+
+Spec Att %: 25
+
+Min Spc Dmg: 4
+
+Max Spc Dmg: 16
+
+Spc Att Desc: discharged a spray of acid at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: giant bat
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: giant bats
+
+Gender: Neuter
+
+Terrain: Dungeon I
+
+Desc: The giant bat has a wingspan of over twelve feet and has wicked looking claws and teeth.
+
+Level: 1
+
+Morale: 25
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 1
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: vicious bite
+
+Min Dmg: 2
+
+Max Dmg: 8
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: lesser demoness
+
+Prefix: A
+
+Subtype: <None>
+
+Plural: lesser demonesses
+
+Gender: Female
+
+Terrain: Special
+
+Desc: The lesser demoness is a spindly bipedal humanoid with light yellowish skin and wicked claws and teeth. She stands about five feet tall and fixes you with a baleful stare.
+
+Level: 1
+
+Morale: 25
+
+Gold: 1
+
+Treasure: 3
+
+Armor: 1
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: claws
+
+Min Dmg: 2
+
+Max Dmg: 8
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 30
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 80
+
+Spell List: Necrolyte
+
+Min Spl: teka
+
+Max Spl: yilazi
+
+ 
+
+Name: lesser demon
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: lesser demons
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The lesser demon is a spindly bipedal humanoid with dark yellowish skin and wicked claws and teeth. He stands about five feet tall and fixes you with a baleful stare.
+
+Level: 1
+
+Morale: 20
+
+Gold: 3
+
+Treasure: 4
+
+Armor: 2
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: claws
+
+Min Dmg: 2
+
+Max Dmg: 8
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 30
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 75
+
+Spell List: Necrolyte
+
+Min Spl: dobuza
+
+Max Spl: kateka
+
+ 
+
+Name: shade
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: shades
+
+Gender: Neuter
+
+Terrain: Special
+
+Desc: The shade is a dark shadowy figure. You can tell very little about it except that its eyes strongly resemble burning coals. It occasionally emits a low moan and watches your movements closely.
+
+Level: 1
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 6
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 3
+
+Max Dmg: 6
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: giant spider
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: giant spiders
+
+Gender: Neuter
+
+Terrain: Dungeon II
+
+Desc: The giant spider's body is over six feet long, and it has thick hairy legs. A thick oily liquid drips from its mandibles.
+
+Level: 2
+
+Morale: 20
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 1
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 70
+
+Attacks: 1
+
+Weapon: mandibles
+
+Min Dmg: 2
+
+Max Dmg: 12
+
+Attack Effect: Poison
+
+Min Eff: 1
+
+Max Eff: 3
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: ram
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: rams
+
+Gender: Neuter
+
+Terrain: Mountains
+
+Desc: The ram glares at you from beneath a pair of huge curved horns.
+
+Level: 2
+
+Morale: 35
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 1
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: curved horns
+
+Min Dmg: 2
+
+Max Dmg: 10
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: fire beetle
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: fire beetles
+
+Gender: Neuter
+
+Terrain: Fire I
+
+Desc: The fire beetle is a huge reddish brown beetle, about four feet long, with a thick shiny carapace, and strong, wickedly sharp mandibles.
+
+Level: 2
+
+Morale: 30
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 3
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 75
+
+Attacks: 2
+
+Weapon: mandibles
+
+Min Dmg: 2
+
+Max Dmg: 12
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: alligator
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: alligators
+
+Gender: Neuter
+
+Terrain: Swamp
+
+Desc: The alligator watches your every move closely and snaps at you.
+
+Level: 2
+
+Morale: 15
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: wicked bite
+
+Min Dmg: 2
+
+Max Dmg: 12
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 2
+
+Max Spc Dmg: 8
+
+Spc Att Desc: lashed its tail at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: giant asp
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: giant asp
+
+Gender: Neuter
+
+Terrain: Desert
+
+Desc: The giant asp is an enormous viper over twenty feet in length. Its scales are a dull tan and it's body is thicker than a large man's arm.
+
+Level: 2
+
+Morale: 15
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 3
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: wicked bite
+
+Min Dmg: 2
+
+Max Dmg: 8
+
+Attack Effect: Poison
+
+Min Eff: 2
+
+Max Eff: 6
+
+Spec Att %: 15
+
+Min Spc Dmg: 2
+
+Max Spc Dmg: 16
+
+Spc Att Desc: coiled around
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: anaconda
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: anacondas
+
+Gender: Neuter
+
+Terrain: Jungle
+
+Desc: The anaconda is an enormous constrictor snake well over forty feet in length. Its scales range in color from an emerald green to a dark blue, and its body is thicker than some tree trunks you've seen.
+
+Level: 2
+
+Morale: 20
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 70
+
+Attacks: 1
+
+Weapon: wicked bite
+
+Min Dmg: 2
+
+Max Dmg: 8
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 2
+
+Max Spc Dmg: 16
+
+Spc Att Desc: coiled around
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: lizard woman
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: lizard women
+
+Gender: Female
+
+Terrain: Dungeon I
+
+Desc: The lizard woman is a five foot tall bipedal humanoid who's features resemble those of a large liard. She has greish scaley skin, and sharp claws and teeth. The lizard woman is armed with %s %s.
+
+Level: 2
+
+Morale: 20
+
+Gold: 3
+
+Treasure: 6
+
+Armor: 1
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: lizard man
+
+Prefix: A
+
+Subtype: <None>
+
+Plural: lizard men
+
+Gender: Male
+
+Terrain: Dungeon I
+
+Desc: The lizard man is a six foot tall bipedal humanoid who's features resemble those of a large lizard. He has greenish scaley skin, and sharp claws and teeth. The lizard man is armed with %s %s.
+
+Level: 2
+
+Morale: 15
+
+Gold: 5
+
+Treasure: 8
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: black bear
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: black bears
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The black bear has shaggy black fur run through with reddish brown streaks and stands well over four feet tall at the shoulder.
+
+Level: 2
+
+Morale: 25
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 2
+
+Max Dmg: 8
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: red bear
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: red bears
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The red bear has shaggy reddish fur run through with black streaks and stands just over five feet tall at the shoulder.
+
+Level: 2
+
+Morale: 15
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 3
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 2
+
+Max Dmg: 10
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female gnoll
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female gnolls
+
+Gender: Female
+
+Terrain: Forest
+
+Desc: The gnoll is a tall humanoid with hyenalike facial features and is covered by thick golden brown body hair. She stands just over six feet in height, is wearing a leather cuirass and trousers, and is armed with %s %s.
+
+Level: 2
+
+Morale: 25
+
+Gold: 3
+
+Treasure: 4
+
+Armor: 3
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 75
+
+Attacks: 2
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: gnoll
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: gnolls
+
+Gender: Male
+
+Terrain: Forest
+
+Desc: The gnoll is a tall humanoid with hyenalike facial features and is covered by thick reddish brown body hair. He stands just under seven feet in height, is wearing a chainmail shirt and trousers, and is armed with %s %s.
+
+Level: 2
+
+Morale: 20
+
+Gold: 4
+
+Treasure: 6
+
+Armor: 4
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female hobgoblin
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female hobgoblins
+
+Gender: Female
+
+Terrain: Dungeon I
+
+Desc: The hobgoblin is a squat apelike humanoid with dark skin and pointed ears. She stands just under five feet tall, is wearing a leather cuirass, and is armed with %s %s.
+
+Level: 2
+
+Morale: 25
+
+Gold: 3
+
+Treasure: 6
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 75
+
+Attacks: 1
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: hobgoblin
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: hobgoblins
+
+Gender: Male
+
+Terrain: Dungeon I
+
+Desc: The hobgoblin is a squat apelike humanoid with dark skin and pointed ears. He stands just over five feet tall, is wearing a leather cuirass, and is armed with %s %s.
+
+Level: 2
+
+Morale: 20
+
+Gold: 4
+
+Treasure: 8
+
+Armor: 3
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female brigand
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female brigands
+
+Gender: Female
+
+Terrain: Forest
+
+Desc: The brigand has the look of a common thief, and is dressed in a cheap, but flashy outfit. She is also wearing leather armor and is armed with %s %s.
+
+Level: 2
+
+Morale: 80
+
+Gold: 2
+
+Treasure: 4
+
+Armor: 3
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 2
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 20
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Steal
+
+Spc Abl Desc: robbed
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: brigand
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: brigands
+
+Gender: Male
+
+Terrain: Forest
+
+Desc: The brigand has the look of a common thief, and is dressed in a cheap, but flashy outfit. He is also wearing chain armor and is armed with %s %s.
+
+Level: 2
+
+Morale: 70
+
+Gold: 3
+
+Treasure: 5
+
+Armor: 4
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 20
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Steal
+
+Spc Abl Desc: robbed
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: leopard
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: leopards
+
+Gender: Neuter
+
+Terrain: Jungle
+
+Desc: The leopard has luxurious looking spotted fur. It growls menacingly and bares its teeth at you.
+
+Level: 2
+
+Morale: 20
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 3
+
+Max Dmg: 9
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 4
+
+Max Spc Dmg: 12
+
+Spc Att Desc: savagely bit
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: wolf
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: wolves
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The wolf is very large and has greyish fur and icey blue eyes. It growls at you menacingly and bares its teeth.
+
+Level: 2
+
+Morale: 40
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: savage bite
+
+Min Dmg: 4
+
+Max Dmg: 16
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: wild boar
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: wild boars
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The wild boar has dark coarse hair and makes a low whining sound. It has two sharp tusks which curve upwards from the sides of its mouth.
+
+Level: 2
+
+Morale: 30
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 3
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: tusks
+
+Min Dmg: 4
+
+Max Dmg: 12
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: cave bear
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: cave bears
+
+Gender: Neuter
+
+Terrain: Dungeon I
+
+Desc: The cave bear has dark brown fur and stands well over seven feet tall at the shoulder. Its teeth and claws gleam like daggers as it sizes you up.
+
+Level: 2
+
+Morale: 10
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 3
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 2
+
+Max Dmg: 12
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female barbarian
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female barbarians
+
+Gender: Female
+
+Terrain: Mountains
+
+Desc: The barbarian is dressed in the hides of furred animals, and is armed with %s %s. She has a look of great strength and cunning.
+
+Level: 2
+
+Morale: 15
+
+Gold: 2
+
+Treasure: 4
+
+Armor: 2
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: Large One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: barbarian
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: barbarians
+
+Gender: Male
+
+Terrain: Mountains
+
+Desc: The barbarian is dressed in the hides of furred animals, and is armed with %s %s. He has a look of great strength and cunning.
+
+Level: 2
+
+Morale: 10
+
+Gold: 3
+
+Treasure: 5
+
+Armor: 3
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: Large One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female centaur
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female centaurs
+
+Gender: Female
+
+Terrain: Forest
+
+Desc: The centaur has the body of a horse with the upper torso, arms, and head of a well built woman. She has long hair which she wears in a tight braid, and is armed with %s %s.
+
+Level: 2
+
+Morale: 15
+
+Gold: 2
+
+Treasure: 5
+
+Armor: 3
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 2
+
+Weapon: Large One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 20
+
+Min Spc Dmg: 2
+
+Max Spc Dmg: 12
+
+Spc Att Desc: flailed her hooves at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: centaur
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: centaurs
+
+Gender: Male
+
+Terrain: Forest
+
+Desc: The centaur has the body of a horse with the upper torso, arms, and head of a well muscled man. He has long hair which he wears in a tight braid, and is armed with %s %s.
+
+Level: 2
+
+Morale: 10
+
+Gold: 3
+
+Treasure: 6
+
+Armor: 4
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: Large One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 4
+
+Max Spc Dmg: 16
+
+Spc Att Desc: flailed his hooves at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: mountain ape
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: mountain apes
+
+Gender: Neuter
+
+Terrain: Mountains
+
+Desc: The mountain ape is nearly seven feet tall, has thick reddish brown fur and looks very strong.
+
+Level: 3
+
+Morale: 20
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 3
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 2
+
+Weapon: clenched fists
+
+Min Dmg: 2
+
+Max Dmg: 10
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female satyr
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female satyrs
+
+Gender: Female
+
+Terrain: Forest
+
+Desc: The satyr has the upper torso of well built woman, and the lower torso, legs, and hooves of a goat. She is armed with %s %s.
+
+Level: 2
+
+Morale: 35
+
+Gold: 2
+
+Treasure: 4
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 77
+
+Attacks: 1
+
+Weapon: Large One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 10
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Summon Aid
+
+Spc Abl Desc: sounds an ivory horn
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: satyr
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: satyrs
+
+Gender: Male
+
+Terrain: Forest
+
+Desc: The satyr has the upper torso of man with a lot of body hair, and the lower torso, legs, and hooves of a goat. He is armed with %s %s.
+
+Level: 2
+
+Morale: 30
+
+Gold: 3
+
+Treasure: 5
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 87
+
+Attacks: 1
+
+Weapon: Large One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 10
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Summon Aid
+
+Spc Abl Desc: sounds an ivory horn
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female minotaur
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female minotaurs
+
+Gender: Female
+
+Terrain: Dungeon II
+
+Desc: The minotaur has the upper torso of a muscular woman, and the head, legs, and hooves of a bull. She is wearing ringmail armor, and is armed with %s %s.
+
+Level: 2
+
+Morale: 15
+
+Gold: 2
+
+Treasure: 5
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 75
+
+Attacks: 1
+
+Weapon: Large One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 10
+
+Min Spc Dmg: 2
+
+Max Spc Dmg: 20
+
+Spc Att Desc: charged
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: minotaur
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: minotaurs
+
+Gender: Male
+
+Terrain: Dungeon II
+
+Desc: The minotaur has the upper torso of a muscular man, and the head, legs, and hooves of a bull. He is wearing ringmail armor, and is armed with %s %s.
+
+Level: 3
+
+Morale: 10
+
+Gold: 4
+
+Treasure: 6
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: Large One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 15
+
+Min Spc Dmg: 4
+
+Max Spc Dmg: 24
+
+Spc Att Desc: charged
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: carrion crane
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: carrion cranes
+
+Gender: Neuter
+
+Terrain: Desert
+
+Desc: The carrion crane is nearly eight feet tall, has dull grey plumage and a very wicked looking hooked ebony beak.
+
+Level: 3
+
+Morale: 30
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: hooked beak
+
+Min Dmg: 3
+
+Max Dmg: 18
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: ogress
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: ogresses
+
+Gender: Female
+
+Terrain: Dungeon II
+
+Desc: The ogress resembles an enormous and very ugly woman. She stands over seven feet tall and is very muscular. Her clothing is filthy and poorly made. She is armed with %s %s.
+
+Level: 3
+
+Morale: 20
+
+Gold: 3
+
+Treasure: 5
+
+Armor: 2
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: Large Two-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: ogre
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: ogres
+
+Gender: Male
+
+Terrain: Dungeon II
+
+Desc: The ogre resembles an enormous and very ugly man. He stands over eight feet tall and is very muscular. His clothing is filthy and poorly made. He is armed with %s %s.
+
+Level: 3
+
+Morale: 15
+
+Gold: 4
+
+Treasure: 6
+
+Armor: 3
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: Large Two-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: swordswoman
+
+Prefix: A
+
+Subtype: <None>
+
+Plural: swordswomen
+
+Gender: Female
+
+Terrain: Forest
+
+Desc: The swordswoman has an air of confidance about her. She is wearing chain armor, and is armed with a rapier which she wields skillfully.
+
+Level: 3
+
+Morale: 40
+
+Gold: 2
+
+Treasure: 6
+
+Armor: 4
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: rapier
+
+Min Dmg: 2
+
+Max Dmg: 16
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: swordsman
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: swordsmen
+
+Gender: Male
+
+Terrain: Forest
+
+Desc: The swordsman has an air of confidance about him. He is wearing chain armor, and is armed with a rapier which he wields skillfully.
+
+Level: 3
+
+Morale: 35
+
+Gold: 3
+
+Treasure: 8
+
+Armor: 5
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: rapier
+
+Min Dmg: 4
+
+Max Dmg: 18
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female cyclops
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female cyclopes
+
+Gender: Female
+
+Terrain: Dungeon II
+
+Desc: The cyclops resembles a very large woman with only one eye in the center of her forehead. She stands over eleven feet tall, and is armed with a spiked club.
+
+Level: 3
+
+Morale: 20
+
+Gold: 4
+
+Treasure: 8
+
+Armor: 3
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 65
+
+Attacks: 1
+
+Weapon: spiked club
+
+Min Dmg: 2
+
+Max Dmg: 20
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Attack & Tumble
+
+Spc Abl Desc: picks up and hurls
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: cyclops
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: cyclopes
+
+Gender: Male
+
+Terrain: Dungeon II
+
+Desc: The cyclops resembles a very large man with only one eye in the center of his forehead. He stands over twelve feet tall, and is armed with a spiked club.
+
+Level: 4
+
+Morale: 15
+
+Gold: 5
+
+Treasure: 10
+
+Armor: 4
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 70
+
+Attacks: 1
+
+Weapon: spiked club
+
+Min Dmg: 4
+
+Max Dmg: 24
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Attack & Tumble
+
+Spc Abl Desc: picks up and hurls
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: wraith
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: wraith
+
+Gender: Neuter
+
+Terrain: Special
+
+Desc: The wraith is a shadowy figure with faded, nondescript features. It is semi-transparent and greyish in color. It glares at you with dull yellowish eyes.
+
+Level: 4
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 1
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 3
+
+Max Dmg: 18
+
+Attack Effect: Paralysis
+
+Min Eff: 2
+
+Max Eff: 4
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: larochess
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: laroche
+
+Gender: Female
+
+Terrain: Jungle
+
+Desc: The larochess resembles a large well built woman with pale bluish skin pointed ears, and a short tail. She is very muscular and stands nearly nine feet tall. She is wearing leather armor, and is armed with a wicked spear.
+
+Level: 4
+
+Morale: 30
+
+Gold: 4
+
+Treasure: 15
+
+Armor: 3
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 65
+
+Attacks: 2
+
+Weapon: wicked spear
+
+Min Dmg: 4
+
+Max Dmg: 24
+
+Attack Effect: Poison
+
+Min Eff: 1
+
+Max Eff: 3
+
+Spec Att %: 25
+
+Min Spc Dmg: 6
+
+Max Spc Dmg: 36
+
+Spc Att Desc: exhaled a cloud of acidic vapor at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: larochet
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: larochets
+
+Gender: Male
+
+Terrain: Jungle
+
+Desc: The larochet resembles a large well built man with dark bluish skin, pointed ears, and a short tail. He is very muscular and stands over nine feet tall. He is wearing a cuirass, and is armed with a wicked spear.
+
+Level: 4
+
+Morale: 25
+
+Gold: 5
+
+Treasure: 20
+
+Armor: 4
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 75
+
+Attacks: 2
+
+Weapon: wicked spear
+
+Min Dmg: 5
+
+Max Dmg: 30
+
+Attack Effect: Poison
+
+Min Eff: 2
+
+Max Eff: 4
+
+Spec Att %: 20
+
+Min Spc Dmg: 8
+
+Max Spc Dmg: 48
+
+Spc Att Desc: exhaled a cloud of acidic vapor at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: cave lion
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: cave lions
+
+Gender: Neuter
+
+Terrain: Dungeon II
+
+Desc: The cave lion is a huge black animal which stands over six feet tall at the shoulder and has wicked curved claws and razor sharp teeth.
+
+Level: 4
+
+Morale: 10
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 4
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 4
+
+Max Dmg: 20
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female troll
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female trolls
+
+Gender: Female
+
+Terrain: Dungeon III
+
+Desc: The troll resembles a large ugly woman with yellowish green skin and wicked claws. Her skin is covered with warts and tufts of stiff greenish hair.
+
+Level: 4
+
+Morale: 25
+
+Gold: 0
+
+Treasure: 3
+
+Armor: 2
+
+Hit Dice: 3
+
+Regeneration: 1
+
+Combat Skill: 75
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 3
+
+Max Dmg: 12
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: troll
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: trolls
+
+Gender: Male
+
+Terrain: Dungeon III
+
+Desc: The troll resembles a large ugly man with brownish green skin and wicked claws. His skin is covered with warts and tufts of stiff greenish hair.
+
+Level: 4
+
+Morale: 20
+
+Gold: 0
+
+Treasure: 4
+
+Armor: 2
+
+Hit Dice: 4
+
+Regeneration: 1
+
+Combat Skill: 80
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 4
+
+Max Dmg: 16
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: skeleton lord
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: skeleton lords
+
+Gender: Neuter
+
+Terrain: Dungeon III
+
+Desc: The skeleton lord wears a suit well kept chainmail armor, and is armed with %s %s.
+
+Level: 4
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 3
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: Large Two-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: griffon
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: griffons
+
+Gender: Neuter
+
+Terrain: Mountains
+
+Desc: The griffon has the body of a lion, and the front feet, head, and wings of an eagle. It has razor sharp talons and a large black beak.
+
+Level: 4
+
+Morale: 10
+
+Gold: 0
+
+Treasure: 5
+
+Armor: 4
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 4
+
+Max Dmg: 12
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 6
+
+Max Spc Dmg: 24
+
+Spc Att Desc: viciously bit
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: ghoul
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: ghouls
+
+Gender: Neuter
+
+Terrain: Swamp
+
+Desc: The ghoul is a lithe, though muscular humanoid with tightly drawn brownish flesh and cloven hooves. Its teeth and nails are yellowish and look very sharp.
+
+Level: 4
+
+Morale: 5
+
+Gold: 0
+
+Treasure: 6
+
+Armor: 4
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 87
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 2
+
+Max Dmg: 12
+
+Attack Effect: Mana Drain
+
+Min Eff: 2
+
+Max Eff: 4
+
+Spec Att %: 20
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: gargoyle
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: gargoyles
+
+Gender: Neuter
+
+Terrain: Swamp
+
+Desc: The gargoyle is a heavily muscled, grey skinned humanoid with large leathery wings and wicked claws.
+
+Level: 4
+
+Morale: 15
+
+Gold: 0
+
+Treasure: 6
+
+Armor: 5
+
+Hit Dice: 5
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: wicked claws
+
+Min Dmg: 4
+
+Max Dmg: 16
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: magmaman
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: magmamen
+
+Gender: Neuter
+
+Terrain: Fire I
+
+Desc: The magmaman resembles a humanoid non-descript creature, seemingly formed from molten rock. He has two thick arm-like appendages, ending in dripping claws.
+
+Level: 4
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 5
+
+Hit Dice: 5
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: burning claws
+
+Min Dmg: 6
+
+Max Dmg: 50
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: ogress mage
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: ogress mages
+
+Gender: Female
+
+Terrain: Dungeon III
+
+Desc: The ogress mage is wearing a steel breastplate and bracers, and is armed with %s %s. She is also wearing a dark red cloak.
+
+Level: 4
+
+Morale: 25
+
+Gold: 5
+
+Treasure: 8
+
+Armor: 3
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: Large One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 30
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 65
+
+Spell List: Sorceror
+
+Min Spl: komiza
+
+Max Spl: komizuma
+
+ 
+
+Name: ogre mage
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: ogre mages
+
+Gender: Male
+
+Terrain: Dungeon III
+
+Desc: The ogre mage is wearing a steel breastplate and bracers, and is armed with %s %s. He is also wearing a dark red cloak.
+
+Level: 4
+
+Morale: 20
+
+Gold: 6
+
+Treasure: 10
+
+Armor: 4
+
+Hit Dice: 5
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: Large One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 30
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 60
+
+Spell List: Sorceror
+
+Min Spl: toduza
+
+Max Spl: toduzuma
+
+ 
+
+Name: sand worm
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: sand worms
+
+Gender: Neuter
+
+Terrain: Desert
+
+Desc: The sand worm is over fifty feet long, is covered in a hard ringed carapace, it's gaping maw is filled with many rows of wickedly gleaming teeth.
+
+Level: 4
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 5
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: gaping maw
+
+Min Dmg: 4
+
+Max Dmg: 24
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: chimera
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: chimeras
+
+Gender: Neuter
+
+Terrain: Dungeon III
+
+Desc: The chimera has the body of a lion, leathery wings and two heads which resemble those of a dragon. Thin streams of smoke curl upwards from its nostrils.
+
+Level: 4
+
+Morale: 15
+
+Gold: 0
+
+Treasure: 10
+
+Armor: 4
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 2
+
+Max Dmg: 12
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 12
+
+Max Spc Dmg: 48
+
+Spc Att Desc: breathed flames at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: warlock
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: warlocks
+
+Gender: Male
+
+Terrain: Dungeon III
+
+Desc: The warlock is dressed in red robes and radiates power. He wields a staff shrouded in magical flame. Tatooed on his right forearm is a crimson sigil.
+
+Level: 5
+
+Morale: 15
+
+Gold: 6
+
+Treasure: 12
+
+Armor: 4
+
+Hit Dice: 5
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: flaming staff
+
+Min Dmg: 4
+
+Max Dmg: 12
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 40
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 80
+
+Spell List: Sorceror
+
+Min Spl: komizuma
+
+Max Spl: todukar
+
+ 
+
+Name: minotaur chieftain
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: minotaur chieftains
+
+Gender: Male
+
+Terrain: Dungeon III
+
+Desc: The minotaur chieftain is a very large member of his species. He is very muscular and stands nearly eight feet tall. He is wearing scalemail armor, and is armed with %s %s.
+
+Level: 5
+
+Morale: 20
+
+Gold: 6
+
+Treasure: 25
+
+Armor: 4
+
+Hit Dice: 5
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: Large Two-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 15
+
+Min Spc Dmg: 8
+
+Max Spc Dmg: 48
+
+Spc Att Desc: charged
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: stone giantess
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: stone giantesses
+
+Gender: Female
+
+Terrain: Dungeon III
+
+Desc: The stone giantess resembles a huge hairless woman with light greyish skin and stands nearly eighteen feet tall. She is armed with a huge club.
+
+Level: 5
+
+Morale: 25
+
+Gold: 4
+
+Treasure: 10
+
+Armor: 5
+
+Hit Dice: 5
+
+Regeneration: 0
+
+Combat Skill: 70
+
+Attacks: 1
+
+Weapon: huge club
+
+Min Dmg: 5
+
+Max Dmg: 30
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 10
+
+Min Spc Dmg: 5
+
+Max Spc Dmg: 50
+
+Spc Att Desc: hurled a boulder at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: stone giant
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: stone giants
+
+Gender: Male
+
+Terrain: Dungeon III
+
+Desc: The stone giant resembles a huge hairless man with dark greyish skin and stands nearly twenty feet tall. He is armed with a huge club.
+
+Level: 5
+
+Morale: 20
+
+Gold: 5
+
+Treasure: 15
+
+Armor: 6
+
+Hit Dice: 6
+
+Regeneration: 0
+
+Combat Skill: 75
+
+Attacks: 1
+
+Weapon: huge club
+
+Min Dmg: 6
+
+Max Dmg: 36
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 15
+
+Min Spc Dmg: 10
+
+Max Spc Dmg: 60
+
+Spc Att Desc: hurled a boulder at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: elysian dragon
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: elysian dragons
+
+Gender: Neuter
+
+Terrain: Special
+
+Desc: The elysian dragon has metalic sky blue scales which glisten in the light. Its powerful wings span some eighty feet and it is over fifty feet in length.
+
+Level: 5
+
+Morale: 15
+
+Gold: 0
+
+Treasure: 25
+
+Armor: 5
+
+Hit Dice: 7
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: talons
+
+Min Dmg: 5
+
+Max Dmg: 30
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 10
+
+Max Spc Dmg: 50
+
+Spc Att Desc: viciously bit
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 95
+
+Spell List: Sorceror
+
+Min Spl: komizuma
+
+Max Spl: todukar
+
+ 
+
+Name: hydra
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: hydras
+
+Gender: Neuter
+
+Terrain: Jungle
+
+Desc: The hydra resembles a small wingless dragon with three heads.
+
+Level: 6
+
+Morale: 10
+
+Gold: 0
+
+Treasure: 22
+
+Armor: 4
+
+Hit Dice: 6
+
+Regeneration: 1
+
+Combat Skill: 85
+
+Attacks: 3
+
+Weapon: gnashing teeth
+
+Min Dmg: 4
+
+Max Dmg: 24
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 15
+
+Min Spc Dmg: 8
+
+Max Spc Dmg: 80
+
+Spc Att Desc: expelled a ball of fire at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female affreet
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female affreeti
+
+Gender: Female
+
+Terrain: Fire I
+
+Desc: The affreet resembles a huge horned woman with reddish skin and stands well over eighteen feet tall. She is armed with a greatsword that glows dull red.
+
+Level: 6
+
+Morale: 20
+
+Gold: 6
+
+Treasure: 10
+
+Armor: 4
+
+Hit Dice: 7
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: glowing sword
+
+Min Dmg: 4
+
+Max Dmg: 24
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 15
+
+Min Spc Dmg: 10
+
+Max Spc Dmg: 80
+
+Spc Att Desc: discharged a cloud of flame at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: affreet
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: affreeti
+
+Gender: Male
+
+Terrain: Fire I
+
+Desc: The affreet resembles a huge horned man with reddish skin and stands well over twenty feet tall. He is armed with a greatsword that glows dull red.
+
+Level: 6
+
+Morale: 15
+
+Gold: 8
+
+Treasure: 15
+
+Armor: 5
+
+Hit Dice: 8
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: glowing sword
+
+Min Dmg: 5
+
+Max Dmg: 30
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 15
+
+Min Spc Dmg: 20
+
+Max Spc Dmg: 100
+
+Spc Att Desc: discharged a cloud of flame at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: magma worm
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: magma worms
+
+Gender: Neuter
+
+Terrain: Fire I
+
+Desc: The magma worm is over seventy feet long, is covered in a hard ringed carapace that glows a dull reddish color, and it's gaping maw is filled with many rows of wicked teeth.
+
+Level: 6
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 5
+
+Hit Dice: 7
+
+Regeneration: 1
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: gaping maw
+
+Min Dmg: 6
+
+Max Dmg: 36
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: stygian dragon
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: stygian dragons
+
+Gender: Neuter
+
+Terrain: Fire I
+
+Desc: The stygian dragon has dull brown scales and is without wings. It is well over eighty feet in length. Its talons are as large and probably as sharp as a sword.
+
+Level: 6
+
+Morale: 10
+
+Gold: 0
+
+Treasure: 40
+
+Armor: 5
+
+Hit Dice: 9
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: talons
+
+Min Dmg: 8
+
+Max Dmg: 48
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 45
+
+Min Spc Dmg: 12
+
+Max Spc Dmg: 72
+
+Spc Att Desc: viciously bit
+
+Spc Abl: Attack All & Tumble
+
+Spc Abl Desc: lashed out with its tail
+
+Spell Skill: 95
+
+Spell List: Sorceror
+
+Min Spl: komizuma
+
+Max Spl: todudaku
+
+ 
+
+Name: ice giantess
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: ice giantesses
+
+Gender: Female
+
+Terrain: Special
+
+Desc: The ice giantess resembles a huge woman with bone white skin, and long flowing white hair. She stands over nineteen feet tall, and is armed with a huge crystaline sword.
+
+Level: 6
+
+Morale: 20
+
+Gold: 6
+
+Treasure: 15
+
+Armor: 4
+
+Hit Dice: 9
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: huge sword
+
+Min Dmg: 5
+
+Max Dmg: 50
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 10
+
+Max Spc Dmg: 60
+
+Spc Att Desc: exhaled a blast of frost at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: ice giant
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: ice giants
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The ice giant resembles a huge man with bone white skin, white hair, and a long white beard. He stands over twenty feet tall, and is armed with a huge crystaline sword.
+
+Level: 7
+
+Morale: 15
+
+Gold: 8
+
+Treasure: 22
+
+Armor: 5
+
+Hit Dice: 10
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: huge sword
+
+Min Dmg: 10
+
+Max Dmg: 60
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 20
+
+Max Spc Dmg: 80
+
+Spc Att Desc: exhaled a blast of frost at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: octopod
+
+Prefix: A
+
+Subtype: <None>
+
+Plural: octopods
+
+Gender: Neuter
+
+Terrain: Jungle
+
+Desc: The octopod is a huge dark green bulbus plant standing nearly five feet tall, and has eight rubbery greenish tentacles.
+
+Level: 7
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 6
+
+Hit Dice: 9
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 3
+
+Weapon: a tentacle
+
+Min Dmg: 4
+
+Max Dmg: 20
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 15
+
+Min Spc Dmg: 12
+
+Max Spc Dmg: 60
+
+Spc Att Desc: lashed several tentacles at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: skeleton giant
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: skeleton giants
+
+Gender: Neuter
+
+Terrain: Special
+
+Desc: The skeleton giant stands nearly twenty feet tall, is armed with a bone hammer, and is wearing an enormous suit of tattered chainmail.
+
+Level: 7
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 4
+
+Hit Dice: 10
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: bone hammer
+
+Min Dmg: 10
+
+Max Dmg: 80
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: greater demoness
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: greater demonesses
+
+Gender: Female
+
+Terrain: Special
+
+Desc: The greater demoness emanates power and malevolence. She has bright blue skin and stands over eight feet tall. She wields a flaming greatsword and wears an armband engraved with runes.
+
+Level: 7
+
+Morale: 15
+
+Gold: 6
+
+Treasure: 25
+
+Armor: 5
+
+Hit Dice: 10
+
+Regeneration: 1
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: flaming sword
+
+Min Dmg: 5
+
+Max Dmg: 30
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 85
+
+Spell List: Necrolyte
+
+Min Spl: yilazi
+
+Max Spl: tamikar
+
+ 
+
+Name: greater demon
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: greater demons
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The greater demon emanates power and malevolence. He has dull blue skin and stands over nine feet tall. He wields a flaming greatsword and wears an armband engraved with runes.
+
+Level: 8
+
+Morale: 10
+
+Gold: 10
+
+Treasure: 40
+
+Armor: 6
+
+Hit Dice: 12
+
+Regeneration: 1
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: flaming sword
+
+Min Dmg: 6
+
+Max Dmg: 36
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 80
+
+Spell List: Necrolyte
+
+Min Spl: yilazi
+
+Max Spl: tamikar
+
+ 
+
+Name: sorceress
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: sorceresses
+
+Gender: Female
+
+Terrain: Special
+
+Desc: The sorceress is dressed in indigo robes and radiates power. She wields a rod tipped with magical frost. Inscribed on her forehead is a blue rune.
+
+Level: 8
+
+Morale: 20
+
+Gold: 10
+
+Treasure: 32
+
+Armor: 3
+
+Hit Dice: 10
+
+Regeneration: 1
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: frost rod
+
+Min Dmg: 5
+
+Max Dmg: 20
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 40
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 85
+
+Spell List: Sorceror
+
+Min Spl: toduzuma
+
+Max Spl: todudaku
+
+ 
+
+Name: sorceror
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: sorcerors
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The sorceror is dressed in indigo robes and radiates power. He wields a rod shrouded with magical flame. Inscribed on his forehead is a violet rune.
+
+Level: 9
+
+Morale: 15
+
+Gold: 15
+
+Treasure: 58
+
+Armor: 4
+
+Hit Dice: 12
+
+Regeneration: 1
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: flaming staff
+
+Min Dmg: 6
+
+Max Dmg: 30
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 30
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 90
+
+Spell List: Sorceror
+
+Min Spl: toduzuma
+
+Max Spl: komasidaku
+
+ 
+
+Name: apollyon dragon
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: apollyon dragons
+
+Gender: Neuter
+
+Terrain: Fire II
+
+Desc: The apollyon dragon has crimson scales and powerful leathery wings. It is without a doubt one of the most enormous creatures you have ever seen, being well over one hundred feet in length. Its talons and teeth are jet black, and smoke curls upwards from its nostrils.
+
+Level: 10
+
+Morale:10
+
+Gold: 0
+
+Treasure: 100
+
+Armor: 8
+
+Hit Dice: 15
+
+Regeneration: 0
+
+Combat Skill: 97
+
+Attacks: 2
+
+Weapon: talons
+
+Min Dmg: 10
+
+Max Dmg: 50
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 25
+
+Min Spc Dmg: 50
+
+Max Spc Dmg: 200
+
+Spc Att Desc: breathed flames at
+
+Spc Abl: Attack All & Tumble
+
+Spc Abl Desc: lashed out with its tail
+
+Spell Skill: 95
+
+Spell List: Sorceror
+
+Min Spl: komizuma
+
+Max Spl: komasidaku
+
+ 
+
+Name: flame giantess
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: flame giantesses
+
+Gender: Female
+
+Terrain: Fire II
+
+Desc: The flame giantess resembles a huge woman with ruddy skin and bright red hair. She stands over twenty five feet tall, is armed with a great axe made of a dull black metal, and wears dragonscale armor. She reguards you malignly with her smouldering red eyes, and smiles cruely.
+
+Level: 11
+
+Morale: 15
+
+Gold: 6
+
+Treasure: 22
+
+Armor: 9
+
+Hit Dice: 18
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: great axe
+
+Min Dmg: 10
+
+Max Dmg: 60
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 15
+
+Min Spc Dmg: 80
+
+Max Spc Dmg: 360
+
+Spc Att Desc: exhaled a blast of flame at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: flame giant
+
+Prefix: A
+
+Subtype: <None>
+
+Plural: flame giants
+
+Gender: Male
+
+Terrain: Fire II
+
+Desc: The flame giant resembles a huge man with ruddy skin, bright red hair, and a coarse red beard. He stands nearly thirty feet tall, is armed with a great axe made of a dull black metal, and wears dragonscale armor. He regards you malevolently with his smouldering red eyes, and grins wickedly.
+
+Level: 12
+
+Morale: 10
+
+Gold: 10
+
+Treasure: 32
+
+Armor: 12
+
+Hit Dice: 20
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 1
+
+Weapon: great axe
+
+Min Dmg: 20
+
+Max Dmg: 80
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 15
+
+Min Spc Dmg: 100
+
+Max Spc Dmg: 400
+
+Spc Att Desc: exhaled a blast of flame at
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: flame giant warlord
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: flame giant warlords
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The flame giant resembles a huge man with ruddy skin, bright red hair, and a coarse red beard. He stands nearly thirty feet tall, is armed with a great spear made of a dark black metal that glows with a dull reddish light at the head. He wears armor of fine workmanship made from overlapping scales of a dark metallic blue. You sense great wisdom in his stern gaze.
+
+Level: 15
+
+Morale: 20
+
+Gold: 15
+
+Treasure: 63
+
+Armor: 14
+
+Hit Dice: 25
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: great spear
+
+Min Dmg: 32
+
+Max Dmg: 96
+
+Attack Effect: Vitality Drain
+
+Min Eff: 10
+
+Max Eff: 60
+
+Spec Att %: 25
+
+Min Spc Dmg: 120
+
+Max Spc Dmg: 240
+
+Spc Att Desc: exhaled a blast of flame at
+
+Spc Abl: Heal
+
+Spc Abl Desc: quaffed a potion
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: balneal dragon
+
+Prefix: A
+
+Subtype: <None>
+
+Plural: balneal dragons
+
+Gender: Neuter
+
+Terrain: Special
+
+Desc: The balneal dragon has silvery blue scales and a powerfully built serpentine body. It is over one hundred fifty feet in length. Its talons and teeth are of a clear bluish crystaline substance, and steam rises from its nostrils.
+
+Level: 15
+
+Morale: 10
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 16
+
+Hit Dice: 30
+
+Regeneration: 0
+
+Combat Skill: 97
+
+Attacks: 2
+
+Weapon: talons
+
+Min Dmg: 30
+
+Max Dmg: 120
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 60
+
+Max Spc Dmg: 240
+
+Spc Att Desc: viciously bit
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 95
+
+Spell List: Sorceror
+
+Min Spl: komizuma
+
+Max Spl: komasidaku
+
+ 
+
+Name: arch demoness
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: arch demonesses
+
+Gender: Female
+
+Terrain: Special
+
+Desc: The arch demoness emanates awesome power and malevolence. She has bright red skin and stands over twelve feet tall. She wields a glowing bardiche and wears an armband engraved with runes.
+
+Level: 17
+
+Morale: 15
+
+Gold: 10
+
+Treasure: 40
+
+Armor: 15
+
+Hit Dice: 35
+
+Regeneration: 1
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: huge bardiche
+
+Min Dmg: 20
+
+Max Dmg: 100
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 90
+
+Spell List: Necrolyte
+
+Min Spl: yilazi
+
+Max Spl: giteka
+
+ 
+
+Name: arch demon
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: arch demons
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The arch demon emanates awesome power and malevolence. He has dull blue skin and stands over fifteen feet tall. He wields a glowing bardiche and wears an armband engraved with runes.
+
+Level: 18
+
+Morale: 10
+
+Gold: 15
+
+Treasure: 90
+
+Armor: 16
+
+Hit Dice: 40
+
+Regeneration: 1
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: huge bardiche
+
+Min Dmg: 40
+
+Max Dmg: 160
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 85
+
+Spell List: Necrolyte
+
+Min Spl: yilazi
+
+Max Spl: giteka
+
+ 
+
+Name: demon king
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: demon kings
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The demon king emanates incredible power and horrific malevolence. He has dull black skin and stands over thirty feet tall. He wields a huge glowing sabre nearly fifteen feet long and wears a dull grey crown engraved with runes.
+
+Level: 20
+
+Morale: 20
+
+Gold: 25
+
+Treasure: 200
+
+Armor: 20
+
+Hit Dice: 60
+
+Regeneration: 1
+
+Combat Skill: 99
+
+Attacks: 2
+
+Weapon: glowing sabre
+
+Min Dmg: 60
+
+Max Dmg: 240
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 65
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc: discharged a blast of dark energy at
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 90
+
+Spell List: Necrolyte
+
+Min Spl: yilazi
+
+Max Spl: dobudakidaku
+
+ 
+
+Name: great dragon
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: great dragon
+
+Gender: Neuter
+
+Terrain: Special
+
+Desc: The great dragon has greyish scales and powerful leathery wings. It is without a doubt the most enormous creature you have ever seen, being well over two hundred feet in length. Its talons and teeth are yellowish white, and smoke curls upward from its nostrils as it regards you with amusement.
+
+Level: 30
+
+Morale: 35
+
+Gold: 0
+
+Treasure: 200
+
+Armor: 30
+
+Hit Dice: 120
+
+Regeneration: 1
+
+Combat Skill: 99
+
+Attacks: 0
+
+Weapon: huge talons
+
+Min Dmg: 120
+
+Max Dmg: 360
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 65
+
+Min Spc Dmg: 320
+
+Max Spc Dmg: 960
+
+Spc Att Desc: cruely bit
+
+Spc Abl: Spells
+
+Spc Abl Desc: breathed flames in a great arc
+
+Spell Skill: 95
+
+Spell List: Sorceror
+
+Min Spl: todukar
+
+Max Spl: dumoti
+
+ 
+
+Name: white rabbit
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: white rabbits
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The white rabbit is large and fluffy with floppy ears and big brown eyes.
+
+Level: 1
+
+Morale: 100
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 0
+
+Weapon: dull teeth
+
+Min Dmg: 1
+
+Max Dmg: 2
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: black rabbit
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: black rabbits
+
+Gender: Neuter
+
+Terrain: Forrest
+
+Desc: The black rabbit is large and fluffy with floppy ears and big brown eyes.
+
+Level: 1
+
+Morale: 100
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 0
+
+Weapon: dull teeth
+
+Min Dmg: 1
+
+Max Dmg: 2
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: pink bunny
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: pink bunnies
+
+Gender: neuter
+
+Terrain: Forest
+
+Desc: The pink bunny is small and fluffy with perky ears and big blue eyes.
+
+Level: 3
+
+Morale: 95
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: daring nibble
+
+Min Dmg: 1
+
+Max Dmg: 2
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 33
+
+Min Spc Dmg: 20
+
+Max Spc Dmg: 60
+
+Spc Att Desc: gnashed its big pointy teeth at
+
+Spc Abl: Attack All & Tumble
+
+Spc Abl Desc: becomes a berzerk flurry of gnashing teeth
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: lizard
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: lizards
+
+Gender: Neuter
+
+Terrain: Swamp
+
+Desc: The lizard is small and brown and moves very quickly.
+
+Level: 1
+
+Morale: 100
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 0
+
+Weapon: tiny teeth
+
+Min Dmg: 1
+
+Max Dmg: 1
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: monkey
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: monkeys
+
+Gender: Neuter
+
+Terrain: Jungle
+
+Desc: The monkey is quick and playful and watches you warily.
+
+Level: 1
+
+Morale: 100
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 0
+
+Weapon: clenched fists
+
+Min Dmg: 2
+
+Max Dmg: 4
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: owl
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: owls
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The owl is perched in a nearby tree watching you intently.
+
+Level: 1
+
+Morale: 100
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 0
+
+Weapon: talons
+
+Min Dmg: 1
+
+Max Dmg: 3
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: squirrel
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: squirrels
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The squirrel sits in a nearby tree and chitters at you.
+
+Level: 1
+
+Morale: 100
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 0
+
+Weapon: sharp teeth
+
+Min Dmg: 1
+
+Max Dmg: 3
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: frog
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: frogs
+
+Gender: Neuter
+
+Terrain: Swamp
+
+Desc: The frog is small and green and appears to be a good jumper.
+
+Level: 1
+
+Morale: 100
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 0
+
+Weapon: tiny teeth
+
+Min Dmg: 1
+
+Max Dmg: 1
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: lizard
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: lizards
+
+Gender: Neuter
+
+Terrain: Desert
+
+Desc: The lizard is small and purple and moves very quickly.
+
+Level: 1
+
+Morale: 100
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: tiny teeth
+
+Min Dmg: 1
+
+Max Dmg: 3
+
+Attack Effect: Poison
+
+Min Eff: 1
+
+Max Eff: 3
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: fox
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: foxes
+
+Gender: Neuter
+
+Terrain: Forest
+
+Desc: The fox hides in the nearby brush and seems very skittish.
+
+Level: 1
+
+Morale: 100
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 1
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: sharp teeth
+
+Min Dmg: 2
+
+Max Dmg: 4
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: hyena
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: hyenas
+
+Gender: Neuter
+
+Terrain: Desert
+
+Desc: The hyena looks ravenous and extremely vicious. It snarls menacingly and bares its teeth at you.
+
+Level: 2
+
+Morale: 40
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: wicked teeth
+
+Min Dmg: 4
+
+Max Dmg: 24
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: tiger
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: tigers
+
+Gender: Neuter
+
+Terrain: Jungle
+
+Desc: The tiger has luxurious looking striped fur. It growls menacingly and bares its teeth at you.
+
+Level: 4
+
+Morale: 30
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 5
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: wicked claws
+
+Min Dmg: 8
+
+Max Dmg: 24
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 12
+
+Max Spc Dmg: 36
+
+Spc Att Desc: savagely bit
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: mountain lion
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: mountain lions
+
+Gender: Neuter
+
+Terrain: Mountains
+
+Desc: The mountain lion has dark brown spotted fur. It growls menacingly and bares its teeth at you.
+
+Level: 4
+
+Morale: 20
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: claws
+
+Min Dmg: 2
+
+Max Dmg: 8
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 6
+
+Max Spc Dmg: 18
+
+Spc Att Desc: savagely bit
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female nomad
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female nomads
+
+Gender: Female
+
+Terrain: Desert
+
+Desc: The nomad has dark skin and the look of someone hardened by the harsh environment in which she lives. She is wearing dark linen clothing and is armed with a scimitar.
+
+Level: 3
+
+Morale: 25
+
+Gold: 2
+
+Treasure: 4
+
+Armor: 2
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: scimitar
+
+Min Dmg: 5
+
+Max Dmg: 15
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: nomad
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: nomads
+
+Gender: Male
+
+Terrain: Desert
+
+Desc: The nomad has dark skin and the look of someone hardened by the harsh environment in which he lives. He is wearing dark linen clothing and is armed with a scimitar.
+
+Level: 3
+
+Morale: 20
+
+Gold: 3
+
+Treasure: 5
+
+Armor: 3
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 1
+
+Weapon: scimitar
+
+Min Dmg: 6
+
+Max Dmg: 18
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: female bandit
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: female bandits
+
+Gender: Female
+
+Terrain: Special
+
+Desc: The bandit has the look of an accomplished rogue, and is dressed in an expensive silk tunic and pants of a rich red color. She is also wearing a chainmail jerkin and is armed with a wicked looking sabre.
+
+Level: 6
+
+Morale: 50
+
+Gold: 6
+
+Treasure: 25
+
+Armor: 6
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: sabre
+
+Min Dmg: 4
+
+Max Dmg: 24
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 12
+
+Min Spc Dmg: 8
+
+Max Spc Dmg: 48
+
+Spc Att Desc: skillfully slashed
+
+Spc Abl: Steal
+
+Spc Abl Desc: robbed
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: bandit
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: bandits
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The bandit has the look of an accomplished rogue, and is dressed in an expensive silk tunic and pants of a deep blue color. He is also wearing a chainmail jerkin and is armed with a wicked looking sabre.
+
+Level: 7
+
+Morale: 40
+
+Gold: 10
+
+Treasure: 40
+
+Armor: 8
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: sabre
+
+Min Dmg: 6
+
+Max Dmg: 36
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 15
+
+Min Spc Dmg: 12
+
+Max Spc Dmg: 72
+
+Spc Att Desc: skillfully slashed
+
+Spc Abl: Steal
+
+Spc Abl Desc: robbed
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: forest giantess
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: forest giantesses
+
+Gender: Female
+
+Terrain: Special
+
+Desc: The forest giantess resembles a huge woman with brown skin and stands nearly fifteen feet tall. Her clothing is of woven vines and leaves. She is armed with a huge spear.
+
+Level: 6
+
+Morale: 35
+
+Gold: 4
+
+Treasure: 10
+
+Armor: 5
+
+Hit Dice: 7
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 2
+
+Weapon: huge spear
+
+Min Dmg: 5
+
+Max Dmg: 20
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: forest giant
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: forest giants
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The forest giant resembles a huge man with dark brown skin and stands nearly eighteen feet tall. His clothing is of woven vines and leaves. He is armed with a huge spear.
+
+Level: 6
+
+Morale: 30
+
+Gold: 5
+
+Treasure: 15
+
+Armor: 6
+
+Hit Dice: 8
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: huge spear
+
+Min Dmg: 6
+
+Max Dmg: 24
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: jackal
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: jackal
+
+Gender: Neuter
+
+Terrain: Desert
+
+Desc: The jackal looks extremely vicious. It snarls menacingly and bares its teeth at you.
+
+Level: 2
+
+Morale: 40
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 2
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 1
+
+Weapon: wicked teeth
+
+Min Dmg: 3
+
+Max Dmg: 18
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: ice elemental
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: ice elementals
+
+Gender: Neuter
+
+Terrain: Special
+
+Desc: The ice elemental is a titanic humanoid formed of ice.
+
+Level: 30
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 100
+
+Regeneration: 5
+
+Combat Skill: 99
+
+Attacks: 2
+
+Weapon: a spear of ice
+
+Min Dmg: 150
+
+Max Dmg: 300
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 300
+
+Max Spc Dmg: 600
+
+Spc Att Desc: discharged a shower of ice shards at
+
+Spc Abl: Attack All & Tumble
+
+Spc Abl Desc: unleashed a storm of elemental ice
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: flame elemental
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: flame elementals
+
+Gender: Neuter
+
+Terrain: Special
+
+Desc: The flame elemental is a titanic humanoid formed of flame.
+
+Level: 40
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 0
+
+Hit Dice: 150
+
+Regeneration: 5
+
+Combat Skill: 99
+
+Attacks: 2
+
+Weapon: a bolt of flame
+
+Min Dmg: 200
+
+Max Dmg: 400
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 400
+
+Max Spc Dmg: 800
+
+Spc Att Desc: discharged a cloud of flames at
+
+Spc Abl: Attack All & Tumble
+
+Spc Abl Desc: unleashed a storm of elemental flame
+
+Spell Skill: 0
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: stone elemental
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: stone elemental
+
+Gender: Neuter
+
+Terrain: Special
+
+Desc: The stone elemental is a titanic humanoid formed of stone.
+
+Level: 50
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 50
+
+Hit Dice: 200
+
+Regeneration: 5
+
+Combat Skill: 99
+
+Attacks: 2
+
+Weapon: huge stone fist
+
+Min Dmg: 250
+
+Max Dmg: 500
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 35
+
+Min Spc Dmg: 500
+
+Max Spc Dmg: 1000
+
+Spc Att Desc: stepped on
+
+Spc Abl: Attack All & Tumble
+
+Spc Abl Desc: unleashed an earthquake
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: mystic knight
+
+Prefix: a
+
+Subtype: <Avenger>
+
+Plural: mystic knights
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The mystic knight has the look of a well seasoned warrior who has seen many a battle in his time. His gear and clothing are the finest available. He is wearing glowing dragonscale armor and wielding a jeweled claymore. Somehow you are aware that he could easily defeat you.
+
+Level: 60
+
+Morale: 0
+
+Gold: 0
+
+Treasure: 0
+
+Armor: 50
+
+Hit Dice: 250
+
+Regeneration: 5
+
+Combat Skill: 99
+
+Attacks: 6
+
+Weapon: jeweled claymore
+
+Min Dmg: 100
+
+Max Dmg: 600
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: orc warrior
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: orc warriors
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The orc warrior is a smallish humanoid with piglike facial features and is covered sparsely by coarse body hair. He stands just over five feet in height, is wearing chainmail armor, and is armed with %s %s.
+
+Level: 2
+
+Morale: 25
+
+Gold: 3
+
+Treasure: 5
+
+Armor: 6
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: orc subchief
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: orc subchiefs
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The orc subchief is a smallish humanoid with piglike facial features and is covered sparsely by coarse body hair. He stands over five feet in height, is wearing chainmail armor, and is armed with %s %s.
+
+Level: 3
+
+Morale: 30
+
+Gold: 4
+
+Treasure: 8
+
+Armor: 6
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: orc chieftain
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: orc chieftans
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The orc chieftain is a smallish humanoid with piglike facial features and is covered sparsely by coarse body hair. He stands well over five feet in height, is wearing chainmail armor, and is armed with %s %s.
+
+Level: 4
+
+Morale: 35
+
+Gold: 5
+
+Treasure: 10
+
+Armor: 6
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: orc shaman
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: orc shaman
+
+Gender: Female
+
+Terrain: Special
+
+Desc: The orc shaman is a smallish humanoid with piglike facial features and is covered sparsely by coarse body hair. She stands just under five feet in height, is wearing robes, and is armed with %s %s.
+
+Level: 3
+
+Morale: 25
+
+Gold: 3
+
+Treasure: 7
+
+Armor: 1
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 1
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 30
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 85
+
+Spell List: Necryolyte
+
+Min Spl: dobuza
+
+Max Spl: yilazi
+
+ 
+
+Name: orc warlord
+
+Prefix: an
+
+Subtype: <None>
+
+Plural: orc warlords
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The orc warlord is an average sized humanoid with piglike facial features and is covered sparsely by coarse body hair. He stands just under six feet in height, is wearing gleaming chainmail armor, and is armed with %s %s.
+
+Level: 6
+
+Morale: 35
+
+Gold: 10
+
+Treasure: 20
+
+Armor: 6
+
+Hit Dice: 5
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: gnoll warrior
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: gnoll warriors
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The gnoll warrior is a tall humanoid with hyenalike facial featurs and is covered by thick reddish brown body hair. He stands just under seven feet in height, is wearing chainmail armor, and is armed with %s %s.
+
+Level: 3
+
+Morale: 10
+
+Gold: 4
+
+Treasure: 8
+
+Armor: 6
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: gnoll subchief
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: gnoll subchiefs
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The gnoll subchief is a tall humanoid with hyenalike facial features and is covered by thick reddish brown body hair. He stands just over seven feet in height, is wearing scalemail armor, and is armed with %s %s.
+
+Level: 4
+
+Morale: 15
+
+Gold: 5
+
+Treasure: 10
+
+Armor: 8
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: gnoll chieftan
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: gnoll chieftans
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The gnoll chieftain is a tall humanoid with hyenalike facial features and is covered by thick reddish brown body hair. He stands just over seven feet in height, is wearing scalemail armor, and is armed with %s %s.
+
+Level: 5
+
+Morale: 20
+
+Gold: 6
+
+Treasure: 12
+
+Armor: 8
+
+Hit Dice: 5
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: gnoll warlord
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: gnoll warlord
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The gnoll warlord is a tall humanoid with hyenalike facial features and is covered by thick reddish brown body hair. He stands well over seven feet in height, is wearing gleaming bandmail armor, and is armed with %s %s.
+
+Level: 7
+
+Morale: 20
+
+Gold: 12
+
+Treasure: 24
+
+Armor: 10
+
+Hit Dice: 7
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: gnoll shaman
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: gnoll shaman
+
+Gender: Female
+
+Terrain: Special
+
+Desc: The gnool shaman is a tall humanoid with hyenalike facial features and is covered by thick golden brown body hair. She stands just over six feet in height, is wearing robes, and is armed with %s %s.
+
+Level: 4
+
+Morale: 25
+
+Gold: 4
+
+Treasure: 8
+
+Armor: 1
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 85
+
+Attacks: 1
+
+Weapon: Medium One-Hand
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 30
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: Spells
+
+Spc Abl Desc:
+
+Spell Skill: 80
+
+Spell List: Druid
+
+Min Spl: toraza
+
+Max Spl: sivama
+
+ 
+
+Name: lizard warrior
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: lizard warriors
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The lizard warrior is a six foot tall bipedal humanoid who's features resembes those of a large lizard. He has greenish scaley skin, and sharp claws and teeth. He is armed with %s %s.
+
+Level: 3
+
+Morale: 10
+
+Gold: 5
+
+Treasure: 10
+
+Armor: 3
+
+Hit Dice: 3
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: lizard subchief
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: lizard subchiefs
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The lizard subchief is a six foot tall bipedal humanoid who's features resemble those of a large lizard. He has greenish scaley skin, and sharp claws and teeth. He is armed with %s %s.
+
+Level: 4
+
+Morale: 15
+
+Gold: 6
+
+Treasure: 12
+
+Armor: 3
+
+Hit Dice: 4
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: lizard chieftain
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: lizard chieftains
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The lizard chieftain is a six foot tall bipedal humanoid who's features resemble those of a large lizard. He has greenish scaley skin, and sharp claws and teeth. He is wearing ringmail armor and is armed with %s %s.
+
+Level: 5
+
+Morale: 20
+
+Gold: 7
+
+Treasure: 14
+
+Armor: 5
+
+Hit Dice: 5
+
+Regeneration: 0
+
+Combat Skill: 90
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: lizard warlord
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: lizard warlords
+
+Gender: Male
+
+Terrain: Special
+
+Desc: The lizard warlord is a six foot tall bipedal humanoid who's features resemble those of a large lizard. He has greenish scaley skin, and sharp claws and teeth. He is wearing scalemail armor and is armed with %s %s.
+
+Level: 7
+
+Morale: 20
+
+Gold: 14
+
+Treasure: 28
+
+Armor: 8
+
+Hit Dice: 7
+
+Regeneration: 0
+
+Combat Skill: 95
+
+Attacks: 2
+
+Weapon: Medium One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 0
+
+Min Spc Dmg:
+
+Max Spc Dmg:
+
+Spc Att Desc:
+
+Spc Abl:
+
+Spc Abl Desc:
+
+Spell Skill:
+
+Spell List:
+
+Min Spl:
+
+Max Spl:
+
+ 
+
+Name: lizard shaman
+
+Prefix: a
+
+Subtype: <None>
+
+Plural: lizard shaman
+
+Gender: Female
+
+Terrain: Special
+
+Desc: The lizard shaman is a five foot tall bipedal humanoid who's features resemble those of a large lizard. She has greyish scaley skin, and sharp claws and teeth. She is wearing robes and is armed with %s %s.
+
+Level: 3
+
+Morale: 25
+
+Gold: 4
+
+Treasure: 8
+
+Armor: 1
+
+Hit Dice: 2
+
+Regeneration: 0
+
+Combat Skill: 80
+
+Attacks: 2
+
+Weapon: Small One-Handed
+
+Min Dmg: 0
+
+Max Dmg:
+
+Attack Effect: <None>
+
+Min Eff:
+
+Max Eff:
+
+Spec Att %: 30
+
+Min Spc Dmg: 0
+
+Max Spc Dmg: 0
+
+Spc Att Desc:
+
+Spc Abl: <None>
+
+Spc Abl Desc:
+
+Spell Skill: 75
+
+Spell List: Sorceror
+
+Min Spl: toduza
+
+Max Spl: komizuma

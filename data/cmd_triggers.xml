@@ -1,0 +1,144 @@
+<org.tdod.ether.taimpl.cosmos.DefaultCommandTriggers>
+  <__cmdTriggerMap>
+    <entry>
+      <int>1</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>pull lever</__command>
+        <__playerMessage>You pulled the lever.</__playerMessage>
+        <__roomMessage>You notice {0} doing something out of the corner of your eye.</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>2</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>say komi</__command>
+        <__playerMessage>As the answer passes your lips, you feel the floor vibrate faintly.</__playerMessage>
+        <__roomMessage>{0} whispers something, and you feel the floor vibrate faintly.</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>3</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>push stone</__command>
+        <__playerMessage>You push the protruding stone into it&apos;s recess...</__playerMessage>
+        <__roomMessage></__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>4</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>push stone</__command>
+        <__playerMessage>As you push the protruding stone into it&apos;s recess, you feel the floor vibrate
+faintly.</__playerMessage>
+        <__roomMessage>You notice {0} doing something out of the corner of your eye, and feel the
+floor vibrate faintly.</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>5</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>say arok</__command>
+        <__playerMessage>As the answer passes your lips, the northern wall slides silently into the
+ceiling.</__playerMessage>
+        <__roomMessage>{0} whispers something, and you feel the floor vibrate faintly.</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>6</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>embrace princess</__command>
+        <__playerMessage>You kiss the princess and her eyes flutter open. She springs from the bed,
+takes a quick look around, and flees the room!</__playerMessage>
+        <__roomMessage>You notice {0} doing something out of the corner of your eye. The princess
+suddenly springs from the bed, takes a quick look around, and flees the
+room!</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>7</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>pull lever</__command>
+        <__playerMessage>As you pull the lever, a trap door opens up beneath you!</__playerMessage>
+        <__roomMessage>{0} has just fallen into a trap door in the floor!</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>8</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>say cinders</__command>
+        <__playerMessage>As the answer passes your lips a voice in your mind says: &quot;Correct...
+Now complete the riddle to gain passage...&quot;</__playerMessage>
+        <__roomMessage>{0} whispers something, then pauses for a moment as if in deep thought...</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>9</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>say ether</__command>
+        <__playerMessage>As the answer passes your lips, your surroundings fade...</__playerMessage>
+        <__roomMessage>{0} whispers something, and vanishes!</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>10</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>move tapestry</__command>
+        <__playerMessage>You pull the tapestry aside...</__playerMessage>
+        <__roomMessage>You notice {0} doing something out of the corner of your eye.</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>11</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>say dwarflord</__command>
+        <__playerMessage>As the answer passes your lips, you hear a faint clicking sound.</__playerMessage>
+        <__roomMessage>{0} whispers something...</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>12</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>turn anvil</__command>
+        <__playerMessage>After a quarter turn clockwise, the anvil returns to it&apos;s previous position
+following a faint click.</__playerMessage>
+        <__roomMessage>You notice {0} doing something out of the corner of your eye.</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>13</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>lower arm</__command>
+        <__playerMessage>After pulling down the arm of the statue, it returns to it&apos;s previous position
+following a faint click.</__playerMessage>
+        <__roomMessage>You notice {0} doing something out of the corner of your eye.</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>14</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>turn sceptre</__command>
+        <__playerMessage>After rotating the statues&apos; sceptre, it returns to its previous position
+following a faint click.</__playerMessage>
+        <__roomMessage>You notice {0} doing something out of the corner of your eye.</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>15</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>close jaws</__command>
+        <__playerMessage>After closing the jaws of the statue of the statue, they return to their
+previous position following a faint click.</__playerMessage>
+        <__roomMessage>You notice {0} doing something out of the corner of your eye.</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+    <entry>
+      <int>16</int>
+      <org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+        <__command>straighten shield</__command>
+        <__playerMessage>After straightening the shield, it returns to its previous position
+following a faint click.</__playerMessage>
+        <__roomMessage>You notice {0} doing something out of the corner of your eye.</__roomMessage>
+      </org.tdod.ether.taimpl.cosmos.DefaultCommandTrigger>
+    </entry>
+  </__cmdTriggerMap>
+</org.tdod.ether.taimpl.cosmos.DefaultCommandTriggers>

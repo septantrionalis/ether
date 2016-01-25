@@ -1,0 +1,153 @@
+For performance sake, we'll poll every 5 seconds :
+p = prob(event in one day), q=1-p. Then the prob of not happening in 5 seconds is q^5, so prob happening at least once in 5 seconds is 1-q^5.
+
+p=.06
+q=.94
+r=1-(.94)^5 = 27%
+
+24 stam = 6% per seconds
+
+12 chances per minute (5 second ticks)
+4hp 1m
+4hp 1m
+5hp 1m
+6hp 1m
+2hp 1m
+3hp 1m
+Limech is a rather plain looking and moderately built male elven sorceror with
+a worldly air about him. He has a porcelain complexion, yellow eyes, and white,
+straight, short hair. <agil> He has a bright look in his eyes. He is wearing a cloak,
+is armed with a dagger and he seems to be in good physical condition.
+
+
+
+Int*
+8 dull look
+9 19 ""
+20 He has a bright look in his eyes.  
+
+Know *
+8 inexperienced
+9 19 ""
+20 with a worldly air about him
+
+Phy*
+9 slightly built
+10 19 moderately built
+20 powerfully built
+
+Cha*
+5 somewhat repulsive
+6 15 plain looking
+16 21 somewhat attractive
+22 stunningly
+
+Agi
+9 slow
+10 19 ""
+20 quick
+&MIn your haste, you trip and fall!
+
+There are 6 basic attributes in Tele Arena. 
+
+Intellect - This is how smart your character is. Intellect improves your chance ‘to-hit’ in 
+physical combat and also increases the potency of your offensive spells. For rogues, this 
+attribute also add to the chance of successfully picking a lock, avoiding a trap or robbing 
+another player. 
+
+Knowledge - This is how wise your character is. This affects the potency of spells you cast on 
+yourself or others. 
+
+Physique - This is how strong your character is, how hard he/she hits in battle, and how much 
+can be carried at one time. (see also, encumberance) 
+
+Stamina - This determines how many hit points your character starts with, how many you get 
+when you gain a higher level, how often you get thirsty or hungry, how many spaces you can 
+run before you have to rest and how many hit points you regenerate every round. 
+
+Agility - This is how agile your character is. This determines how fast your character may run, 
+how many attacks you get, how often you ‘dodge’ an attack and how long you may run before 
+‘tripping’.  
+
+Charisma - This is how ‘attractive’ and influential you are. Along with Intellect, charisma 
+makes a difference in the price of items at the various shops. A low charisma is sure to make you 
+pay more for an item then the listed price. A high charisma allows you to buy at lower prices. 
+
+There are also three additional statistics you need to be aware of; these are not attributes, they are 
+gauges of your character’s health status and weight. 
+
+Vitality - This is the amount of damage your character may sustain before dying. When this 
+number reaches zero, your character is dead. As you ‘reroll’ for your attributes, pay attention 
+to this statistic. If you have a vitality lower then 20, you might as well keep rerolling. You can 
+play a character at such a low amount, but it is extremly difficult because any creatures worth 
+attacking in Tele Arena can easily kill you in one round. 
+
+Health - This is a status monitor on the general healthiness of your character. If you are hungry, 
+thirsty or poisoned, this is where it will be displayed. 
+Encumberance - This is how much your character weighs, including the gold being carried and 
+all items. Equipped weapons and armor contribute to this. You will want a character with a 
+good encumberance so that you can hold plenty of gold, potions and your weapon and armor. 
+A good set of attributes is hard to come by, but it helps to know how your choice of race and character type effects the outcome. To see your stats, just type ‘st’ and press return. Below is a set of charts showing the maximum rollable set of attributes for each race. Since these are the highest numbers that can be rolled, you may want to roll for numbers that are a little below the maximum values listed. 
+
+Rule of Thumb : Here is an idea of what to look for when rerolling. 
+Intellect ---- 12 or higher. 
+Knowledge -12 or higher. 
+Physique ----18 or higher. 
+Stamina ---- 16 or higher. 
+Agility ------ 16 or higher. 
+Charisma ---12 or higher, but not real important. 
+Vitality ----- 23 or higher. 
+The above stats are by no means the ones you should settle for unless you have rerolled for 
+hours and just want a playable character. The above stats will certainly give you a playable 
+character though they are generic in nature. (i.e., they do not take any class into account.) 
+For spellcasters you might want to look for lower physical attributes and higher mental ones. 
+Elves
+
+10 second wait reroll
+Intellect
+                          01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+  melee hit bonus       : -1 -1 -1 -1  0  0  0  0  0 +1 +1 +1 +1 +1 +2 +2 +2 +2 +2 +3 +3 +3 +3 +3 +4 +4 +4 +4 +4 +$
+                        // hit chance = base + diff + mobArmor - intBonus
+                        // diff = mobLevel-charLevel;
+                        // base = 12 (high is harder, lower is easier)
+                        // d20 >= hit chance
+  offensive spell potent: +0 +0 +0 +0 +0 +0 +0 +1 +1 +2 +2 +3 +3 +4 +4 +4 +4 +5 +5 +5 +5 +6 +6 +6 +6 +7 +7 +7 +7 +7
+  rogue bonus           : +0 +0 +0 +0 +0 +0 +0 +0 +0 +1 +1 +1 +1 +1 +2 +2 +2 +2 +2 +3 +3 +3 +3 +3 +4 +4 +4 +4 +4 +5      
+                        // success = base + diff + intBonus
+                        // base = 8 (high is harder, lower is easier)
+                        // diff = trapLevel-charLevel
+                        // d2 >= success
+
+                          01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+Knowledge                 
+  friendly spell bonus  : +0 +0 +0 +0 +0 +0 +0 +1 +1 +2 +2 +3 +3 +4 +4 +5 +5 +6 +6 +7 +7 +8 +8 +9 +9 10 10 11 11 12
+
+Physique
+                  01  02  03  04  05  06  07  08  09  10  11  12  13  14  15  16  17  18  19  20   21   22   23   24   25   26   27   28   29   30
+  damage bonus  : +0  +0  +0  +0  +0  +1  +1  +1  +1  +2  +2  +2  +2  +2  +3  +3  +3  +3  +3  +3   +4   +4   +4   +4   +5   +5   +5   +5   +5   +6
+  total encumbr : 50  100 150 200 250 300 350 400 450 500 550 600 650 700 750 800 850 900 950 1000 1050 1100 1150 1200 1250 1300 1350 1400 1450 1500
+                  
+Agility 
+                          01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+  number of attacks     : +0 +0 +0 +0 +0 +0 +0 +0 +0 +0 +0 +0 +0 +0 +1 +1 +1 +1 +1 +1 +1 +1 +1 +1 +1 +1 +1 +1 +1 +2
+                        // bonus addition.                          
+  dodge:    
+  trip mod              :
+                        // percent per room on "&MIn your haste, you trip and fall!"                
+
+Stamina
+                  01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+  hit point bon : +0 +0 +0 +0 +0 +0 +0 +0 +0 +1 +1 +1 +1 +1 +2 +2 +2 +2 +2 +3 +3 +3 +3 +3 +4 +4 +4 +4 +4 +5
+                  // hit point bonus
+  sustenance mod: 0% 0% 0% 0% 0% 0% 0% 0% 0% 1% 1% 2% 2% 3% 3% 4% 4% 5% 5% 6% 6% 7% 7% 8% 8% 9% 9% 10 10 11
+                  // 4000 max, reduce 1 per second (10 per 10 seconds for performance)
+                  // percent chance to skip sustenance tick
+  room move     : 01 01 01 01 01 01 01 01 01 01 02 02 02 02 03 03 03 03 03 04 04 04 04 04 04 04 04 04 04 05
+                  // number of rooms can move before "&MYou must rest a moment before proceeding!"
+  hp regen      :  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 27 26 27 28 29 30 31 32 33
+                  % hp regen chance per second five seconds
+
+                  
+cha buy (final value deviates -1 to +1)
+                  01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+                  5% 5% 5% 5% 5% 5% 5% 4% 4% 4% 3% 3% 3% 3% 2% 2% 2% 1% 1% 1% 1% 0% 0% 0% 0% 0% 0% 0% 0% 0%

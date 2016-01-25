@@ -1,0 +1,709 @@
+
+LEVEL3 {Elwynor Technologies: Tele-Arena II}
+
+This is your Tele-Arena II activation code. Without it, the
+game will only run for 14 days.  To obtain a code, contact
+Elwynor Technologies at: 
+  http://www.elwynor.com/elwynor
+
+ACTCODE {DEMO} S 20 Activation Code for Tele-Arena II
+
+Enter the name of the key required to take full advantage of
+all the game's features without demo player restrictions.
+
+FULKEY {NORMAL} S 15 Key required to play the FULL game
+
+Enter the name of the key required to make use of the generic
+action command within the game.
+
+ACTKEY {NORMAL} S 15 Key required to use generic actions
+
+Enter the name of the key required to make use of the generic
+message command within the game.
+
+MSGKEY {COSYSOP} S 15 Key required to use generic messages
+
+
+LEVEL4 {Elwynor Technologies: Tele-Arena II}
+
+Enter the number of credits that will be consumed per minute
+while in the game.
+
+GAMCRD {Credits per minute consumed while in the game: 60} N 0 32767
+
+Decide whether to write the file "TADEATH.LOG", which contains
+character stats and other information when a character dies.
+
+TADLOG {Activate death logging? YES} B
+
+Decide whether or not to delay high speed macros and scripts
+which give users at higher speeds advantages over those at
+lower baud rates.
+
+MDELAY {Activate high speed macro delays? YES} B
+
+Decide whether or not to allow the purchase of special items
+which take advantage of built in resurrection features.
+
+RESITM {Allow resurrection items in game? YES} B
+
+Decide whether or not to allow resurrection for credits.
+
+ALWRES {Allow resurrection for credits? YES} B
+
+Decide how much to charge per level of the character for
+resurrection.
+
+LEVCRD {Credit charge per level for resurrection: 100} N 0 10000
+
+Decide whether or not to make an audit trail entry each time
+a user is charged credits for resurrection.
+
+RESAUD {Make audit trail entry for resurrection charges? NO} B
+
+Decide whether or not to activate the auto-save feature,
+which saves character's progress in real time to prevent
+data loss due to crashes or power loss.
+
+AUTSAV {Activate character auto-save feature? YES} B
+
+Decide whether or not to allow profane language within the
+game.
+
+ALWPFN {Allow profanity in the game? YES} B
+
+Decide whether or not to allow players to attack others.
+
+USRATT {Allow users to attack other users? YES} B
+
+Decide whether or not to allow rogues to rob players.
+
+USRROB {Allow rogues to rob other users? YES} B
+
+Enter the level difference at which to prevent players from
+attacking one another if desired.
+
+USRDIF {Level difference to prevent user combat (if any): 3} N 0 20
+
+Decide whether or not to allow combat between promoted and
+non-promoted players.
+
+PROCBT {Allow combat between promoted and non-promoted users? YES} B
+
+Enter the level at which a player is no longer protected by
+other combat rules if desired.
+
+FRECBT {Combat rule exemption level (if any): 0} N 0 50
+
+Enter the level below or at which a player is protected from
+attack by other players.
+
+NONCBT {No combat maximum level (if any): 0} N 0 50
+
+Enter the amount of additional starting gold to give users
+if desired.
+
+BEGGLD {Extra starting gold to give users (if any): 0} N 0 1000
+
+Enter the maximum level that demo players may achieve.
+
+DMOLEV {Maximum level which DEMO users may achieve: 5} N 1 10
+
+Enter the maximum room number demo users may explore.
+
+DMORML {Maximum room number DEMO users may explore: 107} N 1 500
+
+Enter the maximum purchase price of items demo users may buy.
+
+DMOGPL {Maximum purchase price of items DEMO users may buy: 1000} N 100 10000
+
+Enter the number of hours between game maintenance if desired.
+
+GAMMNT {Number of hours between dungeon maintenance (if any): 4} N 0 12
+
+Enter the maximum number of players allowed in the game.
+Note: This is an optional feature which may not be active.
+
+MAXPLR {Maximum number of players allowed in game (optional): 256} N 1 256
+
+Show Tele-Arena II messages to users at logon?
+
+SHOWLOM {Display Tele-Arena II messages at logon? YES} B
+
+LEVEL6 {Elwynor Technologies: Tele-Arena II}
+
+TA2LOM {
+Are you strong enough to survive TELE-ARENA II?
+} T Tele-Arena II logon message
+
+PFNWRD {Sorry, profanity is not permitted in Tele-Arena...
+} T Foul language rebuff
+
+
+NOAUSR {Sorry, players are not permitted to attack other players at this time...
+} T Disabled user to user combat rebuff
+
+
+NORUSR {Sorry, rogues are not permitted to rob other players at this time...
+} T Disabled user to user combat rebuff
+
+
+UTOOHI {Secure in the knowledge that you would emerge victorious from this
+confrontation, you feel no need to prove yourself.
+} T Disabled user to user combat rebuff
+
+
+UTOOLO {You get an overwhelming feeling of impending doom, and think better
+of your actions.
+} T Disabled user to user combat rebuff
+
+
+NOATME {You are somehow made aware that the gods would take offense, and think
+better of your actions.
+} T Disabled user to user combat rebuff
+
+
+DMOLVL {Sorry, DEMO users may not advance beyond level %d!
+} T Demo user level advancement rebuff
+
+
+DMOBUY {Sorry, DEMO users may not buy certain items!
+} T Demo user purchase rebuff
+
+
+DMOLOC {Sorry, DEMO users may not enter certain areas!
+} T Demo user location rebuff
+
+/***************************************************************************/
+/***                  Tele-Arena Entry and Exit Messages                 ***/
+/***************************************************************************/
+
+ENTRTA {[1;37mEntering Tele-Arena...
+[1;37m} T Tele-arena
+
+
+EXITTA {[1;37mExiting Tele-Arena...
+[1;37m} T Tele-arena
+
+
+GAMFUL {[1;37mPlayer limit exceeded, please try again later!
+Exiting Tele-Arena...
+[1;37m} T Tele-arena
+
+/***************************************************************************/
+/***                  Tele-Arena Introduction Messages                   ***/
+/***************************************************************************/
+
+ARNINT1 {
+
+  Welcome to Tele-Arena. Tele-arena is basically a role playing swords &
+sorcery type adventure game similar to many popular games such as Dungeons
+& Dragons(tm), etc. It is a land where players and monsters battle for
+treasure and glory. When you first enter the game you will be asked two
+questions. The first is which race you would like to be. The second is
+which class you would like to be.
+  Race refers to your physical appearance and characteristics. Some races
+are better suited to certain classes than others. The races currently common
+in the world of Tele-Arena are Elves, Dwarves, Gnomes, Humans, Goblins, and
+Half-ogres.
+  Class refers to your profession or calling in life. The current classes
+available are Warrior, Sorceror, Acolyte, Rogue, Hunter, Druid, Archer, and
+Necrolyte.
+
+} T Tele-arena
+
+
+ARNINT2 {
+
+} T Tele-arena
+
+
+ARNINT3 {
+
+  There are also six basic statistics dealing with the physical and mental
+characteristics of your character. There are two mental and four physical
+characteristics. These are intellect, knowledge, physique, stamina, agility,
+and charisma. Intellect deals with how smart or intelligent your character
+is. Knowledge has to do with how wise or knowledgable your character is.
+Physique is used to describe your character's strength and physical build.
+Stamina tells how healthy your character is as well as how much endurance
+he/she has. Agility is used to describe your character's dexterity or
+physical coordination. Charisma deals with your character's physical
+appearance as well as how influential they are.
+  There are two other statistics that you will have to keep track of in
+order to survive. These are vitality and health. Vitality describes how much
+physical punishment your character can take before death occurs. This damage
+may be inflicted upon you by the weapons or spells of other players or by
+the many monsters that wander the land. If your vitality reaches zero, you
+die. Health describes your current state of health including whether or not
+you're poisoned, hungry, thirsty, or just healthy.
+
+} T Tele-arena
+
+/***************************************************************************/
+/***                     Tele-Arena Help Messages                        ***/
+/***************************************************************************/
+
+CLSHLP0 {
+  Warriors live for combat. They are physically the toughest of they classes.
+They hit the hardest, and can withstand the most punishment. They also have
+the widest selection of armor and weapons to choose from. They neither have
+any special abilities, nor can they cast spells of any type. However, they
+can use a variety of magical weapons and armor.
+} T Tele-arena
+
+
+CLSHLP1 {
+  Sorcerors are physically the weakest of the classes. They have an incurable
+thirst for knowledge, and so spend most of their time studying when not out
+exploring the unknown with their companions. Sorcerors may cast powerful
+offensive and utility spells. They may, however, only wear the lightest of
+armors, and wield either a dagger or staff.
+} T Tele-arena
+
+
+CLSHLP2 {
+  Acolytes are the priests and clerics of the land. They have the ability to
+heal wounds and cure a variety of ailments. They ae fairly adept at physical
+combat, and they have a reasonable selection of armor to choose from. They
+may, however, only wield bludgeoning weapons or a dagger only if no other
+weapon is available.
+} T Tele-arena
+
+
+CLSHLP3 {
+  Rogues are better at physical combat than sorcerors, but not as capable as
+acolytes or warriors. They may wear unrestrictive armors and wield staves and
+one-handed blades. Rogues also have a number of special abilities, such as
+the ability to rob other characters, avoid traps, and pick locks.
+} T Tele-arena
+
+
+CLSHLP4 {
+  Hunters are as adept at physical combat as are warriors, but may only wear
+unrestrictive armors and get a slightly more limited selection of weapons.
+They too have special abilities which include tracking, hunting for food, and
+taming wild creatures.
+} T Tele-arena
+
+
+CLSHLP5 {
+  Druids spend as much time as possible out of doors. They are naturalists,
+and are familiar with every plant and animal of their realm. Druids get the
+same choice of weapons that acolytes do, and may wear robes or a leather
+cuirass. They may also cast an assortment of nature-based elemental spells,
+as well as a limited selection of restorative and healing spells.
+} T Tele-arena
+
+
+CLSHLP6 {
+  Archers are a rare breed of fighters that is trained in both the use of
+one-handed swords, and a variety of projectile weapons including bows. Other
+than their more limited weapon selection, they are as adept at physical
+combat as are warriors. They may, however wear only unrestrictive armors.
+} T Tele-arena
+
+
+CLSHLP7 {
+  Necrolytes practice the darkest forms of magick. They get the same choices
+of armor and weapons as do sorcerors, but gain power more rapidly. They are
+not very skilled at physical combat. Their spell selection is more limited
+than that of sorcerors, and focuses on hideous offensive spells.
+} T Tele-arena
+
+
+RACHLP0 {
+Elves are taller and less robust than humans. They are lithe, intelligent,
+and beatiful creatures. They are however, not quite as robust as humans.
+They excel in spellcraft, and are skilled archers. They are among the more
+frail of the races, however, and so can make poor warriors.
+} T Tele-arena
+
+
+RACHLP1 {
+Dwarves are tough and strong and are skilled in physical combat. They are
+trained from a very young age in the ways of combat, and make very capable
+warriors. They aren't as magickaly adept as other races, but can become
+skilled acolytes.
+} T Tele-arena
+
+
+RACHLP2 {
+Gnomes are quite agile and much heartier than elves, and nearly as adept at
+spellcraft. Due to their toughness, despite their small size, they do better
+in physical combat than elves. They are often among the best acolytes and
+rogues.
+} T Tele-arena
+
+
+RACHLP3 {
+Humans are the most common of the races. They are quite average with regards
+to their skill in combat, spellcraft, and thievery. They can do equally well
+in any class.
+} T Tele-arena
+
+
+RACHLP4 {
+Goblins are cunning and agile creatures who are shunned by most other races.
+They often dwell below ground, and so are fairly rare. They are very skillful
+rogues, and passable archers. They are also tough enough to survive as either
+warriors or hunters. They are, however, poorer spellcasters than most races.
+} T Tele-arena
+
+
+RACHLP5 {
+Half-ogres are the strongest, and most durable of the races. They are usually
+the offspring of renegade ogres and their unwilling human captives. They are
+shunned by their ogre relatives as half-breed runts, as well as by humans for
+their hideous aspect, and crude ways. They can, with time, make formidable
+warriors. They are, however, the poorest spellcasters. Also, due to their
+inbred clumbsiness, they make inadequate archers and thieves.
+} T Tele-arena
+
+
+GENHLP {
+You may get help on any of these
+topics by typing HELP <TOPIC>:
+
+Actions   Combat    Groups    Info
+Items     Movement  Orders    Spells
+
+Arena     Docks     Guild     Shops
+Tavern    Temple    Vaults
+
+Exp1      Exp2      General1  General2
+General3  Glossary  Misc
+
+Archers   Hunters   Rogues
+
+} T Tele-arena
+
+
+ARNHLP {
+RING GONG (RI G) - Ring the great gong
+
+} T Tele-arena
+
+
+BNKHLP {
+BALANCE (BA) - Give your current account balance
+DEPOSIT (DE) <AMT> - Deposit gold in your account
+WITHDRAW (WI) <AMT> - Withdraw gold from your account
+
+} T Tele-arena
+
+
+DOCHLP {
+BUY (B) PASSAGE - Buy passage across the great lake
+
+} T Tele-arena
+
+
+GLDHLP {
+LIST (LS) ACOLYTE1 (A1) - List acolyte spells (part 1)
+LIST (LS) ACOLYTE2 (A2) - List acolyte spells (part 2)
+LIST (LS) DRUID1 (D1) - List druid spells (part 1)
+LIST (LS) DRUID2 (D2) - List druid spells (part 2)
+LIST (LS) NECROLYTE1 (N1) - List necrolyte spells (part 1)
+LIST (LS) NECROLYTE2 (N2) - List necrolyte spells (part 2)
+LIST (LS) SORCEROR1 (S1) - List sorceror spells (part 1)
+LIST (LS) SORCEROR2 (S2) - List sorceror spells (part 2)
+BUY (B) TRAINING - Buy a training session
+BUY (B) PROMOTION - Buy a promotion
+BUY (B) <SPELL> - Buy spells
+
+} T Tele-arena
+
+
+SHPHLP {
+LIST (LS) ITEMS (I) - List items available from the shop
+BUY (B) <ITEM> - Buy an item from the shop
+SELL (S) <ITEM> - Sell an item from your inventory
+
+} T Tele-arena
+
+
+TAVHLP {
+BUY (B) DRINK - Buy you a drink from the bar
+BUY (B) MEAL - Buy you a hot meal from the kitchen
+PLAY (PL) SLOTS - Take a chance at the slot machine
+PLAY (PL) BONES - Take a chance at rolling the bones
+
+} T Tele-arena
+
+
+TMPHLP {
+BUY (B) CURING - Pay to cure you of poison
+BUY (B) HEALING - Pay to heal your wounds
+BUY (B) REMOVAL - Pay to remove paralysis
+BUY (B) RESTORING - Pay to restore drained stats
+DONATE (D) <AMT> GOLD (G) - Donate gold to the temple
+
+} T Tele-arena
+
+
+ARCHLP {
+SIGHT (SI) <DIR> - Look for targets in this direction.
+
+Note: Archers are currently the only character class allowed to use
+      the missle weapons. (i.e. shortbows, longbows, and crossbows)
+      No other character class is proficient in their use. Also see
+      the 'fire' command under the 'combat' help topic.
+
+} T Tele-arena
+
+
+HUNHLP {
+HUNT (H) - Hunt for food and water
+MESMERIZE (MS) <WHO> - Attempt to mesmerize this monster
+TRACK (TR) <WHO> - Attempt to track this denizen
+TAME (TM) <WHO> - Attempt to tame this monster
+
+} T Tele-arena
+
+
+ROGHLP {
+ROB (R) <WHO> OF GOLD - Attempt to steal gold
+ROB (R) <WHO> OF <ITEM> - Attempt to steal an item
+
+Note: Rogues also have the innate ability to avoid traps, pick locks,
+      and climb virtually sheer surfaces in some cases.
+
+} T Tele-arena
+
+
+COMHLP {
+COMBAT (CO) - Toggle automatic combat on or off
+STANCE AGGRESSIVE/NEUTRAL/DEFFENSIVE - Set combat stance
+ATTACK (A) <WHO> - Attack this denizen with your weapon
+THROW (T) <ITEM> <WHO> - Throw a weapon at this denizen
+FIRE (F) <ITEM> <WHO> - Fire a weapon at this denizen
+USE (U) <ITEM> <WHO> - Use a magical weapon on this denizen
+CAST (C) <SPELL> - Cast an area of effect spell
+CAST (C) <SPELL> <WHO> - Cast a combat spell at this denizen
+SPAR - Enter the Colosseum (From north plaza only)
+
+} T Tele-arena
+
+
+GLSHLP {
+Daki -   Acid         Daku -   Storm         Dani -  Drain
+Dobu -   Poison       Dumoti - Maelstrom     Fadi -  Regenerate
+Ganazi - Restore      Gi -     Greater Power Iga -   Agility
+Jinasu - Mind         Ka -     Lesser Power  Kama -  Magick
+Kar -    Burst        Komasi - Elemental     Komi -  Ice
+Kotari - Sustain      Kusa -   Deific Power  Ma -    Stream
+Maru -   Mist         Modoki - Lightning     Motu -  Heal
+Muda -   Summon       Novadi - Conceal       Paka -  Plant
+Pora -   Body         Ro -     Physique      Siva -  Air
+Takumi - Movement     Tami -   Energy        Teka -  Injury
+Timi -   Fear         Todu -   Fire          Tok -   Augment
+Tora -   Stone        Tsu -    Stamina       Yari -  Protection
+Yilazi - Leech        Za -     Dart          Zuma -  Shower
+
+} T Tele-arena
+
+
+GRPHLP {
+GROUP (GR) - List the members in your group
+FOLLOW (FO) - Begin following your group
+HALT (HA) - Stop following your group
+LEAVE (LE) - Leave or stop waiting to join a group
+DISBAND (DI) - Disband your group
+SHARE (SH) <AMT> - Share gold with your group
+CONFER (CO) <MSG> - Confer with your group
+JOIN (J) <WHO> - Attempt to join this denizen's group
+ADD (AD) <WHO> - Add this denizen to your group
+REMOVE (RE) <WHO> - Remove this member from your group
+APPOINT (AP) <WHO> - Appoint this denizen group leader
+
+} T Tele-arena
+
+
+INFHLP {
+PLAYERS (PL) - List the players currently in game
+LOOK (L) - Examine your current surroundings
+LOOK (L) <WHO> - Look at this denizen
+LOOK (L) <DIR> - Look in this direction
+EXITS (EX) - Display available exits
+INVENTORY (I) - List items in your inventory
+STATUS (ST) - Display your status
+HEALTH (HE) - Display brief status
+EXPERIENCE (EP) - Display experience
+SPELLS (SP) - List spells in your spellbook
+HELP (?) - Display general help message
+
+} T Tele-arena
+
+
+ITMHLP {
+INVENTORY (I) - List items in your inventory
+GIVE (GI) <WHO> <ITEM> - Give an item to this denizen
+GIVE (GI) <WHO> <#> GOLD - Give this denizen some gold
+GET (G) <ITEM> - Get an item from room
+DROP (D) <ITEM> - Drop an item from your inventory
+GET (G) ALL - Get all items in room
+DROP (D) ALL - Drop everything you're carrying
+GET (G) <AMT> - Get gold coins from room
+DROP (D) <AMT> - Drop gold coins
+EQUIP (EQ) <ITEM> - Equip an item from your inventory
+UNEQUIP (UN) <ITEM> - Unequip an equipped item
+USE (U) <ITEM> - Use an item
+USE (U) <ITEM> <WHO> - Use an item on this denizen
+EAT (E) <ITEM> - Eat a ration of food
+DRINK (DR) <ITEM> - Drink from a waterskin or potion
+
+} T Tele-arena
+
+
+MOVHLP {
+<DIRECTION> - Move in this direction
+DRAG (DR) <WHO> <DIR> - Drag this denizen in this direction
+
+} T Tele-arena
+
+
+ORDHLP {
+ORDER (OR) <WHAT> FOLLOW (FO) <WHO> - "Follow this denizen"
+ORDER (OR) <WHAT> TRACK (TR) <WHO> - "Track this denizen"
+ORDER (OR) <WHAT> STOP (ST) - "Stop tracking"
+
+Note: Followers include creatures summoned or controlled by spells or   |
+      other magical means, or those tamed by hunters.                   |
+
+} T Tele-arena
+
+
+SPLHLP {
+SPELLS (SP) - List spells in your spellbook
+PURGE (P) <SPELL> - Purge a spell from your spellbook
+CAST (C) <SPELL> - Cast an area of effect spell
+CAST (C) <SPELL> <WHO> - Cast a spell on this denizen
+
+} T Tele-arena
+
+
+MSCHLP {
+REROLL - Reroll your character (level 1 only)
+SUICIDE - When there is no hope of success
+ACT: <MSG> - Custom action messages
+
+} T Tele-arena
+
+
+EXPHLP1 {
+    Acolyte &             Druid &
+LV  Necrolyte  Archer     Sorceror   Hunter     Rogue      Warrior
+--------------------------------------------------------------------
+ 1)         0          0          0          0          0          0
+ 2)      1150       1125       1180       1125       1120       1125
+ 3)      3490       3240       3800       3240       3200       3240
+ 4)      9025       8025      10290       8025       7860       8025
+ 5)     20640      17890      24160      17890      17440      17890
+ 6)     42200      36000      50000      36000      35000      36000
+ 7)     78200      66300      93500      66300      64400      66300
+ 8)    134300     113400     161400     113400     109900     113400
+ 9)    216900     182600     261500     182600     177000     182600
+10)    333500     280200     402700     280200     271500     280200
+11)    492000     413000     595000     413000     400000     413000
+12)    701800     588700     849600     588700     570100     588700
+13)    972800     815600    1178400     815600     789600     815600
+14)   1315900    1102800    1594900    1102800    1067600    1102800
+15)   1742800    1460100    2113200    1460100    1413500    1460100
+
+} T Tele-arena
+
+
+EXPHLP2 {
+
+    Acolyte &             Druid &
+LV  Necrolyte  Archer     Sorceror   Hunter     Rogue      Warrior
+--------------------------------------------------------------------
+16)   2266200    1898300    2748800    1898300    1837500    1898300
+17)   2899600    2428600    3518100    2428600    2350800    2428600
+18)   3657600    3063100    4438700    3063100    2964800    3063100
+19)   4555300    3814700    5529300    3814700    3692200    3814700
+20)   5609100    4696900    6809500    4696900    4546000    4696900
+21)   6836000    5724000    8300000    5724000    5540000    5724000
+22)   8254100    6911200   10022900    6911200    6689000    6911200
+23)   9882100    8274200   12001000    8274200    8008000    8274200
+24)  11739900    9829700   14258400    9829700    9513300    9829700
+25)  13848000   11594700   16820200   11594700   11221500   11594700
+
+} T Tele-arena
+
+
+INVTOP {[1;35mSorry, that is not an appropriate topic.
+[1;37m} T Tele-arena
+
+
+OBJHDR {
++======================+=======+
+| [1;36mItem[1;37m                 | [1;36mPrice[1;37m |
++----------------------+-------+
+} T Tele-arena
+
+
+ITEMS {| [1;36m%-20s[1;37m | [1;36m%5d[1;37m |
+} T Tele-arena
+
+
+OBJEND {+======================+=======+
+} T Tele-arena
+
+
+SPLHDR1 {
++======================================+
+||           [1;35mSorceror Spells[1;37m          ||
++======================+=======+=======+
+| [1;35mName[1;37m                 | [1;35mMana[1;37m  | [1;35mPrice[1;37m |
++----------------------+-------+-------+
+} T Tele-arena
+
+
+SPLHDR2 {
++======================================+
+||           [1;36mAcolyte Spells[1;37m           ||
++======================+=======+=======+
+| [1;36mName[1;37m                 | [1;36mMana[1;37m  | [1;36mPrice[1;37m |
++----------------------+-------+-------+
+} T Tele-arena
+
+
+SPLHDR3 {
++======================================+
+||            [1;32mDruid Spells[1;37m            ||
++======================+=======+=======+
+| [1;32mName[1;37m                 | [1;32mMana[1;37m  | [1;32mPrice[1;37m |
++----------------------+-------+-------+
+} T Tele-arena
+
+
+SPLHDR4 {
++======================================+
+||           [0;31mNecrolyte Spells[1;37m         ||
++======================+=======+=======+
+| [0;31mName[1;37m                 | [0;31mMana[1;37m  | [0;31mPrice[1;37m |
++----------------------+-------+-------+
+} T Tele-arena
+
+
+SPELLS1 {| [1;35m%-20s[1;37m | [1;35m%5d[1;37m | [1;35m%5d[1;37m |
+} T Tele-arena
+
+
+SPELLS2 {| [1;36m%-20s[1;37m | [1;36m%5d[1;37m | [1;36m%5d[1;37m |
+} T Tele-arena
+
+
+SPELLS3 {| [1;32m%-20s[1;37m | [1;32m%5d[1;37m | [1;32m%5d[1;37m |
+} T Tele-arena
+
+
+SPELLS4 {| [0;31m%-20s[1;37m | [0;31m%5d[1;37m | [0;31m%5d[1;37m |
+} T Tele-arena
+
+
+SPLEND {+======================+=======+=======+
+} T Tele-arena
+

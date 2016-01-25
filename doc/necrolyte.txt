@@ -1,0 +1,183 @@
+Spell Name
+
+Translation
+
+Mana
+
+Price
+
+Level
+
+Erl
+
+Teka
+
+Minor Injury
+
+1
+
+10 gold
+
+1st
+
+1st
+
+Dobuza
+
+Dart of Poison
+
+2
+
+12 gold
+
+4th
+
+5th
+
+Kamaza
+
+Dart of Mana Drain
+
+2
+
+15 gold
+
+4th
+
+5th
+
+Yilazi
+
+Drain Vitality
+
+3
+
+18 gold
+
+6th
+
+10th
+
+Kateka
+
+Injury
+
+3
+
+20 gold
+
+6th
+
+10th
+
+Dakima
+
+Stream of Acid
+
+4
+
+30 gold
+
+8th
+
+15th
+
+Tamikar
+
+Dark Energy Blast
+
+4
+
+50 gold
+
+8th
+
+15th
+
+Giteka
+
+Greater Injury
+
+5
+
+75 gold
+
+10th
+
+20th
+
+Dobumaru
+
+Area Poison Mist
+
+5
+
+90 gold
+
+10th
+
+20th
+
+Kamazadaku
+
+Storm of Mana Drain
+
+5
+
+120 gold
+
+10th
+
+20th
+
+Timimaru
+
+Area Fear Mist
+
+6
+
+135 gold
+
+12th
+
+25th
+
+Kusateka
+
+Deific Injury
+
+6
+
+150 gold
+
+12th
+
+25th
+
+Dakidaku
+
+Acid Storm
+
+7
+
+225 gold
+
+14th
+
+5th*
+
+Dobudakidaku
+
+Poison Acid Storm
+
+8
+
+325 gold
+
+16th
+
+10th*
+
+* Indicates level after promotion.
+Erl - Every round level. Level at which you get the spell every round.
+Note : Tamikar and Yilazi increase in spell power with levels. Dobudakidaku and Tamikar never fail.

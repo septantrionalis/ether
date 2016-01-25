@@ -1,0 +1,2214 @@
+LANGUAGE {English/ANSI}
+LEVEL6 {}
+ITEMTOT {124}
+INAM1    {dagger}
+IDES1    {a dagger}
+ISTT1    {15 10 0 1 3 1 0 0 0 1 0 0 0 0 0 0}
+IEFF1    {}
+INAM2    {quarterstaff}
+IDES2    {a quarterstaff}
+ISTT2    {10 40 0 1 4 1 0 0 0 0 0 0 0 0 1 1}
+IEFF2    {}
+INAM3    {shortsword}
+IDES3    {a shortsword}
+ISTT3    {30 20 0 1 6 3 0 0 0 0 0 0 0 0 1 1}
+IEFF3    {}
+INAM4    {mace}
+IDES4    {a mace}
+ISTT4    {35 50 0 1 7 2 0 0 0 0 0 0 0 0 1 1}
+IEFF4    {}
+INAM5    {warhammer}
+IDES5    {a warhammer}
+ISTT5    {40 70 0 2 8 2 0 0 0 0 0 0 0 0 1 1}
+IEFF5    {}
+INAM6    {longsword}
+IDES6    {a longsword}
+ISTT6    {50 30 0 2 10 3 0 0 0 0 0 0 0 0 3 1}
+IEFF6    {}
+INAM7    {battleax}
+IDES7    {a battleax}
+ISTT7    {60 50 0 2 12 4 0 0 0 0 0 0 0 0 3 1}
+IEFF7    {}
+INAM8    {morningstar}
+IDES8    {a morningstar}
+ISTT8    {70 80 0 2 14 2 0 0 0 0 0 0 0 0 2 1}
+IEFF8    {}
+INAM9    {broadsword}
+IDES9    {a broadsword}
+ISTT9    {80 40 0 2 16 3 0 0 0 0 0 0 0 0 3 1}
+IEFF9    {}
+INAM10   {flail}
+IDES10   {a flail}
+ISTT10   {90 90 0 3 18 2 0 0 0 0 0 0 0 0 4 1}
+IEFF10   {}
+INAM11   {halberd}
+IDES11   {a halberd}
+ISTT11   {120 120 0 6 24 4 0 0 0 0 0 0 0 0 6 1}
+IEFF11   {}
+INAM12   {greatsword}
+IDES12   {a greatsword}
+ISTT12   {150 70 0 7 28 4 0 0 0 0 0 0 0 0 6 1}
+IEFF12   {}
+INAM13   {cloak}
+IDES13   {a cloak}
+ISTT13   {10 20 0 0 0 11 0 0 0 0 0 0 0 0 0 0}
+IEFF13   {}
+INAM14   {robes}
+IDES14   {robes}
+ISTT14   {20 30 0 0 0 11 1 0 0 0 0 0 0 0 1 1}
+IEFF14   {}
+INAM15   {cuirass}
+IDES15   {a leather cuirass}
+ISTT15   {40 50 0 0 0 12 2 0 0 0 0 0 0 0 2 1}
+IEFF15   {}
+INAM16   {breastplate}
+IDES16   {a steel breastplate}
+ISTT16   {200 200 0 0 0 13 4 0 0 0 0 0 0 0 2 1}
+IEFF16   {}
+INAM17   {ringmail}
+IDES17   {ringmail armor}
+ISTT17   {250 300 0 0 0 13 5 0 0 0 0 0 0 0 3 1}
+IEFF17   {}
+INAM18   {chainmail}
+IDES18   {chainmail armor}
+ISTT18   {300 400 0 0 0 13 6 0 0 0 0 0 0 0 3 1}
+IEFF18   {}
+INAM19   {scalemail}
+IDES19   {scalemail armor}
+ISTT19   {400 450 0 0 0 14 8 0 0 0 0 0 0 0 4 1}
+IEFF19   {}
+INAM20   {bandmail}
+IDES20   {banded mail armor}
+ISTT20   {500 500 0 0 0 14 10 0 0 0 0 0 0 0 6 1}
+IEFF20   {}
+INAM21   {platemail}
+IDES21   {platemail armor}
+ISTT21   {600 600 0 0 0 14 12 0 0 0 0 0 0 0 8 1}
+IEFF21   {}
+INAM22   {torch}
+IDES22   {a torch}
+ISTT22   {1 10 0 0 450 21 0 0 16 0 0 0 0 0 0 1}
+IEFF22   {}
+INAM23   {rope}
+IDES23   {a coil of rope}
+ISTT23   {3 25 0 0 0 21 0 0 0 0 0 0 0 0 0 1}
+IEFF23   {}
+INAM24   {ration of food}
+IDES24   {a ration of food}
+ISTT24   {2 5 0 0 3600 21 0 0 1 0 0 0 0 0 0 1}
+IEFF24   {}
+INAM25   {waterskin}
+IDES25   {a waterskin}
+ISTT25   {1 10 0 0 1800 21 0 3 2 0 0 0 0 0 0 1}
+IEFF25   {}
+INAM26   {glowstone}
+IDES26   {a glowstone}
+ISTT26   {50 5 0 0 0 31 0 0 17 0 0 0 0 0 0 1}
+IEFF26   {}
+INAM27   {heartstone}
+IDES27   {a heartstone}
+ISTT27   {100 5 0 0 0 31 0 0 9 0 0 -96 0 0 5 1}
+IEFF27   {}
+INAM28   {rue potion}
+IDES28   {a rue potion}
+ISTT28   {5 10 0 4 16 32 0 0 3 0 0 0 0 0 0 1}
+IEFF28   {}
+INAM29   {amaranth potion}
+IDES29   {an amaranth potion}
+ISTT29   {10 10 0 16 64 32 0 0 3 0 0 0 0 0 0 1}
+IEFF29   {}
+INAM30   {anemone potion}
+IDES30   {an anemone potion}
+ISTT30   {25 10 0 32 128 32 0 0 3 0 0 0 0 0 0 1}
+IEFF30   {}
+INAM31   {verbena potion}
+IDES31   {a verbena potion}
+ISTT31   {10 10 0 0 0 32 0 0 4 0 0 0 0 0 0 1}
+IEFF31   {}
+INAM32   {yarrow potion}
+IDES32   {a yarrow potion}
+ISTT32   {10 10 0 0 0 32 0 0 5 0 0 0 0 0 0 1}
+IEFF32   {}
+INAM33   {rowan potion}
+IDES33   {a rowan potion}
+ISTT33   {10 10 0 20 600 32 0 0 6 0 0 0 0 0 0 1}
+IEFF33   {}
+INAM34   {hyssop potion}
+IDES34   {a hyssop potion}
+ISTT34   {10 10 0 20 600 32 0 0 7 0 0 0 0 0 0 1}
+IEFF34   {}
+INAM35   {vervain potion}
+IDES35   {a vervain potion}
+ISTT35   {100 10 0 0 600 33 0 0 8 0 0 0 0 0 0 2}
+IEFF35   {}
+INAM36   {horn of frost}
+IDES36   {a horn of frost}
+ISTT36   {50 50 0 4 24 31 0 15 12 1 0 0 0 0 3 1}
+IEFF36   {a blast of frost}
+INAM37   {wand of lightning}
+IDES37   {a wand of lightning}
+ISTT37   {100 10 0 8 48 31 0 20 12 1 0 0 0 0 5 1}
+IEFF37   {a bolt of lightning}
+INAM38   {rod of flame}
+IDES38   {a rod of flame}
+ISTT38   {200 20 0 12 72 31 0 25 12 1 0 0 0 0 8 1}
+IEFF38   {a blast of flame}
+INAM39   {iron key}
+IDES39   {an iron key}
+ISTT39   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF39   {}
+INAM40   {copper key}
+IDES40   {a copper key}
+ISTT40   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF40   {}
+INAM41   {brass key}
+IDES41   {a brass key}
+ISTT41   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF41   {}
+INAM42   {bronze key}
+IDES42   {a bronze key}
+ISTT42   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF42   {}
+INAM43   {silver key}
+IDES43   {a silver key}
+ISTT43   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF43   {}
+INAM44   {electrum key}
+IDES44   {an electrum key}
+ISTT44   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF44   {}
+INAM45   {gold key}
+IDES45   {a gold key}
+ISTT45   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF45   {}
+INAM46   {platinum key}
+IDES46   {a platinum key}
+ISTT46   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF46   {}
+INAM47   {pearl key}
+IDES47   {a pearl key}
+ISTT47   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF47   {}
+INAM48   {onyx key}
+IDES48   {an onyx key}
+ISTT48   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF48   {}
+INAM49   {jade key}
+IDES49   {a jade key}
+ISTT49   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF49   {}
+INAM50   {ruby key}
+IDES50   {a ruby key}
+ISTT50   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF50   {}
+INAM51   {runestaff}
+IDES51   {a runestaff}
+ISTT51   {0 20 0 0 0 33 0 8 13 0 0 429 3 0 0 0}
+IEFF51   {}
+INAM52   {rimeax}
+IDES52   {a rimeax}
+ISTT52   {900 50 0 6 36 6 0 0 12 0 0 0 0 0 10 1}
+IEFF52   {a blast of frost}
+INAM53   {pyrehammer}
+IDES53   {a pyrehammer}
+ISTT53   {750 70 0 5 30 5 0 0 12 0 0 0 0 0 10 1}
+IEFF53   {a blast of flame}
+INAM54   {levinblade}
+IDES54   {a levinblade}
+ISTT54   {1000 30 0 8 40 7 0 0 12 0 0 0 0 0 10 1}
+IEFF54   {a bolt of lightning}
+INAM55   {demonhide}
+IDES55   {demonhide armor}
+ISTT55   {1500 250 0 0 0 15 15 0 0 0 0 0 0 0 10 2}
+IEFF55   {}
+INAM56   {dragonscale}
+IDES56   {dragonscale armor}
+ISTT56   {1800 500 0 0 0 16 18 0 0 0 0 0 0 0 12 2}
+IEFF56   {}
+INAM57   {dart}
+IDES57   {a dart}
+ISTT57   {1 5 2 1 4 22 0 0 0 3 0 0 0 0 1 1}
+IEFF57   {}
+INAM58   {knife}
+IDES58   {a knife}
+ISTT58   {5 7 2 1 6 22 0 0 0 2 0 0 0 0 3 1}
+IEFF58   {}
+INAM59   {spear}
+IDES59   {a spear}
+ISTT59   {10 40 2 2 8 22 0 0 0 2 0 0 0 0 2 1}
+IEFF59   {}
+INAM60   {axe}
+IDES60   {an axe}
+ISTT60   {15 30 2 3 12 22 0 0 0 1 0 0 0 0 5 1}
+IEFF60   {}
+INAM61   {arrow}
+IDES61   {an arrow}
+ISTT61   {0 2 0 0 7 21 0 0 20 0 0 0 0 0 0 1}
+IEFF61   {}
+INAM62   {quiver}
+IDES62   {a quiver}
+ISTT62   {10 30 0 60 0 21 0 20 19 0 0 0 0 0 0 1}
+IEFF62   {}
+INAM63   {short bow}
+IDES63   {a short bow}
+ISTT63   {30 30 3 1 6 8 60 0 0 0 0 0 0 0 1 1}
+IEFF63   {}
+INAM64   {long bow}
+IDES64   {a long bow}
+ISTT64   {50 40 5 2 10 8 60 0 0 0 0 0 0 0 2 1}
+IEFF64   {}
+INAM65   {crossbow}
+IDES65   {a crossbow}
+ISTT65   {100 60 4 4 20 8 60 0 0 0 0 0 0 0 4 1}
+IEFF65   {}
+INAM66   {soulstone}
+IDES66   {a soulstone}
+ISTT66   {1000 5 0 0 0 33 0 0 18 0 0 0 0 0 0 2}
+IEFF66   {}
+INAM67   {manastone}
+IDES67   {a manastone}
+ISTT67   {10 5 0 0 0 31 0 0 10 0 0 0 0 0 0 1}
+IEFF67   {}
+INAM68   {zarynthium potion}
+IDES68   {a zarynthium potion}
+ISTT68   {50 10 0 64 256 33 0 0 3 0 0 0 0 0 0 2}
+IEFF68   {}
+INAM69   {great bow}
+IDES69   {a great bow}
+ISTT69   {150 50 5 6 30 9 60 0 0 0 0 0 0 0 6 2}
+IEFF69   {}
+INAM70   {dragon ring}
+IDES70   {a dragon ring}
+ISTT70   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF70   {}
+INAM71   {gome ring}
+IDES71   {a gome ring}
+ISTT71   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF71   {}
+INAM72   {strato ring}
+IDES72   {a strato ring}
+ISTT72   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF72   {}
+INAM73   {pink rose}
+IDES73   {a pink rose}
+ISTT73   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF73   {}
+INAM74   {white rose}
+IDES74   {a white rose}
+ISTT74   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF74   {}
+INAM75   {pink teddy}
+IDES75   {a pink teddy}
+ISTT75   {0 0 0 0 0 14 15 0 0 0 0 0 0 0 1000 0}
+IEFF75   {}
+INAM76   {blue robes}
+IDES76   {blue robes}
+ISTT76   {0 0 0 0 0 14 18 0 0 0 0 0 0 0 1000 0}
+IEFF76   {}
+INAM77   {mithril sword}
+IDES77   {a mithril sword}
+ISTT77   {0 30 0 8 40 5 0 0 0 0 0 0 0 0 1000 0}
+IEFF77   {}
+INAM78   {wynharp}
+IDES78   {a wynharp}
+ISTT78   {0 20 0 32 128 33 0 0 11 0 0 0 0 0 1000 0}
+IEFF78   {}
+INAM79   {darksword}
+IDES79   {a darksword}
+ISTT79   {0 30 0 4 22 3 0 0 0 0 0 0 0 0 1000 0}
+IEFF79   {}
+INAM80   {red rose}
+IDES80   {a red rose}
+ISTT80   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF80   {}
+INAM81   {violet robes}
+IDES81   {violet robes}
+ISTT81   {0 30 0 0 0 11 1 0 0 0 0 0 0 0 1000 0}
+IEFF81   {}
+INAM82   {black rose}
+IDES82   {a black rose}
+ISTT82   {0 5 0 1 2 31 0 1 12 0 0 0 0 1 1000 0}
+IEFF82   {a dark mist}
+INAM83   {opal key}
+IDES83   {an opal key}
+ISTT83   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF83   {}
+INAM84   {tigereye key}
+IDES84   {a tigereye key}
+ISTT84   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF84   {}
+INAM85   {quartz key}
+IDES85   {a quartz key}
+ISTT85   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF85   {}
+INAM86   {topaz key}
+IDES86   {a topaz key}
+ISTT86   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF86   {}
+INAM87   {rod of power}
+IDES87   {a rod of power}
+ISTT87   {0 20 0 0 0 33 0 0 14 0 3 2809 5 0 0 0}
+IEFF87   {}
+INAM88   {flame crystal}
+IDES88   {a flame crystal}
+ISTT88   {0 10 0 2 4 33 123 0 15 1 3 0 0 0 30 0}
+IEFF88   {a flame storm}
+INAM89   {case}
+IDES89   {a case of darts}
+ISTT89   {12 15 0 56 0 21 0 10 19 0 0 0 0 0 0 1}
+IEFF89   {}
+INAM90   {stone}
+IDES90   {a stone}
+ISTT90   {0 1 0 0 4 21 0 0 20 0 0 0 0 0 0 1}
+IEFF90   {}
+INAM91   {pouch}
+IDES91   {a pouch of stones}
+ISTT91   {2 5 0 89 0 21 0 20 19 0 0 0 0 0 0 1}
+IEFF91   {}
+INAM92   {sling}
+IDES92   {a sling}
+ISTT92   {10 15 3 1 4 8 89 0 0 0 0 0 0 0 0 1}
+IEFF92   {}
+INAM93   {blowdart}
+IDES93   {a blowdart}
+ISTT93   {0 1 0 0 2 21 0 0 20 0 0 0 0 1 0 3}
+IEFF93   {}
+INAM94   {tube}
+IDES94   {a tube of blowdarts}
+ISTT94   {5 5 0 92 0 21 0 10 19 0 0 0 0 0 0 3}
+IEFF94   {}
+INAM95   {blowgun}
+IDES95   {a blowgun}
+ISTT95   {25 10 3 1 2 8 92 0 0 0 0 0 0 0 2 3}
+IEFF95   {}
+INAM96   {ice crystal}
+IDES96   {an ice crystal}
+ISTT96   {0 10 0 1 3 33 122 0 15 1 2 0 0 0 25 0}
+IEFF96   {a frost storm}
+INAM97   {elven bow}
+IDES97   {an elven bow}
+ISTT97   {1250 40 5 10 40 10 60 0 12 0 0 0 0 0 15 3}
+IEFF97   {a bolt of energy}
+INAM98   {stone key}
+IDES98   {an ornate stone key}
+ISTT98   {0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0}
+IEFF98   {}
+INAM99   {small barrel}
+IDES99   {a small barrel}
+ISTT99   {10 100 0 0 1800 21 0 15 2 0 0 0 0 0 0 1}
+IEFF99   {}
+INAM100  {preserved rations}
+IDES100  {some preserved rations}
+ISTT100  {10 20 0 0 2400 21 0 5 1 0 0 0 0 0 0 1}
+IEFF100  {}
+INAM101  {green tunic}
+IDES101  {a green tunic}
+ISTT101  {0 10 0 0 0 11 1 0 0 0 0 0 0 0 0 0}
+IEFF101  {}
+INAM102  {stick}
+IDES102  {a stick}
+ISTT102  {0 10 0 1 2 1 0 0 0 0 0 0 0 0 0 0}
+IEFF102  {}
+INAM103  {wooden mallet}
+IDES103  {a wooden mallet}
+ISTT103  {0 20 0 1 3 1 0 0 0 0 0 0 0 0 0 0}
+IEFF103  {}
+INAM104  {dwarven scalemail}
+IDES104  {dwarven scalemail armor}
+ISTT104  {0 550 0 0 0 13 20 0 0 0 0 0 0 0 15 0}
+IEFF104  {}
+INAM105  {dwarven battleax}
+IDES105  {a dwarven battleax}
+ISTT105  {0 100 0 10 50 4 0 0 0 0 0 0 0 0 15 0}
+IEFF105  {}
+INAM106  {Serpent Staff}
+IDES106  {a Serpent Staff}
+ISTT106  {600 30 0 5 10 1 0 0 12 0 0 0 0 0 18 2}
+IEFF106  {a venomous charge}
+INAM107  {HellStaff}
+IDES107  {a HellStaff}
+ISTT107  {1000 30 0 10 18 1 0 0 12 0 0 0 0 0 35 3}
+IEFF107  {flames from the firey furnace of Hell}
+INAM108  {Zodiac Staff}
+IDES108  {a Zodiac Staff}
+ISTT108  {2000 20 0 18 25 1 0 0 12 1 0 0 0 0 65 3}
+IEFF108  {a blast of cosmic force}
+INAM109  {Enigma Scythe}
+IDES109  {an Enigma Scythe}
+ISTT109  {2000 40 0 10 33 1 0 0 12 4 0 0 0 0 65 3}
+IEFF109  {a shroud of mystery}
+INAM110  {Celestial Maul}
+IDES110  {a Celestial Maul}
+ISTT110  {1100 80 0 10 35 5 0 0 12 0 0 0 0 0 18 2}
+IEFF110  {Divine Intervention}
+INAM111  {Hallowed Stick}
+IDES111  {a Hallowed Stick}
+ISTT111  {1800 80 0 15 52 5 0 0 12 0 0 0 0 0 35 3}
+IEFF111  {the sands of time}
+INAM112  {Thor's Hammer}
+IDES112  {Thor's Hammer}
+ISTT112  {2000 80 0 42 82 5 0 0 12 3 0 0 0 0 65 3}
+IEFF112  {rolling thunder}
+INAM113  {Viper Stalk}
+IDES113  {a Viper Stalk}
+ISTT113  {2000 80 0 28 62 5 0 0 12 2 0 0 0 0 65 3}
+IEFF113  {a bombardment of venom}
+INAM114  {Blackened Stiletto}
+IDES114  {a Blackened Stiletto}
+ISTT114  {700 20 0 7 25 3 0 0 12 0 0 0 0 0 18 2}
+IEFF114  {a blast of acid}
+INAM115  {Twin Katanas}
+IDES115  {Twin Katanas}
+ISTT115  {1200 50 0 19 43 3 0 0 12 0 0 0 0 0 35 3}
+IEFF115  {a fury of slashing swords}
+INAM116  {Vorpal Broad Sword}
+IDES116  {a Vorpal Broad Sword}
+ISTT116  {2000 40 0 45 88 3 0 0 12 0 0 0 0 0 65 3}
+IEFF116  {Apocalyptic fire}
+INAM117  {Bloodsword}
+IDES117  {a Bloodsword}
+ISTT117  {1400 60 0 13 55 7 0 0 12 0 0 0 0 0 18 2}
+IEFF117  {a hail of blood}
+INAM118  {Wyrmslayer}
+IDES118  {a Wyrmslayer}
+ISTT118  {1800 30 0 45 107 7 0 0 12 0 0 0 0 0 35 3}
+IEFF118  {a Draconic hallucination}
+INAM119  {Excalibur}
+IDES119  {the sword Excalibur}
+ISTT119  {2500 40 0 100 190 7 0 0 12 0 0 0 0 0 65 3}
+IEFF119  {the glint of deadly steel}
+INAM120  {Ethereal Ax}
+IDES120  {an Ethereal Ax}
+ISTT120  {1300 60 0 11 51 6 0 0 12 0 0 0 0 0 18 2}
+IEFF120  {an earthly smash}
+INAM121  {Ecliptic Glaive}
+IDES121  {an Ecliptic Glaive}
+ISTT121  {1700 60 0 35 92 6 0 0 12 0 0 0 0 0 35 3}
+IEFF121  {a whirlwind}
+INAM122  {Spectral Greatax}
+IDES122  {a Spectral Greatax}
+ISTT122  {2000 60 0 105 175 6 0 0 12 0 0 0 0 0 65 3}
+IEFF122  {power of the Four Horsemen}
+INAM123  {Charred Chain Mail}
+IDES123  {Charred Chain Mail}
+ISTT123  {1200 350 0 0 0 13 21 0 0 0 0 0 0 0 40 3}
+IEFF123  {}
+INAM124  {crystalline potion}
+IDES124  {a crystalline potion}
+ISTT124  {200 10 0 256 768 33 0 0 3 0 0 0 0 0 0 2}
+IEFF124  {}
+SPLTOT {83}
+SNAM1    {motu}
+SDES1    {a minor healing spell}
+SSTT1    {21 1 4 8 0 5 0 0 0 0 0 0 0 0 0}
+SNAM2    {komiza}
+SDES2    {a small shard of ice}
+SSTT2    {1 1 2 12 0 10 0 0 0 0 0 0 0 0 0}
+SNAM3    {pakaza}
+SDES3    {a thorn}
+SSTT3    {3 1 4 8 0 10 0 0 0 0 0 0 0 0 0}
+SNAM4    {fadi}
+SDES4    {a regenerative spell}
+SSTT4    {22 1 2 10 0 15 0 0 0 0 0 0 0 0 0}
+SNAM5    {kamotu}
+SDES5    {a healing spell}
+SSTT5    {21 2 8 24 0 20 0 0 0 0 0 0 0 0 0}
+SNAM6    {tami}
+SDES6    {a weak beam of bright energy}
+SSTT6    {2 2 2 16 0 25 0 0 0 0 0 0 0 0 0}
+SNAM7    {toduza}
+SDES7    {a small bolt of flame}
+SSTT7    {1 2 4 32 0 20 0 0 0 0 0 0 0 0 0}
+SNAM8    {muda}
+SDES8    {a minor summoning spell}
+SSTT8    {31 2 1 1 0 25 4 0 0 0 0 0 0 0 0}
+SNAM9    {toraza}
+SDES9    {a stone shard}
+SSTT9    {3 2 4 20 0 15 0 0 0 0 0 0 0 0 0}
+SNAM10   {kotari}
+SDES10   {a restorative spell}
+SSTT10   {12 2 2000 4000 0 20 0 0 0 0 0 0 0 0 0}
+SNAM11   {dobudani}
+SDES11   {a curative spell}
+SSTT11   {11 3 0 0 0 30 0 0 1 0 0 0 0 0 0}
+SNAM12   {yari}
+SDES12   {an enchantment spell}
+SSTT12   {33 3 0 0 0 28 0 4 0 0 0 0 0 0 0}
+SNAM13   {komizuma}
+SDES13   {a shower of ice shards}
+SSTT13   {1 3 8 64 0 30 0 0 0 0 0 0 0 0 0}
+SNAM14   {modoki}
+SDES14   {a bolt of lightning}
+SSTT14   {3 3 5 40 0 30 0 0 0 0 0 0 0 0 0}
+SNAM15   {gimotu}
+SDES15   {a greater healing spell}
+SSTT15   {21 4 30 60 0 35 0 0 0 0 0 0 0 0 0}
+SNAM16   {motumaru}
+SDES16   {a pale bluish mist}
+SSTT16   {21 4 8 16 0 40 1 0 0 0 0 0 0 0 0}
+SNAM17   {katami}
+SDES17   {a beam of bright energy}
+SSTT17   {2 4 8 48 0 50 0 0 0 0 0 0 0 0 0}
+SNAM18   {toduzuma}
+SDES18   {a shower of flame}
+SSTT18   {1 4 16 96 0 50 0 0 0 0 0 0 0 0 0}
+SNAM19   {kamuda}
+SDES19   {a summoning spell}
+SSTT19   {31 4 2 3 0 60 0 0 0 0 0 0 0 0 0}
+SNAM20   {novadidan}
+SDES20   {a charm spell}
+SSTT20   {41 4 0 0 0 35 0 0 0 0 0 0 0 0 0}
+SNAM21   {sivama}
+SDES21   {a powerful gust of wind}
+SSTT21   {3 4 8 32 0 50 0 0 0 0 0 0 0 2 0}
+SNAM22   {kusamotu}
+SDES22   {a very powerful healing spell}
+SSTT22   {21 5 6 12 1 75 0 0 0 0 0 0 0 0 0}
+SNAM23   {gitami}
+SDES23   {a beam of brilliant energy}
+SSTT23   {2 5 16 64 0 100 0 0 0 0 0 0 0 0 0}
+SNAM24   {komidaku}
+SDES24   {a storm of ice shards}
+SSTT24   {1 5 16 64 0 75 1 0 0 0 0 0 0 0 0}
+SNAM25   {komizadaku}
+SDES25   {a storm of ice shards}
+SSTT25   {1 5 1 6 1 100 2 0 0 0 0 0 0 0 0}
+SNAM26   {novadi}
+SDES26   {an invisibility spell}
+SSTT26   {32 5 0 0 0 100 0 0 0 0 0 0 0 0 0}
+SNAM27   {pakazuma}
+SDES27   {a shower of wicked thorns}
+SSTT27   {3 5 10 50 0 75 0 0 0 0 0 0 0 0 0}
+SNAM28   {kusatami}
+SDES28   {a devastating beam of brilliant energy}
+SSTT28   {2 6 20 80 0 150 0 0 0 0 0 0 0 0 0}
+SNAM29   {todukar}
+SDES29   {a searing ball of flame}
+SSTT29   {1 6 2 10 1 120 0 0 0 0 0 0 0 0 0}
+SNAM30   {gimuda}
+SDES30   {a greater summoning spell}
+SSTT30   {31 6 4 5 0 150 4 0 0 0 0 0 0 0 0}
+SNAM31   {modokidan}
+SDES31   {several forked bolts of lightning}
+SSTT31   {3 6 12 72 0 125 2 0 0 0 0 0 0 0 0}
+SNAM32   {todudaku}
+SDES32   {a devastating firestorm}
+SSTT32   {1 6 32 96 0 200 1 0 0 0 0 0 0 0 0}
+SNAM33   {komasidaku}
+SDES33   {a storm of fire bolts and ice shards}
+SSTT33   {1 7 1 8 1 250 1 0 0 0 0 0 0 0 0}
+SNAM34   {sivadaku}
+SDES34   {a violent windstorm}
+SSTT34   {3 7 32 64 0 150 3 0 0 0 0 0 0 2 0}
+SNAM35   {kusamuda}
+SDES35   {a very powerful summoning spell}
+SSTT35   {31 8 6 8 0 300 4 0 0 0 0 0 0 0 0}
+SNAM36   {rotok}
+SDES36   {an enhancement spell}
+SSTT36   {33 3 5 20 0 35 0 0 0 0 0 0 3 0 0}
+SNAM37   {tsutok}
+SDES37   {an enhancement spell}
+SSTT37   {33 3 5 20 0 35 0 0 0 0 0 0 4 0 0}
+SNAM38   {igatok}
+SDES38   {an enhancement spell}
+SSTT38   {33 3 5 20 0 35 0 0 0 0 0 0 5 0 0}
+SNAM39   {dobudanimaru}
+SDES39   {a thick greyish mist}
+SSTT39   {21 4 0 0 0 60 1 0 1 0 0 0 0 0 0}
+SNAM40   {rodani}
+SDES40   {a draining spell}
+SSTT40   {33 4 2 10 0 60 0 0 0 0 0 3 0 0 0}
+SNAM41   {tsudani}
+SDES41   {a draining spell}
+SSTT41   {33 4 2 10 0 60 0 0 0 0 0 4 0 0 0}
+SNAM42   {igadani}
+SDES42   {a draining spell}
+SSTT42   {33 4 2 10 0 60 0 0 0 0 0 5 0 0 0}
+SNAM43   {kotarimaru}
+SDES43   {a thin brownish mist}
+SSTT43   {12 5 2000 4000 0 60 1 0 0 0 0 0 0 0 0}
+SNAM44   {kamotumaru}
+SDES44   {a bluish mist}
+SSTT44   {21 5 16 32 0 80 1 0 0 0 0 0 0 0 0}
+SNAM45   {yarimaru}
+SDES45   {a bright yellow mist}
+SSTT45   {33 5 0 0 0 125 1 2 0 0 0 0 0 0 0}
+SNAM46   {torazuma}
+SDES46   {a shower of stone shards}
+SSTT46   {3 5 16 64 0 100 0 0 0 0 0 0 0 0 0}
+SNAM47   {takumi}
+SDES47   {a curative spell}
+SSTT47   {11 3 0 0 0 125 0 0 0 0 0 0 9 0 0}
+SNAM48   {gimotumaru}
+SDES48   {a dark bluish mist}
+SSTT48   {21 7 32 64 0 180 1 0 0 0 0 0 0 0 0}
+SNAM49   {poratok}
+SDES49   {an enhancement spell}
+SSTT49   {33 7 2 10 0 260 0 0 0 0 0 0 7 0 0}
+SNAM50   {jinasutok}
+SDES50   {an enhancement spell}
+SSTT50   {33 7 2 10 0 260 0 0 0 0 0 0 8 0 0}
+SNAM51   {poradani}
+SDES51   {a draining spell}
+SSTT51   {33 7 1 5 0 280 0 0 0 0 0 7 0 0 0}
+SNAM52   {jinasudani}
+SDES52   {a draining spell}
+SSTT52   {33 7 1 5 0 280 0 0 0 0 0 8 0 0 0}
+SNAM53   {novadimaru}
+SDES53   {a thick black mist}
+SSTT53   {32 8 0 0 0 300 1 0 0 0 0 0 0 0 0}
+SNAM54   {toradaku}
+SDES54   {a hail of huge stone shards}
+SSTT54   {3 9 4 10 1 180 3 0 0 0 0 0 0 0 0}
+SNAM55   {modokidaku}
+SDES55   {a lightning storm}
+SSTT55   {3 8 1 8 1 180 3 0 0 0 0 0 0 0 0}
+SNAM56   {dumoti}
+SDES56   {a maelstrom of searing flame clouds and huge ice shards}
+SSTT56   {1 9 4 12 1 350 3 0 0 0 0 0 0 0 0}
+SNAM57   {ganazi}
+SDES57   {a curative spell}
+SSTT57   {11 8 0 0 0 220 0 0 0 0 0 0 10 0 0}
+SNAM58   {kusamotumaru}
+SDES58   {a very dark bluish mist}
+SSTT58   {21 9 4 8 1 270 1 0 0 0 0 0 0 0 0}
+SNAM59   {teka}
+SDES59   {a weak beam of dark energy}
+SSTT59   {4 1 2 16 0 10 0 0 0 0 0 0 0 0 0}
+SNAM60   {dobuza}
+SDES60   {a bolt of green energy}
+SSTT60   {4 2 1 2 0 12 0 0 0 2 0 0 0 0 0}
+SNAM61   {kamaza}
+SDES61   {a bolt of blue energy}
+SSTT61   {4 2 1 2 1 15 0 0 0 0 1 0 0 0 0}
+SNAM62   {yilazi}
+SDES62   {a bolt of red energy}
+SSTT62   {4 3 2 6 1 18 0 0 0 0 0 0 0 0 1}
+SNAM63   {kateka}
+SDES63   {a beam of dark energy}
+SSTT63   {4 3 8 64 0 20 0 0 0 0 0 0 0 0 0}
+SNAM64   {dakima}
+SDES64   {a stream of acid}
+SSTT64   {4 4 16 96 0 30 0 0 0 0 0 0 0 0 0}
+SNAM65   {tamikar}
+SDES65   {a blast of dark energy}
+SSTT65   {4 4 4 12 1 50 0 0 0 0 0 0 0 0 0}
+SNAM66   {giteka}
+SDES66   {a crackling beam of dark energy}
+SSTT66   {4 5 16 128 0 75 0 0 0 0 0 0 0 0 0}
+SNAM67   {dobumaru}
+SDES67   {a dark greenish mist}
+SSTT67   {4 5 1 2 0 90 3 0 0 4 0 0 0 0 0}
+SNAM68   {kamazadaku}
+SDES68   {a storm of blue energy bolts}
+SSTT68   {4 5 1 1 1 120 1 0 0 0 1 0 0 0 0}
+SNAM69   {timimaru}
+SDES69   {a foul cloud of choking vapor}
+SSTT69   {4 6 4 16 0 130 2 0 0 0 0 0 0 1 0}
+SNAM70   {kusateka}
+SDES70   {a devastating beam of dark energy}
+SSTT70   {4 6 32 256 0 150 0 0 0 0 0 0 0 0 0}
+SNAM71   {dakidaku}
+SDES71   {a torrential downpour of acid}
+SSTT71   {4 7 4 8 1 225 3 0 0 0 0 0 0 0 0}
+SNAM72   {dobudakidaku}
+SDES72   {a torrential downpour of dark green acid}
+SSTT72   {4 8 4 8 1 325 3 0 0 6 0 0 0 0 0}
+SNAM73   {tomotu}
+SDES73   {a healing spell fit for a God}
+SSTT73   {21 13 8 17 1 600 0 0 0 0 0 0 0 0 0}
+SNAM74   {tomotumaru}
+SDES74   {a deep-bluish mist}
+SSTT74   {21 15 6 12 1 900 1 0 0 0 0 0 0 0 0}
+SNAM75   {totami}
+SDES75   {a torturing beam of brilliant energy}
+SSTT75   {2 12 1 5 1 275 0 0 0 0 0 0 0 0 0}
+SNAM76   {tamidaku}
+SDES76   {a devastating storm of brilliant energy}
+SSTT76   {2 14 1 3 1 350 2 0 0 0 0 0 0 0 0}
+SNAM77   {yilazidaku}
+SDES77   {a storm of red energy}
+SSTT77   {4 14 1 5 1 350 2 0 0 0 0 0 0 0 1}
+SNAM78   {toteka}
+SDES78   {an epochal beam of dark energy}
+SSTT78   {4 14 6 16 1 900 0 0 0 0 0 0 0 0 0}
+SNAM79   {mazaku}
+SDES79   {a thick cloud of vapor from the firey furnaces of hell}
+SSTT79   {4 15 7 12 1 1000 3 0 0 0 0 0 0 0 0}
+SNAM80   {pakadan}
+SDES80   {a blast of sharp thorns}
+SSTT80   {3 11 5 12 1 350 0 0 0 0 0 0 0 0 0}
+SNAM81   {charizaku}
+SDES81   {a thick cloud of burning ash}
+SSTT81   {3 14 7 13 1 350 2 0 0 0 0 0 0 0 0}
+SNAM82   {sivatoradaku}
+SDES82   {an epochal storm of boulders}
+SSTT82   {1 13 9 17 1 1000 3 0 0 0 0 0 0 0 0}
+SNAM83   {tomuda}
+SDES83   {a summoning spell of deadly power}
+SSTT83   {31 13 10 12 1 700 4 0 0 0 0 0 0 0 0}
+MOBTOT {161}
+MNAM1    {strangle vine}
+MDES1    {The strangle vine is a large bulbous plant with several writhing vines
+sprouting from it. It moves slowly about on gnarled roots.}
+MSTT1    {0 90 4 0 0 0 0 1 0 1 4 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0}
+MPLU1    {strangle vines}
+MWEP1    {choking vines}
+MAT11    {}
+MAT21    {}
+MNAM2    {white orchid}
+MDES2    {The white orchid stands about two feet tall, moving around on its thin
+tendrils.}
+MSTT2    {0 90 4 0 0 0 0 1 0 1 4 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0}
+MPLU2    {white orchids}
+MWEP2    {tendrils}
+MAT12    {}
+MAT22    {}
+MNAM3    {pink orchid}
+MDES3    {The pink orchid stands about three feet tall, moving around on its thin
+tendrils.}
+MSTT3    {0 90 4 0 0 0 0 1 0 2 5 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0}
+MPLU3    {pink orchids}
+MWEP3    {tendrils}
+MAT13    {}
+MAT23    {}
+MNAM4    {red orchid}
+MDES4    {The red orchid stands over three feet tall, moving around on its thin
+tendrils.}
+MSTT4    {0 90 7 0 0 0 0 1 0 2 6 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0}
+MPLU4    {red orchids}
+MWEP4    {tendrils}
+MAT14    {}
+MAT24    {}
+MNAM5    {yellow orchid}
+MDES5    {The yellow orchid stands about four feet tall, moving around on its thin
+tendrils.}
+MSTT5    {0 90 7 0 0 0 0 2 0 2 5 0 0 1 1 3 0 1 1 0 0 0 0 0 0 0}
+MPLU5    {yellow orchids}
+MWEP5    {tendrils}
+MAT15    {}
+MAT25    {}
+MNAM6    {black orchid}
+MDES6    {The black orchid stands over four feet tall, moving around on its sticky
+tendrils.}
+MSTT6    {0 90 7 0 0 0 0 2 0 2 6 0 0 1 2 5 0 2 1 0 0 0 0 0 0 0}
+MPLU6    {black orchids}
+MWEP6    {tendrils}
+MAT16    {}
+MAT26    {}
+MNAM7    {constrictor ivy}
+MDES7    {The constrictor ivy is a long snake-like vine, slithering about in search
+of food.}
+MSTT7    {0 80 4 0 0 0 25 1 0 1 6 2 12 0 0 0 0 1 1 0 0 0 0 0 0 0}
+MPLU7    {constrictor ivies}
+MWEP7    {lashing ivy}
+MAT17    {coiled around}
+MAT27    {}
+MNAM8    {carrion creeper}
+MDES8    {The carrion creeper is a knotted mass of thorny vines which writhes about
+chaotically. You detect the fetid odor of rotting flesh, and notice several
+small animal carcasses tangled within this vile aberration.}
+MSTT8    {0 85 7 0 0 0 25 2 0 1 6 2 12 1 1 2 0 1 1 0 0 0 0 0 0 0}
+MPLU8    {carrion creepers}
+MWEP8    {thorny vines}
+MAT18    {mauled}
+MAT28    {}
+MNAM9    {reaper shrub}
+MDES9    {The reaper shrub is a squat thorny plant, moving slowly about on thick
+gnarled roots. Its spiney branches rustle ominously at your presence.}
+MSTT9    {0 90 4 0 0 0 33 4 0 2 8 4 16 0 0 0 0 1 1 0 0 0 0 0 0 0}
+MPLU9    {reaper shrubs}
+MWEP9    {a thorny branch}
+MAT19    {raked several thorny branches across}
+MAT29    {}
+MNAM10   {huge rat}
+MDES10   {The huge rat resembles rats you've seen before, except that it is about two
+feet tall at the shoulder, and seems much more aggressive.}
+MSTT10   {0 80 0 0 0 0 0 1 0 1 6 0 0 0 0 0 0 1 1 50 0 0 0 0 0 0}
+MPLU10   {huge rats}
+MWEP10   {gnashing teeth}
+MAT110   {}
+MAT210   {}
+MNAM11   {imp}
+MDES11   {The imp is a tiny humanoid with pointed ears and bright red skin. It stands
+just over two feet in height and is armed with %s %s.}
+MSTT11   {1 85 0 1 3 0 0 1 0 0 0 0 0 0 0 0 0 2 1 75 0 0 0 0 0 0}
+MPLU11   {imps}
+MWEP11   {}
+MAT111   {}
+MAT211   {}
+MNAM12   {female kobold}
+MDES12   {The kobold is a small humanoid with doglike facial features and is covered
+with coarse body hair. She stands just over three feet in height, is
+wearing a filthy tunic, and is armed with %s %s.}
+MSTT12   {0 65 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 1 1 50 0 0 0 0 2 0}
+MPLU12   {female kobolds}
+MWEP12   {}
+MAT112   {}
+MAT212   {}
+MNAM13   {kobold}
+MDES13   {The kobold is a small humanoid with doglike facial features and is covered
+with coarse body hair. He stands just under four feet in height, is wearing
+a filthy tunic, and is armed with %s %s.}
+MSTT13   {0 75 0 1 2 1 0 1 0 0 0 0 0 0 0 0 0 1 1 40 0 0 0 0 1 0}
+MPLU13   {kobolds}
+MWEP13   {}
+MAT113   {}
+MAT213   {}
+MNAM14   {female orc}
+MDES14   {The orc is a smallish humanoid with piglike facial features and is covered
+sparsely by coarse body hair. She stands just over four feet in height, is
+wearing a leather tunic, and is armed with %s %s.}
+MSTT14   {0 65 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 1 1 45 0 0 0 0 2 0}
+MPLU14   {female orcs}
+MWEP14   {}
+MAT114   {}
+MAT214   {}
+MNAM15   {orc}
+MDES15   {The orc is a smallish humanoid with piglike facial features and is covered
+sparsely by coarse body hair. He stands just under five feet in height, is
+wearing a leather cuirass, and is armed with %s %s.}
+MSTT15   {1 75 0 1 3 2 0 1 0 0 0 0 0 0 0 0 0 1 1 35 0 0 0 0 1 0}
+MPLU15   {orcs}
+MWEP15   {}
+MAT115   {}
+MAT215   {}
+MNAM16   {skeleton warrior}
+MDES16   {The skeleton warrior is wearing tattered armor and mouldering bits of old
+clothing, and is armed with %s %s.}
+MSTT16   {0 80 0 0 0 2 0 1 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0}
+MPLU16   {skeleton warriors}
+MWEP16   {}
+MAT116   {}
+MAT216   {}
+MNAM17   {giant scorpion}
+MDES17   {The giant scorpion resembles a common scorpion, except that it is over
+eight feet in length.}
+MSTT17   {0 70 6 0 0 1 55 1 0 2 6 3 9 1 1 2 0 2 1 20 0 0 0 0 0 0}
+MPLU17   {giant scorpions}
+MWEP17   {tail}
+MAT117   {snapped its pincers at}
+MAT217   {}
+MNAM18   {zombie}
+MDES18   {The zombie has a blank expression on its face. It is wearing old soiled
+clothing, and is armed with %s %s.}
+MSTT18   {0 80 5 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0}
+MPLU18   {zombies}
+MWEP18   {}
+MAT118   {}
+MAT218   {}
+MNAM19   {huge toad}
+MDES19   {The huge toad resembles a common toad, except that it is just over three
+feet tall, and seems very agressive.}
+MSTT19   {0 60 5 0 0 0 0 1 0 2 8 0 0 1 1 1 0 1 1 35 0 0 0 0 0 0}
+MPLU19   {huge toads}
+MWEP19   {gaping mouth}
+MAT119   {}
+MAT219   {}
+MNAM20   {giant slug}
+MDES20   {The giant slug is over seven feet long and drools acidic spittle from its
+maw.}
+MSTT20   {0 65 5 0 0 0 25 1 0 2 6 4 16 1 1 1 0 1 1 5 0 0 0 0 0 0}
+MPLU20   {giant slugs}
+MWEP20   {toothy maw}
+MAT120   {discharged a spray of acid at}
+MAT220   {}
+MNAM21   {giant bat}
+MDES21   {The giant bat has a wingspan of over twelve feet and has wicked looking
+claws and teeth.}
+MSTT21   {0 85 0 0 0 1 0 1 0 2 8 0 0 0 0 0 0 1 1 25 0 0 0 0 0 0}
+MPLU21   {giant bats}
+MWEP21   {vicious bite}
+MAT121   {}
+MAT221   {}
+MNAM22   {lesser demoness}
+MDES22   {The lesser demoness is a spindly bipedal humanoid with light yellowish skin
+and wicked claws and teeth. She stands about five feet tall and fixes you
+with a baleful stare.}
+MSTT22   {0 80 10 1 3 1 30 1 0 2 8 0 0 0 0 0 7 1 1 25 80 4 0 4 2 0}
+MPLU22   {lesser demonesses}
+MWEP22   {claws}
+MAT122   {}
+MAT222   {}
+MNAM23   {lesser demon}
+MDES23   {The lesser demon is a spindly bipedal humanoid with dark yellowish skin and
+wicked claws and teeth. He stands about five feet tall and fixes you with a
+baleful stare.}
+MSTT23   {0 85 10 3 4 2 30 1 0 2 8 0 0 0 0 0 7 1 1 20 75 4 1 5 1 0}
+MPLU23   {lesser demons}
+MWEP23   {claws}
+MAT123   {}
+MAT223   {}
+MNAM24   {shade}
+MDES24   {The shade is a dark shadowy figure. You can tell very little about it
+except that its eyes strongly resemble burning coals. It occasionally emits
+a low moan and watches your movements closely.}
+MSTT24   {0 90 10 0 0 6 0 1 0 3 6 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0}
+MPLU24   {shades}
+MWEP24   {claws}
+MAT124   {}
+MAT224   {}
+MNAM25   {giant spider}
+MDES25   {The giant spider's body is over six feet long, and it has thick hairy legs.
+A thick oily liquid drips from its mandibles.}
+MSTT25   {0 70 1 0 0 1 0 2 0 2 12 0 0 1 1 3 0 1 2 20 0 0 0 0 0 0}
+MPLU25   {giant spiders}
+MWEP25   {mandibles}
+MAT125   {}
+MAT225   {}
+MNAM26   {ram}
+MDES26   {The ram glares at you from beneath a pair of huge curved horns.}
+MSTT26   {0 90 3 0 0 1 0 2 0 2 10 0 0 0 0 0 0 1 2 35 0 0 0 0 0 0}
+MPLU26   {rams}
+MWEP26   {curved horns}
+MAT126   {}
+MAT226   {}
+MNAM27   {fire beetle}
+MDES27   {The fire beetle is a huge reddish brown beetle, about four feet long, with
+a thick shiny carapace, and strong, wickedly sharp mandibles.}
+MSTT27   {0 75 8 0 0 3 0 1 0 2 12 0 0 0 0 0 0 2 2 30 0 0 0 0 0 0}
+MPLU27   {fire beetles}
+MWEP27   {mandibles}
+MAT127   {}
+MAT227   {}
+MNAM28   {alligator}
+MDES28   {The alligator watches your every move closely and snaps at you.}
+MSTT28   {1 80 5 0 0 2 35 2 0 2 12 2 8 0 0 0 0 1 2 15 0 0 0 0 0 0}
+MPLU28   {alligators}
+MWEP28   {wicked bite}
+MAT128   {lashed its tail at}
+MAT228   {}
+MNAM29   {giant asp}
+MDES29   {The giant asp is an enormous viper over twenty feet in length. Its scales
+are a dull tan and it's body is thicker than a large man's arm.}
+MSTT29   {0 80 6 0 0 3 15 2 0 2 8 2 16 1 2 6 0 1 2 15 0 0 0 0 0 0}
+MPLU29   {giant asps}
+MWEP29   {wicked bite}
+MAT129   {coiled around}
+MAT229   {}
+MNAM30   {anaconda}
+MDES30   {The anaconda is an enormous constrictor snake well over forty feet in
+length. Its scales range in color from an emerald green to a dark blue, and
+its body is thicker than some tree trunks you've seen.}
+MSTT30   {1 70 7 0 0 2 25 2 0 2 8 2 16 0 0 0 0 1 2 20 0 0 0 0 0 0}
+MPLU30   {anacondas}
+MWEP30   {wicked bite}
+MAT130   {coiled around}
+MAT230   {}
+MNAM31   {lizard woman}
+MDES31   {The lizard woman is a five foot tall bipedal humanoid who's features
+resemble those of a large lizard. She has greyish scaley skin, and sharp
+claws and teeth. The lizard woman is armed with %s %s.}
+MSTT31   {0 80 0 3 6 1 0 2 0 0 1 0 0 0 0 0 0 2 2 20 0 0 0 0 2 0}
+MPLU31   {lizard women}
+MWEP31   {}
+MAT131   {}
+MAT231   {}
+MNAM32   {lizard man}
+MDES32   {The lizard man is a six foot tall bipedal humanoid who's features resemble
+those of a large lizard. He has greenish scaley skin, and sharp claws and
+teeth. The lizard man is armed with %s %s.}
+MSTT32   {0 85 0 4 8 2 0 2 0 0 1 0 0 0 0 0 0 2 2 15 0 0 0 0 1 0}
+MPLU32   {lizard men}
+MWEP32   {}
+MAT132   {}
+MAT232   {}
+MNAM33   {black bear}
+MDES33   {The black bear has shaggy black fur run through with reddish brown streaks
+and stands well over four feet tall at the shoulder.}
+MSTT33   {0 80 4 0 0 2 0 2 0 2 8 0 0 0 0 0 0 2 2 25 0 0 0 0 0 0}
+MPLU33   {black bears}
+MWEP33   {claws}
+MAT133   {}
+MAT233   {}
+MNAM34   {red bear}
+MDES34   {The red bear has shaggy reddish fur run through with black streaks and
+stands just over five feet tall at the shoulder.}
+MSTT34   {0 80 4 0 0 3 0 3 0 2 10 0 0 0 0 0 0 2 2 15 0 0 0 0 0 0}
+MPLU34   {red bears}
+MWEP34   {claws}
+MAT134   {}
+MAT234   {}
+MNAM35   {female gnoll}
+MDES35   {The gnoll is a tall humanoid with hyenalike facial features and is covered
+by thick golden brown body hair. She stands just over six feet in height,
+is wearing a leather cuirass and trousers, and is armed with %s %s.}
+MSTT35   {0 75 4 3 4 3 0 2 0 0 0 0 0 0 0 0 0 2 2 25 0 0 0 0 2 0}
+MPLU35   {female gnolls}
+MWEP35   {}
+MAT135   {}
+MAT235   {}
+MNAM36   {gnoll}
+MDES36   {The gnoll is a tall humanoid with hyenalike facial features and is covered
+by thick reddish brown body hair. He stands just under seven feet in
+height, is wearing a chainmail shirt and trousers, and is armed with %s %s.}
+MSTT36   {0 85 4 4 6 4 0 2 0 0 0 0 0 0 0 0 0 2 2 20 0 0 0 0 1 0}
+MPLU36   {gnolls}
+MWEP36   {}
+MAT136   {}
+MAT236   {}
+MNAM37   {female hobgoblin}
+MDES37   {The hobgoblin is a squat apelike humanoid with dark skin and pointed ears.
+She stands just under five feet tall, is wearing a leather cuirass, and is
+armed with %s %s.}
+MSTT37   {0 75 0 3 6 2 0 2 0 0 2 0 0 0 0 0 0 1 2 25 0 0 0 0 2 0}
+MPLU37   {female hobgoblins}
+MWEP37   {}
+MAT137   {}
+MAT237   {}
+MNAM38   {hobgoblin}
+MDES38   {The hobgoblin is a squat apelike humanoid with dark skin and pointed ears.
+He stands just over five feet tall, is wearing a leather cuirass, and is
+armed with %s %s.}
+MSTT38   {0 80 0 4 8 3 0 2 0 0 2 0 0 0 0 0 0 1 2 20 0 0 0 0 1 0}
+MPLU38   {hobgoblins}
+MWEP38   {}
+MAT138   {}
+MAT238   {}
+MNAM39   {female brigand}
+MDES39   {The brigand has the look of a common thief, and is dressed in a cheap, but
+flashy outfit. She is also wearing leather armor and is armed with %s %s.}
+MSTT39   {0 80 4 2 4 3 20 2 0 0 1 0 0 0 0 0 2 2 2 80 0 0 0 0 2 0}
+MPLU39   {female brigands}
+MWEP39   {}
+MAT139   {}
+MAT239   {robbed}
+MNAM40   {brigand}
+MDES40   {The brigand has the look of a common thief, and is dressed in a cheap, but
+flashy outfit. He is also wearing chain armor and is armed with %s %s.}
+MSTT40   {0 85 4 3 5 4 20 2 0 0 1 0 0 0 0 0 2 2 2 70 0 0 0 0 1 0}
+MPLU40   {brigands}
+MWEP40   {}
+MAT140   {}
+MAT240   {robbed}
+MNAM41   {leopard}
+MDES41   {The leopard has luxurious looking spotted fur. It growls menacingly and
+bares its teeth at you.}
+MSTT41   {0 95 7 0 0 2 35 2 0 3 9 4 12 0 0 0 0 2 2 20 0 0 0 0 0 0}
+MPLU41   {leopards}
+MWEP41   {claws}
+MAT141   {savagely bit}
+MAT241   {}
+MNAM42   {wolf}
+MDES42   {The wolf is very large and has greyish fur and icey blue eyes. It growls at
+you menacingly and bares its teeth.}
+MSTT42   {0 90 4 0 0 2 0 2 0 4 16 0 0 0 0 0 0 2 2 40 0 0 0 0 0 0}
+MPLU42   {wolves}
+MWEP42   {savage bite}
+MAT142   {}
+MAT242   {}
+MNAM43   {wild boar}
+MDES43   {The wild boar has dark coarse hair and makes a low whining sound. It has
+two sharp tusks which curve upwards from the sides of its mouth.}
+MSTT43   {0 85 4 0 0 3 0 2 0 4 12 0 0 0 0 0 0 1 2 30 0 0 0 0 0 0}
+MPLU43   {wild boars}
+MWEP43   {tusks}
+MAT143   {}
+MAT243   {}
+MNAM44   {cave bear}
+MDES44   {The cave bear has dark brown fur and stands well over seven feet tall at
+the shoulder. Its teeth and claws gleam like daggers as it sizes you up.}
+MSTT44   {0 90 0 0 0 3 0 2 0 2 12 0 0 0 0 0 0 2 2 10 0 0 0 0 0 0}
+MPLU44   {cave bears}
+MWEP44   {claws}
+MAT144   {}
+MAT244   {}
+MNAM45   {female barbarian}
+MDES45   {The barbarian is dressed in the hides of furred animals, and is armed with
+%s %s. She has a look of great strength and cunning.}
+MSTT45   {0 85 3 2 4 2 0 3 0 0 2 0 0 0 0 0 0 1 2 15 0 0 0 0 2 0}
+MPLU45   {female barbarians}
+MWEP45   {}
+MAT145   {}
+MAT245   {}
+MNAM46   {barbarian}
+MDES46   {The barbarian is dressed in the hides of furred animals, and is armed with
+%s %s. He has a look of great strength and cunning.}
+MSTT46   {0 90 3 3 5 3 0 3 0 0 2 0 0 0 0 0 0 1 2 10 0 0 0 0 1 0}
+MPLU46   {barbarians}
+MWEP46   {}
+MAT146   {}
+MAT246   {}
+MNAM47   {female centaur}
+MDES47   {The centaur has the body of a horse with the upper torso, arms, and head of
+a well built woman. She has long hair which she wears in a tight braid, and
+is armed with %s %s.}
+MSTT47   {0 80 4 2 5 3 20 2 0 0 2 2 12 0 0 0 0 2 2 15 0 0 0 0 2 0}
+MPLU47   {female centaurs}
+MWEP47   {}
+MAT147   {flailed her hooves at}
+MAT247   {}
+MNAM48   {centaur}
+MDES48   {The centaur has the body of a horse with the upper torso, arms, and head of
+a well muscled man. He has long hair which he wears in a tight braid, and
+is armed with %s %s.}
+MSTT48   {0 90 4 3 6 4 25 2 0 0 2 4 16 0 0 0 0 2 2 10 0 0 0 0 1 0}
+MPLU48   {centaurs}
+MWEP48   {}
+MAT148   {flailed his hooves at}
+MAT248   {}
+MNAM49   {mountain ape}
+MDES49   {The mountain ape is nearly seven feet tall, has thick reddish brown fur and
+looks very strong.}
+MSTT49   {0 80 3 0 0 3 0 3 0 2 10 0 0 0 0 0 0 2 3 20 0 0 0 0 0 0}
+MPLU49   {mountain apes}
+MWEP49   {clenched fists}
+MAT149   {}
+MAT249   {}
+MNAM50   {female satyr}
+MDES50   {The satyr has the upper torso of well built woman, and the lower torso,
+legs, and hooves of a goat. She is armed with %s %s.}
+MSTT50   {0 77 4 2 4 2 10 2 0 0 2 0 0 0 0 0 1 1 2 35 0 0 0 0 2 0}
+MPLU50   {female satyrs}
+MWEP50   {}
+MAT150   {}
+MAT250   {sounds an ivory horn}
+MNAM51   {satyr}
+MDES51   {The satyr has the upper torso of man with a lot of body hair, and the lower
+torso, legs, and hooves of a goat. He is armed with %s %s.}
+MSTT51   {0 87 4 3 5 2 10 2 0 0 2 0 0 0 0 0 1 1 2 30 0 0 0 0 1 0}
+MPLU51   {satyrs}
+MWEP51   {}
+MAT151   {}
+MAT251   {sounds an ivory horn}
+MNAM52   {female minotaur}
+MDES52   {The minotaur has the upper torso of a muscular woman, and the head, legs,
+and hooves of a bull. She is wearing ringmail armor, and is armed with %s
+%s.}
+MSTT52   {0 75 1 2 5 2 10 2 0 0 3 2 20 0 0 0 0 1 2 15 0 0 0 0 2 0}
+MPLU52   {female minotaurs}
+MWEP52   {}
+MAT152   {charged}
+MAT252   {}
+MNAM53   {minotaur}
+MDES53   {The minotaur has the upper torso of a muscular man, and the head, legs, and
+hooves of a bull. He is wearing ringmail armor, and is armed with %s %s.}
+MSTT53   {0 80 1 4 6 2 15 2 0 0 3 4 24 0 0 0 0 1 3 10 0 0 0 0 1 0}
+MPLU53   {minotaurs}
+MWEP53   {}
+MAT153   {charged}
+MAT253   {}
+MNAM54   {carrion crane}
+MDES54   {The carrion crane is nearly eight feet tall, has dull grey plumage and a
+very wicked looking hooked ebony beak.}
+MSTT54   {0 90 6 0 0 2 0 3 0 3 18 0 0 0 0 0 0 1 3 30 0 0 0 0 0 0}
+MPLU54   {carrion cranes}
+MWEP54   {hooked beak}
+MAT154   {}
+MAT254   {}
+MNAM55   {ogress}
+MDES55   {The ogress resembles an enormous and very ugly woman. She stands over seven
+feet tall and is very muscular. Her clothing is filthy and poorly made. She
+is armed with %s %s.}
+MSTT55   {1 80 1 3 5 2 0 3 0 0 3 0 0 0 0 0 0 1 3 20 0 0 0 0 2 0}
+MPLU55   {ogresses}
+MWEP55   {}
+MAT155   {}
+MAT255   {}
+MNAM56   {ogre}
+MDES56   {The ogre resembles an enormous and very ugly man. He stands over eight feet
+tall and is very muscular. His clothing is filthy and poorly made. He is
+armed with %s %s.}
+MSTT56   {1 85 1 4 6 3 0 3 0 0 3 0 0 0 0 0 0 1 3 15 0 0 0 0 1 0}
+MPLU56   {ogres}
+MWEP56   {}
+MAT156   {}
+MAT256   {}
+MNAM57   {swordswoman}
+MDES57   {The swordswoman has an air of confidance about her. She is wearing chain
+armor, and is armed with a rapier which she wields skillfully.}
+MSTT57   {0 90 4 2 6 4 0 3 0 2 16 0 0 0 0 0 0 2 3 40 0 0 0 0 2 0}
+MPLU57   {swordswomen}
+MWEP57   {rapier}
+MAT157   {}
+MAT257   {}
+MNAM58   {swordsman}
+MDES58   {The swordsman has an air of confidance about him. He is wearing chain
+armor, and is armed with a rapier which he wields skillfully.}
+MSTT58   {0 95 4 3 8 5 0 3 0 4 18 0 0 0 0 0 0 2 3 35 0 0 0 0 1 0}
+MPLU58   {swordsmen}
+MWEP58   {rapier}
+MAT158   {}
+MAT258   {}
+MNAM59   {female cyclops}
+MDES59   {The cyclops resembles a very large woman with only one eye in the center of
+her forehead. She stands over eleven feet tall, and is armed with a spiked
+club.}
+MSTT59   {0 65 1 4 8 3 25 3 0 2 20 0 0 0 0 0 5 1 3 20 0 0 0 0 2 0}
+MPLU59   {female cyclopes}
+MWEP59   {spiked club}
+MAT159   {}
+MAT259   {picks up and hurls}
+MNAM60   {cyclops}
+MDES60   {The cyclops resembles a very large man with only one eye in the center of
+his forehead. He stands over twelve feet tall, and is armed with a spiked
+club.}
+MSTT60   {0 70 1 5 10 4 35 3 0 4 24 0 0 0 0 0 5 1 4 15 0 0 0 0 1 0}
+MPLU60   {cyclopes}
+MWEP60   {spiked club}
+MAT160   {}
+MAT260   {picks up and hurls}
+MNAM61   {wraith}
+MDES61   {The wraith is a shadowy figure with faded, nondescript features. It is
+semi-transparent and greyish in color. It glares at you with dull
+yellowish eyes.}
+MSTT61   {0 90 10 0 0 1 0 4 0 3 18 0 0 6 2 4 0 2 4 0 0 0 0 0 0 0}
+MPLU61   {wraith}
+MWEP61   {claws}
+MAT161   {}
+MAT261   {}
+MNAM62   {larochess}
+MDES62   {The larochess resembles a large well built woman with pale bluish skin
+pointed ears, and a short tail. She is very muscular and stands nearly nine
+feet tall. She is wearing leather armor, and is armed with a wicked spear.}
+MSTT62   {0 65 7 4 15 3 25 3 0 4 24 6 36 1 1 3 0 2 4 30 0 0 0 0 2 0}
+MPLU62   {laroche}
+MWEP62   {wicked spear}
+MAT162   {exhaled a cloud of acidic vapor at}
+MAT262   {}
+MNAM63   {larochet}
+MDES63   {The larochet resembles a large well built man with dark bluish skin,
+pointed ears, and a short tail. He is very muscular and stands over nine
+feet tall. He is wearing a cuirass, and is armed with a wicked spear.}
+MSTT63   {0 75 7 5 20 4 20 3 0 5 30 8 48 1 2 4 0 2 4 25 0 0 0 0 1 0}
+MPLU63   {larochets}
+MWEP63   {wicked spear}
+MAT163   {exhaled a cloud of acidic vapor at}
+MAT263   {}
+MNAM64   {cave lion}
+MDES64   {The cave lion is a huge black animal which stands over six feet tall at the
+shoulder and has wicked curved claws and razor sharp teeth.}
+MSTT64   {0 90 1 0 0 4 0 4 0 4 20 0 0 0 0 0 0 2 4 10 0 0 0 0 0 0}
+MPLU64   {cave lions}
+MWEP64   {claws}
+MAT164   {}
+MAT264   {}
+MNAM65   {female troll}
+MDES65   {The troll resembles a large ugly woman with yellowish green skin and wicked
+claws. Her skin is covered with warts and tufts of stiff greenish hair.}
+MSTT65   {0 75 2 0 3 2 0 3 1 3 12 0 0 0 0 0 0 2 4 25 0 0 0 0 2 0}
+MPLU65   {female trolls}
+MWEP65   {claws}
+MAT165   {}
+MAT265   {}
+MNAM66   {troll}
+MDES66   {The troll resembles a large ugly man with brownish green skin and wicked
+claws. His skin is covered with warts and tufts of stiff greenish hair.}
+MSTT66   {0 80 2 0 4 2 0 4 1 4 16 0 0 0 0 0 0 2 4 20 0 0 0 0 1 0}
+MPLU66   {trolls}
+MWEP66   {claws}
+MAT166   {}
+MAT266   {}
+MNAM67   {skeleton lord}
+MDES67   {The skeleton lord wears a suit well kept chainmail armor, and is armed with
+%s %s.}
+MSTT67   {0 80 2 0 0 3 0 4 0 0 3 0 0 0 0 0 0 1 4 0 0 0 0 0 0 0}
+MPLU67   {skeleton lords}
+MWEP67   {}
+MAT167   {}
+MAT267   {}
+MNAM68   {griffon}
+MDES68   {The griffon has the body of a lion, and the front feet, head, and wings of
+an eagle. It has razor sharp talons and a large black beak.}
+MSTT68   {0 85 3 0 5 4 25 4 0 4 12 6 24 0 0 0 0 2 4 10 0 0 0 0 0 0}
+MPLU68   {griffons}
+MWEP68   {claws}
+MAT168   {viciously bit}
+MAT268   {}
+MNAM69   {ghoul}
+MDES69   {The ghoul is a lithe, though muscular humanoid with tightly drawn brownish
+flesh and cloven hooves. Its teeth and nails are yellowish and look very
+sharp.}
+MSTT69   {0 87 5 0 6 4 20 4 0 2 12 0 0 4 2 4 0 2 4 5 0 0 0 0 0 0}
+MPLU69   {ghouls}
+MWEP69   {claws}
+MAT169   {}
+MAT269   {}
+MNAM70   {gargoyle}
+MDES70   {The gargoyle is a heavily muscled, grey skinned humanoid with large
+leathery wings and wicked claws.}
+MSTT70   {0 90 5 0 6 5 0 5 0 4 16 0 0 0 0 0 0 2 4 15 0 0 0 0 0 0}
+MPLU70   {gargoyles}
+MWEP70   {wicked claws}
+MAT170   {}
+MAT270   {}
+MNAM71   {magmaman}
+MDES71   {The magmaman resembles a humanoid non-descript creature, seemingly formed
+from molten rock. He has two thick arm-like appendages, ending in dripping
+claws.}
+MSTT71   {0 90 8 0 0 5 0 5 0 6 50 0 0 0 0 0 0 2 4 0 0 0 0 0 0 0}
+MPLU71   {magmamen}
+MWEP71   {burning claws}
+MAT171   {}
+MAT271   {}
+MNAM72   {ogress mage}
+MDES72   {The ogress mage is wearing a steel breastplate and bracers, and is armed
+with %s %s. She is also wearing a dark red cloak.}
+MSTT72   {1 80 2 5 8 3 30 4 0 0 2 0 0 0 0 0 7 1 4 25 65 1 0 3 2 0}
+MPLU72   {ogress mages}
+MWEP72   {}
+MAT172   {}
+MAT272   {}
+MNAM73   {ogre mage}
+MDES73   {The ogre mage is wearing a steel breastplate and bracers, and is armed with
+%s %s. He is also wearing a dark red cloak.}
+MSTT73   {1 85 2 6 10 4 30 5 0 0 3 0 0 0 0 0 7 1 4 20 60 1 1 4 1 0}
+MPLU73   {ogre mages}
+MWEP73   {}
+MAT173   {}
+MAT273   {}
+MNAM74   {sand worm}
+MDES74   {The sand worm is over fifty feet long, is covered in a hard ringed
+carapace, it's gaping maw is filled with many rows of wickedly gleaming
+teeth.}
+MSTT74   {0 85 6 0 0 5 0 4 0 4 24 0 0 0 0 0 0 1 4 0 0 0 0 0 0 0}
+MPLU74   {sand worms}
+MWEP74   {gaping maw}
+MAT174   {}
+MAT274   {}
+MNAM75   {chimera}
+MDES75   {The chimera has the body of a lion, leathery wings and two heads which
+resemble those of a dragon. Thin streams of smoke curl upwards from its
+nostrils.}
+MSTT75   {0 85 2 0 10 4 35 4 0 2 12 12 48 0 0 0 0 2 4 15 0 0 0 0 0 0}
+MPLU75   {chimeras}
+MWEP75   {claws}
+MAT175   {breathed flames at}
+MAT275   {}
+MNAM76   {warlock}
+MDES76   {The warlock is dressed in red robes and radiates power. He wields a staff
+shrouded in magical flame. Tatooed on his right forearm is a crimson sigil.}
+MSTT76   {0 85 2 6 12 4 40 5 0 4 12 0 0 0 0 0 7 1 5 15 80 1 2 7 1 0}
+MPLU76   {warlocks}
+MWEP76   {flaming staff}
+MAT176   {}
+MAT276   {}
+MNAM77   {minotaur chieftain}
+MDES77   {The minotaur chieftain is a very large member of his species. He is very
+muscular and stands nearly eight feet tall. He is wearing scalemail armor,
+and is armed with %s %s.}
+MSTT77   {0 90 2 6 25 4 15 5 0 0 3 8 48 0 0 0 0 1 5 20 0 0 0 0 1 0}
+MPLU77   {minotaur chieftains}
+MWEP77   {}
+MAT177   {charged}
+MAT277   {}
+MNAM78   {stone giantess}
+MDES78   {The stone giantess resembles a huge hairless woman with light greyish skin
+and stands nearly eighteen feet tall. She is armed with a huge club.}
+MSTT78   {0 70 2 4 10 5 10 5 0 5 30 5 50 0 0 0 0 1 5 25 0 0 0 0 2 0}
+MPLU78   {stone giantesses}
+MWEP78   {huge club}
+MAT178   {hurled a boulder at}
+MAT278   {}
+MNAM79   {stone giant}
+MDES79   {The stone giant resembles a huge hairless man with dark greyish skin and
+stands nearly twenty feet tall. He is armed with a huge club.}
+MSTT79   {0 75 2 5 15 6 15 6 0 6 36 10 60 0 0 0 0 1 5 20 0 0 0 0 1 0}
+MPLU79   {stone giants}
+MWEP79   {huge club}
+MAT179   {hurled a boulder at}
+MAT279   {}
+MNAM80   {elysian dragon}
+MDES80   {The elysian dragon has metalic sky blue scales which glisten in the light.
+Its powerful wings span some eighty feet and it is over fifty feet in
+length.}
+MSTT80   {1 90 10 0 25 5 25 7 0 5 30 10 50 0 0 0 0 2 5 15 95 1 2 7 0 0}
+MPLU80   {elysian dragons}
+MWEP80   {talons}
+MAT180   {viciously bit}
+MAT280   {}
+MNAM81   {hydra}
+MDES81   {The hydra resembles a small wingless dragon with three heads.}
+MSTT81   {0 85 7 0 22 4 15 6 1 4 24 8 80 0 0 0 0 3 6 10 0 0 0 0 0 0}
+MPLU81   {hydras}
+MWEP81   {gnashing teeth}
+MAT181   {expelled a ball of fire at}
+MAT281   {}
+MNAM82   {female affreet}
+MDES82   {The affreet resembles a huge horned woman with reddish skin and stands well
+over eighteen feet tall. She is armed with a greatsword that glows dull
+red.}
+MSTT82   {0 85 8 6 10 4 15 7 0 4 24 10 80 0 0 0 0 1 6 20 0 0 0 0 2 0}
+MPLU82   {female affreeti}
+MWEP82   {glowing sword}
+MAT182   {discharged a cloud of flame at}
+MAT282   {}
+MNAM83   {affreet}
+MDES83   {The affreet resembles a huge horned man with reddish skin and stands well
+over twenty feet tall. He is armed with a greatsword that glows dull red.}
+MSTT83   {1 90 8 8 15 5 15 8 0 5 30 20 100 0 0 0 0 1 6 15 0 0 0 0 1 0}
+MPLU83   {affreeti}
+MWEP83   {glowing sword}
+MAT183   {discharged a cloud of flame at}
+MAT283   {}
+MNAM84   {magma worm}
+MDES84   {The magma worm is over seventy feet long, is covered in a hard ringed
+carapace that glows a dull reddish color, and it's gaping maw is filled
+with many rows of wicked teeth.}
+MSTT84   {0 85 8 0 0 5 0 7 1 6 36 0 0 0 0 0 0 2 6 0 0 0 0 0 0 0}
+MPLU84   {magma worms}
+MWEP84   {gaping maw}
+MAT184   {}
+MAT284   {}
+MNAM85   {stygian dragon}
+MDES85   {The stygian dragon has dull brown scales and is without wings. It is well
+over eighty feet in length. Its talons are as large and probably as sharp
+as a sword.}
+MSTT85   {0 95 8 0 40 5 45 9 0 8 48 12 72 0 0 0 6 2 6 10 95 1 2 8 0 0}
+MPLU85   {stygian dragons}
+MWEP85   {talons}
+MAT185   {viciously bit}
+MAT285   {lashed out with its tail}
+MNAM86   {ice giantess}
+MDES86   {The ice giantess resembles a huge woman with bone white skin, and long
+flowing white hair. She stands over nineteen feet tall, and is armed with a
+huge crystaline sword.}
+MSTT86   {1 80 10 6 15 4 25 9 0 5 50 10 60 0 0 0 0 1 6 20 0 0 0 0 2 0}
+MPLU86   {ice giantesses}
+MWEP86   {huge sword}
+MAT186   {exhaled a blast of frost at}
+MAT286   {}
+MNAM87   {ice giant}
+MDES87   {The ice giant resembles a huge man with bone white skin, white hair, and a
+long white beard. He stands over twenty feet tall, and is armed with a huge
+crystaline sword.}
+MSTT87   {1 85 10 8 22 5 25 10 0 10 60 20 80 0 0 0 0 1 7 15 0 0 0 0 1 0}
+MPLU87   {ice giants}
+MWEP87   {huge sword}
+MAT187   {exhaled a blast of frost at}
+MAT287   {}
+MNAM88   {octopod}
+MDES88   {The octopod is a huge dark green bulbus plant standing nearly five feet
+tall, and has eight rubbery greenish tentacles.}
+MSTT88   {0 90 7 0 0 6 15 9 0 4 20 12 60 0 0 0 0 3 7 0 0 0 0 0 0 0}
+MPLU88   {octopods}
+MWEP88   {a tentacle}
+MAT188   {lashed several tentacles at}
+MAT288   {}
+MNAM89   {skeleton giant}
+MDES89   {The skeleton giant stands nearly twenty feet tall, is armed with a bone
+hammer, and is wearing an enormous suit of tattered chainmail.}
+MSTT89   {0 85 10 0 0 4 0 10 0 10 80 0 0 0 0 0 0 1 7 0 0 0 0 0 0 0}
+MPLU89   {skeleton giants}
+MWEP89   {bone hammer}
+MAT189   {}
+MAT289   {}
+MNAM90   {greater demoness}
+MDES90   {The greater demoness emanates power and malevolence. She has bright blue
+skin and stands over eight feet tall. She wields a flaming greatsword and
+wears an armband engraved with runes.}
+MSTT90   {0 85 10 6 25 5 25 10 1 5 30 0 0 0 0 0 7 2 7 15 85 4 3 7 2 0}
+MPLU90   {greater demonesses}
+MWEP90   {flaming sword}
+MAT190   {}
+MAT290   {}
+MNAM91   {greater demon}
+MDES91   {The greater demon emanates power and malevolence. He has dull blue skin and
+stands over nine feet tall. He wields a flaming greatsword and wears an
+armband engraved with runes.}
+MSTT91   {0 90 10 10 40 6 25 12 1 6 36 0 0 0 0 0 7 2 8 10 80 4 3 7 1 0}
+MPLU91   {greater demons}
+MWEP91   {flaming sword}
+MAT191   {}
+MAT291   {}
+MNAM92   {sorceress}
+MDES92   {The sorceress is dressed in indigo robes and radiates power. She wields a
+rod tipped with magical frost. Inscribed on her forehead is a blue rune.}
+MSTT92   {0 85 10 10 32 3 40 10 1 5 20 0 0 0 0 0 7 2 8 20 85 1 3 8 2 0}
+MPLU92   {sorceresses}
+MWEP92   {frost rod}
+MAT192   {}
+MAT292   {}
+MNAM93   {sorceror}
+MDES93   {The sorceror is dressed in indigo robes and radiates power. He wields a rod
+shrouded with magical flame. Inscribed on his forehead is a violet rune.}
+MSTT93   {0 90 10 15 58 4 30 12 1 6 30 0 0 0 0 0 7 2 9 15 90 1 3 9 1 0}
+MPLU93   {sorcerors}
+MWEP93   {flaming staff}
+MAT193   {}
+MAT293   {}
+MNAM94   {apollyon dragon}
+MDES94   {The apollyon dragon has crimson scales and powerful leathery wings. It is
+without a doubt one of the most enormous creatures you have ever seen,
+being well over one hundred feet in length. Its talons and teeth are jet
+black, and smoke curls upwards from its nostrils.}
+MSTT94   {1 97 9 0 100 8 25 15 0 10 50 50 200 0 0 0 6 2 10 10 95 1 2 9 0 0}
+MPLU94   {apollyon dragons}
+MWEP94   {talons}
+MAT194   {breathed flames at}
+MAT294   {lashed out with its tail}
+MNAM95   {flame giantess}
+MDES95   {The flame giantess resembles a huge woman with ruddy skin and bright red
+hair. She stands over twenty five feet tall, is armed with a great axe made
+of a dull black metal, and wears dragonscale armor. She reguards you
+malignly with her smouldering red eyes, and smiles cruely.}
+MSTT95   {0 90 9 6 22 9 15 18 0 10 60 80 360 0 0 0 0 1 11 15 0 0 0 0 2 0}
+MPLU95   {flame giantesses}
+MWEP95   {great axe}
+MAT195   {exhaled a blast of flame at}
+MAT295   {}
+MNAM96   {flame giant}
+MDES96   {The flame giant resembles a huge man with ruddy skin, bright red hair, and
+a coarse red beard. He stands nearly thirty feet tall, is armed with a
+great axe made of a dull black metal, and wears dragonscale armor. He
+regards you malevolently with his smouldering red eyes, and grins wickedly.}
+MSTT96   {0 95 9 10 32 12 15 20 0 20 80 100 400 0 0 0 0 1 12 10 0 0 0 0 1 0}
+MPLU96   {flame giants}
+MWEP96   {great axe}
+MAT196   {exhaled a blast of flame at}
+MAT296   {}
+MNAM97   {flame giant warlord}
+MDES97   {The flame giant resembles a huge man with ruddy skin, bright red hair, and
+a coarse red beard. He stands nearly thirty feet tall, is armed with a
+great spear made of a dark black metal that glows with a dull reddish light
+at the head. He wears armor of fine workmanship made from overlapping
+scales of a dark metallic blue. You sense great wisdom in his stern gaze.}
+MSTT97   {0 95 10 15 63 14 25 25 0 32 96 120 240 5 10 60 3 2 15 20 0 0 0 0 1 0}
+MPLU97   {flame giant warlords}
+MWEP97   {great spear}
+MAT197   {exhaled a blast of flame at}
+MAT297   {quaffed a potion}
+MNAM98   {balneal dragon}
+MDES98   {The balneal dragon has silvery blue scales and a powerfully built
+serpentine body. It is over one hundred fifty feet in length. Its talons
+and teeth are of a clear bluish crystaline substance, and steam rises from
+its nostrils.}
+MSTT98   {0 97 10 0 0 16 35 30 0 30 120 60 240 0 0 0 0 2 15 10 95 1 2 9 0 0}
+MPLU98   {balneal dragons}
+MWEP98   {talons}
+MAT198   {viciously bit}
+MAT298   {}
+MNAM99   {arch demoness}
+MDES99   {The arch demoness emanates awesome power and malevolence. She has bright
+red skin and stands over twelve feet tall. She wields a glowing bardiche
+and wears an armband engraved with runes.}
+MSTT99   {1 90 10 10 40 15 35 35 1 20 100 0 0 0 0 0 7 2 17 15 90 4 3 8 2 0}
+MPLU99   {arch demonesses}
+MWEP99   {huge bardiche}
+MAT199   {}
+MAT299   {}
+MNAM100  {arch demon}
+MDES100  {The arch demon emanates awesome power and malevolence. He has dull blue
+skin and stands over fifteen feet tall. He wields a glowing bardiche and
+wears an armband engraved with runes.}
+MSTT100  {1 95 10 15 90 16 35 40 1 40 160 0 0 0 0 0 7 2 18 10 85 4 3 8 1 0}
+MPLU100  {arch demons}
+MWEP100  {huge bardiche}
+MAT1100  {}
+MAT2100  {}
+MNAM101  {demon king}
+MDES101  {The demon king emanates incredible power and horrific malevolence. He has
+dull black skin and stands over thirty feet tall. He wields a huge glowing
+sabre nearly fifteen feet long and wears a dull grey crown engraved with
+runes.}
+MSTT101  {0 99 10 25 200 20 65 60 1 60 240 0 0 0 0 0 7 2 20 20 90 4 3 14 1 0}
+MPLU101  {demon kings}
+MWEP101  {glowing sabre}
+MAT1101  {discharged a blast of dark energy at}
+MAT2101  {}
+MNAM102  {great dragon}
+MDES102  {The great dragon has greyish scales and powerful leathery wings. It is
+without a doubt the most enormous creature you have ever seen, being well
+over two hundred feet in length. Its talons and teeth are yellowish white,
+and smoke curls upward from its nostrils as it regards you with amusement.}
+MSTT102  {0 99 10 0 200 30 65 120 1 120 360 320 960 0 0 0 7 0 30 35 95 1 6 10 0 0}
+MPLU102  {great dragons}
+MWEP102  {huge talons}
+MAT1102  {cruely bit}
+MAT2102  {breathed flames in a great arc}
+MNAM103  {white rabbit}
+MDES103  {The white rabbit is large and fluffy with floppy ears and big brown eyes.}
+MSTT103  {0 90 4 0 0 0 33 1 0 1 2 0 0 0 0 0 1 2 1 60 0 0 -1 0 0 0}
+MPLU103  {white rabbits}
+MWEP103  {dull teeth}
+MAT1103  {}
+MAT2103  {emits a shrill screech}
+MNAM104  {black rabbit}
+MDES104  {The black rabbit is large and fluffy with floppy ears and big brown eyes.}
+MSTT104  {0 90 4 0 0 0 33 1 0 1 2 0 0 0 0 0 1 2 1 60 0 0 -1 0 0 0}
+MPLU104  {black rabbits}
+MWEP104  {dull teeth}
+MAT1104  {}
+MAT2104  {emits a shrill screech}
+MNAM105  {pink bunny}
+MDES105  {The pink bunny is small and fluffy with perky ears and big blue eyes.}
+MSTT105  {0 90 4 0 0 0 33 2 0 1 2 20 60 0 0 0 6 2 3 95 0 0 0 0 0 0}
+MPLU105  {pink bunnies}
+MWEP105  {daring nibble}
+MAT1105  {gnashed its big pointy teeth at}
+MAT2105  {becomes a berzerk flurry of gnashing teeth}
+MNAM106  {lizard}
+MDES106  {The lizard is small and brown and moves very quickly.}
+MSTT106  {0 90 5 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 1 100 0 0 0 0 0 0}
+MPLU106  {lizards}
+MWEP106  {tiny teeth}
+MAT1106  {}
+MAT2106  {}
+MNAM107  {monkey}
+MDES107  {The monkey is quick and playful and watches you warily.}
+MSTT107  {0 90 7 0 0 0 0 1 0 2 4 0 0 0 0 0 0 0 1 100 0 0 0 0 0 0}
+MPLU107  {monkeys}
+MWEP107  {clinched fists}
+MAT1107  {}
+MAT2107  {}
+MNAM108  {owl}
+MDES108  {The owl is perched in a nearby tree watching you intently.}
+MSTT108  {0 90 4 0 0 0 0 1 0 1 3 0 0 0 0 0 0 0 1 100 0 0 0 0 0 0}
+MPLU108  {owls}
+MWEP108  {talons}
+MAT1108  {}
+MAT2108  {}
+MNAM109  {squirrel}
+MDES109  {The squirrel sits in a nearby tree and chitters at you.}
+MSTT109  {0 90 4 0 0 0 0 1 0 1 3 0 0 0 0 0 0 0 1 100 0 0 0 0 0 0}
+MPLU109  {squirrels}
+MWEP109  {sharp teeth}
+MAT1109  {}
+MAT2109  {}
+MNAM110  {frog}
+MDES110  {The frog is small and green and appears to be a good jumper.}
+MSTT110  {0 90 5 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 1 100 0 0 0 0 0 0}
+MPLU110  {frogs}
+MWEP110  {tiny teeth}
+MAT1110  {}
+MAT2110  {}
+MNAM111  {lizard}
+MDES111  {The lizard is small and purple and moves very quickly.}
+MSTT111  {0 90 6 0 0 0 0 1 0 1 3 0 0 1 1 3 0 1 1 100 0 0 -1 0 0 0}
+MPLU111  {lizards}
+MWEP111  {tiny teeth}
+MAT1111  {}
+MAT2111  {}
+MNAM112  {fox}
+MDES112  {The fox hides in the nearby brush and seems very skittish.}
+MSTT112  {0 90 4 0 0 0 0 1 0 2 4 0 0 0 0 0 0 1 1 100 0 0 0 0 0 0}
+MPLU112  {foxes}
+MWEP112  {sharp teeth}
+MAT1112  {}
+MAT2112  {}
+MNAM113  {hyena}
+MDES113  {The hyena looks ravenous and extremely viscious. It snarls menacingly
+and bares its teeth at you.}
+MSTT113  {0 90 6 0 0 2 0 2 0 4 24 0 0 0 0 0 0 1 2 40 0 0 0 0 0 0}
+MPLU113  {hyenas}
+MWEP113  {wicked teeth}
+MAT1113  {}
+MAT2113  {}
+MNAM114  {tiger}
+MDES114  {The tiger has luxurious looking striped fur. It growls menacingly and
+bares its teeth at you.}
+MSTT114  {0 95 7 0 0 2 35 5 0 8 24 12 36 0 0 0 0 2 4 30 0 0 0 0 0 0}
+MPLU114  {tigers}
+MWEP114  {wicked claws}
+MAT1114  {savagely bit}
+MAT2114  {}
+MNAM115  {mountain lion}
+MDES115  {The mountain lion has dark brown spotted fur. It growls menacingly and
+bares its teeth at you.}
+MSTT115  {0 95 3 0 0 2 35 3 0 2 8 6 18 0 0 0 0 2 4 20 0 0 0 0 0 0}
+MPLU115  {mountain lions}
+MWEP115  {claws}
+MAT1115  {savagely bit}
+MAT2115  {}
+MNAM116  {female nomad}
+MDES116  {The nomad has dark skin and the look of someone hardened by the harsh
+environment in which she lives. She is wearing dark linen clothing and is
+armed with a scimitar.}
+MSTT116  {0 90 6 2 4 2 0 3 0 5 15 0 0 0 0 0 0 1 3 25 0 0 0 0 2 0}
+MPLU116  {female nomads}
+MWEP116  {scimitar}
+MAT1116  {}
+MAT2116  {}
+MNAM117  {nomad}
+MDES117  {The nomad has dark skin and the look of someone hardened by the harsh
+environment in which he lives. He is wearing dark linen clothing and is
+armed with a scimitar.}
+MSTT117  {0 95 6 3 5 3 0 3 0 6 18 0 0 0 0 0 0 1 3 20 0 0 0 0 1 0}
+MPLU117  {nomads}
+MWEP117  {scimitar}
+MAT1117  {}
+MAT2117  {}
+MNAM118  {female bandit}
+MDES118  {The bandit has the look of an accomplished rogue, and is dressed in an
+expensive silk tunic and pants of a rich red color. She is also wearing a
+chainmail jerkin and is armed with a wicked looking sabre.}
+MSTT118  {0 90 10 6 25 6 12 2 0 4 24 8 48 0 0 0 2 2 6 50 0 0 0 0 2 0}
+MPLU118  {female bandits}
+MWEP118  {sabre}
+MAT1118  {skillfully slashed}
+MAT2118  {robbed}
+MNAM119  {bandit}
+MDES119  {The bandit has the look of an accomplished rogue, and is dressed in an
+expensive silk tunic and pants of a deep blue color. He is also wearing a
+chainmail jerkin and is armed with a wicked looking sabre.}
+MSTT119  {0 95 10 10 40 8 15 2 0 6 36 12 72 0 0 0 2 2 7 40 0 0 0 0 1 0}
+MPLU119  {bandits}
+MWEP119  {sabre}
+MAT1119  {skillfully slashed}
+MAT2119  {robbed}
+MNAM120  {forest giantess}
+MDES120  {The forest giantess resembles a huge woman with brown skin and stands nearly
+fifteen feet tall. Her clothing is of woven vines and leaves. She is armed
+with a huge spear.}
+MSTT120  {0 80 10 4 10 5 0 7 0 5 20 0 0 0 0 0 0 2 6 35 0 0 0 0 2 0}
+MPLU120  {forest giantesses}
+MWEP120  {huge spear}
+MAT1120  {}
+MAT2120  {}
+MNAM121  {forest giant}
+MDES121  {The forest giant resembles a huge man with dark brown skin and stands nearly
+eighteen feet tall. His clothing is of woven vines and leaves. He is armed
+with a huge spear.}
+MSTT121  {0 85 10 5 15 6 0 8 0 6 24 0 0 0 0 0 0 2 6 30 0 0 0 0 1 0}
+MPLU121  {forest giants}
+MWEP121  {huge spear}
+MAT1121  {}
+MAT2121  {}
+MNAM122  {jackal}
+MDES122  {The jackal looks extremely viscious. It snarls menacingly and bares
+its teeth at you.}
+MSTT122  {0 90 6 0 0 2 0 2 0 3 18 0 0 0 0 0 0 1 2 40 0 0 0 0 0 0}
+MPLU122  {jackal}
+MWEP122  {wicked teeth}
+MAT1122  {}
+MAT2122  {}
+MNAM123  {ice elemental}
+MDES123  {The ice elemental is a titanic humanoid formed of ice.}
+MSTT123  {1 99 10 0 0 0 35 100 5 150 300 300 600 0 0 0 6 2 30 0 0 1 0 1 0 0}
+MPLU123  {ice elementals}
+MWEP123  {a spear of ice}
+MAT1123  {discharged a shower of ice shards at}
+MAT2123  {unleashed a storm of elemental ice}
+MNAM124  {flame elemental}
+MDES124  {The flame elemental is a titanic humanoid formed of flame.}
+MSTT124  {0 99 10 0 0 0 35 150 5 200 400 400 800 0 0 0 6 2 40 0 0 0 0 0 0 0}
+MPLU124  {flame elementals}
+MWEP124  {a bolt of flame}
+MAT1124  {discharged a cloud of flames at}
+MAT2124  {unleashed a storm of elemental flame}
+MNAM125  {stone elemental}
+MDES125  {The stone elemental is a titanic humanoid formed of stone.}
+MSTT125  {0 99 10 0 0 50 35 200 5 250 500 500 1000 0 0 0 6 2 50 0 0 0 0 0 0 0}
+MPLU125  {stone elementals}
+MWEP125  {huge stone fist}
+MAT1125  {stepped on}
+MAT2125  {unleashed an earthquake}
+MNAM126  {mystic knight}
+MDES126  {The mystic knight has the look of a well seasoned warrior who has seen
+many a battle in his time. His gear and clothing are the finest available. He
+is wearing glowing dragonscale armor and wielding a jeweled claymore. Somehow
+you are aware that he could easily defeat you.}
+MSTT126  {0 99 10 0 0 50 0 250 5 100 600 0 0 0 0 0 0 6 60 0 0 0 0 0 1 1}
+MPLU126  {mystic knights}
+MWEP126  {jeweled claymore}
+MAT1126  {}
+MAT2126  {}
+MNAM127  {orc warrior}
+MDES127  {The orc warrior is a smallish humanoid with piglike facial features and
+is covered sparsely by coarse body hair. He stands just over five feet in
+height, is wearing chainmail armor, and is armed with %s %s.}
+MSTT127  {1 80 10 3 5 6 0 2 0 0 1 0 0 0 0 0 0 2 2 25 0 0 0 0 1 0}
+MPLU127  {orc warriors}
+MWEP127  {}
+MAT1127  {}
+MAT2127  {}
+MNAM128  {orc subchief}
+MDES128  {The orc subchief is a smallish humanoid with piglike facial features and
+is covered sparsely by coarse body hair. He stands over five feet in height,
+is wearing chainmail armor, and is armed with %s %s.}
+MSTT128  {1 85 10 4 8 6 0 3 0 0 2 0 0 0 0 0 0 2 50 30 0 0 0 0 1 0}
+MPLU128  {orc subchiefs}
+MWEP128  {}
+MAT1128  {}
+MAT2128  {}
+MNAM129  {orc chieftain}
+MDES129  {The orc chieftain is a smallish humanoid with piglike facial features and
+is covered sparsely by coarse body hair. He stands well over five feet in
+height, is wearing chainmail armor, and is armed with %s %s.}
+MSTT129  {1 90 10 5 10 6 0 4 0 0 2 0 0 0 0 0 0 2 4 35 0 0 0 0 1 0}
+MPLU129  {orc chieftains}
+MWEP129  {}
+MAT1129  {}
+MAT2129  {}
+MNAM130  {orc shaman}
+MDES130  {The orc shaman is a smallish humanoid with piglike facial features and
+is covered sparsely by coarse body hair. She stands just under five feet in
+height, is wearing robes, and is armed with %s %s.}
+MSTT130  {1 80 10 3 7 1 30 2 0 0 0 0 0 0 0 0 7 1 3 25 85 4 1 4 2 0}
+MPLU130  {orc shaman}
+MWEP130  {}
+MAT1130  {}
+MAT2130  {}
+MNAM131  {orc warlord}
+MDES131  {The orc warlord is an average sized humanoid with piglike facial features
+and is covered sparsely by coarse body hair. He stands just under six feet
+in height, is wearing gleaming chainmail armor, and is armed with %s %s.}
+MSTT131  {1 95 10 10 20 6 0 5 0 0 3 0 0 0 0 0 0 2 6 35 0 0 0 0 1 0}
+MPLU131  {orc warlords}
+MWEP131  {}
+MAT1131  {}
+MAT2131  {}
+MNAM132  {gnoll warrior}
+MDES132  {The gnoll warrior is a tall humanoid with hyenalike facial features and is
+covered by thick reddish brown body hair. He stands just under seven feet in
+height, is wearing chainmail armor, and is armed with %s %s.}
+MSTT132  {0 85 10 4 8 6 0 3 0 0 2 0 0 0 0 0 0 2 3 10 0 0 0 0 1 0}
+MPLU132  {gnoll warriors}
+MWEP132  {}
+MAT1132  {}
+MAT2132  {}
+MNAM133  {gnoll subchief}
+MDES133  {The gnoll subchief is a tall humanoid with hyenalike facial features and is
+covered by thick reddish brown body hair. He stands just over seven feet in
+height, is wearing scalemail armor, and is armed with %s %s.}
+MSTT133  {0 90 10 5 10 8 0 4 0 0 3 0 0 0 0 0 0 2 4 15 0 0 0 0 1 0}
+MPLU133  {gnoll subchiefs}
+MWEP133  {}
+MAT1133  {}
+MAT2133  {}
+MNAM134  {gnoll chieftain}
+MDES134  {The gnoll chieftain is a tall humanoid with hyenalike facial features and is
+covered by thick reddish brown body hair. He stands just over seven feet in
+height, is wearing scalemail armor, and is armed with %s %s.}
+MSTT134  {0 90 10 6 12 8 0 5 0 0 3 0 0 0 0 0 0 2 5 20 0 0 0 0 1 0}
+MPLU134  {gnoll chieftains}
+MWEP134  {}
+MAT1134  {}
+MAT2134  {}
+MNAM135  {gnoll warlord}
+MDES135  {The gnoll warlord is a tall humanoid with hyenalike facial features and is
+covered by thick reddish brown body hair. He stands well over seven feet in
+height, is wearing gleaming bandmail armor, and is armed with %s %s.}
+MSTT135  {0 95 10 12 24 10 0 7 0 0 3 0 0 0 0 0 0 2 7 20 0 0 0 0 1 0}
+MPLU135  {gnoll warlord}
+MWEP135  {}
+MAT1135  {}
+MAT2135  {}
+MNAM136  {gnoll shaman}
+MDES136  {The gnoll shaman is a tall humanoid with hyenalike facial features and
+is covered by thick golden brown body hair. She stands just over six feet in
+height, is wearing robes, and is armed with %s %s.}
+MSTT136  {0 85 10 4 8 1 30 3 0 0 0 0 0 0 0 0 7 1 4 25 80 3 1 4 2 0}
+MPLU136  {gnoll shaman}
+MWEP136  {}
+MAT1136  {}
+MAT2136  {}
+MNAM137  {lizard warrior}
+MDES137  {The lizard warrior is a six foot tall bipedal humanoid who's features
+resemble those of a large lizard. He has greenish scaley skin, and sharp
+claws and teeth. He is armed with %s %s.}
+MSTT137  {0 90 10 5 10 3 0 3 0 0 3 0 0 0 0 0 0 2 3 10 0 0 0 0 1 0}
+MPLU137  {lizard warriors}
+MWEP137  {}
+MAT1137  {}
+MAT2137  {}
+MNAM138  {lizard subchief}
+MDES138  {The lizard subchief is a six foot tall bipedal humanoid who's features
+resemble those of a large lizard. He has greenish scaley skin, and sharp
+claws and teeth. He is armed with %s %s.}
+MSTT138  {0 90 10 6 12 3 0 4 0 0 2 0 0 0 0 0 0 2 4 15 0 0 0 0 1 0}
+MPLU138  {lizard subchiefs}
+MWEP138  {}
+MAT1138  {}
+MAT2138  {}
+MNAM139  {lizard chieftain}
+MDES139  {The lizard chieftain is a six foot tall bipedal humanoid who's features
+resemble those of a large lizard. He has greenish scaley skin, and sharp
+claws and teeth. He is wearing ringmail armor and is armed with %s %s.}
+MSTT139  {0 90 10 7 14 5 0 5 0 0 2 0 0 0 0 0 0 2 5 20 0 0 0 0 1 0}
+MPLU139  {lizard chieftains}
+MWEP139  {}
+MAT1139  {}
+MAT2139  {}
+MNAM140  {lizard warlord}
+MDES140  {The lizard warlord is a six foot tall bipedal humanoid who's features
+resemble those of a large lizard. He has greenish scaley skin, and sharp
+claws and teeth. He is wearing scalemail armor and is armed with %s %s.}
+MSTT140  {0 95 10 14 28 8 0 7 0 0 3 0 0 0 0 0 0 2 7 20 0 0 0 0 1 0}
+MPLU140  {lizard warlords}
+MWEP140  {}
+MAT1140  {}
+MAT2140  {}
+MNAM141  {lizard shaman}
+MDES141  {The lizard shaman is a five foot tall bipedal humanoid who's features
+resemble those of a large lizard. She has greyish scaley skin, and sharp
+claws and teeth. She is wearing robes and is armed with %s %s.}
+MSTT141  {0 80 10 4 8 1 30 2 0 0 0 0 0 0 0 0 7 2 3 25 75 1 1 3 2 0}
+MPLU141  {lizard shaman}
+MWEP141  {}
+MAT1141  {}
+MAT2141  {}
+MNAM142  {stone warrior}
+MDES142  {The stone warrior is skillfully crafted and resembles a heavily muscled warrior in full plate armor and stands nearly twenty feet high. It is armed with a huge stone axe.}
+MSTT142  {0 90 10 0 0 20 35 60 0 100 200 200 400 6 2 4 4 2 25 0 0 0 -1 0 0 0}
+MPLU142  {stone warrior}
+MWEP142  {stone axe}
+MAT1142  {kicks}
+MAT2142  {swings its axe in a wide arc}
+MNAM143  {stone scorpion}
+MDES143  {The stone scorpion is skillfully crafted and resembles a common scorpion, except that it is nearly twenty feet in length and it's carapace has the color and texture of stone.}
+MSTT143  {0 85 10 0 0 25 65 75 0 125 250 250 500 1 25 50 3 2 25 0 0 1 0 1 0 0}
+MPLU143  {stone scorpions}
+MWEP143  {tail}
+MAT1143  {snaps its pincers at}
+MAT2143  {is suddenly surrounded by a pale blue light}
+MNAM144  {stone wizard}
+MDES144  {The stone wizard is skillfully crafted and resembles a gaunt sorceror in flowing robes covered with runes and sigils. It is armed with a stone sceptre topped with a glowing crystal and stands nearly twenty feet high.}
+MSTT144  {0 80 10 0 0 15 65 50 0 50 100 250 500 4 25 50 7 2 25 0 90 1 6 10 0 0}
+MPLU144  {stone wizard}
+MWEP144  {stone sceptre}
+MAT1144  {discharged its sceptre at}
+MAT2144  {}
+MNAM145  {dwarven guard}
+MDES145  {The guard is of obvious dwarven blood. He looks very tough and battle hardened. He wears scale mail armor of a design you're unfamiliar with and wields a battleax.}
+MSTT145  {0 90 10 5 5 0 0 50 0 19 34 0 0 0 0 0 0 5 25 20 0 0 -1 0 1 0}
+MPLU145  {dwarven guards}
+MWEP145  {battleax}
+MAT1145  {}
+MAT2145  {}
+MNAM146  {elite dwarven guard}
+MDES146  {This guard closely resembles his lesser brethren, however his equipment is of a finer quality and he appears more agressive and well disciplined. He wears brushed steel scale mail armor and wields a huge battleax engraved with runes along the edge of the blade.}
+MSTT146  {1 95 10 25 25 8 0 60 0 27 42 0 0 0 0 0 0 5 30 10 0 0 -1 0 1 0}
+MPLU146  {elite dwarven guards}
+MWEP146  {battleax}
+MAT1146  {}
+MAT2146  {}
+MNAM147  {dwarven captain}
+MDES147  {This grim warrior appears to have seen more than his share of battle, and seems utterly fearless. His dwarven mail is of fine quality and each scale has finely engraved runic designs. He wields a battleax with a haft easily four feet long and a blade blacker than night.}
+MSTT147  {0 97 10 50 50 12 0 80 0 38 53 0 0 0 0 0 0 5 40 5 0 0 -1 0 1 0}
+MPLU147  {dwarven captains}
+MWEP147  {battleax}
+MAT1147  {}
+MAT2147  {}
+MNAM148  {dwarven sorceror}
+MDES148  {The dwarven sorceror has an obvious callousness about his expression, and appears no one to be trifled with. He radiates confidence and power. He wears robes of a deep reddish brown, similar to the hue of the stone in the walls of his home. He carries a black sceptre topped with some sort of softly glowing crystal.}
+MSTT148  {0 80 10 10 10 2 60 40 0 11 16 0 0 4 1 6 7 5 25 30 90 1 6 8 1 0}
+MPLU148  {dwarven sorcerors}
+MWEP148  {black sceptre}
+MAT1148  {}
+MAT2148  {}
+MNAM149  {dwarven warhound}
+MDES149  {The dwarven warhound is a huge beast, nearly four feet at the shoulder. It resembles  a wolf with glossy black fur. Its eyes and teeth are crimson. Its hackles raise and it snarls menacingly as you look its way.}
+MSTT149  {0 90 10 0 0 6 0 20 0 10 30 0 0 0 0 0 0 1 20 0 0 0 -1 0 0 0}
+MPLU149  {dwarven warhounds}
+MWEP149  {vicious bite}
+MAT1149  {}
+MAT2149  {}
+MNAM150  {dwarven leutenant}
+MDES150  {This dwarven officer wears scale armor of the finest quality and brandishes a huge battleaxe of fine make with an extraordinarily keen edge. He seems very dignified and confidant.}
+MSTT150  {0 95 10 100 100 15 0 90 0 41 66 0 0 0 0 0 0 5 45 10 0 0 -1 0 1 0}
+MPLU150  {dwarven leutenants}
+MWEP150  {battleax}
+MAT1150  {}
+MAT2150  {}
+MNAM151  {dwarven warlord}
+MDES151  {This ruthless dwarven battle chief is dressed in heavy scale armor made of a dull bluish metal that seems to absorb light. The weapon in his hands is an enormous battleax with a haft of dark grey wood and a head forged of the same strange metal as his armor. Dimly glowing runes adorn the head of his axe along the edges of the blades.}
+MSTT151  {0 97 10 150 150 20 0 100 0 43 83 0 0 0 0 0 0 5 50 5 0 0 -1 0 1 0}
+MPLU151  {dwarven warlords}
+MWEP151  {battleax}
+MAT1151  {}
+MAT2151  {}
+MNAM152  {smith}
+MDES152  {This dwarven smith is heavily muscled, his leather apron smeared with sweat and soot. He is very alert and has an expression of great calm and peace of mind. His eyes harden as he notices your intense stare, and he hefts the weight of his great hammer.}
+MSTT152  {0 90 10 10 10 2 0 40 0 20 50 0 0 0 0 0 0 0 20 20 0 0 -1 0 1 0}
+MPLU152  {smiths}
+MWEP152  {great hammer}
+MAT1152  {}
+MAT2152  {}
+MNAM153  {master smith}
+MDES153  {This older dwarf is gnarled and bulging with muscle. His leathers smeared with grime and sweat. He seems very calm and at one with his surrounds. The great hammer he cradles in his arms is forged of a dull bluish metal, and almost seems to glow dimly.}
+MSTT153  {0 95 10 25 25 4 0 80 0 40 100 0 0 0 0 0 0 0 40 10 0 0 -1 0 1 0}
+MPLU153  {master smiths}
+MWEP153  {great hammer}
+MAT1153  {}
+MAT2153  {}
+MNAM154  {dwarven archmage}
+MDES154  {The dwarven archmage has an obvious callousness about his expression, and appears no one to be trifled with. He radiates incredible power. He wears robes of a deep purple hue. He carries a black sceptre topped with some sort of brightly glowing crystal.}
+MSTT154  {0 90 10 100 100 1 60 60 0 21 26 0 0 4 2 12 7 5 50 10 95 1 6 10 1 0}
+MPLU154  {dwarven archmagi}
+MWEP154  {black sceptre}
+MAT1154  {discharges his sceptre at}
+MAT2154  {}
+MNAM155  {hellhound}
+MDES155  {The hellhound is a large wolf-type creature that dwells in the
+firey depths of the volcano.  It glares at you with devilish red
+eyes, mentally feeding you to its young.  It moves with a certain
+strut that airs its pride and seems to taunt you with its vicious
+grin.}
+MSTT155  {0 90 11 4 10 14 0 40 0 30 45 0 0 0 0 0 0 4 28 35 0 0 0 0 1 0}
+MPLU155  {hellhounds}
+MWEP155  {claws}
+MAT1155  {}
+MAT2155  {}
+MNAM156  {magma slug}
+MDES156  {The magma slug is a gigantic slug that is covered in magma.  Its
+maw rumbles with fury as it looks to burn you alive with its own magma.}
+MSTT156  {0 70 11 45 115 18 65 50 0 80 115 150 200 0 0 0 0 1 35 25 0 0 0 0 1 0}
+MPLU156  {magma slugs}
+MWEP156  {maw}
+MAT1156  {unloaded a wad of magma}
+MAT2156  {}
+MNAM157  {elven scout}
+MDES157  {The elven scout peers at you through its forest green eyes.  The
+stripes painted on his face warn you that he has come across and slain
+many an unexpecting traveller.  Your doom awaits.}
+MSTT157  {1 95 12 55 75 10 0 30 0 50 65 0 0 0 0 0 0 3 30 30 0 0 0 0 1 0}
+MPLU157  {elven scouts}
+MWEP157  {shortsword}
+MAT1157  {}
+MAT2157  {}
+MNAM158  {female elf}
+MDES158  {Despite being female, this elf resembles a modern-day war machine.
+She moves blindingly fast, striking at any possible moment.  Though a
+good fight is her forte, she is also amazingly beautiful, as female
+elves always seem to be.}
+MSTT158  {0 95 12 55 75 12 0 35 0 55 75 0 0 0 0 0 0 4 32 20 0 0 0 0 2 0}
+MPLU158  {female elves}
+MWEP158  {shortsword}
+MAT1158  {}
+MAT2158  {}
+MNAM159  {elven warrior}
+MDES159  {This elven warrior is built like a tree, and oddly enough blends
+in with the trees as well, a warrior of a stealthy sort.  He wields
+an axe that must have been crafted by the dwarves and enchanted by the
+high elves.  He is certainly a force to be reckoned with.}
+MSTT159  {1 95 12 75 75 20 0 35 0 90 125 0 0 0 0 0 0 2 33 25 0 0 0 0 1 0}
+MPLU159  {elven warriors}
+MWEP159  {enchanted axe}
+MAT1159  {}
+MAT2159  {}
+MNAM160  {elven champion}
+MDES160  {This elven champion is built like a mountain.  There seems to be
+no escape from this warrior of warriors, a man's man -- only an elf.
+He wields a great sword that shines like the moons on a good night.
+Only the most powerful elves can craft such a beast.}
+MSTT160  {1 95 12 85 75 25 0 45 0 100 155 0 0 0 0 0 0 2 37 25 0 0 0 0 1 0}
+MPLU160  {elven champions}
+MWEP160  {shining sword}
+MAT1160  {}
+MAT2160  {}
+MNAM161  {elven warlord}
+MDES161  {This elven warlord is about to knock some sense into you with his
+warhammer.  His evil eyes seem to hypnotize you into giving in to your
+imminent death.}
+MSTT161  {1 99 12 115 235 30 40 55 0 110 185 175 290 0 0 0 0 2 44 15 0 0 0 0 1 0}
+MPLU161  {elven warlords}
+MWEP161  {warhammer}
+MAT1161  {gutted}
+MAT2161  {}
+WEPTOT {13}
+WNAM1    {knife}
+WSTT1    {0 0 1 3}
+WNAM2    {club}
+WSTT2    {0 0 2 7}
+WNAM3    {dagger}
+WSTT3    {0 0 1 6}
+WNAM4    {scimitar}
+WSTT4    {1 0 1 8}
+WNAM5    {spear}
+WSTT5    {1 0 1 8}
+WNAM6    {shortsword}
+WSTT6    {1 0 2 10}
+WNAM7    {morningstar}
+WSTT7    {2 0 2 12}
+WNAM8    {axe}
+WSTT8    {2 1 3 15}
+WNAM9    {flail}
+WSTT9    {2 0 3 12}
+WNAM10   {broadsword}
+WSTT10   {2 0 2 12}
+WNAM11   {battleax}
+WSTT11   {3 0 3 18}
+WNAM12   {glaive}
+WSTT12   {3 0 4 20}
+WNAM13   {greatsword}
+WSTT13   {3 0 5 25}
+BARTOT {10}
+BDES1    {The locked oak door prevents your exit in that direction.}
+BUNL1    {Your %s unlocks the oak door and allows you to pass through.}
+BROG1    {Your rogue abilities allowed you to pick the lock on the oak door.}
+BNUM1    {0}
+BDES2    {The locked iron door prevents your exit in that direction.}
+BUNL2    {Your %s unlocks the iron door and allows you to pass through.}
+BROG2    {Your rogue abilities allowed you to pick the lock on the iron door.}
+BNUM2    {35}
+BDES3    {The locked bronze door prevents your exit in that direction.}
+BUNL3    {Your %s unlocks the bronze door and allows you to pass through.}
+BROG3    {Your rogue abilities allowed you to pick the lock on the bronze door.}
+BNUM3    {25}
+BDES4    {The locked stone door prevents your exit in that direction.}
+BUNL4    {Your %s unlocks the stone door and allows you to pass through.}
+BROG4    {Your rogue abilities allowed you to pick the lock on the stone door.}
+BNUM4    {15}
+BDES5    {The locked brass door prevents your exit in that direction.}
+BUNL5    {Your %s unlocks the brass door and allows you to pass through.}
+BROG5    {Your rogue abilities allowed you to pick the lock on the brass door.}
+BNUM5    {20}
+BDES6    {The walls of this pit are too steep to climb unaided.}
+BUNL6    {You climb out of the pit using your %s.}
+BROG6    {Your rogue abilities allow you to climb out of the pit.}
+BNUM6    {0}
+BDES7    {The wide chasm prevents your exit in that direction.}
+BUNL7    {#NULL#}
+BROG7    {#NULL#}
+BNUM7    {0}
+BDES8    {A mystical force prevents your exit in that direction.}
+BUNL8    {#NULL#}
+BROG8    {#NULL#}
+BNUM8    {0}
+BDES9    {You have progressed beyond the need to go there.}
+BUNL9    {#NULL#}
+BROG9    {#NULL#}
+BNUM9    {0}
+BDES10   {The locked ironwood door prevents your exit in that direction.}
+BUNL10   {Your %s unlocks the ironwood door and allows you to pass!}
+BROG10   {Your rogue abilities allowed you to pick the lock on the ironwood door!}
+BNUM10   {60}
+TRPTOT {10}
+XDES1    {A spiked trap catches your foot and pain shoots up your leg!}
+XSTT1    {10 30 0}
+XDES2    {Several crossbow bolts fire from holes in the walls, striking you!}
+XSTT2    {20 60 10}
+XDES3    {You fall to the ground with an agonizing impact!}
+XSTT3    {30 90 0}
+XDES4    {A scything blade slices into your stomach!}
+XSTT4    {40 120 10}
+XDES5    {Several large stones fall on you from above!}
+XSTT5    {50 150 20}
+XDES6    {A ball of flame explodes from an opening in the wall and engulfs you!}
+XSTT6    {60 180 30}
+XDES7    {A huge stone block slams down on you from above!}
+XSTT7    {70 210 40}
+XDES8    {The walls slam together, nearly maiming you!}
+XSTT8    {250 500 50}
+XDES9    {Rotating bladed poles tear your flesh!}
+XSTT9    {50 150 60}
+XDES10   {Huge stone wheels roll over you from slots in the walls!}
+XSTT10   {100 300 60}
+TRETOT {5}
+TDES1    {You find a purse of coins worth %u gold!}
+TSTT1    {5 20}
+TDES2    {You find a small bag of gemstones worth %u gold!}
+TSTT2    {10 40}
+TDES3    {You find a chest of coins worth %u gold!}
+TSTT3    {15 60}
+TDES4    {You find a chest of coins and gemstones worth %u gold!}
+TSTT4    {20 80}
+TDES5    {You find a chest of gemstones and jewelry worth %u gold!}
+TSTT5    {25 100}
+TELTOT {5}
+PYOU1    {You just fell through a trap door in the floor!}
+PAPP1    {%s has just fallen into the room through a trap door in the ceiling!}
+PDIS1    {%s has just fallen through a trap door in the floor!}
+PYOU2    {A sudden flash of light momentarily blinds you!}
+PAPP2    {%s has just appeared in a blinding flash of light!}
+PDIS2    {%s has just vanished in a blinding flash of light!}
+PYOU3    {A cloud of thick black smoke suddenly engulfs you!}
+PAPP3    {%s has just appeared in a puff of thick black smoke!}
+PDIS3    {%s has just vanished in a puff of thick black smoke!}
+PYOU4    {A spring loaded pressure plate rapidly lifts you through the ceiling!}
+PAPP4    {%s just appeared suddenly through an aperature in the floor!}
+PDIS4    {%s was just lifted rapidly through the ceiling on a column of stone!}
+PYOU5    {Your surroundings momentarily blur...}
+PAPP5    {%s just faded into view...}
+PDIS5    {%s just faded from view...}

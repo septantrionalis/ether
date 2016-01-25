@@ -1,0 +1,288 @@
+English/ANSI  97347954 109 
+5=item type
+
+                                    0    1   2 3  4    5
+dagger a dagger                     15   10  0 1  3    1 0 0 0 1 0 0 0 0 0 0  
+staff a staff                       10   40  0 1  4    1 0 0 0 0 0 0 0 0 1 1  
+shortsword a shortsword             30   20  0 1  6    3 0 0 0 0 0 0 0 0 1 1  
+mace a mace                         35   50  0 1  7    2 0 0 0 0 0 0 0 0 1 1  
+warhammer a warhammer               40   70  0 2  8    2 0 0 0 0 0 0 0 0 1 1  
+longsword a longsword               50   30  0 2  10   3 0 0 0 0 0 0 0 0 3 1  
+battleax a battleax                 60   50  0 2  12   4 0 0 0 0 0 0 0 0 3 1  
+morningstar a morningstar           70   80  0 2  14   2 0 0 0 0 0 0 0 0 2 1  
+broadsword a broadsword             80   40  0 2  16   3 0 0 0 0 0 0 0 0 3 1  
+flail a flail                       90   90  0 3  18   2 0 0 0 0 0 0 0 0 4 1  
+halberd a halberd                   120  120 0 6  24   4 0 0 0 0 0 0 0 0 6 1  
+greatsword a greatsword             150  70  0 7  28   4 0 0 0 0 0 0 0 0 6 1  
+
+cloak a cloak                       10   20  0 0  0    11 0 0 0 0 0 0 0 0 0 0  
+robes robes                         20   30  0 0  0    11 1 0 0 0 0 0 0 0 1 1  
+cuirass a leather cuirass           40   50  0 0  0    12 2 0 0 0 0 0 0 0 2 1  
+breastplate a steel breastplate     200  200 0 0  0    13 4 0 0 0 0 0 0 0 2 1  
+ringmail ringmail armor             250  300 0 0  0    13 5 0 0 0 0 0 0 0 3 1  
+chainmail chainmail armor           300  400 0 0  0    13 6 0 0 0 0 0 0 0 3 1  
+scalemail scalemail armor           400  450 0 0  0    14 8 0 0 0 0 0 0 0 4 1  
+bandmail banded mail armor          500  500 0 0  0    14 10 0 0 0 0 0 0 0 6 1  
+platemail platemail armor           600  600 0 0  0    14 12 0 0 0 0 0 0 0 8 1
+
+torch a torch                       1    10  0 0  450  21 0 0 16 0 0 0 0 0 0 1  
+
+rope a coil of rope                 3    25  0 0  0    21 0 0 0 0 0 0 0 0 0 1  
+ration of food a ration of food     2    5   0 0  3600 21 0 0 1 0 0 0 0 0 0 1  
+waterskin a waterskin               1    10  0 0  1800 21 0 3 2 0 0 0 0 0 0 1  
+glowstone a glowstone               50   5   0 0  0    31 0 0 17 0 0 0 0 0 0 1  
+heartstone a heartstone             100  5   0 0  0    31 0 0 9 0 0 -96 0 0 5 1  
+rue potion a rue potion             5    10  0 4  16   32 0 0 3 0 0 0 0 0 0 1  
+amaranth potion an amaranth potion  10   10  0 16 64   32 0 0 3 0 0 0 0 0 0 1  
+anemone potion an anemone potion    25   10  0 32 128  32 0 0 3 0 0 0 0 0 0 1  
+verbena potion a verbena potion     10   10  0 0  0    32 0 0 4 0 0 0 0 0 0 1  
+yarrow potion a yarrow potion       10   10  0 0  0    32 0 0 5 0 0 0 0 0 0 1  
+rowan potion a rowan potion         10   10  0 20 600  32 0 0 6 0 0 0 0 0 0 1  
+hyssop potion a hyssop potion       10   10  0 20 600  32 0 0 7 0 0 0 0 0 0 1  
+vervain potion a vervain potion     100  10  0 0  600  33 0 0 8 0 0 0 0 0 0 2  
+
+horn of frost a horn of frost       50   50  0 4  24   31 0 15 12 1 0 0 0 0 3 1 a blast of frost
+wand of lightning a wand of lightni 100  10  0 8  48   31 0 20 12 1 0 0 0 0 5 1 a bolt of lightning 
+rod of flame a rod of flame         200  20  0 12 72   31 0 25 12 1 0 0 0 0 8 1 a blast of flame 
+
+iron key an iron key                0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+copper key a copper key             0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+brass key a brass key               0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+bronze key a bronze key             0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+silver key a silver key             0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+electrum key an electrum key        0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+gold key a gold key                 0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+platinum key a platinum key         0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+pearl key a pearl key               0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+onyx key an onyx key                0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+jade key a jade key                 0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+ruby key a ruby key                 0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+
+runestaff a runestaff               0    20  0 0  0    33 0 8 13 0 0 429 3 0 0 0  
+
+rimeax a rimeax                     900  50  0 6  36   6  0 0 12 0 0 0 0 0 12 2 a blast of frost 
+pyrehammer a pyrehammer             750  70  0 5  30   5  0 0 12 0 0 0 0 0 10 2 a blast of flame 
+levinblade a levinblade             1000 30  0 8  40   7  0 0 12 0 0 0 0 0 15 2 a bolt of lightning 
+demonhide demonhide armor           1500 250 0 0  0    15 15 0 0 0 0 0 0 0 10 2  
+dragonscale dragonscale armor       1800 500 0 0  0    16 18 0 0 0 0 0 0 0 12 2  
+
+dart a dart                         1    5   2 1  4    22 0  0 0 3 0 0 0 0 1 1  
+knife a knife                       5    7   2 1  6    22 0  0 0 2 0 0 0 0 3 1  
+spear a spear                       10   40  2 2  8    22 0  0 0 2 0 0 0 0 2 1  
+axe an axe                          15   30  2 3  12   22 0  0 0 1 0 0 0 0 5 1  
+arrow an arrow                      0    2   0 0  7    21 0  0 20 0 0 0 0 0 0 1  
+quiver a quiver                     10   30  0 60 0    21 0  20 19 0 0 0 0 0 0 1  
+short bow a short bow               30   30  3 1  6    8  60 0 0 0 0 0 0 0 1 1  
+long bow a long bow                 50   40  5 2  10   8  60 0 0 0 0 0 0 0 2 1  
+crossbow a crossbow                 100  60  4 4  20   8  60 0 0 0 0 0 0 0 4 1  
+
+soulstone a soulstone               1000 5   0 0  0    33 0 0 18 0 0 0 0 0 0 2  
+manastone a manastone               10   5   0 0  0    31 0 0 10 0 0 0 0 0 0 1  
+zarynthium potion a zarynthium poti 50   10  0 64 256  33 0 0 3 0 0 0 0 0 0 2  
+great bow a great bow               150  50  5 6  30   9  60 0 0 0 0 0 0 0 6 2  
+dragon ring a dragon ring           0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+gome ring a gome ring               0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+strato ring a strato ring           0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+pink rose a pink rose               0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+white rose a white rose             0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+pink teddy a pink teddy             0    0   0 0  0    14 15 0 0 0 0 0 0 0 1000 0  
+blue robes blue robes               0    0   0 0  0    14 18 0 0 0 0 0 0 0 1000 0  
+mithril sword a mithril sword       0    30  0 8  40   5  0 0 0 0 0 0 0 0 1000 0  
+wynharp a wynharp                   0    20  0 32 128  33 0 0 11 0 0 0 0 0 1000 0  
+darksword a darksword               0    30  0 4  22   3  0 0 0 0 0 0 0 0 1000 0  
+red rose a red rose                 0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+violet robes violet robes           0    30  0 0  0    11 1 0 0 0 0 0 0 0 1000 0  
+black rose a black rose             0    5   0 1  2    31 0 1 12 0 0 0 0 1 1000 0 
+a dark mist opal key an opal key    0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+tigereye key a tigereye key         0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+quartz key a quartz key             0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+topaz key a topaz key               0    2   0 0  0    41 0 0 0 0 0 0 0 0 0 0  
+rod of power a rod of power         0    20  0 0  0    33 0 0 14 0 3 2809 5 0 0 0  
+flame crystal a flame crystal       0    10  0 2  4    33 123 0 15 1 3 0 0 0 30 0 a flame storm 
+case a case of darts                12   15  0 56 0    21 0 10 19 0 0 0 0 0 0 1  
+stone a stone                       0    1   0 0  4    21 0 0 20 0 0 0 0 0 0 1  
+pouch a pouch of stones             2    5   0 89 0    21 0 20 19 0 0 0 0 0 0 1  
+sling a sling                       10   15  3 1  4    8  89 0 0 0 0 0 0 0 0 1  
+blowdart a blowdart                 0    1   0 0  2    21 0 0 20 0 0 0 0 1 0 3  
+tube a tube of blowdarts            5    5   0 92 0    21 0 10 19 0 0 0 0 0 0 3  
+blowgun a blowgun                   25   10  3 1  2    8  92 0 0 0 0 0 0 0 2 3  
+ice crystal an ice crystal          0    10  0 1  3    33 122 0 15 1 2 0 0 0 25 0 a frost storm 
+elven bow an elven bow              1250 40  5 10 40   10 60 0 12 0 0 0 0 0 15 3 a bolt of energy 
+stone key an ornate stone key       0    2 0 0 0  41   0  0 0 0 0 0 0 0 0 0  
+small barrel a small barrel         10   100 0 0  1800 21 0 15 2 0 0 0 0 0 0 1  
+preserved rations some preserved ra 10   20  0 0  2400 21 0 5 1 0 0 0 0 0 0 1  
+green tunic a green tunic           0    10  0 0  0    11 1 0 0 0 0 0 0 0 0 0  
+stick a stick                       0    10  0 1  2    1  0 0 0 0 0 0 0 0 0 0  
+wooden mallet a wooden mallet       0    20  0 1  3    1  0 0 0 0 0 0 0 0 0 0  
+dwarven scalemail dwarven scalemail 0    550 0 0  0    13 20 0 0 0 0 0 0 0 15 0  
+dwarven battleax a dwarven battleax 0    100 0 10 50   4  0 0 0 0 0 0 0 0 15 0  
+dwarven platemail dwarven platemail 0    825 0 0  0    14 30 0 0 0 0 0 0 0 20 0  
+flaming greatax a flaming greatax   0    150 0 20 80   4  0 0 17 0 0 0 0 0 20 0  
+glowing staff a glowing staff       0    40  0 2  6    1  0 0 17 0 0 0 0 0 3 0  
+fangstave a fangstave               0    40  0 2  8    1  0 0 12 0 0 0 0 2 12 0 a bolt of dark energy 
+
+
+motu a minor healing spell 21 1 4 8 0 5 0 0 0 0 0 0 0 0 0 
+komiza a small shard of ice 1 1 2 12 0 10 0 0 0 0 0 0 0 0 0 
+pakaza a thorn 3 1 4 8 0 10 0 0 0 0 0 0 0 0 0 
+fadi a regenerative spell 22 1 2 10 0 15 0 0 0 0 0 0 0 0 0 
+kamotu a healing spell 21 2 8 24 0 20 0 0 0 0 0 0 0 0 0 
+tami a weak beam of bright energy 2 2 2 16 0 25 0 0 0 0 0 0 0 0 0 
+toduza a small bolt of flame 1 2 4 24 0 20 0 0 0 0 0 0 0 0 0 
+muda a minor summoning spell 31 2 1 1 0 25 4 0 0 0 0 0 0 0 0 
+toraza a stone shard 3 2 4 20 0 15 0 0 0 0 0 0 0 0 0 
+kotari a restorative spell 12 2 2000 4000 0 20 0 0 0 0 0 0 0 0 0 
+dobudani a curative spell 11 3 0 0 0 30 0 0 1 0 0 0 0 0 0 
+yari an enchantment spell 33 3 0 0 0 28 0 4 0 0 0 0 0 0 0 
+komizuma a shower of ice shards 1 3 8 48 0 30 0 0 0 0 0 0 0 0 0 
+modoki a bolt of lightning 3 3 5 40 0 30 0 0 0 0 0 0 0 0 0 
+gimotu a greater healing spell 21 4 30 60 0 35 0 0 0 0 0 0 0 0 0 
+motumaru a pale bluish mist 21 4 8 16 0 40 1 0 0 0 0 0 0 0 0 
+katami a beam of bright energy 2 4 8 48 0 50 0 0 0 0 0 0 0 0 0 
+toduzuma a shower of flame 1 4 16 96 0 50 0 0 0 0 0 0 0 0 0 
+kamuda a summoning spell 31 4 2 3 0 60 4 0 0 0 0 0 0 0 0 
+novadidan a charm spell 41 4 0 0 0 35 0 0 0 0 0 0 0 0 0 
+sivama a powerful gust of wind 3 4 8 32 0 50 0 0 0 0 0 0 0 2 0 
+kusamotu a very powerful healing spell 21 5 6 12 1 75 0 0 0 0 0 0 0 0 0 
+gitami a beam of brilliant energy 2 5 16 64 0 100 0 0 0 0 0 0 0 0 0 
+komidaku a storm of ice shards 1 5 1 4 1 75 3 0 0 0 0 0 0 0 0 
+novadi an invisibility spell 32 5 0 0 0 100 0 0 0 0 0 0 0 0 0 
+pakazuma a shower of wicked thorns 3 5 10 50 0 75 0 0 0 0 0 0 0 0 0 
+kusatami a devastating beam of brilliant energy 2 6 20 80 0 150 0 0 0 0 0 0 0 0 0 
+todukar a searing ball of flame 1 6 2 10 1 120 0 0 0 0 0 0 0 0 0 
+gimuda a greater summoning spell 31 6 4 5 0 150 4 0 0 0 0 0 0 0 0 
+modokidan several forked bolts of lightning 3 6 12 72 0 125 2 0 0 0 0 0 0 0 0 
+todudaku a devastating firestorm 1 6 2 8 1 200 3 0 0 0 0 0 0 0 0 
+sivadaku a violent windstorm 3 7 32 64 0 150 3 0 0 0 0 0 0 2 0 
+kusamuda a very powerful summoning spell 31 8 6 8 0 300 4 0 0 0 0 0 0 0 0 
+rotok an enhancement spell 33 3 5 20 0 35 0 0 0 0 0 0 3 0 0 
+tsutok an enhancement spell 33 3 5 20 0 35 0 0 0 0 0 0 4 0 0 
+igatok an enhancement spell 33 3 5 20 0 35 0 0 0 0 0 0 5 0 0 
+dobudanimaru a thick greyish mist 21 4 0 0 0 60 1 0 1 0 0 0 0 0 0 
+rodani a draining spell 33 4 2 10 0 60 0 0 0 0 0 3 0 0 0 
+tsudani a draining spell 33 4 2 10 0 60 0 0 0 0 0 4 0 0 0 
+igadani a draining spell 33 4 2 10 0 60 0 0 0 0 0 5 0 0 0 
+kotarimaru a thin brownish mist 12 5 2000 4000 0 60 1 0 0 0 0 0 0 0 0 
+kamotumaru a bluish mist 21 5 16 32 0 80 1 0 0 0 0 0 0 0 0 
+yarimaru a bright yellow mist 33 5 0 0 0 125 1 2 0 0 0 0 0 0 0 
+torazuma a shower of stone shards 3 5 16 64 0 100 0 0 0 0 0 0 0 0 0 
+takumi a curative spell 11 6 0 0 0 125 0 0 0 0 0 0 9 0 0 
+gimotumaru a dark bluish mist 21 7 32 64 0 180 1 0 0 0 0 0 0 0 0 
+poratok an enhancement spell 33 7 2 10 0 260 0 0 0 0 0 0 7 0 0 
+jinasutok an enhancement spell 33 7 2 10 0 260 0 0 0 0 0 0 8 0 0 
+poradani a draining spell 33 7 1 5 0 280 0 0 0 0 0 7 0 0 0 
+jinasudani a draining spell 33 7 1 5 0 280 0 0 0 0 0 8 0 0 0 
+novadimaru a thick black mist 32 8 0 0 0 300 1 0 0 0 0 0 0 0 0 
+toradaku a hail of huge stone shards 3 9 4 10 1 180 3 0 0 0 0 0 0 0 0 
+modokidaku a lightning storm 3 8 1 8 1 180 3 0 0 0 0 0 0 0 0 
+dumoti a maelstrom of searing flame clouds and huge ice shards 1 9 4 12 1 350 3 0 0 0 0 0 0 0 0 
+ganazi a curative spell 11 8 0 0 0 220 0 0 0 0 0 0 10 0 0 
+kusamotumaru a very dark bluish mist 21 9 4 8 1 270 1 0 0 0 0 0 0 0 0 
+teka a weak beam of dark energy 4 1 2 16 0 10 0 0 0 0 0 0 0 0 0 
+dobuza a bolt of green energy 4 2 1 2 0 12 0 0 0 2 0 0 0 0 0 
+kamaza a bolt of blue energy 4 2 1 2 1 15 0 0 0 0 1 0 0 0 0 
+yilazi a bolt of red energy 4 3 2 6 1 18 0 0 0 0 0 0 0 0 1 
+kateka a beam of dark energy 4 3 8 64 0 20 0 0 0 0 0 0 0 0 0 
+dakima a stream of acid 4 4 16 96 0 30 0 0 0 0 0 0 0 0 0 
+tamikar a blast of dark energy 4 4 4 12 1 50 0 0 0 0 0 0 0 0 0 
+giteka a crackling beam of dark energy 4 5 16 128 0 75 0 0 0 0 0 0 0 0 0 
+dobumaru a dark greenish mist 4 5 1 2 0 90 3 0 0 4 0 0 0 0 0 
+kamazadaku a storm of blue energy bolts 4 5 1 1 1 120 1 0 0 0 1 0 0 0 0 
+timimaru a foul cloud of choking vapor 4 6 4 16 0 130 2 0 0 0 0 0 0 1 0 
+kusateka a devastating beam of dark energy 4 6 32 256 0 150 0 0 0 0 0 0 0 0 0 
+dakidaku a torrential downpour of acid 4 7 4 8 1 225 3 0 0 0 0 0 0 0 0 
+dobudakidaku a torrential downpour of dark green acid 4 8 4 8 1 325 3 0 0 6 0 0 0 0 0 154 
+
+knife 0 0 1 3 
+club 0 0 2 7 
+dagger 0 0 1 6 
+scimitar 1 0 1 8 
+spear 1 0 1 8 
+shortsword 1 0 2 10 
+morningstar 2 0 2 12 
+axe 2 1 3 15 
+flail 2 0 3 12 
+broadsword 2 0 2 12 
+battleax 3 0 3 18 
+glaive 3 0 4 20 
+greatsword 3 0 5 25 
+
+10
+The locked oak door prevents your exit in that direction. 
+Your %s unlocks the oak door and allows you to pass through. 
+Your rogue abilities allowed you to pick the lock on the oak door. 
+
+0
+The locked iron door prevents your exit in that direction. 
+Your %s unlocks the iron door and allows you to pass through. 
+Your rogue abilities allowed you to pick the lock on the iron door. 
+
+35 
+The locked bronze door prevents your exit in that direction. 
+Your %s unlocks the bronze door and allows you to pass through. 
+Your rogue abilities allowed you to pick the lock on the bronze door. 
+
+25 
+The locked stone door prevents your exit in that direction. 
+Your %s unlocks the stone door and allows you to pass through. 
+Your rogue abilities allowed you to pick the lock on the stone door. 
+
+15 
+The locked brass door prevents your exit in that direction. 
+Your %s unlocks the brass door and allows you to pass through. 
+Your rogue abilities allowed you to pick the lock on the brass door. 
+
+20 
+The walls of this pit are too steep to climb unaided. 
+You climb out of the pit using your %s. 
+Your rogue abilities allow you to climb out of the pit. 
+
+0 The wide chasm prevents your exit in that direction. 
+#NULL# 
+#NULL# 
+
+0 
+A mystical force prevents your exit in that direction. 
+#NULL# 
+#NULL# 
+
+0 
+You have progressed beyond the need to go there. 
+#NULL# 
+#NULL# 
+
+0 The locked ironwood door prevents your exit in that direction. 
+Your %s unlocks the ironwood door and allows you to pass! 
+Your rogue abilities allowed you to pick the lock on the ironwood door! 
+
+60 11 A spiked trap catches your foot and pain shoots up your leg! 
+10 30 0 Several crossbow bolts fire from holes in the walls, striking you! 
+20 60 10 You fall to the ground with an agonizing impact! 
+30 90 0 A scything blade slices into your stomach! 
+40 120 10 Several large stones fall on you from above! 
+50 150 20 A ball of flame explodes from an opening in the wall and engulfs you! 
+60 180 30 A huge stone block slams down on you from above! 
+70 210 40 The walls slam together, nearly maiming you! 
+250 500 50 Rotating bladed poles tear your flesh! 
+50 150 60 Huge stone wheels roll over you from slots in the walls! 
+100 300 60 Several stones fall on you from above! 
+20 50 100 5 You find a purse of coins worth %u gold! 
+5 20 You find a small bag of gemstones worth %u gold! 
+10 40 You find a chest of coins worth %u gold! 
+15 60 You find a chest of coins and gemstones worth %u gold! 
+20 80 You find a chest of gemstones and jewelry worth %u gold! 
+25 100 5 You just fell through a trap door in the floor! 
+%s has just fallen into the room through a trap door in the ceiling! 
+%s has just fallen through a trap door in the floor! 
+A sudden flash of light momentarily blinds you! 
+%s has just appeared in a blinding flash of light! 
+%s has just vanished in a blinding flash of light! 
+A cloud of thick black smoke suddenly engulfs you! 
+%s has just appeared in a puff of thick black smoke! 
+%s has just vanished in a puff of thick black smoke! 
+A spring loaded pressure plate rapidly lifts you through the ceiling! 
+%s just appeared suddenly through an aperature in the floor! 
+%s was just lifted rapidly through the ceiling on a column of stone! 
+Your surroundings momentarily blur... 
+%s just faded into view... 
+%s just faded from view...

@@ -1,0 +1,12 @@
+LAIR44   {562 84 2 9 0}
+LAIR47   {580 85 2 8 0}
+LAIR49   {618 80 2 7 0}
+LAIR58   {672 84 2 6 0}
+LAIR62   {738 84 3 5 0}
+LAIR68   {788 93 1 4 0}
+LAIR82   {842 93 2 3 0}
+LAIR76   {822 95 1 2 0}
+
+
+runestaff a runestaff               0    20  0 0  0    33 0 8 13 0 0 429 3 0 0 0
+if v12 == 3, then v11 is the room to use it in?

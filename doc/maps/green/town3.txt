@@ -1,0 +1,15 @@
+[I]       [X]  [G]              A = Armor Shop
+   \     /      |
+    \   /       |               E = Equipment Shop
+     [ ]       [ ]--[T]
+        \     /                 G = Guild
+         \   /  to Stoneworks
+[E]       [ ]-->                I = Inn
+   \     /   \
+    \   /     \                 M = Magic Shop
+     [ ]       [ ]
+    /   \         \             T = Temple
+   /     \         \
+[A]       [W]       [M]         W = Weapons Shop
+
+                                X = Arena

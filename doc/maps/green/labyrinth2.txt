@@ -1,0 +1,26 @@
+This level will be dark unless the Stone on Level 5 is pushed!
+Glowstones will NOT work when it is dark!
+                                         
+[ ]--[ ]  [ ]--[ ]  [ ]--[ ]  [ ]--[ ]--[ ]--[ ]
+ |    |    |    |    |    |    |              |
+[ ]  [ ]--[ ]  [ ]--[ ]  [ ]  [ ]  [a]--[ ]--[ ]
+ |                        |    |    |
+[ ]--[ ]--[ ]--[ ]--[ ]  [ ]--[ ]  [ ]  [ ]--[ ]
+                     |              |    |    |
+[ ]--[ ]--[ ]--[ ]  [ ]  [ ]--[ ]--[ ]  [ ]  [ ]
+ |              |    |    |              |    |
+[ ]  [ ]--[ ]  [ ]--[3]  [ ]--[ ]--[ ]  [^]  [ ]
+ |    |    |                        |         |
+[ ]  [ ]  [ ]--[ ]--[ ]--[ ]--[ ]  [ ]--[ ]--[ ]
+ |    |                        |
+[ ]  [ ]--[ ]  [v]  [ ]--[ ]  [ ]--[ ]--[ ]--[b]
+ |         |    |    |    |                   |
+[ ]--[ ]  [ ]  [ ]--[ ]  [ ]  [ ]--[ ]  [ ]--[ ]
+      |    |              |    |    |    |
+[ ]--[ ]  [ ]--[ ]--[ ]  [ ]  [ ]  [c]  [ ]--[ ]
+ |                   |    |    |    |         |
+[ ]--[ ]--[ ]--[ ]--[ ]  [ ]--[ ]  [ ]--[ ]--[ ]
+
+3 = Push Stone to turn on Level 4 lights
+a,b,c =  where you will springboard up to from
+         the corresponding letter on Level 3

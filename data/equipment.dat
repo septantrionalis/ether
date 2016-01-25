@@ -1,0 +1,62 @@
+21:torch:a torch:1 10 0 0 450 21 0 0 16 0 0 0 0 0 0 1 255:
+22:rope:a coil of rope:3 25 0 0 0 21 0 0 0 0 0 0 0 0 0 1 255:
+23:ration of food:a ration of food:2 5 0 0 3600 21 0 0 1 0 0 0 0 0 0 1 255:
+24:waterskin:a waterskin:1 10 0 0 1800 21 0 3 2 0 0 0 0 0 0 1 255:
+25:glowstone:a glowstone:50 5 0 0 0 31 0 0 17 0 0 0 0 0 0 1 255:
+26:heartstone:a heartstone:100 5 0 0 0 31 0 0 9 0 0 -96 0 0 5 1 255:
+27:rue potion:a rue potion:5 10 0 4 16 32 0 0 3 0 0 0 0 0 0 1 255:
+28:amaranth potion:an amaranth potion:10 10 0 16 64 32 0 0 3 0 0 0 0 0 0 1 255:
+29:anemone potion:an anemone potion:25 10 0 32 128 32 0 0 3 0 0 0 0 0 0 1 255:
+30:verbena potion:a verbena potion:10 10 0 0 0 32 0 0 4 0 0 0 0 0 0 1 255:
+31:yarrow potion:a yarrow potion:10 10 0 0 0 32 0 0 5 0 0 0 0 0 0 1 255:
+32:rowan potion:a rowan potion:10 10 0 20 600 32 0 0 6 0 0 0 0 0 0 1 255:
+33:hyssop potion:a hyssop potion:10 10 0 20 600 32 0 0 7 0 0 0 0 0 0 1 255:
+34:vervain potion:a vervain potion:100 10 0 0 600 33 0 0 8 0 0 0 0 0 0 2 255:
+35:horn of frost:a horn of frost:50 50 0 4 24 31 0 15 12 1 0 0 0 0 3 1 2:a blast of frost
+36:wand of lightning:a wand of lightning:100 10 0 8 48 31 0 20 12 1 0 0 0 0 5 1 2:a bolt of lightning
+37:rod of flame:a rod of flame:200 20 0 12 72 31 0 25 12 1 0 0 0 0 8 1 2:a blast of flame
+38:iron key:an iron key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+39:copper key:a copper key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+40:brass key:a brass key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+41:bronze key:a bronze key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+42:silver key:a silver key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+43:electrum key:an electrum key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+44:gold key:a gold key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+45:platinum key:a platinum key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+46:pearl key:a pearl key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+47:onyx key:an onyx key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+48:jade key:a jade key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+49:ruby key:a ruby key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+50:runestaff:a runestaff:0 20 0 0 0 33 0 8 13 0 0 429 3 0 0 0 255:
+56:dart:a dart:1 5 2 1 4 22 0 0 0 3 0 0 0 0 1 1 255:
+57:knife:a knife:5 7 2 1 6 22 0 0 0 2 0 0 0 0 3 1 25:
+58:spear:a spear:10 40 2 2 8 22 0 0 0 2 0 0 0 0 2 1 25:
+59:axe:an axe:15 30 2 3 12 22 0 0 0 1 0 0 0 0 5 1 17:
+60:arrow:an arrow:0 2 0 0 7 24 0 0 20 0 0 0 0 0 0 1 255:
+61:quiver:a quiver:10 30 0 60 0 25 0 20 19 0 0 0 0 0 0 1 255:
+65:soulstone:a soulstone:1000 5 0 0 0 33 0 0 18 0 0 0 0 0 0 2 255:
+66:manastone:a manastone:10 5 0 0 0 31 0 0 10 0 0 0 0 0 0 1 255:
+67:zarynthium potion:a zarynthium potion:50 10 0 64 256 33 0 0 3 0 0 0 0 0 0 2 255:
+69:dragon ring:a dragon ring:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+70:gome ring:a gome ring:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+71:strato ring:a strato ring:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+72:pink rose:a pink rose:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+73:white rose:a white rose:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+77:wynharp:a wynharp:0 20 0 32 128 33 0 0 11 0 0 0 0 0 1000 0 255:
+79:red rose:a red rose:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+81:black rose:a black rose:0 5 0 1 2 31 0 1 12 0 0 0 0 1 1000 0 2:a dark mist
+82:opal key:an opal key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+83:tigereye key:a tigereye key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+84:quartz key:a quartz key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+85:topaz key:a topaz key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+86:rod of power:a rod of power:0 20 0 0 0 33 0 0 14 0 3 2809 5 0 0 0 255:
+87:flame crystal:a flame crystal:0 10 0 2 4 33 123 0 15 1 3 0 0 0 30 0 255:a flame storm
+88:case:a case of darts:12 15 0 56 0 23 0 10 19 0 0 0 0 0 0 1 255:
+89:stone:a stone:0 1 0 0 4 24 0 0 20 0 0 0 0 0 0 1 255:
+90:pouch:a pouch of stones:2 5 0 89 0 25 0 20 19 0 0 0 0 0 0 1 255:
+92:blowdart:a blowdart:0 1 0 0 2 21 0 0 20 0 0 0 0 1 0 3 255:
+93:tube:a tube of blowdarts:5 5 0 92 0 21 0 10 19 0 0 0 0 0 0 3 255:
+95:ice crystal:an ice crystal:0 10 0 1 3 33 122 0 15 1 2 0 0 0 25 0 255:a frost storm
+97:stone key:an ornate stone key:0 2 0 0 0 41 0 0 0 0 0 0 0 0 0 0 255:
+98:small barrel:a small barrel:10 100 0 0 1800 21 0 15 2 0 0 0 0 0 0 1 255:
+99:preserved rations:some preserved rations:10 20 0 0 2400 21 0 5 1 0 0 0 0 0 0 1 255:

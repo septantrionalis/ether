@@ -1,0 +1,262 @@
+
+               76    72
+               |     |
+               77    73
+               |     | 
+         78-79-82-75-74-71-70
+              /|     |
+            81 83    69
+           /   |     |
+         80    86    68
+              /  \
+            85    87
+           /        \
+         84          88
+
+
+RATRAT {While aboard the ship your food was eaten by rats!
+} T Tele-arena
+
+SHPSTL {While aboard the ship you seem to have been robbed!
+} T Tele-arena
+
+
+You're on the docks.
+There are two ship's captains here.
+There is nothing on the floor.
+b passage
+&WYou buy passage across the great lake and board a ship...
+You're on the docks.
+There are three ship's captains here.
+There is nothing on the floor.
+
+-88****************************************************************************
+You&apos;re on the docks.
+There are three ship's captains here.
+There is nothing on the floor.
+l
+You are standing on the docks. The water from the lake laps quietly against
+the docks making the peaceful scene on the lake all that more serene. A path
+leads towards a large open plaza to the northwest.
+l ship
+The ship's captain is a grizzly old sailor with many a scar, several tatoos
+and an unkempt manner about him. His worn clothes appear to have seen just
+about every port there could possibly be, and he smells of stale sweat and
+cheap rum.
+-87****************************************************************************
+You&apos;re on a path.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing on a path that leads into an open plaza to the northwest,
+and to the docks on the great lake to the southeast. Large old trees line
+the path and lend shade and birdsong to this quaint little town.
+-86****************************************************************************
+You&apos;re in the south plaza.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing in a large open plaza at the south end of town surrounded
+by shade trees. A path to the north leads to a plaza in the northern end of
+town. To the southwest, a well trodden path leads to what appears to be a
+weapon shop. A third path to the southeast leads to the docks.
+-85****************************************************************************
+You&apos;re on a path.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing on a path that leads into a weapon shop to the southwest,
+and to the town's southern plaza to the northeast. Large old trees line the
+path and lend shade and birdsong to this quaint little town.
+-84****************************************************************************
+You&apos;re in the weapon shop.
+There is a shop keeper here.
+There is nothing on the floor.
+l
+You are now inside the weapon shop, where you may purchase various
+weapons to use for sparring in the arena or for personal defense from the
+denizens of the dungeons. The shop keeper sits on a high stool behind a
+tall counter along the west wall. The exit is to the northeast.
+l shop
+The shop keeper is a small, but powerfully built man. He has light brown
+hair and a thich moustache. He has the manerisms of one who would be calm
+and relaxed in just about any situation.
+-83****************************************************************************
+You&apos;re on a path.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing on a path that leads into open plazas to the north and
+south. Large old trees line the path and lend shade and birdsong to this
+quaint little town.
+-82****************************************************************************
+You&apos;re in the north plaza.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing in a large open plaza at the north end of town surrounded
+by shade trees. A path to the east leads to a plaza in the eastern end of
+town. To the west, a well trodden path leads to town's equipment shop. A
+third path to the south leads to a plaza in the southern end of town, and
+a fourth path leads to an inn to the southwest.
+-79****************************************************************************
+You&apos;re on a path.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing on a path that leads into an equipment shop to the west,
+and to the town's northern plaza to the east. Large old trees line the path
+and lend shade and birdsong to this quaint little town.
+-78****************************************************************************
+You&apos;re in the equipment shop.
+There is a shop keeper here.
+There is nothing on the floor.
+l
+You are now inside the equipment shop, where one may purchase supplies
+and provisions essential to survival in the dungeons or the wilderness.
+The shop keeper sits on a tall stool behind a counter along the west
+wall, eyeing you warily. The exit is to the east.
+l shop
+The shop keeper is an lithe elf wearing a bright green tunic and trousers,
+He has whispy blonde hair and no facial hair. He smiles broadly at you as
+you look him over.
+-77****************************************************************************
+You&apos;re on a path.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing on a path that leads into a magic shop to the north and,
+to the town's northern plaza to the south. Large old trees line the path
+and lend shade and birdsong to this quaint little town.
+-76****************************************************************************
+You&apos;re in the magic shop.
+There is a crimson mage here.
+There is nothing on the floor.
+l
+You're standing in a warm, dimly lit shop where various magical items
+are bought and sold by a shrewd mage in crimson robes with an air of
+power and complete confidence about him. He doesn't look like someone
+whose spells you'd like to be on the wrong end of. The sweet scent of
+incense drifts in from a workroom in the rear of the shop. The exit is
+to the south.
+l crim
+The mage wears red robes and radiates an aura of power and confidence. He
+has flowing white hair and a long white beard, though his face does not
+appear to show the age he would have to be to have such. Tatooed upon his
+right forearm is a crimson sigil which looks like a crecent moon.
+-75****************************************************************************
+You&apos;re on a path.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing on a path that leads into open plazas to the east and
+west. Large old trees line the path and lend shade and birdsong to this
+quaint little town.
+-74****************************************************************************
+You&apos;re in the east plaza.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing in a large open plaza at the east end of town surrounded
+by shade trees. A well trodden path to the east leads to an armor shop. To
+the west, another well used path leads to an open plaza in the northern end
+of town. A third path to the south leads to towns temple, and a fourth path
+leads to the town's arena.
+-71****************************************************************************
+You&apos;re on a path.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing on a path that leads into an open plaza to the west,
+and to the armor shop to the east. Large old trees line the path and
+lend shade and birdsong to this quaint little town.
+-70****************************************************************************
+You&apos;re in the armor shop.
+There is a shop keeper here.
+There is nothing on the floor.
+l
+You are now inside the armor shop, where you may aquire different sorts
+of armor and protective gear to guard yourself against the blows of your
+opponents in the arena, or from the various non-human foes to be found
+in the dungeons near the town. The shop keeper sits on a high stool
+behind a worn counter along the east wall, eyeing you warily. The exit
+is to the west.
+l shop
+The shop keeper is an enormous half-ogre smith wearing heavy leather
+apron. He has coarse black hair, and a black beard and moustache. His
+facial features betray great strength and self assurance.
+-73****************************************************************************
+You&apos;re on a path.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing on a path that leads into an open plaza to the south,
+and to the town's arena to the north. Large old trees line the path and
+lend shade and birdsong to this quaint little town.
+-72****************************************************************************
+You&apos;re in the arena.
+There is nobody here.
+There is nothing on the floor.
+l
+You now stand inside the gates of the town's arena. The charred and
+stained stone walls and scattered bits of bone, armor, and weaponry
+lying among the debris on the packed earthen floor. A huge bronze
+gong hangs at the center of the arena suspended on a framework made
+of the bones of some of the less fortunate of the arena's combatants.
+The exit through the arena gates is to the south.
+-69****************************************************************************
+You&apos;re on a path.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing on a path that leads into an open plaza to the north,
+and to the town's temple to the south. Large old trees line the path and
+lend shade and birdsong to this quaint little town.
+-68****************************************************************************
+You&apos;re in the temple.
+There is a blue robed priest here.
+There is nothing on the floor.
+l
+You are now in the main entry hall of a great temple. Huge black
+marble columns veined with platinum stretch to the ceiling some 100'
+overhead. The paterns in the tile floor are so ornate and complex as to
+be nearly impossible to follow or comprehend. Many black silk tapestries
+depicting various scenes of a religious or magical nature block your view
+into the many other areas of the temple. Blue robed priests and acolytes
+move here and there going about their duties. The exit is to the north.
+l pr
+The priest wears blue robes. He has an air of peace and tranquility about
+him. Around his neck he wears a heavy silver chain which supports a large
+silver ankh.
+-81****************************************************************************
+You&apos;re on a path.
+There is nobody here.
+There is nothing on the floor.
+l
+You are standing on a path that leads into the town's inn to the southwest,
+and to the town's northern plaza to the northeast. Large old trees line the
+path and lend shade and birdsong to this quaint little town. There is a
+large rusty grate here which leads down into the town sewers.
+->down to 844
+-80****************************************************************************
+You&apos;re in the inn.
+There is a barkeep, and a barmaid here.
+There is nothing on the floor.
+l
+You are in the town's inn. The smoke from the many oil lamps decrease
+visibility to your imediate surroundings, and the wavering light they
+cast about the room leaves many shadows and unlit corners. There are
+several tables about the room, where the inn's patrons eat, drink, and
+generally enjoy themselves. The bar stands along the north wall and a
+door to the kitchen lies to the southwest, and a staircase leads up to
+the inn's rooms. The only visibile exit lies to the northeast.
+l barkeep
+The barkeep is a giant of a man. He stands nearly seven feet tall and looks
+as though he might have a bit of ogre blood in him. He wears a pair of iron
+armbands and a leather tunic. The tavern's patrons seem to reguard him with
+respect if not fear.
+l barmaid
+The barmaid is a lovely wench wearing a low cut lacey blue blouse, green
+bodice, and yellow skirts. She has long black hair and bright green eyes.
+You notice quite a few of the inn's male patrons eyeing her with mouths
+agape.

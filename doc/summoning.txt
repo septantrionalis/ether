@@ -1,0 +1,21 @@
+Summon Spell
+
+Creatures Summoned
+
+Muda
+
+Imps, Slugs, Lizards, Rats, Frogs, Zombies, Orchids, Rabbits, Foxes, Skeleton Warriors, Kobolds, Toads, Strangle Vines, Constrictor Ivy, Monkeys, Owls, Orcs, Carrion Creepers
+
+Kamuda
+
+Jackals, Hobgoblins, Cave Bears, Barbarians, Bears, Gnolls, Satyrs, Minotaurs, Rams, Brigands, Lizard Folk, Anacondas, Giant Asps, Hyenas, Fire Beetles, Leopards, Reaper Shrubs, Alligators, Wild Boars, Giant Spiders
+
+Gimuda
+
+Larochess, Larochet, Griffons, Mountain Lions, Trolls, Ghouls, Tigers, Ogre/ess Mages, Skeleton Lords, Wraiths, Magmamen
+
+Kusamuda
+
+Affreeti, Hydras, Stygian Dragons, Magma Worms
+
+ 

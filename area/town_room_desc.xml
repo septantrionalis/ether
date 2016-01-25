@@ -1,0 +1,897 @@
+<org.tdod.ether.taimpl.cosmos.DefaultRoomDescriptions>
+  <__roomDescriptions>
+    <entry>
+      <int>-31</int>
+      <string>You&apos;re in the weapon shop.</string>
+    </entry>
+    <entry>
+      <int>-32</int>
+      <string>You are now inside the weapon shop, where you may purchase various
+weapons to use for sparring in the arena or for personal defense from the
+denizens of the dungeons. The shop keeper sits on a high stool behind a
+tall counter along the west wall. The exit is to the northeast.</string>
+    </entry>
+    <entry>
+      <int>-29</int>
+      <string>You&apos;re on a path.</string>
+    </entry>
+    <entry>
+      <int>-30</int>
+      <string>You are standing on a path that leads into a weapon shop to the southwest,
+and to the town&apos;s southern plaza to the northeast. Large old trees line the
+path and lend shade and birdsong to this quaint little town.</string>
+    </entry>
+    <entry>
+      <int>-27</int>
+      <string>You&apos;re in the south plaza.</string>
+    </entry>
+    <entry>
+      <int>-28</int>
+      <string>You are standing in a large open plaza at the south end of town surrounded
+by shade trees. A path to the north leads to a plaza in the northern end of
+town. To the southwest, a well trodden path leads to what appears to be a
+weapon shop. A third path to the southeast leads to the docks.</string>
+    </entry>
+    <entry>
+      <int>-25</int>
+      <string>You&apos;re on a path.</string>
+    </entry>
+    <entry>
+      <int>-26</int>
+      <string>You are standing on a path that leads into an open plaza to the northwest,
+and to the docks on the great lake to the southeast. Large old trees line
+the path and lend shade and birdsong to this quaint little town.</string>
+    </entry>
+    <entry>
+      <int>-23</int>
+      <string>You&apos;re on the docks.</string>
+    </entry>
+    <entry>
+      <int>-24</int>
+      <string>You are standing on the docks. The water from the lake laps quietly against
+the docks making the peaceful scene on the lake all that more serene. A path
+leads towards a large open plaza to the northwest.</string>
+    </entry>
+    <entry>
+      <int>-21</int>
+      <string>You&apos;re on the docks.</string>
+    </entry>
+    <entry>
+      <int>-22</int>
+      <string>You are standing on the docks. The water from the lake laps quietly against
+the docks making the peaceful scene on the lake all that more serene. An
+ornately carved marble archway exits through the town wall to the south into
+the guild hall.</string>
+    </entry>
+    <entry>
+      <int>-19</int>
+      <string>You&apos;re in the south plaza.</string>
+    </entry>
+    <entry>
+      <int>-20</int>
+      <string>You are standing at the south end of a large open plaza surrounded
+by shade trees as well as assorted flowering shrubs and hedges who&apos;s
+scent wafts through the warm, dry air. To the west stands the town&apos;s
+armor shop. The weapon shop lies to the east. There is a magic shop
+to the south. To the north lies the other half of the plaza and to
+the southwest lies the town&apos;s outer gate.</string>
+    </entry>
+    <entry>
+      <int>-17</int>
+      <string>You&apos;re in the magic shop.</string>
+    </entry>
+    <entry>
+      <int>-18</int>
+      <string>You&apos;re standing in a warm, dimly lit shop where various magical items
+are bought and sold by a shrewd mage in crimson robes with an air of
+power and complete confidence about him. He doesn&apos;t look like someone
+whose spells you&apos;d like to be on the wrong end of. The sweet scent of
+incense drifts in from a workroom in the rear of the shop. The exit is
+to the north.</string>
+    </entry>
+    <entry>
+      <int>-16</int>
+      <string>You have entered the town guild hall, where one may seek the training
+neccessary to refine your combat and spell skills. This building is
+also a center of learning where the ancient art of sorcery is taught
+to those with the intelligence and skill to wield it effectively. Sages,
+wizards, and masters-at-arms rush about on errands or to and from
+training sessions. Ornately carved marble archways exit to the north and
+south, and a wide stone staircase leads downward.</string>
+    </entry>
+    <entry>
+      <int>-15</int>
+      <string>You&apos;re in the guild hall.</string>
+    </entry>
+    <entry>
+      <int>-14</int>
+      <string>You are now inside the armor shop, where you may aquire different
+sorts of armor and protective gear to guard yourself against the blows
+of your opponents in the arena, or from the various non-human foes to be
+found in the dungeons beneath the town. The shop keeper sits on a high
+behind a worn counter along the south wall, eyeing you warily. The exit
+is to the east.</string>
+    </entry>
+    <entry>
+      <int>-13</int>
+      <string>You&apos;re in the armor shop.</string>
+    </entry>
+    <entry>
+      <int>-12</int>
+      <string>You are now inside the weapon shop, where you may purchase various
+weapons to use for sparring in the arena or for personal defense from
+the denizens of the dungeons. The shop keeper sits on a high stool
+behind a tall counter along the south wall. The exit is to the west.</string>
+    </entry>
+    <entry>
+      <int>-11</int>
+      <string>You&apos;re in the weapon shop.</string>
+    </entry>
+    <entry>
+      <int>-10</int>
+      <string>You are in the village tavern. The smoke from the many oil lamps
+decrease visibility to your imediate surroundings, and the wavering
+light they cast about the room leaves many shadows and unlit corners.
+There are several tables about the room, where the tavern&apos;s patrons
+eat, drink, and generally enjoy themselves. The bar stands along the
+north wall and a door to the kitchen lies to the northeast. A large,
+full length mirror adorns the west wall. The only visible exits lie
+up a steep wooden ladder near the rear of the room, and out into the
+north plaza to the southwest.</string>
+    </entry>
+    <entry>
+      <int>-9</int>
+      <string>You&apos;re in the tavern.</string>
+    </entry>
+    <entry>
+      <int>-8</int>
+      <string>You are now in the main entry hall of a great temple. Huge black
+marble columns veined with platinum stretch to the ceiling some 100&apos;
+overhead. The paterns in the tile floor are so ornate and complex as to
+be nearly impossible to follow or comprehend. Many black silk tapestries
+depicting various scenes of a religious or magical nature block your view
+into the many other areas of the temple. Blue robed priests and acolytes
+move here and there going about their daily duties. The exit is to the
+east.</string>
+    </entry>
+    <entry>
+      <int>-7</int>
+      <string>You&apos;re in the temple.</string>
+    </entry>
+    <entry>
+      <int>-6</int>
+      <string>You are now inside the equipment shop, where one may purchase supplies
+and provisions essential to survival in the dungeons or the wilderness.
+The shop keeper sits on a tall stool behind a counter along the north
+wall, eyeing you warily. The exit is to the southeast.</string>
+    </entry>
+    <entry>
+      <int>-5</int>
+      <string>You&apos;re in the equipment shop.</string>
+    </entry>
+    <entry>
+      <int>-4</int>
+      <string>You now stand inside the gates of the village&apos;s most noteworthy and
+notorious point of interest, the arena. The charred and stained stone
+walls and scattered bits of bone, armor, and weaponry lying among the
+debris on the packed earthen floor. A huge brass gong hangs at the center
+of the arena suspended on a framework made of the bones of some of the
+less fortunate of the arena&apos;s combatants. To the south is a wide stone
+staircase leading down to the dungeon gate. The exit through the arena
+gates is to the west.</string>
+    </entry>
+    <entry>
+      <int>-3</int>
+      <string>You&apos;re in the arena.</string>
+    </entry>
+    <entry>
+      <int>-2</int>
+      <string>You are standing at the north end of a large open plaza surrounded
+by shade trees as well as assorted flowering shrubs and hedges whose
+scent wafts through the warm, dry air. To the west stands an ornate
+temple adorned with ornate stone and brass architecture. A quaint little
+shop lies to the northwest, and a dimly lit, smokey little tavern to the
+northeast. To the east lay the huge wrought iron gates of the arena. To
+north is the town guild hall. The other half of the plaza lies to the
+south.</string>
+    </entry>
+    <entry>
+      <int>-1</int>
+      <string>You&apos;re in the north plaza.</string>
+    </entry>
+    <entry>
+      <int>-61</int>
+      <string>You&apos;re on a path.</string>
+    </entry>
+    <entry>
+      <int>-62</int>
+      <string>You are standing on a path that leads into an open plaza to the north,
+and to the town&apos;s temple to the south. Large old trees line the path and
+lend shade and birdsong to this quaint little town.</string>
+    </entry>
+    <entry>
+      <int>-63</int>
+      <string>You&apos;re in the temple.</string>
+    </entry>
+    <entry>
+      <int>-64</int>
+      <string>You are now in the main entry hall of a great temple. Huge black
+marble columns veined with platinum stretch to the ceiling some 100&apos;
+overhead. The paterns in the tile floor are so ornate and complex as to
+be nearly impossible to follow or comprehend. Many black silk tapestries
+depicting various scenes of a religious or magical nature block your view
+into the many other areas of the temple. Blue robed priests and acolytes
+move here and there going about their duties. The exit is to the north.</string>
+    </entry>
+    <entry>
+      <int>-57</int>
+      <string>You&apos;re on a path.</string>
+    </entry>
+    <entry>
+      <int>-58</int>
+      <string>You are standing on a path that leads into an open plaza to the west,
+and to the armor shop to the east. Large old trees line the path and
+lend shade and birdsong to this quaint little town.</string>
+    </entry>
+    <entry>
+      <int>-59</int>
+      <string>You&apos;re in the armor shop.</string>
+    </entry>
+    <entry>
+      <int>-60</int>
+      <string>You are now inside the armor shop, where you may aquire different sorts
+of armor and protective gear to guard yourself against the blows of your
+opponents in the arena, or from the various non-human foes to be found
+in the dungeons near the town. The shop keeper sits on a high stool
+behind a worn counter along the east wall, eyeing you warily. The exit
+is to the west.</string>
+    </entry>
+    <entry>
+      <int>-53</int>
+      <string>You&apos;re on a path.</string>
+    </entry>
+    <entry>
+      <int>-54</int>
+      <string>You are standing on a path that leads into an open plaza to the south,
+and to the town&apos;s arena to the north. Large old trees line the path and
+lend shade and birdsong to this quaint little town.</string>
+    </entry>
+    <entry>
+      <int>-55</int>
+      <string>You&apos;re in the arena.</string>
+    </entry>
+    <entry>
+      <int>-56</int>
+      <string>You now stand inside the gates of the town&apos;s arena. The charred and
+stained stone walls and scattered bits of bone, armor, and weaponry
+lying among the debris on the packed earthen floor. A huge bronze
+gong hangs at the center of the arena suspended on a framework made
+of the bones of some of the less fortunate of the arena&apos;s combatants.
+The exit through the arena gates is to the south.</string>
+    </entry>
+    <entry>
+      <int>-49</int>
+      <string>You&apos;re on a path.</string>
+    </entry>
+    <entry>
+      <int>-50</int>
+      <string>You are standing on a path that leads into open plazas to the east and
+west. Large old trees line the path and lend shade and birdsong to this
+quaint little town.</string>
+    </entry>
+    <entry>
+      <int>-51</int>
+      <string>You&apos;re in the east plaza.</string>
+    </entry>
+    <entry>
+      <int>-52</int>
+      <string>You are standing in a large open plaza at the east end of town surrounded
+by shade trees. A well trodden path to the east leads to an armor shop. To
+the west, another well used path leads to an open plaza in the northern end
+of town. A third path to the south leads to towns temple, and a fourth path
+leads to the town&apos;s arena.</string>
+    </entry>
+    <entry>
+      <int>-46</int>
+      <string>You are standing on a path that leads into a magic shop to the north and,
+to the town&apos;s northern plaza to the south. Large old trees line the path
+and lend shade and birdsong to this quaint little town.</string>
+    </entry>
+    <entry>
+      <int>-45</int>
+      <string>You&apos;re on a path.</string>
+    </entry>
+    <entry>
+      <int>-48</int>
+      <string>You&apos;re standing in a warm, dimly lit shop where various magical items
+are bought and sold by a shrewd mage in crimson robes with an air of
+power and complete confidence about him. He doesn&apos;t look like someone
+whose spells you&apos;d like to be on the wrong end of. The sweet scent of
+incense drifts in from a workroom in the rear of the shop. The exit is
+to the south.</string>
+    </entry>
+    <entry>
+      <int>-47</int>
+      <string>You&apos;re in the magic shop.</string>
+    </entry>
+    <entry>
+      <int>-42</int>
+      <string>You are standing on a path that leads into an equipment shop to the west,
+and to the town&apos;s northern plaza to the east. Large old trees line the path
+and lend shade and birdsong to this quaint little town.</string>
+    </entry>
+    <entry>
+      <int>-41</int>
+      <string>You&apos;re on a path.</string>
+    </entry>
+    <entry>
+      <int>-44</int>
+      <string>You are now inside the equipment shop, where one may purchase supplies
+and provisions essential to survival in the dungeons or the wilderness.
+The shop keeper sits on a tall stool behind a counter along the west
+wall, eyeing you warily. The exit is to the east.</string>
+    </entry>
+    <entry>
+      <int>-43</int>
+      <string>You&apos;re in the equipment shop.</string>
+    </entry>
+    <entry>
+      <int>-38</int>
+      <string>You are standing on a path that leads into the town&apos;s inn to the southwest,
+and to the town&apos;s northern plaza to the northeast. Large old trees line the
+path and lend shade and birdsong to this quaint little town. There is a
+large rusty grate here which leads down into the town sewers.</string>
+    </entry>
+    <entry>
+      <int>-37</int>
+      <string>You&apos;re on a path.</string>
+    </entry>
+    <entry>
+      <int>-40</int>
+      <string>You are in the town&apos;s inn. The smoke from the many oil lamps decrease
+visibility to your imediate surroundings, and the wavering light they
+cast about the room leaves many shadows and unlit corners. There are
+several tables about the room, where the inn&apos;s patrons eat, drink, and
+generally enjoy themselves. The bar stands along the north wall and a
+door to the kitchen lies to the southwest, and a staircase leads up to
+the inn&apos;s rooms. The only visibile exit lies to the northeast.</string>
+    </entry>
+    <entry>
+      <int>-39</int>
+      <string>You&apos;re in the inn.</string>
+    </entry>
+    <entry>
+      <int>-34</int>
+      <string>You are standing on a path that leads into open plazas to the north and
+south. Large old trees line the path and lend shade and birdsong to this
+quaint little town.</string>
+    </entry>
+    <entry>
+      <int>-33</int>
+      <string>You&apos;re on a path.</string>
+    </entry>
+    <entry>
+      <int>-36</int>
+      <string>You are standing in a large open plaza at the north end of town surrounded
+by shade trees. A path to the east leads to a plaza in the eastern end of
+town. To the west, a well trodden path leads to town&apos;s equipment shop. A
+third path to the south leads to a plaza in the southern end of town, and
+a fourth path leads to an inn to the southwest.</string>
+    </entry>
+    <entry>
+      <int>-35</int>
+      <string>You&apos;re in the north plaza.</string>
+    </entry>
+    <entry>
+      <int>-91</int>
+      <string>You&apos;re in the weapon shop.</string>
+    </entry>
+    <entry>
+      <int>-92</int>
+      <string>You are now inside the weapon shop, where you may purchase various
+weapons to use for sparring in the arena or for personal defense from
+the denizens of the dungeons. The shop keeper sits on a high stool
+behind a tall counter along the south wall. A stone archway lies to
+the to the northwest.</string>
+    </entry>
+    <entry>
+      <int>-89</int>
+      <string>You&apos;re in the armor shop.</string>
+    </entry>
+    <entry>
+      <int>-90</int>
+      <string>You are now inside the armor shop, where you may aquire different
+sorts of armor and protective gear to guard yourself against the blows
+of your opponents. The shop keeper sits on a high behind a worn counter
+along the west wall, eyeing you warily. A stone archway lies to the to
+the northeast.</string>
+    </entry>
+    <entry>
+      <int>-95</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-96</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk is anchored against the trunk of a
+huge tree to the south, and continues north. There is a round hole
+in the platform near the tree trunk which leads down to some large
+branches which appear climbable.</string>
+    </entry>
+    <entry>
+      <int>-93</int>
+      <string>You&apos;re in the arena.</string>
+    </entry>
+    <entry>
+      <int>-94</int>
+      <string>You are standing in an enormous natural cavern of dark reddish stone.
+The charred and stained walls and stonework floor tell of battles
+ancient and recent that have been fought in this place of death. The
+floor and walls of this cavern give off noticable heat. A huge iron
+gong hangs at the center of the arena suspended on a framework made
+of the bones of demons and dragons. The exit through a huge stone
+archway is to the southwest.</string>
+    </entry>
+    <entry>
+      <int>-83</int>
+      <string>You&apos;re in the tavern.</string>
+    </entry>
+    <entry>
+      <int>-84</int>
+      <string>You are in the tavern. The smoke from the many oil lamps decreases
+visibility to your imediate surroundings, and the wavering light they
+cast about the room leaves many shadows and unlit corners. There are
+several tables about the room, where the tavern&apos;s rowdy patrons,
+primarily dwarves, gnomes, and an occasional goblin make themselves at
+home. The bar stands along the north wall and a door to the kitchen
+lies to the west. The only visibile exit lies to the southeast.</string>
+    </entry>
+    <entry>
+      <int>-81</int>
+      <string>You&apos;re in the temple.</string>
+    </entry>
+    <entry>
+      <int>-82</int>
+      <string>You are now in the main entry hall of a great temple. Huge reddish
+stone columns stretch to the ceiling some 50&apos; overhead. The stone floor
+is made up of intricately engraved flagstones. Heavy cloth tapestries
+depicting various scenes of dwarven religious cerimonies block your view
+into the other areas of the temple. Grey robed priests and acolytes
+move here and there going about their daily duties. An ornate archway
+exits to the west.</string>
+    </entry>
+    <entry>
+      <int>-87</int>
+      <string>You&apos;re in the equipment shop.</string>
+    </entry>
+    <entry>
+      <int>-88</int>
+      <string>You are now inside the equipment shop, where one may purchase supplies
+and provisions essential to survival in the dungeons or the wilderness.
+The shop keeper sits on a tall stool behind a counter along the west
+wall, eyeing you warily. A stone archway lies to the to the southeast.</string>
+    </entry>
+    <entry>
+      <int>-85</int>
+      <string>You&apos;re in the magic shop.</string>
+    </entry>
+    <entry>
+      <int>-86</int>
+      <string>You&apos;re standing in a warm, dimly lit shop where various magical items
+are bought and sold by a shrewd mage in crimson robes with an air of
+power and complete confidence about him. He doesn&apos;t look like someone
+whose spells you&apos;d like to be on the wrong end of. The sweet scent of
+incense drifts in from a workroom in the rear of the shop. A stone
+archway lies to the to the northwest.</string>
+    </entry>
+    <entry>
+      <int>-76</int>
+      <string>You are standing in a large open plaza at the northwest corner of an
+enormous subterranean cavern. An ornate stone fountain of fine
+craftsmanship stands in the center of the plaza. The gurgling fountain
+fills you with a sense of peace and tranquility, and the cool air is
+very still here. The plaza opens out into the town square to the
+southeast. To the northeast, and northwest lie large stone archways
+decorated with intricate stonework.</string>
+    </entry>
+    <entry>
+      <int>-75</int>
+      <string>You&apos;re in an underground plaza.</string>
+    </entry>
+    <entry>
+      <int>-74</int>
+      <string>You are standing in a large open plaza at the southeast corner of an
+enormous subterranean cavern. An ornate stone fountain of fine
+craftsmanship stands in the center of the plaza. The gurgling fountain
+fills you with a sense of peace and tranquility, and the cool air is
+very still here. The plaza opens out into the town square to the
+northwest. To the southeast lies a large stone archway decorated
+with intricate stonework.</string>
+    </entry>
+    <entry>
+      <int>-73</int>
+      <string>You&apos;re in an underground plaza.</string>
+    </entry>
+    <entry>
+      <int>-80</int>
+      <string>You have entered the town guild hall, where one may seek the training
+neccessary to refine your combat and spell skills. This building is
+also a center of learning where the ancient art of sorcery is taught
+to those with the intelligence and skill to wield it effectively. Sages,
+wizards, and masters-at-arms rush about on errands or to and from
+training sessions. An ornately carved stone archway exits to the south.</string>
+    </entry>
+    <entry>
+      <int>-79</int>
+      <string>You&apos;re in the guild hall.</string>
+    </entry>
+    <entry>
+      <int>-78</int>
+      <string>You are standing in a large open plaza at the southwest corner of an
+enormous subterranean cavern. An ornate stone fountain of fine
+craftsmanship stands in the center of the plaza. The gurgling fountain
+fills you with a sense of peace and tranquility, and the cool air is
+very still here. The plaza opens out into the town square to the
+northeast. To the northwest, southeast, and southwest lie large stone
+archways decorated with intricate stonework.</string>
+    </entry>
+    <entry>
+      <int>-77</int>
+      <string>You&apos;re in an underground plaza.</string>
+    </entry>
+    <entry>
+      <int>-68</int>
+      <string>You are standing at the entrance to the town vaults. The room is bare, and
+fashioned from solid natural stone. On the south wall there is a huge iron
+door, and an open window covered with iron bars. A richly dressed man in
+the window looks at you expectantly. A wide stone staircase leads upward.</string>
+    </entry>
+    <entry>
+      <int>-67</int>
+      <string>You&apos;re in the town vaults.</string>
+    </entry>
+    <entry>
+      <int>-66</int>
+      <string>You are in a private room above the tavern. The room is well furnished,
+though not richly. A window in the northern wall affords a breathtaking
+view of the great lake to the north of town. A steep wooden staircase
+leads down through a trap door in the floor to the tavern common room.</string>
+    </entry>
+    <entry>
+      <int>-65</int>
+      <string>You&apos;re in a private room.</string>
+    </entry>
+    <entry>
+      <int>-72</int>
+      <string>You are standing in a large open plaza at the northeast corner of an
+enormous subterranean cavern. An ornate stone fountain of fine
+craftsmanship stands in the center of the plaza. The gurgling fountain
+fills you with a sense of peace and tranquility, and the cool air is
+very still here. The plaza opens out into the town square to the
+southwest. To the north and east lie large stone archways decorated
+with intricate stonework.</string>
+    </entry>
+    <entry>
+      <int>-71</int>
+      <string>You&apos;re in an underground plaza.</string>
+    </entry>
+    <entry>
+      <int>-70</int>
+      <string>You are standing in the midst of a large open square in a subterranean
+cavern. The vaulted ceiling rises high above your head into near dark.
+The light from oil lamps spaced evenly about the square affords adequate
+light. Plain stone benches of good workmanship line the outer edges of
+the square. To the four primary compass points stand smooth stone walls
+carved with detailed scenes depicting various aspects of dwarven life.
+To the northeast, southeast, southwest, and northeast lie open plazas
+surrounding ornate stone fountains.</string>
+    </entry>
+    <entry>
+      <int>-69</int>
+      <string>You&apos;re in the town square.</string>
+    </entry>
+    <entry>
+      <int>-121</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-122</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north. To the east lies
+an ornately carved wooden archway.</string>
+    </entry>
+    <entry>
+      <int>-123</int>
+      <string>You&apos;re in the weapon shop.</string>
+    </entry>
+    <entry>
+      <int>-124</int>
+      <string>You are now inside the weapon shop, where you may purchase various
+weapons to use for personal defense from the denizens of the dungeons.
+The shop keeper sits on a high stool behind a tall counter along the
+east wall. The exit is to the west.</string>
+    </entry>
+    <entry>
+      <int>-125</int>
+      <string>You&apos;re in the armor shop.</string>
+    </entry>
+    <entry>
+      <int>-126</int>
+      <string>You are now inside the armor shop, where you may aquire different sorts
+of armor and protective gear to guard yourself against the blows of your
+opponents in the arenas, or from the various non-human foes to be found
+in the dungeons. The shop keeper sits on a high stool behind a worn
+counter along the north wall, eyeing you warily. The exit is to the south.</string>
+    </entry>
+    <entry>
+      <int>-127</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-128</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. A large wooden platform lies to the south. The
+catwalk continues north.</string>
+    </entry>
+    <entry>
+      <int>-113</int>
+      <string>You&apos;re in the northeast plaza.</string>
+    </entry>
+    <entry>
+      <int>-114</int>
+      <string>You are standing in the northeastern section of a large open square
+platform made of wood. The platform is ringed by intricately carved
+wooden railing. The trunk of a huge tree lies in the center of the
+platform, and appears to be the central support for the surrounding
+structure. The rest of the platform lies to the south and west, and
+a wooden catwalk leads off into the trees to the east.</string>
+    </entry>
+    <entry>
+      <int>-115</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-116</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. A large wooden platform lies to the west. The
+catwalk continues east.</string>
+    </entry>
+    <entry>
+      <int>-117</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-118</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north, east, and west.</string>
+    </entry>
+    <entry>
+      <int>-119</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-120</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues south and west.</string>
+    </entry>
+    <entry>
+      <int>-106</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. A large wooden platform lies to the north. The
+catwalk continues south.</string>
+    </entry>
+    <entry>
+      <int>-105</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-108</int>
+      <string>You are standing in the southeastern section of a large open square
+platform made of wood. The platform is ringed by intricately carved
+wooden railing. The trunk of a huge tree lies in the center of the
+platform, and appears to be the central support for the surrounding
+structure. The rest of the platform lies to the north and west, and
+a wooden catwalk leads off into the trees to the south.</string>
+    </entry>
+    <entry>
+      <int>-107</int>
+      <string>You&apos;re in the southeast plaza.</string>
+    </entry>
+    <entry>
+      <int>-110</int>
+      <string>You are standing in the southwestern section of a large open square
+platform made of wood. The platform is ringed by intricately carved
+wooden railing. The trunk of a huge tree lies in the center of the
+platform, and appears to be the central support for the surrounding
+structure. The rest of the platform lies to the north and east, and
+a wooden catwalk leads off into the trees to the west.</string>
+    </entry>
+    <entry>
+      <int>-109</int>
+      <string>You&apos;re in the southwest plaza.</string>
+    </entry>
+    <entry>
+      <int>-112</int>
+      <string>You are standing in the northwestern section of a large open square
+platform made of wood. The platform is ringed by intricately carved
+wooden railing. The trunk of a huge tree lies in the center of the
+platform, and appears to be the central support for the surrounding
+structure. The rest of the platform lies to the south and east, and
+a wooden catwalk leads off into the trees to the north.</string>
+    </entry>
+    <entry>
+      <int>-111</int>
+      <string>You&apos;re in the northwest plaza.</string>
+    </entry>
+    <entry>
+      <int>-98</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north and south.</string>
+    </entry>
+    <entry>
+      <int>-97</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-100</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues south and west.</string>
+    </entry>
+    <entry>
+      <int>-99</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-102</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues to the north and east.</string>
+    </entry>
+    <entry>
+      <int>-101</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-104</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north and south.</string>
+    </entry>
+    <entry>
+      <int>-103</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-150</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues south. To the north lies
+an ornately carved wooden archway.</string>
+    </entry>
+    <entry>
+      <int>-149</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-148</int>
+      <string>You&apos;re standing in a warm, dimly lit shop where various magical items
+are bought and sold by a shrewd mage in crimson robes with an air of
+power and complete confidence about him. He doesn&apos;t look like someone
+whose spells you&apos;d like to be on the wrong end of. The sweet scent of
+incense drifts in from a workroom in the rear of the shop. The exit is
+to the north.</string>
+    </entry>
+    <entry>
+      <int>-147</int>
+      <string>You&apos;re in the magic shop.</string>
+    </entry>
+    <entry>
+      <int>-146</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north. To the south lies
+an ornately carved wooden archway.</string>
+    </entry>
+    <entry>
+      <int>-145</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-135</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-136</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues east and south.</string>
+    </entry>
+    <entry>
+      <int>-133</int>
+      <string>You&apos;re in the equipment shop.</string>
+    </entry>
+    <entry>
+      <int>-134</int>
+      <string>You are now inside the equipment shop, where one may purchase supplies
+and provisions essential to survival in the dungeons or the wilderness.
+The shop keeper sits on a tall stool behind a counter along the west
+wall, eyeing you warily. The exit is to the east.</string>
+    </entry>
+    <entry>
+      <int>-131</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-132</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues east. To the west lies
+an ornately carved wooden archway.</string>
+    </entry>
+    <entry>
+      <int>-129</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-130</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues north, south, and west.</string>
+    </entry>
+    <entry>
+      <int>-143</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-144</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues east and south.</string>
+    </entry>
+    <entry>
+      <int>-141</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-142</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. A large wooden platform lies to the east. The
+catwalk continues west.</string>
+    </entry>
+    <entry>
+      <int>-139</int>
+      <string>You&apos;re in the tavern.</string>
+    </entry>
+    <entry>
+      <int>-140</int>
+      <string>You are in the tavern. The smoke from the many oil lamps decreases
+visibility to your imediate surroundings, and the wavering light they
+cast about the room leaves many shadows and unlit corners. There are
+several tables about the room, where the tavern&apos;s patrons,
+primarily elves, and an occasional human make themselves at
+home. The bar stands along the north wall and a door to the kitchen
+lies to the east. The only visibile exit lies to the south.</string>
+    </entry>
+    <entry>
+      <int>-137</int>
+      <string>You&apos;re on a catwalk.</string>
+    </entry>
+    <entry>
+      <int>-138</int>
+      <string>You are standing on a wooden catwalk suspended high in the trees of
+a deep forest. The forest floor lies some fifty feet below you, and
+is hidden in shadow. The catwalk continues west. To the north lies
+an ornately carved wooden archway.</string>
+    </entry>
+  </__roomDescriptions>
+</org.tdod.ether.taimpl.cosmos.DefaultRoomDescriptions>
